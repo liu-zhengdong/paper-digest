@@ -1,0 +1,22 @@
+{
+  "feed_title": "每日 Agent 视频",
+  "feed_link": "https://raw.githubusercontent.com/liu-zhengdong/paper-digest/main/output/videos.xml",
+  "feed_description": "Agent 用法向 YouTube 频道的每日去重列表，已去掉 Shorts",
+  "lookback_hours": 168,
+  "top_n": 40,
+  "keywords": ["agent", "agents", "agentic", "claude code", "claude", "codex", "mcp", "tool use", "tool-use", "workflow", "subagent", "skill", "langgraph", "langchain", "cursor", "opencode", "harness", "coding agent"],
+  "channels": [
+    {"name": "IndyDevDan", "id": "UC_x36zCEGilGpB1m-V4gmjg", "mode": "all"},
+    {"name": "Cole Medin", "id": "UCMwVTLZIRRUyyVrkjDpn4pA", "mode": "all"},
+    {"name": "Leon van Zyl", "id": "UCtevzRsHEKhs-RK8pAqwSyQ", "mode": "all"},
+    {"name": "Dave Ebbelaar", "id": "UCn8ujwUInbJkBhffxqAPBVQ", "mode": "all"},
+    {"name": "LangChain", "id": "UCC-lyoTfSrcJzA1ab3APAgw", "mode": "all"},
+    {"name": "AI Jason", "id": "UCrXSVX9a1mj8l0CMLwKgMVw", "mode": "keyword"},
+    {"name": "DeepLearningAI", "id": "UCcIXc5mJsHVYTZR1maL5l9w", "mode": "keyword"},
+    {"name": "Anthropic", "id": "UCrDwWp7EBBv4NwvScIpBDOA", "mode": "keyword"},
+    {"name": "OpenAI", "id": "UCXZCJLdBC09xxGZ6gcdrc6A", "mode": "keyword"},
+    {"name": "Matt Wolfe", "id": "UChpleBmo18P08aKCIgti38g", "mode": "keyword"},
+    {"name": "Nick Saraev", "id": "UCbo-KbSjJDG6JWQ_MTZ_rNA", "mode": "keyword"},
+    {"name": "Tina Huang", "id": "UC2UXDak6o7rBm23k3Vv5dww", "mode": "keyword"}
+  ]
+}
