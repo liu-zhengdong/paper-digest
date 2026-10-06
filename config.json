@@ -1,0 +1,34 @@
+{
+  "feed_title": "每日 AI 论文",
+  "feed_link": "https://raw.githubusercontent.com/liu-zhengdong/paper-digest/main/output/feed.xml",
+  "feed_description": "Hugging Face Daily Papers 与 arXiv 交叉去重后的每日论文列表",
+  "top_n": 30,
+  "hf_days": 2,
+  "hf_limit": 100,
+  "arxiv_categories": ["cs.AI", "cs.LG", "cs.CL", "cs.CV"],
+  "arxiv_max_results": 150,
+  "arxiv_lookback_hours": 48,
+  "interests": [
+    "agent",
+    "tool use",
+    "tool-use",
+    "memory",
+    "context window",
+    "long context",
+    "reasoning",
+    "reinforcement learning",
+    "evaluation",
+    "benchmark",
+    "language model",
+    "large language",
+    "coding",
+    "spec",
+    "planning",
+    "retrieval"
+  ],
+  "exclude": [
+    "medical imaging",
+    "protein",
+    "molecule"
+  ]
+}
