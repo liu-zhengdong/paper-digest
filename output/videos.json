@@ -1,5 +1,423 @@
 {
-  "generated_at": "2026-10-12T06:30:17.309801+00:00",
-  "count": 0,
-  "videos": []
+  "generated_at": "2026-10-13T07:05:04.686872+00:00",
+  "count": 27,
+  "videos": [
+    {
+      "id": "PMOnd8T7Py0",
+      "title": "Is Learning to Build Software Still Worth It with AI? (My Honest Take)",
+      "summary": "REA (Reverse Engineer Anything) hit #1 on GitHub Trending last week. Point your AI coding agent at an app and it works out how a feature is built, down to the binary, then rebuilds it. When AI can do THAT, is anything still worth learning? The simple answer is yes, because no model can read your mind. In this video I break down why reverse engineering works so well (the finished app already holds the intent) and the \"meat proxy\" trap of dumping a ticket into your coding agent and pasting back wh",
+      "published": "2026-10-12T15:32:59+00:00",
+      "channel": "Cole Medin",
+      "mode": "all",
+      "hits": [
+        "agent",
+        "agentic",
+        "skill",
+        "harness",
+        "coding agent"
+      ],
+      "url": "https://www.youtube.com/watch?v=PMOnd8T7Py0",
+      "score": 6
+    },
+    {
+      "id": "DNDYYHsypZg",
+      "title": "Pi Durable PROACTIVE Agents: Jev Triggers My ON-CALL Pi Agent",
+      "summary": "Engineers... your agents are LAZY. 😲 They sit in a terminal and wait for YOU to prompt them. The future belongs to PROACTIVE agents: durable agents that don't wait for you to work. They work for you, then wait. Mario and Armin just dropped Pi Durable, and it changes how you build long-running agents. 🔥 PHASE 3 Early-Signup https://agenticengineer.com/ia3-pre-launch?y=DNDYYHsypZg 🎥 VIDEO REFERENCES • Pi Durable PROACTIVE Agent Codebase: https://github.com/disler/durable-pi • Ten Levels Of JEV For",
+      "published": "2026-10-12T13:00:15+00:00",
+      "channel": "IndyDevDan",
+      "mode": "all",
+      "hits": [
+        "agent",
+        "agents",
+        "agentic",
+        "claude code",
+        "claude",
+        "codex",
+        "harness",
+        "coding agent"
+      ],
+      "url": "https://www.youtube.com/watch?v=DNDYYHsypZg",
+      "score": 6
+    },
+    {
+      "id": "1HtydHmdhrQ",
+      "title": "How to Start Freelancing as an Engineer (Contracts vs Projects)",
+      "summary": "Join my free live masterclass, Freelancing in the Age of Coding Agents, on October 22, 2026: https://go.datalumina.com/masterclass-youtube-yt133 🎙️ Get one free month of Glaido Pro: https://get.glaido.com/dave ⏱️ Timestamps 00:00 Two ways to freelance in tech 01:06 Hourly contracts vs fixed-price projects 01:36 A year on long-term contracts 02:50 Finding and stacking client projects 04:23 Enterprise contracts and skills in demand 06:40 Who hires solo freelancers 07:48 Automation work for small b",
+      "published": "2026-10-10T17:23:05+00:00",
+      "channel": "Dave Ebbelaar",
+      "mode": "all",
+      "hits": [
+        "agent",
+        "agents",
+        "mcp",
+        "skill",
+        "coding agent"
+      ],
+      "url": "https://www.youtube.com/watch?v=1HtydHmdhrQ",
+      "score": 6
+    },
+    {
+      "id": "bv1qgkbWhms",
+      "title": "What is a Skill?",
+      "summary": "Learn what agent skills are and how they help long-running agents manage their own context window. A skill is a folder of instructions, scripts, and reference docs for a specific task. Your agent loads only each skill's name and description at startup, then opens the full skill when a task calls for it; this keeps context small, so you spend fewer tokens and make your agent faster. Learn more: → LangChain Academy Deep Agents course: https://academy.langchain.com/courses/foundation-introduction-t",
+      "published": "2026-10-09T22:11:30+00:00",
+      "channel": "LangChain",
+      "mode": "all",
+      "hits": [
+        "agent",
+        "agents",
+        "skill",
+        "langchain"
+      ],
+      "url": "https://www.youtube.com/watch?v=bv1qgkbWhms",
+      "score": 6
+    },
+    {
+      "id": "oVKGKdIAgtg",
+      "title": "Three Questions Every Agent Engineer Should Be Able To Answer",
+      "summary": "Jake Broekhuizen of LangChain Labs argues that owning your own intelligence comes down to three questions every agent engineer should be able to answer: where is your agent failing, how can you reliably make it fail again, and what needs to happen so it stops failing. He covers using a fine-tuned judge to mine production traces when frontier LLM-as-judge evaluators get expensive at scale, building world specs and tasks that mimic production with LangChain's internal GTM agent as the example, and",
+      "published": "2026-10-09T17:16:00+00:00",
+      "channel": "LangChain",
+      "mode": "all",
+      "hits": [
+        "agent",
+        "agents",
+        "langchain",
+        "harness"
+      ],
+      "url": "https://www.youtube.com/watch?v=oVKGKdIAgtg",
+      "score": 6
+    },
+    {
+      "id": "cWjS56edaUA",
+      "title": "Agentic Apps: How Big Companies Are Actually Deploying AI Agents",
+      "summary": "Pretty much every AI agent I've built for myself is one agent I chat with. That's great for my own work, but it's not how companies actually adopt AI a lot of the time. So in this video I go through the lessons I end up teaching every company I work with, and how that takes shape as what Oracle calls agentic apps! Multiple agents working toward one goal, AI only where you need judgment, rules turned into actual code with tests, and a person approving anything that matters. ~~~~~~~~~~~~~~~~~~~~~~",
+      "published": "2026-10-09T14:52:28+00:00",
+      "channel": "Cole Medin",
+      "mode": "all",
+      "hits": [
+        "agent",
+        "agents",
+        "agentic",
+        "workflow"
+      ],
+      "url": "https://www.youtube.com/watch?v=cWjS56edaUA",
+      "score": 6
+    },
+    {
+      "id": "XcsspzECTKA",
+      "title": "Managed Deep Agents | Deploying mission critical agents to production",
+      "summary": "Victor Moreira, Product Manager at LangChain, introduces Managed Deep Agents, now in public beta, which bundles the Deep Agents harness with managed LangSmith infrastructure so you can define an agent as a folder of instructions, skills, and tools, test it locally, and deploy it with the mda CLI. Using LangChain's internal go-to-market agent as the example, he walks through the questions that come up in production and how Managed Deep Agents answers them: caller identity across Slack and web sur",
+      "published": "2026-10-09T14:41:48+00:00",
+      "channel": "LangChain",
+      "mode": "all",
+      "hits": [
+        "agent",
+        "agents",
+        "skill",
+        "langgraph",
+        "langchain",
+        "harness"
+      ],
+      "url": "https://www.youtube.com/watch?v=XcsspzECTKA",
+      "score": 6
+    },
+    {
+      "id": "Xe7c-7jyp28",
+      "title": "Welcome to LangChain Academy",
+      "summary": "Dive into self-paced, comprehensive courses designed to help you gain the relevant skills and knowledge to build, test, deploy, and monitor agents—no matter where you are in your agent development journey. Get started for free → https://academy.langchain.com/",
+      "published": "2026-10-07T21:33:08+00:00",
+      "channel": "LangChain",
+      "mode": "all",
+      "hits": [
+        "agent",
+        "agents",
+        "skill",
+        "langchain"
+      ],
+      "url": "https://www.youtube.com/watch?v=Xe7c-7jyp28",
+      "score": 6
+    },
+    {
+      "id": "S3l7U7gOsyY",
+      "title": "Building Engine v2: How LangChain approaches agent improvement",
+      "summary": "Ben Tannyhill, Product Manager at LangChain, explains how his team builds and evaluates LangSmith Engine, the agent in LangSmith that finds issues in production traces, proposes fixes, and creates evals to catch regressions. He covers the per-task benchmarks behind Engine's 2x better error identification on IssueBench, how the team runs Engine on LangChain's own go-to-market and coding agents and on Engine itself, and why a smaller model is sometimes the better choice for a simple task. He then ",
+      "published": "2026-10-07T12:54:08+00:00",
+      "channel": "LangChain",
+      "mode": "all",
+      "hits": [
+        "agent",
+        "agents",
+        "langchain",
+        "coding agent"
+      ],
+      "url": "https://www.youtube.com/watch?v=S3l7U7gOsyY",
+      "score": 6
+    },
+    {
+      "id": "5kTFyEOgark",
+      "title": "How to Build a Model Router in the Harness",
+      "summary": "Sydney Runkle, product manager for LangChain's open source team, walks through how the team built a model router into Open SWE, LangChain's open source coding agent. She covers the four steps: mapping the task mix from LangSmith traces, picking models along the Pareto frontier, building the router in the harness, and tracking outcomes. In an A/B test against always using the performance model, the router cut median cost per thread by 64% with no measurable change in quality. Chapters: 0:00 Front",
+      "published": "2026-10-06T16:31:25+00:00",
+      "channel": "LangChain",
+      "mode": "all",
+      "hits": [
+        "agent",
+        "agents",
+        "subagent",
+        "langchain",
+        "harness",
+        "coding agent"
+      ],
+      "url": "https://www.youtube.com/watch?v=5kTFyEOgark",
+      "score": 6
+    },
+    {
+      "id": "KAITWbHLSSE",
+      "title": "Add Web Search to Managed Deep Agents for free with One MCP Config",
+      "summary": "Nathan Drezner, PM at LangChain, shows how to add web search to a managed deep agent. LangSmith includes built-in search powered by Parallel, so it takes one MCP connection with no extra authentication. He asks a research agent a question its internal docs can't fully answer, adds the search server, then deploys to LangSmith and inspects the search tool calls in LangSmith Studio. Chapters: 0:00 Why give your managed deep agent web search 0:21 Start from the docs 0:38 A research agent limited to ",
+      "published": "2026-10-06T15:52:50+00:00",
+      "channel": "LangChain",
+      "mode": "all",
+      "hits": [
+        "agent",
+        "agents",
+        "mcp",
+        "langchain"
+      ],
+      "url": "https://www.youtube.com/watch?v=KAITWbHLSSE",
+      "score": 6
+    },
+    {
+      "id": "Cl3OWig5hkk",
+      "title": "Jev Can SERIOUSLY Supercharge Your AI Second Brain (Here's How)",
+      "summary": "My AI second brain makes thousands of decisions every day. Which emails are safe, which ones need a reply, which news is worth my time, which ideas I've already seen. And now Jev makes most of them, way faster and cheaper than an LLM ever could! I show you exactly how it works inside my second brain, including the places Jev still falls short. If you're building your own second brain or any agent that runs on its own, the same pattern works for you too. ~~~~~~~~~~~~~~~~~~~~~~~~~~ - OpenRouter, o",
+      "published": "2026-10-08T00:00:21+00:00",
+      "channel": "Cole Medin",
+      "mode": "all",
+      "hits": [
+        "agent",
+        "agents",
+        "agentic"
+      ],
+      "url": "https://www.youtube.com/watch?v=Cl3OWig5hkk",
+      "score": 5
+    },
+    {
+      "id": "dAzs_rU6080",
+      "title": "I Tested The Viral Github Repo To Reverse Engineer Anything",
+      "summary": "🔥 Join Maker School & get customer #1 guaranteed: https://skool.com/makerschool/about 💎 Get all course resources 100% free: https://skool.com/maker-zero/about ➡️ If this is your first video: I'm Nick Saraev. I run LeftClick, an AI growth agency. We've done work for large brands you're likely familiar with, like Mr. Beast, Anthropic, OpenAI, and a few others. In plain English: I help people build systems that generate leads, close deals, and scale businesses, mostly using new AI models like Claud",
+      "published": "2026-10-10T21:33:04+00:00",
+      "channel": "Nick Saraev",
+      "mode": "keyword",
+      "hits": [
+        "agent",
+        "agents",
+        "claude code",
+        "claude",
+        "workflow"
+      ],
+      "url": "https://www.youtube.com/watch?v=dAzs_rU6080",
+      "score": 4
+    },
+    {
+      "id": "LD0NxqDcDiY",
+      "title": "HOLY SH*T.. Claude just built me AOT x Minecraft video game",
+      "summary": "🔥 Check out the game: https://attack-on-titancraft.netlify.app 💎 Join Maker School & get customer #1 guaranteed: https://skool.com/makerschool/about ➡️ Get all my resources 100% free: https://skool.com/maker-zero/about If this is your first video: I'm Nick Saraev. I run LeftClick, an AI growth agency. We've done work for large brands you're likely familiar with, like Mr. Beast, Anthropic, OpenAI, and a few others. In plain English: I help people build systems that generate leads, close deals, an",
+      "published": "2026-10-09T15:02:34+00:00",
+      "channel": "Nick Saraev",
+      "mode": "keyword",
+      "hits": [
+        "agent",
+        "agents",
+        "claude code",
+        "claude",
+        "workflow"
+      ],
+      "url": "https://www.youtube.com/watch?v=LD0NxqDcDiY",
+      "score": 4
+    },
+    {
+      "id": "lNum1UFDYn0",
+      "title": "AI HARNESS: An In-Depth Explanation",
+      "summary": "🔥 Join Maker School & get customer #1 guaranteed: https://skool.com/makerschool/about 💎 Get all course resources 100% free: https://skool.com/maker-zero/about ➡️ If this is your first video: I'm Nick Saraev. I run LeftClick, an AI growth agency. We've done work for large brands you're likely familiar with, like Mr. Beast, Anthropic, OpenAI, and a few others. In plain English: I help people build systems that generate leads, close deals, and scale businesses, mostly using new AI models like Claud",
+      "published": "2026-10-07T21:04:30+00:00",
+      "channel": "Nick Saraev",
+      "mode": "keyword",
+      "hits": [
+        "agent",
+        "claude code",
+        "claude",
+        "codex",
+        "workflow",
+        "harness"
+      ],
+      "url": "https://www.youtube.com/watch?v=lNum1UFDYn0",
+      "score": 4
+    },
+    {
+      "id": "NUizyuGj-kE",
+      "title": "AI News: Haiku-5.5, Visual ChatGPT, Grok's New Trick, and more!",
+      "summary": "Here's The AI News You Probably Missed This Week! Get $100 in free credits for @Hyperagent when you sign up for a paid plan here: https://hyperagent.com/invite/MATT100?utm_source=youtube&utm_medium=influencer&utm_campaign=MATT100 Discover More: 🛠️ Explore AI Tools & News: https://futuretools.io/ 📰 Weekly Newsletter: https://futuretools.io/newsletter Socials: ❌ Twiter/X: https://x.com/mreflow 🖼️ Instagram: https://instagram.com/mr.eflow 🧵 Threads: https://www.threads.net/@mr.eflow 🟦 LinkedIn: htt",
+      "published": "2026-10-09T15:00:01+00:00",
+      "channel": "Matt Wolfe",
+      "mode": "keyword",
+      "hits": [
+        "agent",
+        "claude",
+        "codex"
+      ],
+      "url": "https://www.youtube.com/watch?v=NUizyuGj-kE",
+      "score": 3
+    },
+    {
+      "id": "3glzJZ-_qB8",
+      "title": "Stack Overflow - From Idea to Product | DevDay 2026",
+      "summary": "See how small teams at Stack Overflow used Codex to build Stack Overflow for Agents and reimagine Stack Internal. Take away lessons for accelerating R&D and bringing new products to market.",
+      "published": "2026-10-07T21:10:48+00:00",
+      "channel": "OpenAI",
+      "mode": "keyword",
+      "hits": [
+        "agent",
+        "agents",
+        "codex"
+      ],
+      "url": "https://www.youtube.com/watch?v=3glzJZ-_qB8",
+      "score": 3
+    },
+    {
+      "id": "MUHjyljBPHI",
+      "title": "How Sophos cuts threat response time by 96% with OpenAI Daybreak",
+      "summary": "Sophos CTO John Peterson shares how agents built through OpenAI Daybreak combine AI with Sophos’s cybersecurity expertise to reduce average response time from 38 minutes to 89 seconds for cases using those agents. Hear how Sophos is helping its MDR team investigate threats faster, protect customers at scale and keep human judgement at the centre. Read the full customer story - https://openai.com/index/sophos/",
+      "published": "2026-10-09T08:37:55+00:00",
+      "channel": "OpenAI",
+      "mode": "keyword",
+      "hits": [
+        "agent",
+        "agents"
+      ],
+      "url": "https://www.youtube.com/watch?v=MUHjyljBPHI",
+      "score": 2
+    },
+    {
+      "id": "DMQEPzSxGVk",
+      "title": "I Spent 24 Hours Testing Haiku 5.5: Here Are The Results",
+      "summary": "🔥 Join Maker School & get customer #1 guaranteed: https://skool.com/makerschool 💎 Get the demo files free (first link in Classroom): https://skool.com/maker-zero ➡️ If this is your first video: I'm Nick Saraev. I run LeftClick, an AI growth agency. We've done work for large brands you're likely familiar with, like Mr. Beast, Anthropic, OpenAI, and a few others. In plain English: I help people build systems that generate leads, close deals, and scale businesses, mostly using new AI models like Cl",
+      "published": "2026-10-08T20:44:31+00:00",
+      "channel": "Nick Saraev",
+      "mode": "keyword",
+      "hits": [
+        "claude",
+        "workflow"
+      ],
+      "url": "https://www.youtube.com/watch?v=DMQEPzSxGVk",
+      "score": 2
+    },
+    {
+      "id": "8804JYm81cc",
+      "title": "Higgsfield - Building Agents That Provision Their Own Compute | DevDay 2026",
+      "summary": "Explore how Higgsfield agents choose models and provision their own compute. Learn when to use dedicated GPUs or hosted models, how to deliver predictable throughput, and where the approach can fail.",
+      "published": "2026-10-07T21:10:48+00:00",
+      "channel": "OpenAI",
+      "mode": "keyword",
+      "hits": [
+        "agent",
+        "agents"
+      ],
+      "url": "https://www.youtube.com/watch?v=8804JYm81cc",
+      "score": 2
+    },
+    {
+      "id": "aDTPTwnrRyA",
+      "title": "From Single Player to Multiplayer with Codex | DevDay 2026",
+      "summary": "Follow a 2am outage from the first Slack message to a reviewed fix. See how voice, Appshots, plugins, and meeting notes help a persistent personal agent investigate and keep the team informed.",
+      "published": "2026-10-07T21:10:48+00:00",
+      "channel": "OpenAI",
+      "mode": "keyword",
+      "hits": [
+        "agent",
+        "codex"
+      ],
+      "url": "https://www.youtube.com/watch?v=aDTPTwnrRyA",
+      "score": 2
+    },
+    {
+      "id": "IZXv6a78NDw",
+      "title": "Code review is no longer the bottleneck",
+      "summary": "Code review is the new bottleneck. Codex brings pull requests, review feedback, and private conversations about your code into one place. See how to find reviews across repositories, understand changes and risks, apply your team’s review guidelines, and draft comments without switching tools. GitHub code review is generally available, with GitLab support in preview.",
+      "published": "2026-10-12T16:00:08+00:00",
+      "channel": "OpenAI",
+      "mode": "keyword",
+      "hits": [
+        "codex"
+      ],
+      "url": "https://www.youtube.com/watch?v=IZXv6a78NDw",
+      "score": 1
+    },
+    {
+      "id": "Ju-JyxDgV7g",
+      "title": "How Oracle Uses Codex to Help Business Users Get Answers",
+      "summary": "Richard Lam, Group Vice President at Oracle Applications Lab, shares how his team uses Codex to help business users get answers from company data. By describing the outcome they want, users can get an analysis, a report, or an application, with Codex gathering the information from internal systems. Read the full Oracle story: https://openai.com/index/oracle/",
+      "published": "2026-10-10T21:40:25+00:00",
+      "channel": "OpenAI",
+      "mode": "keyword",
+      "hits": [
+        "codex"
+      ],
+      "url": "https://www.youtube.com/watch?v=Ju-JyxDgV7g",
+      "score": 1
+    },
+    {
+      "id": "enPbh_A5F7E",
+      "title": "Building the Codex community",
+      "summary": "See how the Codex community brings people together to build, learn, and share. Pauline Narvas and VB talk about growing the Codex Ambassador program, their favorite moments from local meetups and Build Week, and what it means to build with heart.",
+      "published": "2026-10-09T17:00:34+00:00",
+      "channel": "OpenAI",
+      "mode": "keyword",
+      "hits": [
+        "codex"
+      ],
+      "url": "https://www.youtube.com/watch?v=enPbh_A5F7E",
+      "score": 1
+    },
+    {
+      "id": "RQfg-zo4R-g",
+      "title": "Production Monitoring with Codex: Grafana, Kubernetes, & Security",
+      "summary": "It’s 3 a.m. and checkout errors are climbing. What do you check first? Join cohosts Tony Loehr and Anke Hao for three practical production-monitoring demos with Codex. Follow a checkout failure in Grafana, investigate a Kubernetes rollout that causes out-of-memory restarts, and explore how a Codex Security finding connects service availability to a missing resource limit. See how telemetry, release history, and code support an investigation; learn how engineers review a proposed change and check",
+      "published": "2026-10-08T21:35:18+00:00",
+      "channel": "OpenAI",
+      "mode": "keyword",
+      "hits": [
+        "codex"
+      ],
+      "url": "https://www.youtube.com/watch?v=RQfg-zo4R-g",
+      "score": 1
+    },
+    {
+      "id": "Mm3EsJL73tM",
+      "title": "How Oracle Uses ChatGPT Work to Transform Recruitment",
+      "summary": "“We’ve gone from zero to 100, not zero to 60.” Jan Ackerman shares how Oracle built a talent market intelligence tool with ChatGPT Work to transform hiring preparation. Starting with a job description, it researches comparable roles, benchmarks compensation, and assesses talent pools across locations, giving hiring managers consistent data and insights. Read how Oracle is transforming work with ChatGPT Work and Codex: https://openai.com/index/oracle/",
+      "published": "2026-10-08T17:38:00+00:00",
+      "channel": "OpenAI",
+      "mode": "keyword",
+      "hits": [
+        "codex"
+      ],
+      "url": "https://www.youtube.com/watch?v=Mm3EsJL73tM",
+      "score": 1
+    },
+    {
+      "id": "XkKdbPhIvbY",
+      "title": "Codex Has Left The Laptop | DevDay 2026",
+      "summary": "Explore what’s new in Codex across the CLI, app, and web. Through live demos, see how to move from delegating individual tasks to letting Codex tackle entire problems and goals.",
+      "published": "2026-10-07T21:10:48+00:00",
+      "channel": "OpenAI",
+      "mode": "keyword",
+      "hits": [
+        "codex"
+      ],
+      "url": "https://www.youtube.com/watch?v=XkKdbPhIvbY",
+      "score": 1
+    }
+  ]
 }
