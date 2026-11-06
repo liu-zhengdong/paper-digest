@@ -1,1086 +1,1086 @@
 # 每日 AI 论文
 
-生成时间：2026-11-05 06:47 UTC  ·  共 120 篇（已按 arXiv ID 去重）
+生成时间：2026-11-06 06:46 UTC  ·  共 120 篇（已按 arXiv ID 去重）
 
 来源：Hugging Face Daily Papers + arXiv（cs.AI / cs.LG / cs.CL / cs.CV）。
 排序：HF 上榜、点赞、多源命中、兴趣词。兴趣词可在 `config.json` 改。
 
-## 1. Route Anything: A Study of Model and Policy Routing for General-Purpose AI Systems
+## 1. FrontierPhysics: Evaluating Agents for End-to-End Physics Research
 
-- 分数：36.0  ·  HF 赞：86  ·  来源：huggingface
-- 兴趣命中：agent, benchmark, coding, spec
-- 作者：Pengfei Zhou, Yixing Ma, Hexin Wang, Weidong Tang, Zhenglin Wan, Wangbo Zhao, Yang You
-- 链接：[arXiv](https://arxiv.org/abs/2611.05275) · [PDF](https://arxiv.org/pdf/2611.05275) · [HF](https://huggingface.co/papers/2611.05275)
-
-Artificial general intelligence (AGI) requires a method that can understand, generate, reason, and act across diverse domains and modalities. Rather than relying on a single model to master every capability, a promising path toward AGI now is to orchestrate a heterogeneous ecosystem of specialized models, tools, and policies (candidates) into a unified AI system. At the heart of this vision lies a fundamental…
-
-## 2. Words Caught in the Heart: Simulating Person-Specific Expression for Self-Opaque Clients in Psychotherapy
-
-- 分数：36.0  ·  HF 赞：70  ·  来源：huggingface
-- 兴趣命中：language model, large language, spec, planning
-- 作者：Mengxi Xiao, Jingjing Chen, Ziyan Kuang, Jiarong Song, Wenhao Zhao, Zuchen Han, Yihuai Xu, Xiyang Huang, Jie Gong, Yuechen Jiang, Xueqing Peng, Yankai Chen, Xiaoyan Qu, Min Peng, Qianqian Xie
-- 链接：[arXiv](https://arxiv.org/abs/2611.00617) · [PDF](https://arxiv.org/pdf/2611.00617) · [HF](https://huggingface.co/papers/2611.00617)
-
-Psychotherapy clients may experience distress before they can coherently describe it, and their expression changes with emotion, perceived safety, and trust. Large language model-based client simulators often rely on clinically organized case descriptions, which can encourage responses explaining the client's difficulties more clearly than their current understanding warrants. We propose Pandora, a psychotherapy…
-
-## 3. Behind Video Generation: Observations and Insights on Multimodal Understanding from Kling
-
-- 分数：36.0  ·  HF 赞：58  ·  来源：huggingface
-- 兴趣命中：agent, reinforcement learning, evaluation, language model, spec
-- 作者：Kling Team, Dong Chen, Jialu Chen, Xinlong Chen, Yifan Dai, Haotian Dong, Binzong Geng, Yushuo Guan, Minghui Guo, Guanlin He, Guanxiao He, Jingyun Hua, Yanwei Huang, Yiyan Ji, Xueping Jia, Yizhuo Jia, Bozhou Li, Jiaze Li, Min Li, Shihao Li, Shujie Li, Shengyi Liao, Weihong Lin, Shiyuan Liu, Xinyu Liu, Siyang Mao, Xiaoru Qu, Dianmo Sheng, Yang Shi, Jiafu Tang, Longxiang Tang, Yuqi Tang, Chengzhuo Tong, Kuo Wang, Qixun Wang, Rui Wang, Tianduo Wang, Yuran Wang, Zekun Wang, Zihao Wang, Boyang Xia, Yifan Xu, Liu Yang, Zhenlong Yuan, Bohan Zeng, Mujin Zhang, Yuanxing Zhang, Zhicheng Zhang, Zhuoran Zhang, Yuanhong Zheng, Kun Gai, Chengru Song, Pengfei Wan
-- 链接：[arXiv](https://arxiv.org/abs/2611.04916) · [PDF](https://arxiv.org/pdf/2611.04916) · [HF](https://huggingface.co/papers/2611.04916)
-
-Video generation has progressed from isolated clips to coherent short-form audiovisual sequences, and the bottleneck is shifting from rendering to semantic control. This report summarizes the observations and insights on multimodal understanding gained from successive generations of Kling. We argue that generation quality is the projection of multimodal understanding through the entire…
-
-## 4. Factorized MLLM Embeddings for Composed Image Retrieval
-
-- 分数：36.0  ·  HF 赞：44  ·  来源：huggingface
-- 兴趣命中：reasoning, evaluation, benchmark, language model, large language, retrieval
-- 作者：WonJun Moon, Seongchan Kim, Dahun Kim, Seungryong Kim
-- 链接：[arXiv](https://arxiv.org/abs/2611.05193) · [PDF](https://arxiv.org/pdf/2611.05193) · [HF](https://huggingface.co/papers/2611.05193)
-
-Composed Image Retrieval (CIR) aims to retrieve a target image given a reference image and a modification text. Although recent approaches leveraging Multimodal Large Language Models (MLLMs) have shown significant progress, we argue that the MLLM's compositional understanding remains underutilized. This stems from directly mapping composed queries into a retrieval embedding via contrastive supervision alone, without…
-
-## 5. Axion 1.0: Open Agent Foundation Models, Simplified
-
-- 分数：36.0  ·  HF 赞：40  ·  来源：huggingface
-- 兴趣命中：agent, reasoning, reinforcement learning, benchmark
-- 作者：Yuqi Jia, Yunjie Tian, Jiayu Zheng, Yijun Liang, Jingchen Sun, Mengyu Zhao, Di Fu
-- 链接：[arXiv](https://arxiv.org/abs/2611.03233) · [PDF](https://arxiv.org/pdf/2611.03233) · [HF](https://huggingface.co/papers/2611.03233)
-
-We introduce Axion 1.0, a fully open agent foundation model that combines strong and broad agentic capabilities with a remarkably simple training recipe. Axion 1.0 is trained in only three stages: two lightweight supervised fine-tuning stages followed by reinforcement learning, without dedicated mid-training, direct preference optimization (DPO), or on-policy distillation (OPD). The first SFT stage develops strong…
-
-## 6. RoboColosseum: Evaluating Physical Intelligence at Scale In-The-Wild
-
-- 分数：34.0  ·  HF 赞：45  ·  来源：huggingface
-- 兴趣命中：agent, evaluation, spec
-- 作者：Tan Sang Nguyen, Yi Ru Wang, Shailesh Shailesh, Gang Yang, Jiamo Hu, Jianuo Jiang, Haoquan Fang, Zhongzheng Ren, Zhongyi Luo, Ian Chong, Aaron Tung, Santiago Pravisani, Minghui Lin, Yao Mo, Ishneet Singh, Benjamin Tee, Harold Soh, Siddhartha Srinivasa, Dieter Fox, David Hsu, Haoming Song, Maxime Ellerbach, Thomas Wolf, Pepijn Kooijmans, Ruijie He, Michael Cho, Jiafei Duan
-- 链接：[arXiv](https://arxiv.org/abs/2611.02497) · [PDF](https://arxiv.org/pdf/2611.02497) · [HF](https://huggingface.co/papers/2611.02497)
-
-General-purpose robot policies must work across robots, tasks, and environments, yet the variation that makes physical trials informative also makes them difficult to reproduce. We introduce RoboColosseum, a distributed evaluation framework that combines unified policy serving and standardized protocols across a network of locally operated robots in diverse environments. Our initial study evaluates five…
-
-## 7. ToolSpace: Scaling Tool-Centric Environment Synthesis for Long-Horizon Agents
-
-- 分数：33.0  ·  HF 赞：34  ·  来源：huggingface
-- 兴趣命中：agent, tool-use, benchmark, language model, large language
-- 作者：Guanting Dong, Zhichao Sun, Xinyu Yang, Rui Wang, Xin Deng, Jiajie Jin, Zhixiong Yang, Junhao Huang, Han Han, Mingyu Ma, Xiaotao Wang, Yuyang Hu, Xiaoshuai Song, Xiaoxi Li, Jiejun Tan, Zhecan Wang, Shihan Dou, Honglin Guo, Zhiheng Xi, Tao Gui, Tao Ji, Qi Zhang, Yutao Zhu, Ji-Rong Wen, Zhicheng Dou
-- 链接：[arXiv](https://arxiv.org/abs/2611.05036) · [PDF](https://arxiv.org/pdf/2611.05036) · [HF](https://huggingface.co/papers/2611.05036)
-
-Large language models are deployed as long-horizon agents that compose diverse tools across MCP services into executable workflows. Existing MCP environment-scaling methods are data-centric: they first synthesize a database and scenario, then derive tools and tasks from them. As a result, tool interfaces may not match real ones, tool compositions are not grounded in execution, and tasks rarely span more than one…
-
-## 8. MoviEdit: Long-form Multi-Shot Video Editing Made Easy
-
-- 分数：32.0  ·  HF 赞：67  ·  来源：huggingface
-- 兴趣命中：evaluation, benchmark
-- 作者：Suhyeon Lee, Zhengang Li, Soo Ye Kim, Peihao Zhu, Jong Chul Ye, Chun-Hao Paul Huang, Duygu Ceylan, Yan Kang, Hyeonho Jeong
-- 链接：[arXiv](https://arxiv.org/abs/2611.02737) · [PDF](https://arxiv.org/pdf/2611.02737) · [HF](https://huggingface.co/papers/2611.02737)
-
-Long-form multi-shot video editing requires an intended edit to remain coherent across abrupt changes in scene, viewpoint, and subject appearance, while processing substantially longer visual context than conventional single-shot editors. We introduce MoviEdit, an end-to-end framework for scalable long-form multi-shot video editing that jointly addresses the challenges of data, modeling, and evaluation. To provide…
-
-## 9. Think Less, Locally: Local Preference Learning for Reasoning Compression
-
-- 分数：32.0  ·  HF 赞：67  ·  来源：huggingface
-- 兴趣命中：reasoning, benchmark
-- 作者：Muyao Yuan, Liyan Xu, Weizhan Zhang, Muyan Jiao, Jiangnan Li, Jinchao Zhang, Jie Zhou
-- 链接：[arXiv](https://arxiv.org/abs/2611.04814) · [PDF](https://arxiv.org/pdf/2611.04814) · [HF](https://huggingface.co/papers/2611.04814)
-
-Large reasoning models achieve strong performance on challenging tasks, but their long chain-of-thought often incurs substantial inference costs by continuing to deliberate after sufficient information has been obtained. Existing reasoning compression methods primarily operate on reasoning trajectories, paying less attention to the local decision of whether further reasoning is necessary given the current state. We…
-
-## 10. YANAMI: A Large-Scale Multimodal Dataset and Benchmark for Multiturn Stateful Interaction
-
-- 分数：30.0  ·  HF 赞：28  ·  来源：huggingface
-- 兴趣命中：reasoning, evaluation, benchmark, spec
-- 作者：Shengyu Wang, Tengyue Nong, Junming Liu, Haosong Peng, Siyu Li, Ruiqi Lei, Fushuo Huo, Yuhao Pan, Yunfeng Fan, Ding Wang, Nan Cheng, Haozhao Wang, Wenchao Xu
-- 链接：[arXiv](https://arxiv.org/abs/2611.05280) · [PDF](https://arxiv.org/pdf/2611.05280) · [HF](https://huggingface.co/papers/2611.05280)
-
-Unified Multimodal Models (UMMs) integrate visual understanding, generation, and editing within a single unified framework. However, existing unified multimodal datasets and benchmarks remain dominated by single-turn tasks. Even in recent multi-turn datasets, many turns can be solved independently without tracking information across turns. Consequently, they provide limited supervision and evaluation for multimodal…
-
-## 11. DreamX: Video Diffusion Model is a Universal Latent Action Learner
-
-- 分数：28.0  ·  HF 赞：51  ·  来源：huggingface
-- 兴趣命中：-
-- 作者：Jisoo Kim, Chaehyun Kim, Junsu Kim, Jiho Park, Seongchan Kim, Eunbeen Hong, Soowon Son, Fu-En Yang, Seungryong Kim
-- 链接：[arXiv](https://arxiv.org/abs/2611.05377) · [PDF](https://arxiv.org/pdf/2611.05377) · [HF](https://huggingface.co/papers/2611.05377)
-
-Learning a universal action representation from video requires modeling dynamics that are consistent across different executions of the same action yet invariant to changes in embodiment and appearance. Existing latent action models infer actions from visual transitions, but their representations often entangle the underlying action with irrelevant visual variations, limiting transfer across embodiments. We…
-
-## 12. WebHarbor: Docking Real Websites for Evolving GUI Agent Environments
-
-- 分数：27.0  ·  HF 赞：22  ·  来源：huggingface
-- 兴趣命中：agent, reinforcement learning, evaluation, benchmark, coding
-- 作者：Zhaoyang Wang, Qianhui Wu, Boyu Gou, Demi Wang, Jiacheng Zhang, Peichun Hua, Qize Li, Shi Qiu, Yifan Jiang, Yifan Zhang, Zexu Jin, Baolin Peng, Bolin Shen, Chetan Bansal, Dehan Kong, Deren Lei, Dongshen Peng, Fengqing Jiang, Hao Cheng, Haoqing Wang, Jiaming Shan, Jicheng Wang, Jingguang Zhou, Jixuan He, Kaide Zeng, Kangyu Zhu, Lama Moukheiber, Mufan Qiu, Peng Xia, Qihan Sun, Qingwei Lin, Qiushi Sun, Ruichen Zhang, Shuqing Luo, Si Qin, Sicheng Fan, Tao Xiong, Wenlin Yao, Xinyu Zhang, Xinyue Zeng, Xuanrui Li, Xuchao Zhang, Yian Wang, Yichao Liu, Yiming Liang, Yiyang Zhou, Yizhu Jiao, Yuetai Li, Yurun Chen, Yuxuan Zhang, Zheyuan Yang, Zhiyuan Yao, Zhongyang Li, Zihao Li, Zili Wang, Jianfeng Gao, Huaxiu Yao
-- 链接：[arXiv](https://arxiv.org/abs/2611.03634) · [PDF](https://arxiv.org/pdf/2611.03634) · [HF](https://huggingface.co/papers/2611.03634)
-
-GUI web agents require realistic and interactive environments that remain stable during both evaluation and training. Live website evaluation suffers from changing content, access restrictions, and limited coverage of authenticated workflows, while existing synthetic environments for training often lack functional depth and visual fidelity. We propose WebHarbor, a suite of 153 executable and dockerized website…
-
-## 13. EvoTeam: Multi-Agent Collaboration via Evolving Teams
-
-- 分数：26.0  ·  HF 赞：24  ·  来源：huggingface
-- 兴趣命中：agent, benchmark, spec
-- 作者：Qinuo Cao, Xin He, Dianxuan Fu, Lizhi Zhang, Zhaoqing Xing, Jiapu Wang, Xin Wang, Na Zou, Yi Chang, Qinggang Zhang
-- 链接：[arXiv](https://arxiv.org/abs/2610.39813) · [PDF](https://arxiv.org/pdf/2610.39813) · [HF](https://huggingface.co/papers/2610.39813)
-
-LLM-based multi-agent systems (MAS) rely on collaboration among specialized agents to solve complex tasks. Existing methods improve MAS by refining the prompts, skills, and execution strategies of individual agents based on task feedback. However, improving individual agents does not necessarily lead to better team collaboration. Recent studies have therefore extended evolution to the collaboration level, using…
-
-## 14. FrontierPhysics: Evaluating Agents for End-to-End Physics Research
-
-- 分数：25.5  ·  HF 赞：15  ·  来源：huggingface + arxiv
+- 分数：34.0  ·  HF 赞：48  ·  来源：huggingface
 - 兴趣命中：agent, reasoning, benchmark
 - 作者：Bingran You, Wenjun Ke, Ria Rosenauer, Bo Liu, Wenbo Chen, Min Chen, Shuqi Xu, Yue Ma, Jiechao Feng, Bo Chen, Xiangkai Sun, Jiarui Liu, Jinen Guo, Zeyu Zhou, Xu Huang, Zhuohan Li, Haoyu Li, Heguang Lin, Lijie Ding, Yadong Zeng, Kangqi Zhang, Xinge Liu, Hanwen Liu, Zhenghong Li, Alexander von Recum, Yuchen Zhu, Felix Schwarzfischer, Yizhou Zhao, Jicheng Wang, Binxu Li, Qian Yu, Chan Li, Cheng Dai, Di Wang, Haoyu Zhang, Jiankai Sun, Kaituo Feng, Mian Qin, Ruihong Yin, Yiqun Luo, Weiwei Wu, Shihong Pan, Tsung Yeh Hsieh, Xiao Huang, Yan Zhang, Sihan Li, Zirui Ren, Zengji Tu, Kyoung Whan Choe, Ke Sun, Vincenzo Galia, Vaisakhi Mishra, Jiashu He, Hongyang Wang, Zhiheng Yang, Shubham Gaur, Yifan Gu, Shuyi Wang, Zihao Zuo, Steven Dillmann, Yiyou Sun, Xinyang Han, Hanchung Lee, Molei Tao, Yue Zhao, Shilong Liu, Yuchen Wu, Xuandong Zhao, Xiangyi Li, Florian Brand, Gerbrand Ceder, Hartmut Haeffner
 - 链接：[arXiv](https://arxiv.org/abs/2611.06910) · [PDF](https://arxiv.org/pdf/2611.06910) · [HF](https://huggingface.co/papers/2611.06910)
 
 AI agents are playing an increasingly important role in physics research. However, existing physics benchmarks only evaluate fixed questions, isolated sub-tasks, or paper reproduction with given solutions, and rarely check research quality alongside correctness. We introduce FrontierPhysics, an end-to-end benchmark with 56 tasks made by 42 physicists based on their own research, covering nine domains across…
 
-## 15. SpecPilot: Autonomous Algorithm Discovery and Systems Optimization for Speculative Decoding
+## 2. VFlash: Fast, Accurate Visual Planning via Flash Primitive Decoding
 
-- 分数：24.5  ·  HF 赞：17  ·  来源：huggingface
-- 兴趣命中：agent, memory, benchmark, coding, spec
-- 作者：Kunjun Li, Wenhao Chai, Yihao Liang, Yuezhou Hu, Shuyao Xu, Yi Pan, William X. Zheng, Kannan Ramchandran, Kurt Keutzer, Jiantao Jiao
-- 链接：[arXiv](https://arxiv.org/abs/2611.02501) · [PDF](https://arxiv.org/pdf/2611.02501) · [HF](https://huggingface.co/papers/2611.02501)
+- 分数：30.5  ·  HF 赞：25  ·  来源：huggingface + arxiv
+- 兴趣命中：language model, coding, planning
+- 作者：Yu-Cheng Chou, Shihao Wang, Jin Huang, Chi-Pin Huang, Chiao-An Yang, Xianzhe Fan, Jing Wang, Zhiqi Li, Yuanguo Kuang, Ruijie Zheng, Johan Bjorck, Sifei Liu, Hang Su, Abhishek Badki, Lei Zhang, Alan Yuille, Linxi &#34;Jim&#39;&#39; Fan, Jan Kautz, Zhiding Yu
+- 链接：[arXiv](https://arxiv.org/abs/2611.08449) · [PDF](https://arxiv.org/pdf/2611.08449) · [HF](https://huggingface.co/papers/2611.08449)
 
-Speculative decoding accelerates memory-bound LLM decoding with a lightweight drafter, and parallel drafters extend this speedup by drafting a whole block in one forward pass. However, it remains unclear whether their released systems (stock) attain the full speedup that parallel drafting permits. We identify three challenges. First, with one request, each step accepts few tokens but reads every target weight.…
+Models for physical AI tasks, such as robotics and autonomous driving, need not reason solely in language. They can use visual plans--points, bounding boxes, and trajectories--to represent spatial goals and anticipate motion. However, autoregressive vision-language models generate these plans one coordinate token at a time, making richer predictions increasingly costly. We introduce VFlash, a method for fast,…
 
-## 16. VidUEU-Agent: A Data-Curation Agent for Multimodal Understanding, Editing, and Unified Tasks
+## 3. Turns Matter: Advancing Streaming Video RL via Turn-Level Credit
 
-- 分数：24.0  ·  HF 赞：24  ·  来源：huggingface
-- 兴趣命中：agent, benchmark
-- 作者：Tengju Ru, Weitong Lian, Zecong Tang, Lingyi Meng, Haoran Li, Zhejun Cui, Yichen Zhu, Hangshuo Cao, Qi Kang, Yechi Liu, Kaixuan Wang, Yu-Jie Yuan, Chunwei Wang, Yu Zhang, Bo Dai
-- 链接：[arXiv](https://arxiv.org/abs/2611.04418) · [PDF](https://arxiv.org/pdf/2611.04418) · [HF](https://huggingface.co/papers/2611.04418)
+- 分数：30.0  ·  HF 赞：85  ·  来源：huggingface
+- 兴趣命中：spec
+- 作者：Shuai Dong, Kanghui Tian, Linghan Chen, Wenqi Shao, Hongrui Wu, Haowen Hou, Yongfu Zhu, Xuehui Wang, Ziyue Wang, Wenpu Liu, Weichu Xie, Yuqi Xu, Congcong Wang, Kaiwen Tuo, Caoyuan Ma, Taiqiang Wu, Ji Zhao, Wenzheng Chang, Dianyi Wang, Siyuan Wang, Zhongyu Wei, Yu Qiao, Jiaqi Wang
+- 链接：[arXiv](https://arxiv.org/abs/2611.06728) · [PDF](https://arxiv.org/pdf/2611.06728) · [HF](https://huggingface.co/papers/2611.06728)
 
-The advancement of multimodal learning is heavily constrained by the scarcity and high annotation cost of high-quality instruction data. While raw videos offer an abundant and dynamic source of visual knowledge, transforming them into precise instruction data remains highly challenging. To bridge this gap, we present VidUEU-Agent, an automated pipeline that synthesizes instruction data from raw videos for multimodal…
+Streaming video understanding requires models to repeatedly decide whether to respond or continue observing. Recently, Group Relative Policy Optimization (GRPO) has been applied to this setting, with existing approaches emphasizing reward design while retaining a single trajectory-level advantage across turns. Such shared credit can reinforce redundant replies after earlier successes and discourage useful follow-ups…
 
-## 17. MoLRSI: A Recursive Self-Improving AI agent for Molecular Discovery
+## 4. From Pixels to Actions - Towards Native Vision-Language-Action Policies
 
-- 分数：22.0  ·  HF 赞：16  ·  来源：huggingface
-- 兴趣命中：agent, memory, spec
-- 作者：Yikun Zhang, Xiwei Cheng, Mingze Yuan, Yu Zhang, Brian Shim, Aarti Krishnan, Daniel Rosen, Kunyang Sun, Yingze Wang, Zhenfeng Deng, Botao Yu, Bingxu Liu, David Liu, Tianyu Liu, Yuanqi Du, Nir Hacohen, James J. Collins, Wengong Jin
-- 链接：[arXiv](https://arxiv.org/abs/2610.39714) · [PDF](https://arxiv.org/pdf/2610.39714) · [HF](https://huggingface.co/papers/2610.39714)
-
-Molecular discovery requires navigating vast combinatorial search spaces while balancing competing biological objectives. AI agents can automate expert-defined molecular design protocols, but automation alone does not address how to optimize workflows for new tasks or improve their development through experience. Here we introduce MoLRSI, an AI agent that combines systematic optimization of workflows and model…
-
-## 18. From Pixels to Actions - Towards Native Vision-Language-Action Policies
-
-- 分数：22.0  ·  HF 赞：16  ·  来源：huggingface + arxiv
+- 分数：30.0  ·  HF 赞：57  ·  来源：huggingface
 - 兴趣命中：reasoning
 - 作者：Weichen Fan, Haiwen Diao, Penghao Wu, Siyuan Hu, Ziqi Huang, Tianqi Liu, Mingze Sun, Ziyi Wang, Zhongang Cai, Hanming Deng, Quan Wang, Lei Yang, Lewei Lu, Fangzhou Hong, Zhaoxi Chen, Dahua Lin, Ziwei Liu
 - 链接：[arXiv](https://arxiv.org/abs/2611.06918) · [PDF](https://arxiv.org/pdf/2611.06918) · [HF](https://huggingface.co/papers/2611.06918)
 
 Vision-language-action models are typically built on a simple premise: perception is first compressed by visual encoders, and action reasoning begins only afterwards. Yet manipulation often hinges on precisely the visual signals most vulnerable to this abstraction, e.g., local geometry, boundaries, depth, and subtle state changes. This raises a fundamental question: should action policies inherit a fixed visual…
 
-## 19. Mage-VL-Cowork: A Full Training Recipe to Learn Hybrid Computer Use From Evolved Harnesses
+## 5. What Does Multi-Turn Reinforcement Learning Really Improve in LLM Agents?
 
-- 分数：21.0  ·  HF 赞：14  ·  来源：huggingface
-- 兴趣命中：agent, reasoning, spec
-- 作者：Xiaoyi Zhang, Haoqing Wang, Xinjie Zhang, Xiang Ming, Xing Wang, Senqiao Yang, Kaichen Zhang, Zhaoyang Jia, Andong Tan, Xinjiang Wang, Jinghao Guo, Yifei Shen, Xiao Li, Peng Zhang, Xun Guo, Jiahao Li, Shicheng Zheng, Jinglu Wang, Zongyu Guo, Wenxuan Xie, Bin Li, Yan Lu
-- 链接：[arXiv](https://arxiv.org/abs/2610.40747) · [PDF](https://arxiv.org/pdf/2610.40747) · [HF](https://huggingface.co/papers/2610.40747)
+- 分数：29.5  ·  HF 赞：35  ·  来源：huggingface
+- 兴趣命中：agent, reinforcement learning
+- 作者：Kejian Zhu, Zhuoran Jin, Shangqing Tu, Tianyi Men, Yupu Hao, Jiachun Li, Kang Liu, Jun Zhao
+- 链接：[arXiv](https://arxiv.org/abs/2611.06483) · [PDF](https://arxiv.org/pdf/2611.06483) · [HF](https://huggingface.co/papers/2611.06483)
 
-Effective computer-use agents (CUAs) should seamlessly combine visual GUI interaction with code and terminal execution within a single policy. We present Mage-VL-Cowork, a 4B hybrid CUA trained from a general multimodally aligned checkpoint through an end-to-end, progressive five-stage curriculum across midtraining, SFT, and RL. To power this curriculum at scale, Mage-CUA-Forge replaces per-task agent construction…
+While multi-turn agentic reinforcement learning (RL) excels on long-horizon tasks, its performance gains remain highly sensitive to interaction constraints. Evaluating across sampling breadth K and interaction depth T via Pass@(K,T), we show that trajectory-level RL advantages depend on sufficient turn budgets, diminishing significantly when budgets tighten. Besides, agentic RL does not uniformly elevate single-step…
 
-## 20. Are Frontier VLM Agents Ready to Be Robot Generalists? An Empirical Study with the Embodied Agent Arena
+## 6. Harness-S: Learning from Sibling Harnesses for Generalizable Agent Training
 
-- 分数：21.0  ·  HF 赞：10  ·  来源：huggingface
-- 兴趣命中：agent, reasoning, benchmark, language model, planning
-- 作者：Haojian Huang, Pukun Zhao, Zexi Li, Yehang Zhang, Yangkai Wei, Wenqian Li, Han Yang, Kaiwen Zhou, Ying-Cong Chen, Yinchuan Li
-- 链接：[arXiv](https://arxiv.org/abs/2610.00854) · [PDF](https://arxiv.org/pdf/2610.00854) · [HF](https://huggingface.co/papers/2610.00854)
+- 分数：28.0  ·  HF 赞：28  ·  来源：huggingface
+- 兴趣命中：agent, reinforcement learning, spec
+- 作者：Kangning Zhang, Wenxiang Jiao, Bowen Fang, Shuai Shao, Jiachen Zhu, Rong Shan, Shijian Wang, Hao Wang, Yuan Lu, Weiwen Liu, Weinan Zhang
+- 链接：[arXiv](https://arxiv.org/abs/2611.04277) · [PDF](https://arxiv.org/pdf/2611.04277) · [HF](https://huggingface.co/papers/2611.04277)
 
-A robot generalist must interpret a scene, act on it, and satisfy every condition of a task. How far do frontier vision-language models (VLMs) meet these demands? We introduce Embodied Agent Arena, evaluating ten VLM agents across Geometry, Spatial Reasoning, Affordance, Task Planning, and Manipulation. Its 1,000 cases combine 32 established sources with GeoProbe, our 168-case benchmark for camera, motion, depth,…
+Harness evolution from a common base exhibits Locality, Complementarity, and Nonstationarity: variants repair different failures, and their utility changes as the policy learns. Rather than seeking a universally superior harness, we introduce Harness-S to selectively rescue failures of a base execution system through sibling harnesses and transfer the resulting capabilities into a single policy that remains…
 
-## 21. EmoReward: Self-Evolving Reward Calibration for Emotional Video Generation RL
+## 7. EmoReward: Self-Evolving Reward Calibration for Emotional Video Generation RL
 
-- 分数：20.5  ·  HF 赞：1  ·  来源：huggingface + arxiv
+- 分数：27.5  ·  HF 赞：23  ·  来源：huggingface
 - 兴趣命中：agent, memory, evaluation, spec
 - 作者：Mingzhe Zheng, Yue Wu, Jing Tan, Chang Zou, Dengyang Jiang, Zeyue Tian, Xuanhua He, Ryan Xu, Yunyang Ge, Sihui Ji, Yunlong Lin, Kaihang Pan, Hongru Yan, Sixiang Chen, Dianyi Wang, Julian Zhang, Weijie Kong, Changlin Li, Lanqing Guo, Zhao Zhong, Qifeng Chen, Harry Yang
 - 链接：[arXiv](https://arxiv.org/abs/2611.06518) · [PDF](https://arxiv.org/pdf/2611.06518) · [HF](https://huggingface.co/papers/2611.06518)
 
 Group Relative Policy Optimization (GRPO) has advanced generative model post-training in verifiable domains such as code and mathematics, but evaluating video quality, especially emotional expression, often depends on subjective aesthetics and has no uniquely correct target. Existing approaches typically rely on fixed rewards for visual quality, motion quality, and text alignment that poorly capture emotional intent…
 
-## 22. ParetoSaddler: Pareto-Guided Optimization of Agent Harnesses for Quality and Cost
+## 8. MUON-RT Reusing the Teacher's Trajectory for Momentum-Free Muon for LLM Self-Distillation
 
-- 分数：20.0  ·  HF 赞：16  ·  来源：huggingface
-- 兴趣命中：agent, evaluation
-- 作者：Xingzhi Qian, Sungho Park, Rongyuan Tan, Jianbo Yu, Jue Zhang, Lorenzo Cavallaro, Menglin Xia, Yanzhi Chen, Xinnuo Xu, Yu Kang, Xinran Zheng, Gagan Somashekar, Xuchao Zhang, Chetan Bansal, Qingwei Lin, Victor Rühle
-- 链接：[arXiv](https://arxiv.org/abs/2611.02079) · [PDF](https://arxiv.org/pdf/2611.02079) · [HF](https://huggingface.co/papers/2611.02079)
-
-Harness optimization can substantially improve LLM agents without modifying model weights, but existing methods primarily optimize response quality. Extending them to joint quality--cost optimization introduces a challenge: applying the deployment preference during intermediate updates can prematurely reject candidates that are valuable for later improvements. We introduce ParetoSaddler, which addresses this…
-
-## 23. "Shall We Approve?" Consequence-Aware Approval for Autonomous Coding Agents
-
-- 分数：20.0  ·  HF 赞：12  ·  来源：huggingface
-- 兴趣命中：agent, benchmark, coding
-- 作者：Weiheng Wu, Junkai Chen, Zhensu Sun, Jieke Shi, Yunbo Lyu, David Lo
-- 链接：[arXiv](https://arxiv.org/abs/2610.40753) · [PDF](https://arxiv.org/pdf/2610.40753) · [HF](https://huggingface.co/papers/2610.40753)
-
-Coding agents increasingly rely on automated approvers to decide whether a proposed shell command may run. Existing approvers, from rule-based checkers to guardrail models and deployed permission classifiers, base their decisions on the text of the request and command. Yet a command's behavior depends on the code it invokes and the state of the workspace, and systems that observe file changes leave the assessment to…
-
-## 24. PyRUA-DataFarm: LLM Agent as a Cost-Efficient Teleoperator for Real-Ready Robot Data
-
-- 分数：19.5  ·  HF 赞：15  ·  来源：huggingface
-- 兴趣命中：agent, coding
-- 作者：Kewei Zhang, Juncheng Ma, Guodong Lv, Duomin Wang, Feixiang Ruan, Ruiyang Si, Chuanrui Zhang, Yuxuan Chen, Hao Chen, Yichen Liu, Yintianrun Zhang, Yufan Deng, Enze Xie, Daquan Zhou
-- 链接：[arXiv](https://arxiv.org/abs/2611.05320) · [PDF](https://arxiv.org/pdf/2611.05320) · [HF](https://huggingface.co/papers/2611.05320)
-
-Teleoperation remains the default way to collect robot demonstrations, but every episode costs robot and operator time, and every new task starts from scratch. We ask whether a coding agent can take over the teleoperator's job. In our DataFarm, the agent receives a data request and one calibration episode of the robot in the target scene and rebuilds the task in simulation: it writes the scene, an expert controller,…
-
-## 25. Every Token Needs Its Own Teacher: Multi-teacher Adaptive On-policy Self-distillation
-
-- 分数：19.5  ·  HF 赞：11  ·  来源：huggingface
-- 兴趣命中：reasoning, language model, large language
-- 作者：Yifu Luo, Chuang Ma, Zeyu Chen, Enkelejda Kasneci, Qi Chen, Gjergji Kasneci
-- 链接：[arXiv](https://arxiv.org/abs/2610.40574) · [PDF](https://arxiv.org/pdf/2610.40574) · [HF](https://huggingface.co/papers/2610.40574)
-
-On-policy Self-distillation (OPSD) has proven effective for post-training large language models by constructing a teacher conditioned on privileged references. However, existing approaches keep the teacher fixed either throughout training by consistently exposing it to the full reference, or within each response by adaptively varying partial reference exposure only across responses. In this paper, we argue that…
-
-## 26. GameVerse: A Minute-Scale Gameplay Dataset for Long-Horizon Interactive World Modeling
-
-- 分数：19.0  ·  HF 赞：22  ·  来源：huggingface
-- 兴趣命中：-
-- 作者：Kang He, Wenshuo Peng, Chuanhao Li, Zihui Gao, Xiaojie Xu, Zhengyuan Lin, Yuzhe Ding, Donghong Ji, Kaipeng Zhang, Yongtao Ge
-- 链接：[arXiv](https://arxiv.org/abs/2610.37257) · [PDF](https://arxiv.org/pdf/2610.37257) · [HF](https://huggingface.co/papers/2610.37257)
-
-Recent advances in interactive world models have made it possible to generate controllable, dynamic environments from action inputs. Yet current models struggle to maintain coherence beyond roughly one minute of rollout, a limitation rooted not in model capacity but in the scarcity of long-horizon training data. Existing gameplay video datasets typically consist of clips under ten seconds, with captions that…
-
-## 27. LOLPlay: Benchmarking Real-Time Visual Agents in League of Legends
-
-- 分数：19.0  ·  HF 赞：6  ·  来源：huggingface
-- 兴趣命中：agent, reasoning, evaluation, benchmark, spec
-- 作者：Zhaojian Yu
-- 链接：[arXiv](https://arxiv.org/abs/2611.03685) · [PDF](https://arxiv.org/pdf/2611.03685) · [HF](https://huggingface.co/papers/2611.03685)
-
-Visual agents need to coordinate reasoning and action while their environment evolves during inference. We introduce LOLPlay, a benchmark in native League of Legends with 36 champion-specific tasks spanning resource management, combat, cooperation, and objectives. Agents interact through screenshots and mouse--keyboard actions; automated initialization and 82 executable subgoal checks distinguish partial progress…
-
-## 28. Switch-SWE: Do Coding Agents Hold Focus When Switching Between Unfinished Tasks?
-
-- 分数：19.0  ·  HF 赞：6  ·  来源：huggingface
-- 兴趣命中：agent, benchmark, coding, spec
-- 作者：Shuochen Chang, Qianli Ma, Yibo Miao, Qingyang Liu, Bingjie Gao, Haonan Zhao, Siyu Sun, Yulin Sun, Han Zhao, Jiangtong Li
-- 链接：[arXiv](https://arxiv.org/abs/2611.02017) · [PDF](https://arxiv.org/pdf/2611.02017) · [HF](https://huggingface.co/papers/2611.02017)
-
-Software development sessions often involve several unfinished tasks rather than one issue carried through to completion. As coding agents take on repository-level development, they need to recover an earlier task's requirements and partial progress after intervening work. Existing repository-level benchmarks typically score one issue-to-patch episode and do not directly measure whether an agent can resume a task…
-
-## 29. Dory1.0-4B: A Looped Normalized-GPT
-
-- 分数：19.0  ·  HF 赞：6  ·  来源：huggingface
-- 兴趣命中：agent, memory, reinforcement learning, benchmark, language model, coding
-- 作者：Maxim Fishman, Simeng Sun, Shantanu Acharya, Faisal Ladhak, Brian Chmiel, Santiago Akle Serano, Ron Banner, Boris Ginsburg, Krishna C. Puvvada
-- 链接：[arXiv](https://arxiv.org/abs/2611.03998) · [PDF](https://arxiv.org/pdf/2611.03998) · [HF](https://huggingface.co/papers/2611.03998)
-
-We introduce Dory1.0-4B, a 4-billion-parameter looped (latent-recurrent) language model with elastic depth: a single checkpoint serves different inference compute budgets. Dory1.0-4B is built on a normalized Transformer (nGPT) backbone with interleaved sliding-window and full-attention layers, organized into an input block, a shared recurrent block, and an output block. At inference, the recurrent block can be…
-
-## 30. Adversarial Speculative Reasoning Improves Long Horizon Agents
-
-- 分数：19.0  ·  HF 赞：6  ·  来源：huggingface
-- 兴趣命中：agent, reasoning, benchmark, language model, large language, coding, spec
-- 作者：Hongyin Luo, Wei Fang, Lijie Yang, Owen Stepan, Daniel Suit, Jeff Krapf, Dana Wensberg, Jack O&#39;Brien
-- 链接：[arXiv](https://arxiv.org/abs/2611.05345) · [PDF](https://arxiv.org/pdf/2611.05345) · [HF](https://huggingface.co/papers/2611.05345)
-
-Speculative decoding has been treated purely as a systems optimization that speeds up large language model decoding without changing the model behavior. Under this view, the growing effort to train better draft models has been focused solely on acceptance rate. We argue that this view does not hold true for long-horizon agent reasoning. Measuring frontier open-weight models on complex agentic tasks with different…
-
-## 31. MUON-RT Reusing the Teacher's Trajectory for Momentum-Free Muon for LLM Self-Distillation
-
-- 分数：18.5  ·  HF 赞：5  ·  来源：huggingface
+- 分数：25.5  ·  HF 赞：19  ·  来源：huggingface
 - 兴趣命中：memory, language model, large language, spec
 - 作者：Aryan Das, Vinay Kumar Verma, Aakansha Mishra
 - 链接：[arXiv](https://arxiv.org/abs/2610.41104) · [PDF](https://arxiv.org/pdf/2610.41104) · [HF](https://huggingface.co/papers/2610.41104)
 
 Self-distillation methods for large language models with an exponential moving average (EMA) teacher already retain a history of student updates. Muon nevertheless stores a separate momentum buffer, increasing persistent training memory. We propose Muon with Reused Teacher (Muon-RT), which reuses the teacher-student displacement to eliminate momentum buffers for hidden weight matrices. We show that this displacement…
 
-## 32. VideoMemBench: How Well Do MLLMs Remember in Video Conversations?
+## 9. On the Generalization Limitation of On-Policy Distillation for Post-RL Consolidation
 
-- 分数：18.5  ·  HF 赞：5  ·  来源：huggingface
-- 兴趣命中：memory, evaluation, benchmark, language model, large language
-- 作者：Zhengdong Hu, Chao Wang, Kaituo Feng, Huanjin Yao, Mingfei Lu, Hehe Fan, Yi Yang
-- 链接：[arXiv](https://arxiv.org/abs/2610.40131) · [PDF](https://arxiv.org/pdf/2610.40131) · [HF](https://huggingface.co/papers/2610.40131)
-
-Multimodal large language models (MLLMs) can now process hour-long videos, making extended multi-turn dialogue over a single video a natural mode of use. Sustaining such a dialogue requires more than answering each question in isolation: the model must retrieve and reuse information established earlier in the conversation, both what it has seen and what it has said, an ability we term in-context video memory.…
-
-## 33. Recursa: Toward Recursively Self-Improving Foundation Model Systems
-
-- 分数：18.0  ·  HF 赞：12  ·  来源：huggingface
-- 兴趣命中：benchmark, spec
-- 作者：Erkang Zhu, Yin Lin, Xiaorong Shi, Xuanrui Lin, Jingren Zhou
-- 链接：[arXiv](https://arxiv.org/abs/2611.04035) · [PDF](https://arxiv.org/pdf/2611.04035) · [HF](https://huggingface.co/papers/2611.04035)
-
-Foundation models in changing environments can encounter unfamiliar domain knowledge that their original training did not cover. However, new domains rarely provide large amounts of expert-created training data or reliable supervisory signals for further training. We introduce Recursa, a foundation model system that adapts to new domains by learning from its own experience without human experts or a stronger teacher…
-
-## 34. SpecOPD: Branch-Parallel On-Policy Distillation for Speculative Decoding
-
-- 分数：18.0  ·  HF 赞：4  ·  来源：huggingface
-- 兴趣命中：agent, language model, large language, coding, spec
-- 作者：Tianyu Liu, Jun Zhang, Wenjie Huang, Yuhao Shen, Tianqi Xu, Xinyue Hao, Hongyaoxing Gu, Xuyang Liu, Baolin Zhang, Yating Zhu, Shuang Ge, Jun Dai, Lei Chen, Yue Li, Mingchen Wan
-- 链接：[arXiv](https://arxiv.org/abs/2611.02846) · [PDF](https://arxiv.org/pdf/2611.02846) · [HF](https://huggingface.co/papers/2611.02846)
-
-Speculative decoding (SD) accelerates large language model inference by reducing the sequential cost of token-by-token generation. Advanced SD methods reduce proposal cost with parallel drafters that predict entire blocks in one forward pass, but overall speedup still depends on acceptance length. On-policy distillation (OPD) can push well-trained drafters beyond acceptance-length plateaus, yet conventional…
-
-## 35. VA-TDM: A Unified View for Improving Few-Step Diffusion Models by Velocity Adversarial Distillation
-
-- 分数：17.5  ·  HF 赞：7  ·  来源：huggingface + arxiv
-- 兴趣命中：spec
-- 作者：Yihong Luo, Tianyu Pang, Tianyang Hu
-- 链接：[arXiv](https://arxiv.org/abs/2611.06796) · [PDF](https://arxiv.org/pdf/2611.06796) · [HF](https://huggingface.co/papers/2611.06796)
-
-Few-step distillation offers efficient generation with diffusion and flow models, but preserving quality with only a few sampling steps remains challenging. Distribution-matching methods via score distillation provide a strong foundation, yet they rely on accurately tracking the student's changing distribution. At intermediate generation steps in few-step sampling, student-score estimation can be difficult, and…
-
-## 36. How I Aligned Your Model: Scaling Up Multilingual Safety Training with Templates
-
-- 分数：17.0  ·  HF 赞：2  ·  来源：huggingface
-- 兴趣命中：evaluation, language model, large language, spec
-- 作者：Max Neuwinger, Hanna Yukhymenko, Imanol Schlag
-- 链接：[arXiv](https://arxiv.org/abs/2610.40516) · [PDF](https://arxiv.org/pdf/2610.40516) · [HF](https://huggingface.co/papers/2610.40516)
-
-Safety alignment for Large Language Models is heavily focused on English with limited multilingual representation, particularly damaging low-resource language performance. Related open training datasets are often limited in size or do not follow region-localized harmful topics to broaden the scope of alignment beyond cultures. We propose a scalable template-based augmentation pipeline to produce massive multilingual…
-
-## 37. You don't need long context
-
-- 分数：16.5  ·  HF 赞：9  ·  来源：huggingface
-- 兴趣命中：long context, language model
-- 作者：Peter Belcak, Saurav Muralidharan, Jindong Jiang, Yonggan Fu, Wonmin Byeon, Hanrong Ye, Ryan Angilly, Ali Taghibakhshi, Shih-Yang Liu, Siru Ouyang, Greg Heinrich, Pavlo Molchanov
-- 链接：[arXiv](https://arxiv.org/abs/2611.05306) · [PDF](https://arxiv.org/pdf/2611.05306) · [HF](https://huggingface.co/papers/2611.05306)
-
-Later tokens are costlier to generate than earlier tokens. On frontier open weight models, the disparity in cost may rise to as much as 7x. Through frequent compaction, we show across a broad range of long-horizon and long-input tasks that frontier language models sacrifice little to no task accuracy when maintaining short contexts. We further demonstrate that LLM performance does not collapse on long-horizon…
-
-## 38. PrimeSim: A Generalist World Model Simulator from Large-Scale Cross-Embodiment Demonstrations
-
-- 分数：16.5  ·  HF 赞：9  ·  来源：huggingface
-- 兴趣命中：memory, spec
-- 作者：Travis Davies, Wentao Ma, Lihao Guo, Tengfei Ma, Xiaowen Chang, Jiafeng Xu, Shilong Wang, Yiqi Deng, Shaowen He, Xiaoqi Li, Qian Zhu, Ran Cheng, Hao Dong
-- 链接：[arXiv](https://arxiv.org/abs/2611.04870) · [PDF](https://arxiv.org/pdf/2611.04870) · [HF](https://huggingface.co/papers/2611.04870)
-
-A robot world model that serves as a simulator must do more than generate plausible videos: it must faithfully follow commanded actions, maintain consistency across camera views, and sustain coherent long-horizon rollouts. We present PrimeSim, an action-conditioned, multiview world model simulator that addresses these challenges through progressive midtraining and posttraining. Starting from a pretrained video…
-
-## 39. Auto-Research Agent on MSA Organization to Improve Protein-Protein Complex Structure Prediction
-
-- 分数：16.5  ·  HF 赞：1  ·  来源：huggingface
-- 兴趣命中：agent, reasoning, benchmark, spec
-- 作者：Zilu Zhang, Jing Bao, Lifeng Qiao, Sheng Xu, Qiantai Feng, Siqi Sun, Yang Yang
-- 链接：[arXiv](https://arxiv.org/abs/2611.03183) · [PDF](https://arxiv.org/pdf/2611.03183) · [HF](https://huggingface.co/papers/2611.03183)
-
-Protein-complex structure prediction with AlphaFold 3 depends on MSA content, depth, and cross-chain pairing. Current pipelines apply uniform recipes, typically maximizing depth and pairing by species, yet even whether cross-chain pairing helps AF3 remains contested. We show that the value of both depth and pairing is strongly target-dependent, so no single recipe is optimal across interfaces. We introduce an…
-
-## 40. On the Generalization Limitation of On-Policy Distillation for Post-RL Consolidation
-
-- 分数：16.5  ·  HF 赞：1  ·  来源：huggingface
+- 分数：25.5  ·  HF 赞：19  ·  来源：huggingface
 - 兴趣命中：agent, reasoning, reinforcement learning, coding, spec
 - 作者：Yichen Wang, Yufa Zhou, Siqi Zhu, Haozheng Luo, Jingzhi Bao, Zhichao Liu, Zijun Wei
 - 链接：[arXiv](https://arxiv.org/abs/2611.05609) · [PDF](https://arxiv.org/pdf/2611.05609) · [HF](https://huggingface.co/papers/2611.05609)
 
 Multi-teacher on-policy distillation (MOPD) extends on-policy distillation (OPD) to consolidate capabilities from multiple teachers. Although prior work reports near-perfect in-distribution (IND) distillation performance, we find that this can mask incomplete capability consolidation beyond the supervised distribution. A preliminary study on synthetic reasoning shows that OPD does not fully transfer teachers'…
 
-## 41. Kierston & KierstonBench: Simulation of Allentown, PA and Evaluation of Language Models in Crime Investigation and Surveillance Tasks
+## 10. Towards Foundation Decision Models: Drex
 
-- 分数：16.5  ·  HF 赞：1  ·  来源：huggingface
-- 兴趣命中：evaluation, benchmark, language model, large language
-- 作者：Andrew Semenov, Svyatoslav Dorofeev
-- 链接：[arXiv](https://arxiv.org/abs/2611.04785) · [PDF](https://arxiv.org/pdf/2611.04785) · [HF](https://huggingface.co/papers/2611.04785)
+- 分数：25.5  ·  HF 赞：11  ·  来源：huggingface + arxiv
+- 兴趣命中：agent, reasoning, reinforcement learning, language model, large language, coding
+- 作者：Nischay Dhankhar, Alisher Amantay, Zhanibek Datbayev, Darkhan Akhmetov, Yash Shah, Nurmukhamed Ubaidullayev, Raman Saparkhan, Dos Baha, Abulhair Saparov
+- 链接：[arXiv](https://arxiv.org/abs/2611.07854) · [PDF](https://arxiv.org/pdf/2611.07854) · [HF](https://huggingface.co/papers/2611.07854)
 
-Large language models are candidates for collecting and analyzing records in criminal investigations and mass surveillance. Their capability and accuracy in this work cannot currently be measured. Real deployments lack the ground truth needed to score a model's conclusions, and no benchmark evaluates these capabilities in a simulated environment. We present Kierston, a city-scale simulation engine, and…
+Autoregressive approaches with large language models, such as long chain-of-thought reasoning, have become the default for new AI applications because they reach higher accuracy on a wide range of tasks. In production, however, they give inconsistent answers, require parsing of outputs, and add cost and latency. Decision models address this: given a question and a set of options supplied by the user, they return a…
 
-## 42. Going Deeper With Memories
+## 11. Halley: A Predictive Control Plane for Optical AI Data Center Networks
 
-- 分数：16.5  ·  HF 赞：1  ·  来源：huggingface
-- 兴趣命中：memory, reasoning, evaluation, language model
-- 作者：Afshin Khadangi
-- 链接：[arXiv](https://arxiv.org/abs/2611.05255) · [PDF](https://arxiv.org/pdf/2611.05255) · [HF](https://huggingface.co/papers/2611.05255)
+- 分数：25.0  ·  HF 赞：34  ·  来源：huggingface
+- 兴趣命中：-
+- 作者：Manav Mishra, Krishna M. Sivalingam
+- 链接：[arXiv](https://arxiv.org/abs/2611.04408) · [PDF](https://arxiv.org/pdf/2611.04408) · [HF](https://huggingface.co/papers/2611.04408)
 
-Byte level language models avoid tokenizer dependence and provide universal coverage, but processing every byte at full resolution is expensive. We introduce DeepMem, a causal multiscale architecture that separates semantic compression from exact byte preservation. A learned invertible subband transform constructs a hierarchy of shorter sequences, while a lossless carrier and explicit detail sidebands preserve byte…
+A frontier AI model is trained in an AI data center, on tens of thousands of accelerators joined by a dedicated network, and every training step ends with all of them exchanging data at once. Between racks, that network is optical, and each of its four layers, from lasers to switches, runs a fixed or after-the-fact policy. Lasers sharing an enclosure, cooling, and power can fail together. At a fixed spare ratio,…
 
-## 43. When Fine-Grained Credit Assignment Helps and Hurts: Multimodal Agentic Reinforcement Learning through Video Editing
+## 12. VideoMemBench: How Well Do MLLMs Remember in Video Conversations?
 
-- 分数：16.0  ·  HF 赞：0  ·  来源：huggingface
-- 兴趣命中：agent, tool use, reasoning, reinforcement learning, spec, planning
-- 作者：Lei Zhao, Zongheng Cao, Xinyu Hu
-- 链接：[arXiv](https://arxiv.org/abs/2610.35497) · [PDF](https://arxiv.org/pdf/2610.35497) · [HF](https://huggingface.co/papers/2610.35497)
+- 分数：25.0  ·  HF 赞：18  ·  来源：huggingface
+- 兴趣命中：memory, evaluation, benchmark, language model, large language
+- 作者：Zhengdong Hu, Chao Wang, Kaituo Feng, Huanjin Yao, Mingfei Lu, Hehe Fan, Yi Yang
+- 链接：[arXiv](https://arxiv.org/abs/2610.40131) · [PDF](https://arxiv.org/pdf/2610.40131) · [HF](https://huggingface.co/papers/2610.40131)
 
-Reinforcement learning (RL) has shown promise for training multimodal agents to reason and use tools. However, it remains unclear when fine-grained credit assignment improves learning and when it fails to improve task performance. Video editing provides a useful testbed for this question, combining multimodal perception, long-horizon planning, and tool use with delayed outcome feedback. We construct four…
+Multimodal large language models (MLLMs) can now process hour-long videos, making extended multi-turn dialogue over a single video a natural mode of use. Sustaining such a dialogue requires more than answering each question in isolation: the model must retrieve and reuse information established earlier in the conversation, both what it has seen and what it has said, an ability we term in-context video memory.…
 
-## 44. FinForesight: A Diagnostic Backtesting Benchmark for Deep Research Systems in Financial Forecasting
+## 13. GameVerse: A Minute-Scale Gameplay Dataset for Long-Horizon Interactive World Modeling
 
-- 分数：16.0  ·  HF 赞：0  ·  来源：huggingface
-- 兴趣命中：reasoning, evaluation, benchmark, retrieval
-- 作者：Fengyuan Liu, Mukai Li, Jieshun You, Yilin Zheng, Chenjia Min, Yizhou Zhang, Harper Chen, Qi Liu
-- 链接：[arXiv](https://arxiv.org/abs/2611.01621) · [PDF](https://arxiv.org/pdf/2611.01621) · [HF](https://huggingface.co/papers/2611.01621)
+- 分数：24.5  ·  HF 赞：33  ·  来源：huggingface
+- 兴趣命中：-
+- 作者：Kang He, Wenshuo Peng, Chuanhao Li, Zihui Gao, Xiaojie Xu, Zhengyuan Lin, Yuzhe Ding, Donghong Ji, Kaipeng Zhang, Yongtao Ge
+- 链接：[arXiv](https://arxiv.org/abs/2610.37257) · [PDF](https://arxiv.org/pdf/2610.37257) · [HF](https://huggingface.co/papers/2610.37257)
 
-Anticipating financial outcomes requires synthesizing evolving evidence and reasoning under uncertainty, making deep research systems promising tools for forecasting. Yet evaluating forecasting ability is challenging because historical backtests may reward memorized outcomes or information retrieved after the forecast date. Live forecasting avoids direct access to realized outcomes, but feedback arrives only after…
+Recent advances in interactive world models have made it possible to generate controllable, dynamic environments from action inputs. Yet current models struggle to maintain coherence beyond roughly one minute of rollout, a limitation rooted not in model capacity but in the scarcity of long-horizon training data. Existing gameplay video datasets typically consist of clips under ten seconds, with captions that…
 
-## 45. LoopVQ: Sub 1-bit KV Cache Quantization for Looped Transformers
+## 14. PyRUA-DataFarm: LLM Agent as a Cost-Efficient Teleoperator for Real-Ready Robot Data
 
-- 分数：16.0  ·  HF 赞：0  ·  来源：huggingface
+- 分数：24.0  ·  HF 赞：24  ·  来源：huggingface
+- 兴趣命中：agent, coding
+- 作者：Kewei Zhang, Juncheng Ma, Guodong Lv, Duomin Wang, Feixiang Ruan, Ruiyang Si, Chuanrui Zhang, Yuxuan Chen, Hao Chen, Yichen Liu, Yintianrun Zhang, Yufan Deng, Enze Xie, Daquan Zhou
+- 链接：[arXiv](https://arxiv.org/abs/2611.05320) · [PDF](https://arxiv.org/pdf/2611.05320) · [HF](https://huggingface.co/papers/2611.05320)
+
+Teleoperation remains the default way to collect robot demonstrations, but every episode costs robot and operator time, and every new task starts from scratch. We ask whether a coding agent can take over the teleoperator's job. In our DataFarm, the agent receives a data request and one calibration episode of the robot in the target scene and rebuilds the task in simulation: it writes the scene, an expert controller,…
+
+## 15. TAC-CoT: Tool-Empowered Implicit Chain-of-Thought via Interleaving Explicit Tokens
+
+- 分数：23.0  ·  HF 赞：14  ·  来源：huggingface
+- 兴趣命中：agent, tool-use, reasoning, benchmark
+- 作者：Juseon Do, Sangmin Bae, Jeesu Jung, Hwanjun Song
+- 链接：[arXiv](https://arxiv.org/abs/2611.01926) · [PDF](https://arxiv.org/pdf/2611.01926) · [HF](https://huggingface.co/papers/2611.01926)
+
+LLM-based agentic systems are increasingly combined with CoT reasoning to solve tasks that require accurate reasoning, external knowledge, and multi-step deliberation. Yet, explicit CoT incurs substantial generation overhead, while implicit CoT, which replaces textual rationales with compact continuous tokens, does not naturally support the explicit communication interface required for agentic tool-use. We propose…
+
+## 16. SpecOPD: Branch-Parallel On-Policy Distillation for Speculative Decoding
+
+- 分数：22.5  ·  HF 赞：13  ·  来源：huggingface
+- 兴趣命中：agent, language model, large language, coding, spec
+- 作者：Tianyu Liu, Jun Zhang, Wenjie Huang, Yuhao Shen, Tianqi Xu, Xinyue Hao, Hongyaoxing Gu, Xuyang Liu, Baolin Zhang, Yating Zhu, Shuang Ge, Jun Dai, Lei Chen, Yue Li, Mingchen Wan
+- 链接：[arXiv](https://arxiv.org/abs/2611.02846) · [PDF](https://arxiv.org/pdf/2611.02846) · [HF](https://huggingface.co/papers/2611.02846)
+
+Speculative decoding (SD) accelerates large language model inference by reducing the sequential cost of token-by-token generation. Advanced SD methods reduce proposal cost with parallel drafters that predict entire blocks in one forward pass, but overall speedup still depends on acceptance length. On-policy distillation (OPD) can push well-trained drafters beyond acceptance-length plateaus, yet conventional…
+
+## 17. Random Is Almost Enough? Stable and Low-Cost Benchmark Compression via BestRand
+
+- 分数：22.0  ·  HF 赞：16  ·  来源：huggingface
+- 兴趣命中：agent, evaluation, benchmark
+- 作者：George Ling, Shanshan Zhong, Lijin Yang, Hao Yang, Nanxiang Li, Zhongzhan Huang
+- 链接：[arXiv](https://arxiv.org/abs/2611.00883) · [PDF](https://arxiv.org/pdf/2611.00883) · [HF](https://huggingface.co/papers/2611.00883)
+
+Benchmark compression reduces the often prohibitive time and cost of model evaluation by evaluating models on a small benchmark subset that closely matches full-benchmark results. To quantify estimation error, we derive an accurate analytical approximation to the error distribution when estimating full-benchmark scores from a subset, showing that most subsets yield small errors, while a few produce much larger…
+
+## 18. PyRUA-REAL: Robot Exploration and Adaptive Learning through RSI in the Real World
+
+- 分数：21.0  ·  HF 赞：10  ·  来源：huggingface
+- 兴趣命中：agent, memory, reasoning, evaluation, benchmark, coding, spec
+- 作者：Qiang Wang, Jianxin Bi, Shulong Jiang, Ruiyang Si, Wenbo Huang, Kaiqi Chen, Jiaxin Li, Liyun Li, Xuanyi Li, Daquan Zhou
+- 链接：[arXiv](https://arxiv.org/abs/2611.06768) · [PDF](https://arxiv.org/pdf/2611.06768) · [HF](https://huggingface.co/papers/2611.06768)
+
+Coding agents powered by models such as GPT-6-Astra connect spatial reasoning with executable robot behavior, raising the question of how such agents can produce lasting improvements in robot capabilities from physical interaction. In this work, we study embodied recursive self-improvement (RSI) through real-world exploration, code refinement, and deployment using PyRUA-REAL, a framework in which coding agents…
+
+## 19. NPCBench: A Clinical Apprenticeship Benchmark for Multimodal Care-Pathway Reasoning in Nasopharyngeal Carcinoma
+
+- 分数：20.5  ·  HF 赞：1  ·  来源：huggingface + arxiv
+- 兴趣命中：reasoning, evaluation, benchmark, spec, planning
+- 作者：Pengkai Wang, Wei-Wei Zhang, Yan Li, Min Tang, Zhitian Hou, Zeyu Liu, Guanghao Zhu, Yuanyi Wang, Yanggan Gu, Wenjun Wang, Minheng Ni, Congkai Xie, Zhijie Sang, Jianmin Wu, Ying Sun, Hongxia Yang
+- 链接：[arXiv](https://arxiv.org/abs/2611.08369) · [PDF](https://arxiv.org/pdf/2611.08369) · [HF](https://huggingface.co/papers/2611.08369)
+
+Current medical benchmarks typically break down clinical competence into isolated factual questions, single-image tasks, or static case vignettes. These tests score individual answers, but reveal less about whether a model can integrate subspecialty knowledge with multimodal evidence and track a patient's condition throughout a course of care. To close this gap, we introduce NPCBench, a clinical apprenticeship…
+
+## 20. LoopVQ: Sub 1-bit KV Cache Quantization for Looped Transformers
+
+- 分数：20.0  ·  HF 赞：8  ·  来源：huggingface
 - 兴趣命中：memory, reasoning, language model, retrieval
 - 作者：Minsoo Cheong, Sungjoo Yoo
 - 链接：[arXiv](https://arxiv.org/abs/2611.05304) · [PDF](https://arxiv.org/pdf/2611.05304) · [HF](https://huggingface.co/papers/2611.05304)
 
 Looped transformers are a parameter-efficient alternative to standard transformers for language modeling. By reapplying the same layers across multiple loop steps, recent looped language models match the performance of non-looped models several times their size. While this architecture effectively reduces parameter memory, each loop step still stores its own keys and values, so the key-value (KV) cache grows…
 
-## 46. SeMo3D: Unifying 3D Generation, Editing, and Completion via Selective Modeling
+## 21. StreamDuo: A Live Commentator and a Research Agent for Unseen Games
 
-- 分数：15.5  ·  HF 赞：3  ·  来源：huggingface
-- 兴趣命中：agent, benchmark, spec
-- 作者：Xiaokun Sun, Jian Yang, Zhenyu Zhang
-- 链接：[arXiv](https://arxiv.org/abs/2611.02568) · [PDF](https://arxiv.org/pdf/2611.02568) · [HF](https://huggingface.co/papers/2611.02568)
-
-3D generation, editing, and completion are typically treated as regenerating the complete 3D asset under task-specific constraints, even when only a local region needs modification. This leads to task isolation, inconsistency in content that should remain unchanged, and dependence on task-specific paired data. We address these issues with a key observation: the three tasks all synthesize a designated region while…
-
-## 47. Solv3R: 3D Looped Transformer as a Multi-view Solver
-
-- 分数：15.0  ·  HF 赞：10  ·  来源：huggingface
-- 兴趣命中：spec
-- 作者：Jeong-gi Kwak, Andrea Tagliasacchi, Sho Kagami, Yuki Ono, Kwang Moo Yi
-- 链接：[arXiv](https://arxiv.org/abs/2611.02857) · [PDF](https://arxiv.org/pdf/2611.02857) · [HF](https://huggingface.co/papers/2611.02857)
-
-Classical structure-from-motion reconstruction proceeds iteratively, refining camera poses and scene geometry from a current estimate. This allows maps to easily expand without recomputing already computed views, or geometry estimates to improve as more observations are provided. Most geometric foundation models, however, predict entire geometry in a single forward pass or update a recurrent state as frames arrive…
-
-## 48. FlowTranslator: Training-Free In-Image Machine Translation with Flow-Based Editing
-
-- 分数：15.0  ·  HF 赞：10  ·  来源：huggingface
-- 兴趣命中：spec
-- 作者：Zhixian Li, Xingsong Ye, Yongkun Du, Yunyan Xiao, Yanglin Huang, Pinxuan Chen, Jiyu Zhuang, Cong Xu, Zhineng Chen
-- 链接：[arXiv](https://arxiv.org/abs/2611.04303) · [PDF](https://arxiv.org/pdf/2611.04303) · [HF](https://huggingface.co/papers/2611.04303)
-
-In-image machine translation (IIMT) replaces text in an image with its translation while preserving the surrounding visual context. Existing task-specific models achieve convincing performance but require massive paired training images before and after translation. As advanced text-to-image (T2I) models have reached a practically usable level of multilingual text generation, we argue that this capability can be…
-
-## 49. BEND 2.0: Benchmarking the Capabilities Needed to Design DNA
-
-- 分数：15.0  ·  HF 赞：2  ·  来源：huggingface
-- 兴趣命中：benchmark, language model, spec
-- 作者：Andreas Bjerregaard, Rachael DeVries, Dionysia Danai Brilli, Panagiotis Antoniadis, Yan Li, Anders Krogh, Wouter Boomsma, Ole Winther, Frederikke Isa Marin
-- 链接：[arXiv](https://arxiv.org/abs/2611.03806) · [PDF](https://arxiv.org/pdf/2611.03806) · [HF](https://huggingface.co/papers/2611.03806)
-
-Genomic foundation models are increasingly used to propose DNA sequences and edits. But successful design requires capabilities that current benchmarks do not measure. Here we introduce BEND 2.0 (BENchmark for DNA language models), which tests how well models predict the effects of DNA changes and whether these predictions can guide sequence design. Across eight tasks built on five experimental datasets, we find…
-
-## 50. StreamDuo: A Live Commentator and a Research Agent for Unseen Games
-
-- 分数：14.5  ·  HF 赞：9  ·  来源：huggingface
+- 分数：19.5  ·  HF 赞：19  ·  来源：huggingface
 - 兴趣命中：agent
 - 作者：Zixian Gao, Penghao Luo, Xiangcheng Cao, Lixin Xiu, Ziqi Cai, Zhen Li, Erwin Wu, Kaipeng Zhang
 - 链接：[arXiv](https://arxiv.org/abs/2611.01120) · [PDF](https://arxiv.org/pdf/2611.01120) · [HF](https://huggingface.co/papers/2611.01120)
 
 Streaming video LLMs can now commentate live gameplay, but they are trained and tested on the same games. We study cross-game streaming commentary, in which a model trained on one game commentates games it has never seen, and find that current commentators transfer their timing but not their knowledge of the game world. We propose StreamDuo, which pairs a trainable commentator with a frozen research agent that reads…
 
-## 51. Human-to-Robot Transfer via Bridging Representation and Action Space in VLAs
+## 22. How I Aligned Your Model: Scaling Up Multilingual Safety Training with Templates
 
-- 分数：14.5  ·  HF 赞：9  ·  来源：huggingface
+- 分数：19.5  ·  HF 赞：7  ·  来源：huggingface
+- 兴趣命中：evaluation, language model, large language, spec
+- 作者：Max Neuwinger, Hanna Yukhymenko, Imanol Schlag
+- 链接：[arXiv](https://arxiv.org/abs/2610.40516) · [PDF](https://arxiv.org/pdf/2610.40516) · [HF](https://huggingface.co/papers/2610.40516)
+
+Safety alignment for Large Language Models is heavily focused on English with limited multilingual representation, particularly damaging low-resource language performance. Related open training datasets are often limited in size or do not follow region-localized harmful topics to broaden the scope of alignment beyond cultures. We propose a scalable template-based augmentation pipeline to produce massive multilingual…
+
+## 23. D3D: Decoupled Diffusion Drafting for Asynchronous Speculative Decoding
+
+- 分数：18.5  ·  HF 赞：9  ·  来源：huggingface
+- 兴趣命中：benchmark, coding, spec
+- 作者：Baoyou Chen, Ruiqiao Mei, Guancong Lin, Tao Song, Weihao Yuan, Qun Liu, Siyu Zhu
+- 链接：[arXiv](https://arxiv.org/abs/2611.06425) · [PDF](https://arxiv.org/pdf/2611.06425) · [HF](https://huggingface.co/papers/2611.06425)
+
+Target-conditioned diffusion drafters predict candidate tokens in parallel, yet each new block must wait for updated target-model hidden states. This forces drafting and verification to run sequentially, limiting speedup even though each block is generated in one pass. We introduce D3D, a standalone diffusion drafter that removes this inter-round dependency. D3D combines blockwise denoising with auxiliary…
+
+## 24. Solv3R: 3D Looped Transformer as a Multi-view Solver
+
+- 分数：18.0  ·  HF 赞：16  ·  来源：huggingface
+- 兴趣命中：spec
+- 作者：Jeong-gi Kwak, Andrea Tagliasacchi, Sho Kagami, Yuki Ono, Kwang Moo Yi
+- 链接：[arXiv](https://arxiv.org/abs/2611.02857) · [PDF](https://arxiv.org/pdf/2611.02857) · [HF](https://huggingface.co/papers/2611.02857)
+
+Classical structure-from-motion reconstruction proceeds iteratively, refining camera poses and scene geometry from a current estimate. This allows maps to easily expand without recomputing already computed views, or geometry estimates to improve as more observations are provided. Most geometric foundation models, however, predict entire geometry in a single forward pass or update a recurrent state as frames arrive…
+
+## 25. The SIMPLE Law for Energy Cost of LLM Inference
+
+- 分数：17.5  ·  HF 赞：7  ·  来源：huggingface
+- 兴趣命中：agent, memory, reasoning
+- 作者：Hiari Pizzini Cavagna, Andrea Proia, Daniele Cesarini, Zeynep Kiziltan, Andrea Bartolini
+- 链接：[arXiv](https://arxiv.org/abs/2611.03330) · [PDF](https://arxiv.org/pdf/2611.03330) · [HF](https://huggingface.co/papers/2611.03330)
+
+Generative AI is billed per token, yet tokens are not equally expensive. Each token enters the KV-cache and raises the cost of those that follow, so energy grows non-linearly along a sequence whose tokens look identical. No analytical model states what a token costs, and the most accurate SOTA model is a fit, not a law: it absorbs architecture into fitted coefficients, requiring per-LLM fitting. We derive…
+
+## 26. EDGAR: Efficient Diffusion-Driven Gaussian Avatar Refinement via Synthetic Failure
+
+- 分数：17.5  ·  HF 赞：7  ·  来源：huggingface + arxiv
+- 兴趣命中：evaluation
+- 作者：Kwan Yun, Minhyeok Bang, Colette Suhjung Koo, Junyong Noh
+- 链接：[arXiv](https://arxiv.org/abs/2611.07909) · [PDF](https://arxiv.org/pdf/2611.07909) · [HF](https://huggingface.co/papers/2611.07909)
+
+Recent advances in Gaussian splatting have enabled efficient and photorealistic head avatar reconstruction, yet monocular video-based or image-based methods still suffer from under-constrained geometry and texture, leading to artifacts such as blurring, stretching, and temporal instability. We present EDGAR (Efficient Diffusion-Driven Gaussian Avatar Refinement), a conditional diffusion framework designed to enhance…
+
+## 27. EvoMemState: Evolving Memory State for Personal Agents
+
+- 分数：17.5  ·  HF 赞：3  ·  来源：huggingface
+- 兴趣命中：agent, memory, reasoning, reinforcement learning, benchmark, language model, large language, spec, retrieval
+- 作者：Zhishang Xiang, Yunbo Tang, Zhongqiao Liu, Junkai Chen, Zerui Chen, Qingguo Hu, Yuxuan Zhang, William Grant, Qinggang Zhang, Jinsong Su
+- 链接：[arXiv](https://arxiv.org/abs/2611.03743) · [PDF](https://arxiv.org/pdf/2611.03743) · [HF](https://huggingface.co/papers/2611.03743)
+
+Long-term memory enables large language model (LLM) agents to provide continuous personalized assistance by retaining user information across interactions. Existing systems support this process through fact extraction, organization, updating, and retrieval, but largely maintain memories as independent facts. This fact-centric paradigm may overlook how new facts update, constrain, or conflict with earlier ones, while…
+
+## 28. Ask, Don't Equip: Question-Driven Coding Agents for Deep Kernel Optimization
+
+- 分数：17.0  ·  HF 赞：2  ·  来源：huggingface
+- 兴趣命中：agent, evaluation, coding, spec, retrieval
+- 作者：Gabriele Oliaro, Jaeseong Lee, Zhaoyuan Su, Sreeram Vennam, Zhihao Jia, Samyam Rajbhandari
+- 链接：[arXiv](https://arxiv.org/abs/2611.03517) · [PDF](https://arxiv.org/pdf/2611.03517) · [HF](https://huggingface.co/papers/2611.03517)
+
+LLM agents for GPU kernel optimization sit at two ends of a structure-freedom tradeoff. Scripted agents fix what the model does at each step, via a learned policy, an optimization menu, or fixed roles, and are sample-efficient where the recipe applies and stall where it does not. Open-ended agents let a self-directed model mutate a population of kernels and pay for the freedom in trials: thousands of evaluations,…
+
+## 29. Why Pay for Long Reasoning When Rewrite Do Trick? Causal Effects of Reasoning History Compaction on Future Generation and Agent Cost
+
+- 分数：17.0  ·  HF 赞：2  ·  来源：huggingface
+- 兴趣命中：agent, reasoning, language model, coding, spec
+- 作者：Anton Hristov
+- 链接：[arXiv](https://arxiv.org/abs/2611.03852) · [PDF](https://arxiv.org/pdf/2611.03852) · [HF](https://huggingface.co/papers/2611.03852)
+
+Reasoning substantially improves language models' ability to solve difficult problems, but long reasoning traces make these gains expensive. Efficient reasoning should express useful analysis in fewer tokens by reducing repetition and text that adds little value to solving the problem. Progress in proprietary models motivates this goal, yet their hidden scratchpads limit direct study of how it is achieved. We…
+
+## 30. Hybrid Computer Use: A Unified Programmatic, Semantic, and Visual Interface for General Agents
+
+- 分数：16.5  ·  HF 赞：13  ·  来源：huggingface
+- 兴趣命中：agent
+- 作者：Haoqing Wang, Xiaoyi Zhang, Sicheng Fan, Zhexin Zhang, Xinjie Zhang, Jiahao Li, Bin Li, Yan Lu
+- 链接：[arXiv](https://arxiv.org/abs/2610.41432) · [PDF](https://arxiv.org/pdf/2610.41432) · [HF](https://huggingface.co/papers/2610.41432)
+
+Computer-use agents increasingly tackle tasks ranging from everyday desktop activities to long-horizon professional workflows. Yet interfaces centered on screenshots and mouse-and-keyboard actions can impose a human-interaction prior, requiring repeated screen interpretation while leaving the computer's semantic and programmatic capabilities underexposed. We argue for exposing these capabilities and letting models…
+
+## 31. Human-to-Robot Transfer via Bridging Representation and Action Space in VLAs
+
+- 分数：16.5  ·  HF 赞：13  ·  来源：huggingface
 - 兴趣命中：spec
 - 作者：Junhyeong Park, Wook Jung, Taeyoung Kim, Huiwon Jang, Jinwoo Shin
 - 链接：[arXiv](https://arxiv.org/abs/2611.04391) · [PDF](https://arxiv.org/pdf/2611.04391) · [HF](https://huggingface.co/papers/2611.04391)
 
 Pretrained Vision-Language-Action (VLA) policies provide a strong starting point for deployment, but adapting them to a target robot and environment still requires costly embodiment-specific demonstrations. Human demonstrations are far easier to collect, yet directly leveraging them is challenging due to the substantial human-robot embodiment gap, particularly when the underlying VLA has been pretrained primarily on…
 
-## 52. Can AI Reviewers See Your Efforts to Improve Your Paper? A Large-Scale Study of Paper Revision Trajectories
+## 32. VisSearch-Bench: Evaluating Long Horizon Visual Search in Multimodal Agents
 
-- 分数：13.5  ·  HF 赞：7  ·  来源：huggingface
+- 分数：16.5  ·  HF 赞：9  ·  来源：huggingface
+- 兴趣命中：agent, retrieval
+- 作者：ZhengXian Wu, Qianhao Nie, Zhuohong Chen, Junjie Gao, Yuyao Zhang, Yunyao Yu, Hangrui Xu, Cheng Cheng, Guiyu Ma, Jin Zhang, Xingzhong Xu, Kai Yang, Haoqian Wang
+- 链接：[arXiv](https://arxiv.org/abs/2611.04894) · [PDF](https://arxiv.org/pdf/2611.04894) · [HF](https://huggingface.co/papers/2611.04894)
+
+Multimodal agents use web and image tools to answer questions beyond their internal knowledge. Some search tasks use images mainly to identify an initial entity, then rely on text retrieval. These tasks offer limited insight into how agents connect information across images, objects, and search steps. We therefore focus on visual context management. This involves organizing and using visual information and linking…
+
+## 33. Decode Before You Hear: Speculative Listening for Chunk-Interleaved Full-Duplex Speech Language Models
+
+- 分数：16.5  ·  HF 赞：1  ·  来源：huggingface
+- 兴趣命中：benchmark, language model, coding, spec
+- 作者：Yutong Bian, Yanglin Zhang, Yuxiang Wang, Luoyuan Zhang, Rongshen He, Zihao Wang, Junwen Qiu, Jiaqi Li, Zhizheng Wu
+- 链接：[arXiv](https://arxiv.org/abs/2611.06982) · [PDF](https://arxiv.org/pdf/2611.06982) · [HF](https://huggingface.co/papers/2611.06982)
+
+Chunk-interleaved full-duplex speech language models listen and speak in fixed time chunks, and each chunk must be processed before the next one arrives. Their workload is asymmetric across chunks: listen chunks leave compute idle while awaiting audio, and speak and tool-call chunks require serial generation, which delays responses and tool calls. Using the idle compute for the next chunk requires decoding it before…
+
+## 34. VA-TDM: A Unified View for Improving Few-Step Diffusion Models by Velocity Adversarial Distillation
+
+- 分数：16.0  ·  HF 赞：12  ·  来源：huggingface
 - 兴趣命中：spec
-- 作者：Yaochen Wang, Chenguang Wang, Ming Li, Haomin Zhuang, Xinyue Zeng, Han Chen, Kwesi Adu Cobbina, Dang Nguyen, Dianqi Li, Dawei Zhou, Tianyi Zhou
-- 链接：[arXiv](https://arxiv.org/abs/2611.02244) · [PDF](https://arxiv.org/pdf/2611.02244) · [HF](https://huggingface.co/papers/2611.02244)
+- 作者：Yihong Luo, Tianyu Pang, Tianyang Hu
+- 链接：[arXiv](https://arxiv.org/abs/2611.06796) · [PDF](https://arxiv.org/pdf/2611.06796) · [HF](https://huggingface.co/papers/2611.06796)
 
-AI reviewers are increasingly used to assess scientific manuscripts, yet it remains unclear whether their judgments reflect the improvements authors make through revision. We investigate this question using PaperTrajectory-2026, the 2026 release of PaperTrajectory, a dataset of 6,959 paper trajectories across five AI conferences, with automatic annotations of changes along 14 dimensions and separate judgments of…
+Few-step distillation offers efficient generation with diffusion and flow models, but preserving quality with only a few sampling steps remains challenging. Distribution-matching methods via score distillation provide a strong foundation, yet they rely on accurately tracking the student's changing distribution. At intermediate generation steps in few-step sampling, student-score estimation can be difficult, and…
 
-## 53. Near-Zero Token Embeddings Silently Stall Training in Gated Sequence Models
+## 35. VidDub: Replacement-Aware Distillation for Two-Step Video Dubbing
 
-- 分数：13.5  ·  HF 赞：7  ·  来源：huggingface
-- 兴趣命中：language model
-- 作者：Xin Liu, Boyuan Sun, Yuxin Wang, Haoran Song, Mingjian Zhao, Mengyu Liu
-- 链接：[arXiv](https://arxiv.org/abs/2611.04449) · [PDF](https://arxiv.org/pdf/2611.04449) · [HF](https://huggingface.co/papers/2611.04449)
+- 分数：16.0  ·  HF 赞：8  ·  来源：huggingface
+- 兴趣命中：evaluation, benchmark
+- 作者：Yexin Liu, Yunlong Lin, Zehan Wang, Guangxin He, Xinli Xu, Jiajun Zha, Yaofu Liu, Yueze Wang, Bowen Ping, Yuanming Li, Amie Wang, Bernard Ghanem, Bing Li, Harry Yang
+- 链接：[arXiv](https://arxiv.org/abs/2611.03404) · [PDF](https://arxiv.org/pdf/2611.03404) · [HF](https://huggingface.co/papers/2611.03404)
 
-Among 291 surveyed open-weight language model repositories (280 distinct embedding tables), 52.6% of untied gated and hybrid checkpoints (20/38) contain reachable input embeddings with norms below 10^{-6}, compared with 0% of weight-tied models. Such near-zero rows can arise during pretraining when unseen rare or template tokens receive zero input gradients while AdamW weight decay shrinks untied embeddings. In…
+Video dubbing aims to synthesize lip movements that match target speech while preserving the speaker identity, head pose, and background of a source video. Existing editors are predominantly trained via self-reconstruction under original paired audio, even though the source mouth becomes a conflicting target when driving speech is replaced. We introduce replacement-aware cross-audio supervision: paired-audio samples…
 
-## 54. VeriSpoof: Beyond Real or Fake with One Audio LLM
+## 36. NitroFusion2: Bringing Adversarial Loss to the Text Stream of Multimodal Diffusion Transformers
 
-- 分数：13.5  ·  HF 赞：3  ·  来源：huggingface
-- 兴趣命中：evaluation, language model
-- 作者：Yang Xiao, Ting Dang
-- 链接：[arXiv](https://arxiv.org/abs/2611.04634) · [PDF](https://arxiv.org/pdf/2611.04634) · [HF](https://huggingface.co/papers/2611.04634)
+- 分数：15.5  ·  HF 赞：7  ·  来源：huggingface
+- 兴趣命中：benchmark, spec
+- 作者：Dar-Yen Chen, Yi-Zhe Song
+- 链接：[arXiv](https://arxiv.org/abs/2611.05648) · [PDF](https://arxiv.org/pdf/2611.05648) · [HF](https://huggingface.co/papers/2611.05648)
 
-A speech deepfake detector estimates whether a recording is synthetic, but a forensic analyst also asks which system produced it, whether recordings share a source, and what evidence supports each conclusion. We present VeriSpoof, an audio language model that unifies five tasks with shared weights: deepfake detection, generator attribution (generator, acoustic model and vocoder), recording-condition analysis,…
+Adversarial diffusion distillation has conventionally relied on image features for discrimination. We revisit this choice for multimodal diffusion transformers (MMDiTs), whose text stream becomes image-dependent through joint attention. We introduce Text-Stream Adversarial Distillation (TSAD), which exploits intermediate text-token states as a new adversarial representation. Because the text stream has already read…
 
-## 55. SleuthVLM: Do We Really Need Audio-in-Video for Omni Video Understanding?
+## 37. WeLM-Image: A Unified Image Generation Model towards Visual Intelligence
 
-- 分数：13.5  ·  HF 赞：3  ·  来源：huggingface
+- 分数：15.5  ·  HF 赞：7  ·  来源：huggingface
+- 兴趣命中：evaluation, spec
+- 作者：Canmiao Fu, Chen Li, Guohui Zhang, Hao Lu, Hongyang Wei, Huadong Wu, Huaisong Zhang, Hubery Yin, Liyuan Cui, Qixin Yan, Tong Shao, Xiaoqiang Zhou, Xinhang Leng, Ying Zhang, Zhenhai Liu, Zhipeng Huang
+- 链接：[arXiv](https://arxiv.org/abs/2611.07392) · [PDF](https://arxiv.org/pdf/2611.07392) · [HF](https://huggingface.co/papers/2611.07392)
+
+We present WeLM-Image, a unified image foundation model that integrates multimodal understanding into text-to-image generation, instruction-guided editing, and multi-reference synthesis. Designed for single-GPU deployment in WeChat's large-scale consumer applications, the model processes text, reference images, and target latents as one interleaved sequence. A Mixture-of-Transformers (MoT) backbone combines shared…
+
+## 38. SleuthVLM: Do We Really Need Audio-in-Video for Omni Video Understanding?
+
+- 分数：15.0  ·  HF 赞：6  ·  来源：huggingface
 - 兴趣命中：agent, benchmark
 - 作者：Peiran Wu, Fangfei Gou, Zhaoxi Mu, Changhao Zhang, Jian Liu, Weiqiang Wang, Yuntao Wang, Yuanchun Shi, Junxiao Shen
 - 链接：[arXiv](https://arxiv.org/abs/2611.06083) · [PDF](https://arxiv.org/pdf/2611.06083) · [HF](https://huggingface.co/papers/2611.06083)
 
 Omni models answer questions about videos by jointly processing sampled frames and audio in one turn, with progress driven largely by scaling model size and omni training data. We ask whether a model needs to hear the audio directly at all, and present SleuthVLM, an agent harness built on a VLM that never hears the audio directly: speech will be transcribed into text, and the VLM will sleuth the video on its own…
 
-## 56. RoboTryOn: Synthesizing Dexterous Robot Demonstrations from Human Videos via Virtual Try-On
+## 39. VeriSpoof: Beyond Real or Fake with One Audio LLM
 
-- 分数：13.0  ·  HF 赞：6  ·  来源：huggingface
-- 兴趣命中：spec
-- 作者：Seungyong Lee, Suhyeok Jang, Minyoung Kim, Jinwoo Shin
-- 链接：[arXiv](https://arxiv.org/abs/2611.05163) · [PDF](https://arxiv.org/pdf/2611.05163) · [HF](https://huggingface.co/papers/2611.05163)
+- 分数：14.5  ·  HF 赞：5  ·  来源：huggingface
+- 兴趣命中：evaluation, language model
+- 作者：Yang Xiao, Ting Dang
+- 链接：[arXiv](https://arxiv.org/abs/2611.04634) · [PDF](https://arxiv.org/pdf/2611.04634) · [HF](https://huggingface.co/papers/2611.04634)
 
-Robot foundation models have shown remarkable performance in robot control, yet adapting them to a new task still relies heavily on teleoperated demonstrations. Egocentric human videos offer a scalable substitute, but overlaying rendered robots on human videos or retargeting human poses into robot actions leaves significant visual or action gaps for high-DoF robot embodiments. To address this limitation, we propose…
+A speech deepfake detector estimates whether a recording is synthetic, but a forensic analyst also asks which system produced it, whether recordings share a source, and what evidence supports each conclusion. We present VeriSpoof, an audio language model that unifies five tasks with shared weights: deepfake detection, generator attribution (generator, acoustic model and vocoder), recording-condition analysis,…
 
-## 57. Do We Need an LLM to Know Why Sources Conflict? Decision Models for Knowledge-Conflict Typing in RAG
+## 40. Monitor Accuracy Isn't the Answer: A Decision-Value Framework for Evaluating AI Agent Restart Monitors
+
+- 分数：13.0  ·  HF 赞：2  ·  来源：huggingface
+- 兴趣命中：agent, spec
+- 作者：Siddharth Jain, Venkat N. Vedam
+- 链接：[arXiv](https://arxiv.org/abs/2610.36544) · [PDF](https://arxiv.org/pdf/2610.36544) · [HF](https://huggingface.co/papers/2610.36544)
+
+Classification accuracy and true-positive and false-positive rates alone do not determine whether restarting an AI agent improves success. Using an exact alarm-to-action identity for an independent clean restart with zero monitoring overhead, we show analytically that a monitor with fixed 90% accuracy can swing from a five-percentage-point loss to a 35-point gain in success rate, depending solely on the replacement…
+
+## 41. Open-HumanScale: An Open Recipe for Scaling Human and Robot Experience for Embodied Foundation Models
+
+- 分数：13.0  ·  HF 赞：2  ·  来源：huggingface
+- 兴趣命中：evaluation, benchmark
+- 作者：Juncheng Ma, Jiaxin Li, Jiankai Tu, Bo Liang, Guodong Lv, Yufan Deng, Junzhe Tang, Liangzhu Yang, Chen Bian, Zicong Cao, Baohao Zhu, Jianxin Bi, Tengfei Yan, Yinyuan Zhang, Kewei Zhang, Xinglong Chen, Kaiqi Chen, Duomin Wang, Xiaotian Tang, Liang Tan, Li Li, Yuan Xu, Haosen Yang, Yuqi Wang, Jingfei Xia, Songyan Huang, Zhiyang Dou, Zhen Dong, Enze Xie, Tat-Seng Chua, Daquan Zhou
+- 链接：[arXiv](https://arxiv.org/abs/2611.06817) · [PDF](https://arxiv.org/pdf/2611.06817) · [HF](https://huggingface.co/papers/2611.06817)
+
+Egocentric human video offers a scalable source of manipulation priors for robot learning, yet translating raw data scale into generalizable robot policies demands rigorous data curation and training recipes. We introduce Open-HumanScale, the first fully open recipe for scaling egocentric pretraining to 50,000 hours, anchored by Open-HumanScale-50K---a curated egocentric video corpus densely annotated with hand…
+
+## 42. UniRestorer++: Scalable Universal Image Restoration with Multi-Granularity Degradation Modeling
 
 - 分数：13.0  ·  HF 赞：2  ·  来源：huggingface
 - 兴趣命中：benchmark, spec
-- 作者：Parv Khatri, Harshul Jain, Mehak Kapoor, Tanya Sah
-- 链接：[arXiv](https://arxiv.org/abs/2610.36915) · [PDF](https://arxiv.org/pdf/2610.36915) · [HF](https://huggingface.co/papers/2610.36915)
+- 作者：Jingbo Lin, Zhilu Zhang, Fan Li, Renjing Pei, Wenbo Li, Hang Xu, Hongzhi Zhang, Wangmeng Zuo
+- 链接：[arXiv](https://arxiv.org/abs/2611.06042) · [PDF](https://arxiv.org/pdf/2611.06042) · [HF](https://huggingface.co/papers/2611.06042)
 
-When the sources retrieved for a query disagree, the right response depends on why they disagree: a question with several valid answers, a contested topic, stale information and a false source each call for different behaviour. Cattan et al. (2025) showed that telling a generator the conflict type improves its responses by about 24 points, but that predicting the type is hard even for frontier LLMs. We study whether…
+Universal image restoration aims to handle diverse degradations within a single model, but a reliable scaling strategy remains underexplored. Increasing backbone depth and width can lead to performance saturation, while degradation-aware specialization depends on accurate degradation estimation and is vulnerable to errors on out-of-distribution and real-world inputs. We propose UniRestorer++, a scalable framework…
 
-## 58. Is Your Long-Horizon Benchmark Really Deep? Measuring and Synthesizing Depth in Terminal Tasks
+## 43. AnchorComplete: Recovering Complete Scene Meshes from Partial Point Clouds
 
-- 分数：13.0  ·  HF 赞：2  ·  来源：huggingface
-- 兴趣命中：agent, benchmark
-- 作者：Yu Jiang, Yue Huang, Hang Hua, Yuyang Wu, Zixuan Weng, Olexandr Isayev, Yue Zhao, Zinan Lin, Xiangliang Zhang
-- 链接：[arXiv](https://arxiv.org/abs/2611.01927) · [PDF](https://arxiv.org/pdf/2611.01927) · [HF](https://huggingface.co/papers/2611.01927)
-
-Long-horizon terminal tasks are used to evaluate and train agents. Human-curated datasets are scarce, so many synthesis methods have emerged. They usually measure the length of a task by the turns a model needs to pass it, and its difficulty by labels the LLM sets during generation. We find, however, that the turn count largely reflects the habits of the model, not only the demands of the task, and that the labels…
-
-## 59. Every Pixel Is an Option: A System One Model for Medical Ultrasound Biometry
-
-- 分数：13.0  ·  HF 赞：2  ·  来源：huggingface
-- 兴趣命中：language model, spec
-- 作者：Moein Heidari, Junbo Rao, Yudan Chen, Yasamin Medghalchi, River Jiang, Wenjin Chen, David J. Foran, Jasmine Grewal, Ilker Hacihaliloglu
-- 链接：[arXiv](https://arxiv.org/abs/2611.03360) · [PDF](https://arxiv.org/pdf/2611.03360) · [HF](https://huggingface.co/papers/2611.03360)
-
-**Purpose:** Ultrasound biometry is widely used across various clinical applications, including prenatal and cardiac examinations, to obtain quantitative measurements by placing calipers at anatomical landmarks. However, these measurements remain subject to interoperator variability as they rely largely on manual caliper placement. Conventional methods often use specialized prediction heads for different ultrasound…
-
-## 60. Enhancing Stock Market Information Retrieval with Retrieval-Augmented Generation
-
-- 分数：12.5  ·  HF 赞：1  ·  来源：huggingface
-- 兴趣命中：spec, retrieval
-- 作者：Huan Phong Thai, Thu Anh Ngoc Le, Nhu Huynh Thi Le, Nhan Huu Tran, Lenh Cong Phan Pham, Hong Nhung Nguyen
-- 链接：[arXiv](https://arxiv.org/abs/2611.03747) · [PDF](https://arxiv.org/pdf/2611.03747) · [HF](https://huggingface.co/papers/2611.03747)
-
-Natural Language Processing (NLP) has been widely applied in financial domains, enabling automated analysis and retrieval of stock market information. However, traditional NLP-based systems often struggle with maintaining contextual accuracy and generating relevant responses in dynamic financial environments. To address these challenges, Retrieval-Augmented Generation (RAG) models have emerged as a powerful…
-
-## 61. GigaSpeech 3: Scaling Multi-Dialect Arabic Speech Recognition with Weakly Labeled Data
-
-- 分数：12.5  ·  HF 赞：1  ·  来源：huggingface
-- 兴趣命中：evaluation, spec
-- 作者：Junzhe Liu, Yujie Tu, Yifan Yang, Peng Wang, Haoran Wang, Guodong Lin, Leyan Liao, Chengquan Zhang, Zhifu Gao, Xiangang Li, Qinyuan Cheng, Xipeng Qiu, Wei-Qiang Zhang, Guoguo Chen, Kai Yu, Xie Chen
-- 链接：[arXiv](https://arxiv.org/abs/2611.02476) · [PDF](https://arxiv.org/pdf/2611.02476) · [HF](https://huggingface.co/papers/2611.02476)
-
-Dialectal Arabic speech recognition remains constrained by the scarcity of dialect-resolved transcribed speech despite the abundance of web audio. We introduce GigaSpeech 3, a corpus of 39,000 hours and 10 million weakly transcribed speech segments covering Algerian, Egyptian, Iraqi, Saudi, and Syrian Arabic. Starting from 60 hours of manual transcription per dialect, we train labeling models using…
-
-## 62. Length Is Cheap, Competition Is Not: Attention Predicts Context Rot in Retrieval
-
-- 分数：12.0  ·  HF 赞：0  ·  来源：huggingface
-- 兴趣命中：language model, retrieval
-- 作者：Yinuo Liu
-- 链接：[arXiv](https://arxiv.org/abs/2611.04169) · [PDF](https://arxiv.org/pdf/2611.04169) · [HF](https://huggingface.co/papers/2611.04169)
-
-Why do language models fail on long inputs? The common answer is length. We show that, for retrieval, length is cheap and competition is not. On five open models (0.5B to 3B parameters, four families), neutral filler costs nothing: accuracy stays at 0.97 to 1.00, up to 32K tokens on Qwen2.5-1.5B. Statements in the format of the evidence, placed at the same positions, drop it to 0.16 to 0.33. A single statement that…
-
-## 63. AnchorComplete: Recovering Complete Scene Meshes from Partial Point Clouds
-
-- 分数：11.0  ·  HF 赞：6  ·  来源：huggingface
+- 分数：12.5  ·  HF 赞：9  ·  来源：huggingface
 - 兴趣命中：-
 - 作者：Weirong Chen, Ismail El-Yamany, Ganlin Zhang, Chuanxia Zheng, Andrea Vedaldi, Daniel Cremers
 - 链接：[arXiv](https://arxiv.org/abs/2611.03228) · [PDF](https://arxiv.org/pdf/2611.03228) · [HF](https://huggingface.co/papers/2611.03228)
 
 Most image-based 3D reconstructors primarily recover visible surfaces, producing partial point clouds with large holes and leaving unobserved geometry unresolved. To address this limitation, we introduce AnchorComplete, a framework that reconstructs complete scene meshes from partial point clouds while preserving observed geometry and supporting scenes of varying scales. Building on TRELLIS.2, our method combines…
 
-## 64. Muon Makes the First Mixture-of-Experts Layer Harder to Balance
+## 44. Identically Trained Language Models Break on Different Jailbreaks
 
-- 分数：11.0  ·  HF 赞：2  ·  来源：huggingface
-- 兴趣命中：language model
-- 作者：Marcos Hernanz
-- 链接：[arXiv](https://arxiv.org/abs/2610.37914) · [PDF](https://arxiv.org/pdf/2610.37914) · [HF](https://huggingface.co/papers/2610.37914)
+- 分数：12.0  ·  HF 赞：0  ·  来源：huggingface
+- 兴趣命中：benchmark, language model
+- 作者：Chi-Wei Chang, Mu-Tien Kuo, Kuan-Wei Lee, Meng-Hsun Tsai
+- 链接：[arXiv](https://arxiv.org/abs/2610.34074) · [PDF](https://arxiv.org/pdf/2610.34074) · [HF](https://huggingface.co/papers/2610.34074)
 
-Many open mixture-of-experts (MoE) language models train with Muon instead of AdamW. Most balance the load with a bias on each expert's routing score, adjusted after every step. Their recipes disagree on whether Muon should also train the router. In models with 55M and 108M active parameters, we measure how the optimizer changes the span of these biases, the largest minus the smallest in a layer. The span grows when…
+Jailbreak benchmarks test one checkpoint and treat which jailbreaks break it as a property of its pretraining data and safety training. We ask whether another pretraining run of the same data, given the same safety training, would break on the same jailbreaks. For each of 25 pretraining data recipes, we take 1B base models from 3 pretraining seeds and give each the same safety post-training with 2 post-training…
 
-## 65. Where to Learn and How Far to Roll Out: Efficient Adaptive Training for GUI Agents
+## 45. HERIT: Enabling Global Access to Hanja-to-English Historical Translation by Mitigating Temporal Bias
 
-- 分数：11.0  ·  HF 赞：2  ·  来源：huggingface
-- 兴趣命中：agent
-- 作者：Yuxiang Chai, Quyu Kong, Panrong Tong, Steven Hoi, Yue Wang
-- 链接：[arXiv](https://arxiv.org/abs/2610.39251) · [PDF](https://arxiv.org/pdf/2610.39251) · [HF](https://huggingface.co/papers/2610.39251)
+- 分数：12.0  ·  HF 赞：0  ·  来源：huggingface
+- 兴趣命中：evaluation, retrieval
+- 作者：Dayeon Jeong, Kyeongpil Kang
+- 链接：[arXiv](https://arxiv.org/abs/2611.04949) · [PDF](https://arxiv.org/pdf/2611.04949) · [HF](https://huggingface.co/papers/2611.04949)
 
-Trajectory-level GRPO is a common approach for training multi-step GUI agents, but repeatedly rolling out complete trajectories from the task root can be inefficient: task-level rewards provide coarse supervision over which intermediate decisions require improvement, while already-mastered prefixes are repeatedly re-executed before reaching difficult states. We introduce a two-stage adaptive training framework that…
+Historical archives are invaluable for multidisciplinary research but remain inaccessible globally due to severe language barriers. While manual translation is prohibitively expensive and time-consuming, simply applying existing machine translation models is inadequate due to unique linguistic nuances and the temporal bias inherent in scarce human-labeled corpora. To address these challenges, we propose HERIT, a…
 
-## 66. What We Keep of What We Forget: Replacement Operators and Routing Semantics in Training-Free MoE Expert Pruning
+## 46. DRAP: Dynamics-Risk Adaptive Plasticity for Continual Learning in Physical AI
 
-- 分数：11.0  ·  HF 赞：2  ·  来源：huggingface
-- 兴趣命中：evaluation
-- 作者：Ezza Ali, Sehrish Bibi, Momina Moetesum, Faisal Shafait
-- 链接：[arXiv](https://arxiv.org/abs/2610.41366) · [PDF](https://arxiv.org/pdf/2610.41366) · [HF](https://huggingface.co/papers/2610.41366)
+- 分数：12.0  ·  HF 赞：0  ·  来源：huggingface
+- 兴趣命中：agent, memory
+- 作者：Oswaldo Ludwig
+- 链接：[arXiv](https://arxiv.org/abs/2611.05029) · [PDF](https://arxiv.org/pdf/2611.05029) · [HF](https://huggingface.co/papers/2611.05029)
 
-Training-free expert pruning makes two decisions: which experts to remove, and what the layer computes when its router still selects a removed expert. Published methods change both at once. Holding the mask fixed, we compare replacement operators from three families on OLMoE, DeepSeek-V2-Lite and Moonlight, with Granite as a fourth router, using paired, multiplicity-corrected tests. The largest effect is a choice…
+Continual learning in physical AI differs from conventional continual learning because small per-step policy errors can accumulate over a trajectory. Each deviation may move the agent outside the training distribution, increase subsequent prediction errors, and ultimately cause closed-loop task failure. This work introduces Dynamics-Risk Adaptive Plasticity (DRAP), a replay-free method that estimates the historical…
 
-## 67. Is Forgetting Unified? Exploring Concept Unlearning in Unified Multimodal Models
+## 47. Multi-layer Indexer: Overlapping Selection and Attention in DeepSeek Sparse Attention
 
-- 分数：11.0  ·  HF 赞：2  ·  来源：huggingface
+- 分数：11.5  ·  HF 赞：3  ·  来源：huggingface
+- 兴趣命中：long context
+- 作者：Serdarcan Dilbaz, Arjun Krishna, Kiran Kamble, Daniel M. Bikel
+- 链接：[arXiv](https://arxiv.org/abs/2611.03768) · [PDF](https://arxiv.org/pdf/2611.03768) · [HF](https://huggingface.co/papers/2611.03768)
+
+Sparse attention cuts the cost of long-context inference by making the attention matrix sparse: each query attends only a subset of the sequence, chosen by a fixed pattern or, in recent production LLMs, learned per query. In DeepSeek Sparse Attention (DSA), the attention of DeepSeek-V3.2 and the GLM-5 family, every layer is preceded by a lightning indexer that scores the whole cache and keeps the k=2048…
+
+## 48. Koopman Generative Operators for Efficient Probabilistic Time-Series Forecasting
+
+- 分数：11.5  ·  HF 赞：3  ·  来源：huggingface
 - 兴趣命中：benchmark
-- 作者：Zhongkai Xue, Junkai Chen, Mingcong Lei, Rumo Zhang, Yixiao Liu, Zhimin Sun, Shu Wu, Qiang Liu, Lihua Zhang, Liang Wang
-- 链接：[arXiv](https://arxiv.org/abs/2611.04467) · [PDF](https://arxiv.org/pdf/2611.04467) · [HF](https://huggingface.co/papers/2611.04467)
+- 作者：Raz Marshanski, Liran Nochumsohn, Mayank Jauhari, Boris N. Oreshkin, Omri Azencot
+- 链接：[arXiv](https://arxiv.org/abs/2611.04760) · [PDF](https://arxiv.org/pdf/2611.04760) · [HF](https://huggingface.co/papers/2611.04760)
 
-Unified multimodal models (UMMs) integrate image generation and visual understanding, but are existing single-pathway unlearning methods sufficient to suppress target concepts across both? In this work, we study cross-pathway concept unlearning. Our goal is to prevent a model from both generating images of a target concept and identifying it in input images, while preserving other capabilities. To this end, we…
+Probabilistic time-series forecasting requires models that simultaneously capture structured temporal dynamics, expressive uncertainty, and efficient inference, yet existing approaches fall short of this goal: latent dynamical models impose structure but rely on restrictive generation mechanisms, while modern generative methods such as diffusion and flow matching achieve flexibility at the cost of iterative and…
 
-## 68. Cross-Prompt Reuse of Entity-Replacement Responses
-
-- 分数：10.5  ·  HF 赞：1  ·  来源：huggingface
-- 兴趣命中：spec
-- 作者：Jinkun Chen, Xuemin Yu, Sijia Han, Vlado Keselj
-- 链接：[arXiv](https://arxiv.org/abs/2611.00352) · [PDF](https://arxiv.org/pdf/2611.00352) · [HF](https://huggingface.co/papers/2611.00352)
-
-With model weights fixed, we measure how much of an entity-replacement response transfers between English factual questions, beyond whether answers change. We add the hidden-state change from two source questions to a target question about the same entity, comparing the predicted log-probability shift between two relations' published answers, given known answer prefixes, with the measured one. Hidden reuse injects…
-
-## 69. Say the Same, Act Differently: Diagnosing and Steering Text-Action Divergence in Reasoning VLAs
+## 49. SLA: Scaling Spatial-Language-Action Model via Continual Pre-training
 
 - 分数：10.0  ·  HF 赞：0  ·  来源：huggingface
-- 兴趣命中：reasoning
-- 作者：Zihao Feng, Qingzhao Zhang, Chunyu Xia, Bo Yu, Z. Morley Mao, Ramesh Govindan
-- 链接：[arXiv](https://arxiv.org/abs/2611.04166) · [PDF](https://arxiv.org/pdf/2611.04166) · [HF](https://huggingface.co/papers/2611.04166)
+- 兴趣命中：spec
+- 作者：Fuhao Li, Wenxuan Song, Qizhou Huang, Ziyang Zhou, Jingbo Wang, Junwu E, Pengwei Wang, Yan Wang, Shunbo Zhou, Haoang Li
+- 链接：[arXiv](https://arxiv.org/abs/2611.08373) · [PDF](https://arxiv.org/pdf/2611.08373) · [HF](https://huggingface.co/papers/2611.08373)
 
-Reasoning vision-language-action (VLA) models pair physical control with natural-language rationales that supervisors can read to monitor embodied safety. Prior attacks on VLA reasoning corrupt the rationale itself and leave visible evidence in the text. We show that visual perturbations can instead alter the physical action while keeping the generated rationale word-for-word identical. At the shared text/action…
+Reliable robotic manipulation requires both semantic understanding and precise control in three-dimensional space. However, vision-language-action (VLA) foundations largely inherit visual representations from 2D vision-language pre-training, while spatial supervision is often introduced only during task-specific adaptation. Developing spatial understanding as a transferable foundation-model capability therefore…
 
-## 70. Semantic Prior-Guided Incomplete Cross-Modal Retrieval with Noisy Labels
+## 50. GaussianRenderFormer: Transformer-based Rendering of 3D Gaussian Splats
 
-- 分数：9.0  ·  HF 赞：0  ·  来源：arxiv
-- 兴趣命中：memory, benchmark, spec, retrieval
-- 作者：Jiali Chen, Ruitao Pu, Yingke Chen, Dezhong Peng
-- 链接：[arXiv](https://arxiv.org/abs/2611.06113) · [PDF](https://arxiv.org/pdf/2611.06113) · [HF](https://huggingface.co/papers/2611.06113)
+- 分数：9.5  ·  HF 赞：3  ·  来源：huggingface
+- 兴趣命中：-
+- 作者：Shahaf Valencia Levy, Sagie Benaim
+- 链接：[arXiv](https://arxiv.org/abs/2611.05593) · [PDF](https://arxiv.org/pdf/2611.05593) · [HF](https://huggingface.co/papers/2611.05593)
 
-Cross-modal retrieval (CMR) aims to bridge the semantic gaps between modalities by learning shared representations. Unfortunately, due to the dynamism and inconsistencies in real-world data acquisition, multimodal datasets frequently encounter severe modality incompleteness. Existing incomplete CMR methods adhere to a label-driven paradigm, relying heavily on categorical annotations as the semantic benchmark.…
+Can a neural network learn to render 3D Gaussian splats on its own, with no rasterizer in the renderer? We present GaussianRenderFormer, a transformer that takes a set of Gaussians and a camera and outputs the image directly. Each Gaussian becomes one token in a view-independent encoder, and a view-dependent decoder turns small patches of camera rays into pixels by attending to those tokens. Trained on 26,820…
 
-## 71. ModalSearcher: Weaving Visual Evidence into Autonomous Cross-Modal Deep Search
+## 51. LiveFoley: Dynamic Real-Time Video-to-Audio Generation for Immersive Interactive Worlds
 
-- 分数：9.0  ·  HF 赞：0  ·  来源：arxiv
-- 兴趣命中：agent, reasoning, reinforcement learning, benchmark, language model, large language, spec
-- 作者：Zhihan Yin, Ruyi Li, Chengyu Fang, Yifeng Yao, Nonghai Zhang, Pengfei Xiong, Terry Zhang, Huishuai Zhang, Dongyan Zhao
-- 链接：[arXiv](https://arxiv.org/abs/2611.06131) · [PDF](https://arxiv.org/pdf/2611.06131) · [HF](https://huggingface.co/papers/2611.06131)
+- 分数：9.5  ·  HF 赞：3  ·  来源：huggingface
+- 兴趣命中：-
+- 作者：Yusheng Dai, Vladimir Iashin, Kangdi Wang, Yuxuan Jiang, Ilpo Viertola, Weiqiang Wang, Qiuhong Ke, Min Zhao, Jianfei Cai
+- 链接：[arXiv](https://arxiv.org/abs/2611.05988) · [PDF](https://arxiv.org/pdf/2611.05988) · [HF](https://huggingface.co/papers/2611.05988)
 
-Static and incomplete parametric knowledge limits the performance of multimodal large language models on novel-knowledge and knowledge-intensive tasks, especially those requiring multi-hop evidence acquisition. Existing multimodal agentic search methods often fix visual evidence at the input or a predefined trajectory position, making it difficult for agents to select search modalities as their information needs…
+Streaming video-to-audio (V2A) generation is essential for immersive interactive applications. However, real-time constraints leave existing streaming V2A methods far behind offline models: (1) visual frontends shrink their receptive fields to cut look-ahead latency, severely degrading audio-visual alignment; (2) causal autoregressive diffusion backends denoise each audio patch in isolation, impairing audio quality.…
 
-## 72. Accelerating Long-Context Decoding in Large-Scale Hybrid LLMs Without Retraining
+## 52. TaoMate-HD: Progressive-Resolution Autoregressive Audio-Video Generation
 
-- 分数：9.0  ·  HF 赞：0  ·  来源：arxiv
-- 兴趣命中：long context, language model, large language, coding
-- 作者：João Eduardo Batista, Emil Vatai, Mohamed Wahib
-- 链接：[arXiv](https://arxiv.org/abs/2611.06133) · [PDF](https://arxiv.org/pdf/2611.06133) · [HF](https://huggingface.co/papers/2611.06133)
+- 分数：9.0  ·  HF 赞：2  ·  来源：huggingface
+- 兴趣命中：-
+- 作者：Qijun Gan, Chenwei Zhang, Xinyang Li, Meiguang Jin, Junfeng Ma, Shen Qiu
+- 链接：[arXiv](https://arxiv.org/abs/2611.03394) · [PDF](https://arxiv.org/pdf/2611.03394) · [HF](https://huggingface.co/papers/2611.03394)
 
-The full-attention layers of large language models (LLMs) make every generated token more expensive than the previous one, slowing models down on long-context tasks. Hybrid models reduce this cost by replacing most full-attention layers with linear-attention layers, but the first still dominate decoding at long contexts. We accelerate these remaining layers without any training or weight changes using combined…
+Streaming digital humans produce detailed video while continuing speech as new text arrives. High-resolution denoising is costly, and text updates can cause repeated or interrupted speech. We present TaoMate-HD, an autoregressive model for high-resolution audio-video streaming. For each short segment, or chunk, two denoising steps establish coarse video structure at low resolution. A final step refines the video to…
 
-## 73. DSRS: Teaching MLLMs to Perceive, Reason, and Segment in Complex Driving Scenes
+## 53. Future Representation Distillation for Imagination-free World Action Models
 
-- 分数：9.0  ·  HF 赞：0  ·  来源：arxiv
-- 兴趣命中：reasoning, benchmark, language model, large language, spec
-- 作者：Sicen Guo, Zhengfei Song, Kuanhsun Chen, Xu Huang, Ping Zhong, Wei Ye, Shaoyi Du, Rui Fan
-- 链接：[arXiv](https://arxiv.org/abs/2611.06160) · [PDF](https://arxiv.org/pdf/2611.06160) · [HF](https://huggingface.co/papers/2611.06160)
+- 分数：9.0  ·  HF 赞：2  ·  来源：huggingface
+- 兴趣命中：-
+- 作者：Jaehyeong Jo, Sangwon Jang, Sihyun Yu, Seonghyeon Ye, Yekyung Nah, Hojung Jung, Kimin Lee, Sung Ju Hwang
+- 链接：[arXiv](https://arxiv.org/abs/2611.04527) · [PDF](https://arxiv.org/pdf/2611.04527) · [HF](https://huggingface.co/papers/2611.04527)
 
-Existing reasoning segmentation frameworks typically employ multimodal large language models (MLLMs) with broad world knowledge to extract semantics in a human-like manner and generate corresponding segmentation masks. Nevertheless, these frameworks lack the necessary scene-specific awareness. This paper introduces driving scene reasoning segmentation (DSRS), a scene-specific task that requires models to interpret…
+World Action Models (WAMs) use the predictive knowledge of pretrained video diffusion models for robot control through future video prediction. However, iterative video denoising is costly, and inaccurate visual predictions can compromise action prediction. Our key idea is to make this predictive knowledge available through visual representations computed from the current observation, enabling action prediction…
 
-## 74. AssameseLM-E2B: An Open-Weight Assamese Language Model for Efficient Consumer-Grade Deployment
-
-- 分数：9.0  ·  HF 赞：0  ·  来源：arxiv
-- 兴趣命中：evaluation, language model, large language, spec, retrieval
-- 作者：Pragyan Phukan
-- 链接：[arXiv](https://arxiv.org/abs/2611.06170) · [PDF](https://arxiv.org/pdf/2611.06170) · [HF](https://huggingface.co/papers/2611.06170)
-
-While Large Language Models (LLMs) excel in high-resource languages, their performance often degrades in low-resource languages due to tokenization inefficiencies, generative instability, and linguistic interference. This paper presents AssameseLM-E2B and its instruction-tuned variant, AssameseLM-E2B-it, a 2-billion-parameter model adapted specifically for low resource Assamese language. Built upon the Gemma-4…
-
-## 75. HarnessFlow: MCTS-Guided Harness Optimization for LLM Agents
+## 54. ReferClaw: Disambiguating User Intent for Egocentric Assistance
 
 - 分数：9.0  ·  HF 赞：0  ·  来源：arxiv
-- 兴趣命中：agent, evaluation, benchmark, language model, large language, coding, spec
-- 作者：Zhi Hong, Qianlong Wang, Hongchen Wei, Aidan Wu, Daohong Ying, Mingze Kong, Bei Liu, Chong Luo
-- 链接：[arXiv](https://arxiv.org/abs/2611.06254) · [PDF](https://arxiv.org/pdf/2611.06254) · [HF](https://huggingface.co/papers/2611.06254)
+- 兴趣命中：agent, evaluation, benchmark, spec
+- 作者：Hangyu Qin, Junbin Xiao, Angela Yao
+- 链接：[arXiv](https://arxiv.org/abs/2611.07683) · [PDF](https://arxiv.org/pdf/2611.07683) · [HF](https://huggingface.co/papers/2611.07683)
 
-The performance of large language model (LLM) agents depends on both the underlying model and the harness that governs interaction with tools and the environment. Yet harness design remains largely manual, and automating it requires navigating an open-ended search space through costly end-to-end evaluations. We introduce HarnessFlow, a framework for optimizing complete executable harnesses under a limited…
+Users of egocentric AI assistants often ask short, ambiguous questions whose intended referents cannot be uniquely resolved from video and dialogue history. For example, "Where did I leave it?" may refer to several previously handled objects. Existing VideoQA systems typically commit to a single interpretation, risking plausible but intention-misaligned answers. We introduce ReferClaw, an agentic framework that…
 
-## 76. A Systematic Benchmark for Evaluating Multimodal Personalized Reasoning of Vision-Language Models
-
-- 分数：9.0  ·  HF 赞：0  ·  来源：arxiv
-- 兴趣命中：reasoning, benchmark, language model, large language, spec
-- 作者：Dohyun Kim, Junyong Lhim, Kwanyong Park
-- 链接：[arXiv](https://arxiv.org/abs/2611.06259) · [PDF](https://arxiv.org/pdf/2611.06259) · [HF](https://huggingface.co/papers/2611.06259)
-
-People often make decisions by holistically reasoning over heterogeneous forms of personal information. In this paper, we study the relatively underexplored capability of multimodal personalized reasoning in multimodal large language models (MLLMs). To this end, we introduce \texttt{MPRBench}, a novel and comprehensive benchmark specifically designed to evaluate personalized reasoning across a wide range of tasks…
-
-## 77. A.S.E 2.0: Understanding How Repository Context Impacts the Security of LLM-Generated Code
+## 55. MCPHallu: Benchmarking Reasoning, Execution, and Memory Hallucinations in MCP Agents
 
 - 分数：9.0  ·  HF 赞：0  ·  来源：arxiv
-- 兴趣命中：agent, evaluation, benchmark, language model, large language, coding
-- 作者：Jiongchi Yu, Keke Lian, Junqing Wang, Zhikang Fan, Zhaoxuan Li, Yongheng Huang, Ziming Zhao, Dong Zhang
-- 链接：[arXiv](https://arxiv.org/abs/2611.06294) · [PDF](https://arxiv.org/pdf/2611.06294) · [HF](https://huggingface.co/papers/2611.06294)
+- 兴趣命中：agent, memory, reasoning, benchmark, language model, large language, spec
+- 作者：Yizhen Jiang, Haowei Guo, Tianyi Bai, Zengjie Hu, Lu Ma, Zhengyang Zhao, Haoze Sun, Peng Pei, Wentao Zhang
+- 链接：[arXiv](https://arxiv.org/abs/2611.07689) · [PDF](https://arxiv.org/pdf/2611.07689) · [HF](https://huggingface.co/papers/2611.07689)
 
-Large language model (LLM) coding assistants and agents construct a repository context before generating code. For security-sensitive code, this context decides whether the model sees the project's safeguards (e.g., authorization checks) or insecure code to imitate. However, context construction is designed almost exclusively for functional correctness, and secure-code benchmarks treat the context as fixed, so how…
+Large language model agents are increasingly deployed through the Model Context Protocol (MCP), which allows them to discover and invoke tools across multiple servers at runtime. Existing MCP benchmarks primarily measure task completion; where they diagnose failures, they do so after execution rather than building specific reasoning, execution, and memory failure risks into task construction. We introduce MCPHallu,…
 
-## 78. Multi-Resident Data Association in Smart Homes via MDP Modeling and Behavior Cloning
-
-- 分数：9.0  ·  HF 赞：0  ·  来源：arxiv
-- 兴趣命中：evaluation, benchmark, language model, large language, spec
-- 作者：Xi Chen, Julien Cumin, Fano Ramparany, Dominique Vaufreydaz
-- 链接：[arXiv](https://arxiv.org/abs/2611.06296) · [PDF](https://arxiv.org/pdf/2611.06296) · [HF](https://huggingface.co/papers/2611.06296)
-
-Ambient sensors offer a privacy-preserving solution for activity recognition in smart homes, yet they face a critical challenge in multi-resident environments known as Data Association, which aims to identify the resident triggering a specific anonymous sensor event. Existing approaches fundamentally fail to maintain global consistency by often yielding conflicting associations for silent residents. Additionally,…
-
-## 79. Traffic-VL: Reinforced Vision-Language Models for Generalizable End-to-End Traffic Signal Control
+## 56. CAMP: Context-Aware Mapping and Placement for LLMs on 3D-IMC Arrays
 
 - 分数：9.0  ·  HF 赞：0  ·  来源：arxiv
-- 兴趣命中：reasoning, reinforcement learning, evaluation, language model
-- 作者：Xingchen Zou, Maonan Wang, Kemou Jiang, Jie Li, Yiqi Chen, Xi Chen, Hai Yang, Yuxuan Liang
-- 链接：[arXiv](https://arxiv.org/abs/2611.06353) · [PDF](https://arxiv.org/pdf/2611.06353) · [HF](https://huggingface.co/papers/2611.06353)
+- 兴趣命中：memory, language model, large language, spec
+- 作者：Orhun Görkem, Athanasios Vasilopoulos, Georgios Pagonis, Victoria Clerico, Hadjer Benmeziane, Irem Boybat, Hsinyu Tsai, Abu Sebastian, William Andrew Simon
+- 链接：[arXiv](https://arxiv.org/abs/2611.07707) · [PDF](https://arxiv.org/pdf/2611.07707) · [HF](https://huggingface.co/papers/2611.07707)
 
-Existing traffic signal control methods typically rely on structured traffic states produced by dedicated perception pipelines. Emerging visual approaches often use idealized simulator images and convert them into intermediate representations before control, limiting their ability to directly exploit roadside visual observations. To bridge both the visual-domain and perception-to-decision gaps, we introduce SynTra-V…
+Large Language Models (LLMs) incur severe memory-access overheads due to the cost of loading large weight matrices and key-value (KV) caches. Analog In-Memory Computing (AIMC) is an emerging solution that enables computation directly on static weights stored in memory, substantially reducing energy and latency. 3D-IMC further stacks memory arrays into vertical tiers, increasing capacity but revealing a new…
 
-## 80. Training-Free Character-Length Control in Summarization with Diffusion Language Models
-
-- 分数：9.0  ·  HF 赞：0  ·  来源：arxiv
-- 兴趣命中：evaluation, benchmark, language model, spec
-- 作者：Steffen Castle, Nils Feldhus, Christopher Ebert, Leonhard Hennig, Sebastian Möller
-- 链接：[arXiv](https://arxiv.org/abs/2611.06371) · [PDF](https://arxiv.org/pdf/2611.06371) · [HF](https://huggingface.co/papers/2611.06371)
-
-Summarization with a fixed character length is important for tasks such as headline and article preview generation, where text must fit an exact space. Autoregressive language models (LMs) struggle with precise character-length control: training-based methods require task-specific fine-tuning, while zero-shot prompting strategies achieve only approximate compliance. We propose DELTA (Diffusion Expected Length…
-
-## 81. LegalEvolver: Agentic Legal Judgment Prediction via Rubric-Guided Self-Evolution
+## 57. Evaluating Token Probabilities as Confidence Estimators in Human Behavior Simulations: A Case Study in Luxembourgish Next Like Prediction
 
 - 分数：9.0  ·  HF 赞：0  ·  来源：arxiv
-- 兴趣命中：agent, reasoning, benchmark, spec, retrieval
-- 作者：Xinyu Yang, Jiejun Tan, Chenlong Deng, Chenghao Zhang, Tongyu Wen, Zhicheng Dou
-- 链接：[arXiv](https://arxiv.org/abs/2611.06381) · [PDF](https://arxiv.org/pdf/2611.06381) · [HF](https://huggingface.co/papers/2611.06381)
+- 兴趣命中：agent, language model, large language, spec
+- 作者：Nils Schwager, Simon Münker, Alistair Plum, Achim Rettinger
+- 链接：[arXiv](https://arxiv.org/abs/2611.07735) · [PDF](https://arxiv.org/pdf/2611.07735) · [HF](https://huggingface.co/papers/2611.07735)
 
-As LLM-based agents develop, they have been increasingly applied in the legal domain. Legal Judgment Prediction~(LJP) requires models to conduct multi-step reasoning and external legal evidence retrieval. Existing legal search agents' performance is often constrained by the quality of retrieval queries. They often formulate queries directly from the initial user request, overlooking latent legal issues and legally…
+As large language models (LLMs) are increasingly used to simulate human behavior, their operational validity is typically assessed through accuracy alone, implicitly treating human behavior as deterministic. We argue that on noisy digital trace data, a model's performance depends not only on predicting the correct outcome but on its calibration. We present a case study testing whether the token probabilities of…
 
-## 82. MA-Mesh: Resilient Multi-Agent Collaboration via Role-based Self-Healing
-
-- 分数：9.0  ·  HF 赞：0  ·  来源：arxiv
-- 兴趣命中：agent, tool use, reasoning, spec
-- 作者：JunYong Lee, Woo Kyung Kim, Honguk Woo
-- 链接：[arXiv](https://arxiv.org/abs/2611.06389) · [PDF](https://arxiv.org/pdf/2611.06389) · [HF](https://huggingface.co/papers/2611.06389)
-
-Effective collaboration in multi-agent systems requires mechanisms for coordination and adaptability in dynamic and uncertain environments. However, existing multi-agent systems rarely model resilience explicitly, instead relying on ad-hoc output correction that limits systematic, runtime management of robustness. In this work, we propose Multi-Agent Mesh (MA-Mesh), a framework that constructs a role-based…
-
-## 83. Zero-Shot Coordination among LLM Agents
+## 58. Automated Video-to-QA Pipeline: End-to-End Question Generation and Verification Using Large Language Models
 
 - 分数：9.0  ·  HF 赞：0  ·  来源：arxiv
-- 兴趣命中：agent, reasoning, evaluation, spec
-- 作者：Adrian Hayler, Shashank Reddy Chirra, Andrei Lupu, Johannes Forkel, Bidipta Sarkar, Siheng Feng, Jakob Foerster
-- 链接：[arXiv](https://arxiv.org/abs/2611.06409) · [PDF](https://arxiv.org/pdf/2611.06409) · [HF](https://huggingface.co/papers/2611.06409)
+- 兴趣命中：language model, large language, spec, retrieval
+- 作者：Jaival Chauhan, Vikram Singh, Pruthwik Mishra
+- 链接：[arXiv](https://arxiv.org/abs/2611.07755) · [PDF](https://arxiv.org/pdf/2611.07755) · [HF](https://huggingface.co/papers/2611.07755)
 
-We study zero-shot coordination (ZSC), where independently developed agents must coordinate at test time. While ZSC has been well studied in the RL literature, far less is known about the performance of LLM agents despite their increasing deployment in such settings. Existing work on LLM coordination often relies on specialised scaffolding that independently developed agents are unlikely to share in practice.…
+The exponential growth of educational and informational video content on platforms like YouTube presents a challenge for efficient knowledge retrieval and assessment. This paper proposes an end-to-end automated pipeline for extracting structured summaries and generating high-fidelity Question-Answer (QA) pairs from video streams. The framework integrates a cascade of state-of-the-art models: audio extraction is…
 
-## 84. Entropogram-guided Visual Realignment Decoding: Capturing the Rhythm of Multimodal Reasoning
-
-- 分数：9.0  ·  HF 赞：0  ·  来源：arxiv
-- 兴趣命中：reasoning, evaluation, benchmark, language model, large language, coding, spec
-- 作者：Jiaqi Deng, Zhe Fu, Yakun Chen, Dichang Zhang, Zonghan Wu, Xiaoshui Huang, Huan Huo, Guandong Xu
-- 链接：[arXiv](https://arxiv.org/abs/2611.06415) · [PDF](https://arxiv.org/pdf/2611.06415) · [HF](https://huggingface.co/papers/2611.06415)
-
-Multimodal large language models (MLLMs) have demonstrated remarkable progress on cross-modal reasoning tasks, yet they continue to suffer from hallucinations in long-chain reasoning processes. In this work, we revisit hallucination in MLLMs from the perspective of reasoning generation dynamics. We argue that entropy is not merely a static measure of uncertainty but a structured signal that reflects how modality…
-
-## 85. Mind Control of LLMs via Closed-Loop Stimulation: Out-of-Distribution Robustness
+## 59. BiGrounder: Bidirectional Training Unlocks the Potential of GUI Grounding
 
 - 分数：9.0  ·  HF 赞：0  ·  来源：arxiv
-- 兴趣命中：benchmark, language model, large language, spec
-- 作者：Kasra Fallah, Rudramani Singha, Hannah Ghanei, Paul Sajda, James Anderson, Erfan Zabeh
-- 链接：[arXiv](https://arxiv.org/abs/2611.06418) · [PDF](https://arxiv.org/pdf/2611.06418) · [HF](https://huggingface.co/papers/2611.06418)
+- 兴趣命中：agent, reinforcement learning, evaluation, benchmark
+- 作者：Dengyao Shi, Tianyu Fu, Fei Hu, Anyang Su, Hanning Wang, Shuo Wang, Minghui Wu, Chenxu Zhao, Zhen Lei
+- 链接：[arXiv](https://arxiv.org/abs/2611.07765) · [PDF](https://arxiv.org/pdf/2611.07765) · [HF](https://huggingface.co/papers/2611.07765)
 
-Brains and large language models need not be considered equivalent systems to reveal an interpretable commonality: both exhibit high-dimensional, nonlinear dynamics whose behavior can only be modeled imperfectly. This creates a shared challenge whenever we seek to intervene in their dynamics. A controller may either rely on a model identified around a particular operating regime and risk failure as the system moves…
+Graphical User Interface (GUI) grounding aims to map natural language instructions to precise operational coordinates, serving as a critical task for autonomous agent interaction. Current approaches formalize GUI grounding as predicting action-coordinate pairs from instructions, with end-to-end training supervised solely by final coordinates. Training datasets typically provide only a small number of descriptions…
 
-## 86. DreamRealm: Exploring and Materializing Hallucination Worlds for Trustworthy Vision-Language Models
-
-- 分数：9.0  ·  HF 赞：0  ·  来源：arxiv
-- 兴趣命中：benchmark, language model, large language, retrieval
-- 作者：Benlei Cui, Chunyang Chai, Yiliang Zhang, Xiaoqian Xia, Chengwen Yao, Song Li, Longtao Huang, Yuwen Zhai, Haiwen Hong
-- 链接：[arXiv](https://arxiv.org/abs/2611.06433) · [PDF](https://arxiv.org/pdf/2611.06433) · [HF](https://huggingface.co/papers/2611.06433)
-
-Multimodal large language models (MLLMs) remain prone to visual hallucinations when correct responses depend on subtle visual details. One line of post-training methods constructs visual contrasts through image retrieval, generation, or editing to improve fine-grained perception. However, these contrasts are not built around the model's own hallucinations, making it difficult to ensure that supervision targets its…
-
-## 87. SUMONE: A Simple and Efficient Summarizer for Plug-and-Play Agent Memory
-
-- 分数：9.0  ·  HF 赞：0  ·  来源：arxiv
-- 兴趣命中：agent, memory, evaluation, spec
-- 作者：Jizhe Zhang, Ang Li, Chenheng Zhang, Yisen Wang
-- 链接：[arXiv](https://arxiv.org/abs/2611.06445) · [PDF](https://arxiv.org/pdf/2611.06445) · [HF](https://huggingface.co/papers/2611.06445)
-
-Long-horizon language-model agents accumulate increasingly large interaction histories, making context compaction essential for efficient execution. Existing learned compaction methods often rely on downstream task outcomes or solver behavior, coupling training to specific tasks or agents. We introduce SumOne, a standalone summarizer trained to preserve information in agent histories through masked reconstruction.…
-
-## 88. LibriSpeech-Real-QA: A Benchmark for Streaming Question Answering
+## 60. PBPO: Prefix-Block Policy Optimization for Diffusion Language Models
 
 - 分数：9.0  ·  HF 赞：0  ·  来源：arxiv
 - 兴趣命中：evaluation, benchmark, language model, large language
-- 作者：Zewen Zhan, Hui Lu, Xueyuan Chen, Huimeng Wang, Yikai Huang, Xixin Wu, Shiyin Kang, Bin Xia, Zhiyong Wu
-- 链接：[arXiv](https://arxiv.org/abs/2611.06496) · [PDF](https://arxiv.org/pdf/2611.06496) · [HF](https://huggingface.co/papers/2611.06496)
+- 作者：Katherine Tieu, Dongqi Fu, Si Zhang, Hanqing Zeng, Tianxin Wei, Chenglin Wei, Yinglong Xia, Hong Li, Jingrui He
+- 链接：[arXiv](https://arxiv.org/abs/2611.07783) · [PDF](https://arxiv.org/pdf/2611.07783) · [HF](https://huggingface.co/papers/2611.07783)
 
-Most speech large language models (SLMs) still process speech in an offline manner. They only start responding after they receive the complete speech segment. However, many real-world applications require streaming speech interaction, for which the audio continuously flows in and the machine is required to answer questions based on the so far received audio chunks. For example, a user may ask the system to…
+Diffusion Large Language Models (dLLMs) commonly decode responses by proceeding autoregressively across blocks while iteratively denoising multiple tokens within each block. This structure makes block-level policy optimization a natural adaptation of autoregressive policy optimization. However, the exact likelihood of a completed block is intractable because it marginalizes over the intermediate states and reveal…
 
-## 89. Tools Need Not Speak in Text: Latent Context Compression for Agents
-
-- 分数：9.0  ·  HF 赞：0  ·  来源：arxiv
-- 兴趣命中：agent, benchmark, language model, large language
-- 作者：Yuetong Liu, Zhehao Zhou, Yitong Zhang, Haorui Chen, Jia Li
-- 链接：[arXiv](https://arxiv.org/abs/2611.06500) · [PDF](https://arxiv.org/pdf/2611.06500) · [HF](https://huggingface.co/papers/2611.06500)
-
-Large language model (LLM) agents typically append raw tool outputs to their context. Over multi-step interactions, long and noisy observations incur substantial context overhead and dilute the agent's attention to task-relevant information. Existing token pruning and summarization methods remain constrained by discrete text representations, limiting the achievable compression ratios. In this work, we challenge the…
-
-## 90. When Do Summaries Become Instructions? Unsupported Policy in LLM Agents' Self-Written Handoff Summaries
-
-- 分数：9.0  ·  HF 赞：0  ·  来源：arxiv
-- 兴趣命中：agent, tool-use, reasoning, spec
-- 作者：Wenhui Chu
-- 链接：[arXiv](https://arxiv.org/abs/2611.06545) · [PDF](https://arxiv.org/pdf/2611.06545) · [HF](https://huggingface.co/papers/2611.06545)
-
-Long-running LLM agents compact their context, replacing most history with a summary. We ask whether handoff summaries state permissions or requirements the record does not support, whether such sentences change what the next instance (the successor) does, and where they come from. Synthetic tool-use tasks carry a ground-truth permission ledger; same-snapshot replay reruns the successor with those whole sentences…
-
-## 91. RAGAM-AI: A Hybrid Reinforcement Learning based Agentic approach powered by Generative AI for Edge Resource Management
-
-- 分数：9.0  ·  HF 赞：0  ·  来源：arxiv
-- 兴趣命中：agent, memory, reinforcement learning, benchmark, language model, large language
-- 作者：Shreya K. Chari, John S. Vardakas, Kostas Ramantas, Christos Verikoukis
-- 链接：[arXiv](https://arxiv.org/abs/2611.06554) · [PDF](https://arxiv.org/pdf/2611.06554) · [HF](https://huggingface.co/papers/2611.06554)
-
-Resource management for distributed edge networks hosting different services has been handled efficiently using Reinforcement learning (RL). Reward generalization in complex workflows is still an open issue within the RL realm. Therefore, this work proposes RAGAM-AI, a hybrid framework that combines the capabilities of RL algorithms and Generative-AI (Gen-AI) for powering an Agentic AI workflow that optimizes…
-
-## 92. Verifier-Guided Self-Consistency: Test-Time Reasoning with Imperfect Generators and Verifiers
-
-- 分数：9.0  ·  HF 赞：0  ·  来源：arxiv
-- 兴趣命中：reasoning, benchmark, language model, large language, coding
-- 作者：Ekaterina Fadeeva, Xueyan Li, Mrinmaya Sachan, Maxim Panov
-- 链接：[arXiv](https://arxiv.org/abs/2611.06606) · [PDF](https://arxiv.org/pdf/2611.06606) · [HF](https://huggingface.co/papers/2611.06606)
-
-Large language models can solve many multi-step reasoning problems, but their reasoning remains brittle: plausible intermediate steps often lead to incorrect answers. Improving reasoning at test time requires balancing two imperfect signals: the generator, which provides diversity, and the verifier, which guides correctness. Existing approaches largely favor one side of this tradeoff. Verifier-weighted voting relies…
-
-## 93. SecureGARD: Dynamic Ontology-Guided Governance for Secure Tool-Using LLM Agents
+## 61. Generate-then-Rank: Learning Symbolic Goal Interpretation for Embodied Agents
 
 - 分数：9.0  ·  HF 赞：0  ·  来源：arxiv
 - 兴趣命中：agent, benchmark, language model, large language, planning
-- 作者：Guoqin Xiong, Shengtao Wen, Xiang Chen, Xinyi Zeng, Zhaoxin Fan, Wei Ye, Xiaofeng Cao, Sheng-Jun Huang
-- 链接：[arXiv](https://arxiv.org/abs/2611.06682) · [PDF](https://arxiv.org/pdf/2611.06682) · [HF](https://huggingface.co/papers/2611.06682)
+- 作者：Jisen Lei, Huizhi Liang
+- 链接：[arXiv](https://arxiv.org/abs/2611.07825) · [PDF](https://arxiv.org/pdf/2611.07825) · [HF](https://huggingface.co/papers/2611.07825)
 
-Tool-using large language model (LLM) agents translate model outputs into consequential actions, turning indirect prompt injection into an execution-security problem. Existing defenses constrain tool calls, trajectories, or information flows, but often leave action semantics, state dependencies, and evidence relations implicit, limiting generalization across heterogeneous tools and complicating safe updates. We…
+Goal interpretation is to translate a natural language instruction into a formal symbolic goal that a planner can execute. It is critical for embodied agents because any error here propagates to every downstream planning and action step. Doing it well requires both generating suitable candidates and reliably selecting among them. We present a two-stage generate-then-rank approach to Goal Interpretation in the…
 
-## 94. Sekai: Incremental Event Memory for Generalized Reasoning Video Segmentation
-
-- 分数：9.0  ·  HF 赞：0  ·  来源：arxiv
-- 兴趣命中：memory, reasoning, evaluation, benchmark
-- 作者：Zhengtao Liu, Jinrong Xu, Shiu-Hong Kao, Huixin Sun, Yicong Li
-- 链接：[arXiv](https://arxiv.org/abs/2611.06685) · [PDF](https://arxiv.org/pdf/2611.06685) · [HF](https://huggingface.co/papers/2611.06685)
-
-Online reasoning video segmentation (Online RVS) requires a model to segment query-referred objects as a video streams in, using only the frames observed so far. Existing formulations largely assume a fixed target set throughout the video, overlooking a fundamental property of streaming reasoning: as new events occur, the objects that satisfy a query may change over time. To address this, we propose a new task,…
-
-## 95. Reasoning over Non-Parametric Memory in Multilingual LLMs: A Cognitive-Based Analysis of Relational Knowledge
+## 62. Instantiating the Knowledge Plane
 
 - 分数：9.0  ·  HF 赞：0  ·  来源：arxiv
-- 兴趣命中：memory, reasoning, benchmark, language model, retrieval
-- 作者：Zohreh Abbasi Liasi, Batoul Hammoud, Anas Madkoor, Ehsaneddin Asgari
-- 链接：[arXiv](https://arxiv.org/abs/2611.06715) · [PDF](https://arxiv.org/pdf/2611.06715) · [HF](https://huggingface.co/papers/2611.06715)
+- 兴趣命中：agent, reasoning, language model, large language
+- 作者：Francisco Pereira, Justine Sherry, Pratiksha Thaker
+- 链接：[arXiv](https://arxiv.org/abs/2611.07827) · [PDF](https://arxiv.org/pdf/2611.07827) · [HF](https://huggingface.co/papers/2611.07827)
 
-Retrieval-augmented generation (RAG) assumes that language models can reason over relations stated in their context rather than fall back on associations memorized during pretraining. We study this evidence-conditioned relational reasoning in isolation, with the facts supplied directly in the prompt rather than retrieved. \textsc{Rel-Bloom} is a controlled multilingual diagnostic of 450 multiple-choice questions…
+In 2003, Clark et al. proposed the "Knowledge Plane", a layer of intelligent agents that share rich information about network state in order to collaboratively manage the Internet across administrative boundaries. The technology of the day lacked the two capabilities it demanded most: reasoning and unstructured communication. Thus, automated network management has remained largely confined to single domains, while…
 
-## 96. Template Gap Reconstruction for Shell Output Simulation with Small Language Models
-
-- 分数：9.0  ·  HF 赞：0  ·  来源：arxiv
-- 兴趣命中：evaluation, language model, coding, spec
-- 作者：Jarrod Ragsdale, Rajendra Boppana
-- 链接：[arXiv](https://arxiv.org/abs/2611.06731) · [PDF](https://arxiv.org/pdf/2611.06731) · [HF](https://huggingface.co/papers/2611.06731)
-
-Small language models offer a compact basis for shell simulation without executing submitted commands, but full-output decoding requires them to predict recurring utility structure alongside content that varies across executions. We introduce template gap reconstruction (TGR), which supplies reusable output literals interspersed with sentinels to be interleaved with autoregressively generated gaps. A template…
-
-## 97. Smartphone-Aided VR Exergames for HIIT: Gamifying Fitness with Real-Time Pose Estimation
-
-- 分数：9.0  ·  HF 赞：0  ·  来源：arxiv
-- 兴趣命中：evaluation, language model, large language, spec
-- 作者：Abhiram Kothagundu, Pheelip Pritipal Raipure, Abhijit Chandrakant Patil, Himangshu Sarma, Christian Eichhorn, David A. Plecher, Johanna Pirker
-- 链接：[arXiv](https://arxiv.org/abs/2611.06734) · [PDF](https://arxiv.org/pdf/2611.06734) · [HF](https://huggingface.co/papers/2611.06734)
-
-This paper introduces an innovative virtual reality (VR) exergame system designed to gamify High-Intensity Interval Training (HIIT) workouts through 11 predefined combo moves, including squat-punch combinations, bilateral arm strikes, and diagonal stretch combos. Unlike conventional tracking methods that often rely on wearable motion capture suits or limited headset-based sensors, our system uses a standard…
-
-## 98. Route First, See Later: Enabling Vision Agents to Reason Scientifically by Separating Routing Policy from Action Spaces
-
-- 分数：9.0  ·  HF 赞：0  ·  来源：arxiv
-- 兴趣命中：agent, reasoning, evaluation, benchmark, spec
-- 作者：Shubhabrata Mukherjee, Jeffrey Donatelli, Daniela Ushizima
-- 链接：[arXiv](https://arxiv.org/abs/2611.06760) · [PDF](https://arxiv.org/pdf/2611.06760) · [HF](https://huggingface.co/papers/2611.06760)
-
-Scientific image-analysis workflows require agents to select among diverse capabilities like description, detection, counting, and segmentation. Current multi-tool architectures conflate intent interpretation with visual execution, masking whether a failure arises from flawed reasoning (misrouting) or failed perception (invalid tool execution). This lack of auditability renders agents unreliable for high-stakes…
-
-## 99. Benchmarking Fine-Grained Visual Reasoning for Remote Sensing in Urban Management
-
-- 分数：9.0  ·  HF 赞：0  ·  来源：arxiv
-- 兴趣命中：reasoning, evaluation, benchmark, language model, large language, spec
-- 作者：Jiawei Zhang, Rizhao Cai, Dayan Guan
-- 链接：[arXiv](https://arxiv.org/abs/2611.06770) · [PDF](https://arxiv.org/pdf/2611.06770) · [HF](https://huggingface.co/papers/2611.06770)
-
-Fine-grained visual reasoning is essential for remote sensing in urban management, yet remains underexplored in the evaluation of multimodal large language models (MLLMs). We introduce UMBench, a fine-grained urban remote sensing benchmark built from unmanned aerial vehicle (UAV) images for multiple urban management tasks such as traffic monitoring, urban construction, environmental quality, and disaster warning.…
-
-## 100. Transforming Integer Grids to Spatial Intuition: Perception, Not Planning, Governs ARC-AGI-3
-
-- 分数：9.0  ·  HF 赞：0  ·  来源：arxiv
-- 兴趣命中：agent, reasoning, evaluation, planning
-- 作者：Harsidak Singh Banwait
-- 链接：[arXiv](https://arxiv.org/abs/2611.06793) · [PDF](https://arxiv.org/pdf/2611.06793) · [HF](https://huggingface.co/papers/2611.06793)
-
-Sample-efficient fluid intelligence requires agents that rapidly form working models of unfamiliar interactive environments. ARC-AGI-3 tests this across uninstructed visual games scored by Relative Human Action Efficiency, which penalizes exploratory waste quadratically. When frontier models read raw integer grids, serialization destroys spatial topology, and they spend hundreds of actions rediscovering basic…
-
-## 101. Task-Efficient Agent Evaluation Using Cached Traces
-
-- 分数：9.0  ·  HF 赞：0  ·  来源：arxiv
-- 兴趣命中：agent, evaluation, benchmark, spec
-- 作者：Ben Johnson, Hayden Helm
-- 链接：[arXiv](https://arxiv.org/abs/2611.06803) · [PDF](https://arxiv.org/pdf/2611.06803) · [HF](https://huggingface.co/papers/2611.06803)
-
-Efficient benchmarking estimates a system's full benchmark performance from a small number of task executions. Standard approaches rely solely on the binary correctness of executions from a collection of already-evaluated reference systems. An agentic system, however, produces a rich trace for each execution that can reveal substantially more about its capabilities. Leveraging this information requires useful trace…
-
-## 102. Before You Continue: Evaluating Time-Sensitive Safety Awareness in Conversational Assistants
+## 63. Which Signals of Code Correctness Survive Distribution Shift? Hidden-State and Causal Predictors of Program and Verdict Correctness
 
 - 分数：9.0  ·  HF 赞：0  ·  来源：arxiv
 - 兴趣命中：reasoning, benchmark, language model, large language
-- 作者：Peidi Dong, Yunze Xiao, Yu-Lin Tsai, Yichen Zheng, Heyuan Huang, Weihao Xuan, Mark Dredze, Jen-tse Huang
-- 链接：[arXiv](https://arxiv.org/abs/2611.06839) · [PDF](https://arxiv.org/pdf/2611.06839) · [HF](https://huggingface.co/papers/2611.06839)
+- 作者：Viola Campos, Thomas Klassert, Adrian Ulges
+- 链接：[arXiv](https://arxiv.org/abs/2611.07876) · [PDF](https://arxiv.org/pdf/2611.07876) · [HF](https://huggingface.co/papers/2611.07876)
 
-Large language model (LLM) assistants increasingly help users with everyday activities that involve time-dependent constraints. However, users may not mention these constraints in later requests, requiring assistants to recognize and adjust their advice accordingly. To evaluate such capability, we introduce TASC (Temporal Action Safety in Conversation), a benchmark that evaluates whether LLMs apply time-dependent…
+Large language models increasingly judge code, yet without external feedback such judgments are unreliable, and verifying them by executing tests or by extended reasoning is costly. Instead, execution-free correctness predictors use signals from the model's output probabilities, sampled solutions, or hidden states to identify judgments that warrant further verification. However, these predictors may degrade under…
 
-## 103. ServerBench: How can your coding agents design specialized LLM serving systems?
-
-- 分数：9.0  ·  HF 赞：0  ·  来源：arxiv
-- 兴趣命中：agent, benchmark, language model, large language, coding, spec
-- 作者：Xinrui Zhong, Zhiming Wang, Yongqi Liu, Zhaohui Wang, Shanglin Yang, Zikun Li, Zhuoming Chen, Beidi Chen
-- 链接：[arXiv](https://arxiv.org/abs/2611.06841) · [PDF](https://arxiv.org/pdf/2611.06841) · [HF](https://huggingface.co/papers/2611.06841)
-
-Large language model (LLM) coding agents develop software through experimentation, offering an opportunity to design the serving systems supporting their own operation. Effective serving requires coordinating implementation and operating decisions under session dependencies, latency constraints, and correctness requirements. We introduce ServerBench, a benchmark for agentic design of complete, specialized LLM…
-
-## 104. Visual Token Routing: Learning to keep tokens that matter
+## 64. WAM-Sim0.1: World Anchored Memory Meets Online RL for Consistent and Realistic Driving Simulation
 
 - 分数：9.0  ·  HF 赞：0  ·  来源：arxiv
-- 兴趣命中：agent, long context, benchmark, language model
-- 作者：Pranjal Aggarwal, Sean Welleck
-- 链接：[arXiv](https://arxiv.org/abs/2611.06854) · [PDF](https://arxiv.org/pdf/2611.06854) · [HF](https://huggingface.co/papers/2611.06854)
+- 兴趣命中：memory, benchmark, language model, coding
+- 作者：Jiahao Cui, Jiaye Li, Wenhao Zhang, Yaoyi Li, Shan Luan, Quanhui Tang, Jianhua Han, Lin Cheng, Hang Xu, Siyu Zhu
+- 链接：[arXiv](https://arxiv.org/abs/2611.07939) · [PDF](https://arxiv.org/pdf/2611.07939) · [HF](https://huggingface.co/papers/2611.07939)
 
-Computer-use agents (CUAs) have recently achieved superhuman performance on several long-horizon benchmarks. However, their computational cost limits their use in long-horizon tasks and real-time domains such as video games. A key bottleneck is representing each screenshot as thousands of visual tokens, which accumulate into long contexts as agents reason over extended interaction histories. We observe that most of…
+Autoregressive driving world models systematically suffer from structural drift, identity drift, and quality decay over long rollout horizons due to transient conditioning signals that lack persistent state. We present WAM-Sim, a driving world model anchored by a persistent hierarchical memory and optimized via online flow-matching RL. WAM-Sim structures persistent context across three temporal and semantic scales:…
 
-## 105. LongBanana: An Expert-Verified Benchmark for Long-Context Multi-Reference Image Synthesis
+## 65. Circe: Training-Free LLM Self-Evaluation via Component Interaction Consistency
+
+- 分数：9.0  ·  HF 赞：0  ·  来源：arxiv
+- 兴趣命中：evaluation, benchmark, language model, large language
+- 作者：Shuyi Miao, Zheng Li, Xu Xie, Linrui Xu, Fei Shen, Xiaoyu Du, Tat-Seng Chua
+- 链接：[arXiv](https://arxiv.org/abs/2611.07948) · [PDF](https://arxiv.org/pdf/2611.07948) · [HF](https://huggingface.co/papers/2611.07948)
+
+As large language models (LLMs) are increasingly deployed in real-world applications, evaluating the correctness of their responses is crucial for reliable use. However, such evaluation is challenging because reference answers are rarely available in practice. Existing reference-free methods mainly rely on output signals, which may assign high scores to incorrect responses and thus do not necessarily reflect…
+
+## 66. TCSExam: Evaluating Frontier LLMs on the Full Range of TCS Research
+
+- 分数：9.0  ·  HF 赞：0  ·  来源：arxiv
+- 兴趣命中：agent, evaluation, benchmark, language model, large language, spec
+- 作者：Yifan Luo, Zhengying Liu, Yang Yuan, Zhilin Yang, Andrew Chi-Chih Yao
+- 链接：[arXiv](https://arxiv.org/abs/2611.07962) · [PDF](https://arxiv.org/pdf/2611.07962) · [HF](https://huggingface.co/papers/2611.07962)
+
+Can large language models (LLMs) advance theoretical computer science and resolve its long-standing open conjectures? To study progress toward this goal, we introduce TCSExam, a unified framework and benchmark covering the full range of TCS research. It evaluates theorem proving, solver engineering, and constructions alongside direct attempts to resolve open conjectures, capturing both concrete research…
+
+## 67. QRAE: Query-Relevant Attention Entropy for Context Compression in DeepSearch Agents
+
+- 分数：9.0  ·  HF 赞：0  ·  来源：arxiv
+- 兴趣命中：agent, reasoning, evaluation, benchmark, spec
+- 作者：Yingjie Tan, Haiquan Qiu, Quanming Yao, Manyi Zhong, Xianzhi Yu, Yaqing Wang
+- 链接：[arXiv](https://arxiv.org/abs/2611.07976) · [PDF](https://arxiv.org/pdf/2611.07976) · [HF](https://huggingface.co/papers/2611.07976)
+
+DeepSearch LLM agents repeatedly search and carry retrieved sources into subsequent reasoning steps. This expanding context increases token consumption and latency, although many results do not contribute to later reasoning. We propose Query-Relevant Attention Entropy (QRAE), an online context compression method that uses sparse evidence-assessment heads to decide which intact retrieved chunks should persist across…
+
+## 68. How Far Can Lightweight LLMs Go in Intent-to-SLO Translation?
+
+- 分数：9.0  ·  HF 赞：0  ·  来源：arxiv
+- 兴趣命中：reasoning, evaluation, language model, large language
+- 作者：Sabbir Ahmed, Hazem Abbas, Salimur Choudhury
+- 链接：[arXiv](https://arxiv.org/abs/2611.07982) · [PDF](https://arxiv.org/pdf/2611.07982) · [HF](https://huggingface.co/papers/2611.07982)
+
+Intent-based networking (IBN) promises QoS provisioning in which the network derives the configuration from operator-stated goals. Its first step, translating a natural-language intent into enforceable service-level objectives (SLOs) grounded in a live snapshot of the network state, increasingly relies on large language models (LLMs). These large models add cost and energy to the management loop and typically…
+
+## 69. Compression Through a Context Lens: Evaluating Adaptation, Quantization, and Distillation in Arabic Legal LLMs
+
+- 分数：9.0  ·  HF 赞：0  ·  来源：arxiv
+- 兴趣命中：memory, evaluation, benchmark, language model, large language, spec
+- 作者：Md. Rafiul Biswas, George Mikros, Wajdi Zaghouani
+- 链接：[arXiv](https://arxiv.org/abs/2611.07988) · [PDF](https://arxiv.org/pdf/2611.07988) · [HF](https://huggingface.co/papers/2611.07988)
+
+Model compression can facilitate the deployment of large language models in resource-constrained legal settings, but its effects on domain-specific performance may depend on the evaluation protocol. We investigate this issue using ArabLegalEval, a Saudi Arabic legal benchmark, under both with-context and no-context evaluation. The former provides supporting legal passages, while the latter assesses performance…
+
+## 70. Automatic keyphrase extraction and annotation: modern theoretical approaches and practical solutions for text and speech
+
+- 分数：9.0  ·  HF 赞：0  ·  来源：arxiv
+- 兴趣命中：evaluation, language model, large language, spec
+- 作者：Daria Guseva, Olga Mitrofanova
+- 链接：[arXiv](https://arxiv.org/abs/2611.08006) · [PDF](https://arxiv.org/pdf/2611.08006) · [HF](https://huggingface.co/papers/2611.08006)
+
+The exponential growth of textual and audiovisual information has made the task of automatic keyphrase extraction (KE) increasingly significant. This article provides a comprehensive analysis of contemporary theoretical approaches and practical solutions for KE across both text and speech modalities. The primary contribution of this work is its systematic synthesis of these often-disparate research strands into a…
+
+## 71. DictLLM: Post-training Compression of Large Language Model with Dictionary Kernels
+
+- 分数：9.0  ·  HF 赞：0  ·  来源：arxiv
+- 兴趣命中：memory, reasoning, benchmark, language model, large language, spec
+- 作者：Jinho Park, Se Young Chun, Mingoo Seok
+- 链接：[arXiv](https://arxiv.org/abs/2611.08082) · [PDF](https://arxiv.org/pdf/2611.08082) · [HF](https://huggingface.co/papers/2611.08082)
+
+Efficient deployment of large language models (LLMs) on mobile devices requires balancing performance with compute and memory constraints. Post-training compression is an effective approach to managing this trade-off, while requiring much less computation than in-training counterparts. We propose DictLLM, a dictionary-based compression scheme in which weight matrices within grouped layers are decomposed into a…
+
+## 72. PersonaAgent: Retrieval-Augmented Transaction Anomaly Scoring with Refreshable Multi-Entity Persona Memory
+
+- 分数：9.0  ·  HF 赞：0  ·  来源：arxiv
+- 兴趣命中：agent, memory, benchmark, retrieval
+- 作者：Zhengyu Fang, Liang Wang, Yingtong Dou, Yuzhong Chen, Shubham Jain, Junpeng Wang, Xiran Fan, Menghai Pan, Jiarui Sun, Yan Zheng, Yiwei Cai
+- 链接：[arXiv](https://arxiv.org/abs/2611.08094) · [PDF](https://arxiv.org/pdf/2611.08094) · [HF](https://huggingface.co/papers/2611.08094)
+
+In large-scale payment networks, entities (card, merchant, etc.) and their interactions play a key role in transaction anomaly detection. However, transaction patterns between different entities usually change more frequently than the production model refresh schedule. Meanwhile, entity embedding tables suffer from high-cardinality and sparse interaction issues. To resolve the above challenges, we present…
+
+## 73. ProQuant: Progressive Quantization-aware Training for Edge MLLMs
+
+- 分数：9.0  ·  HF 赞：0  ·  来源：arxiv
+- 兴趣命中：memory, benchmark, language model, large language, spec
+- 作者：Yufei Xue, Yushi Huang, Jiawei Shao, Pingcheng Dong, Yonghao Tan, Shiyao Li, Kwang-Ting Cheng, Jun Zhang
+- 链接：[arXiv](https://arxiv.org/abs/2611.08216) · [PDF](https://arxiv.org/pdf/2611.08216) · [HF](https://huggingface.co/papers/2611.08216)
+
+Multi-modal large language models (MLLMs) with impressive perception and understanding capabilities will enable a range of downstream applications. However, their substantial computational and memory requirements hinder the real-world implementation, particularly for resource-constrained edge devices. Quantization has emerged as an effective solution for deploying large models. While post-training quantization (PTQ)…
+
+## 74. Agent-R$^2$: Scaling Agents for Realistic Productivity Work via Real-Source Data Synthesis
+
+- 分数：9.0  ·  HF 赞：0  ·  来源：arxiv
+- 兴趣命中：agent, tool use, reasoning, reinforcement learning, evaluation, language model, large language, spec
+- 作者：Teng Pan, Zixuan Wang, Yuchen Yan, Qifei Wu, Yao Chen, Yingqi Qu, Ruiqing Zhang, Yongliang Shen
+- 链接：[arXiv](https://arxiv.org/abs/2611.08219) · [PDF](https://arxiv.org/pdf/2611.08219) · [HF](https://huggingface.co/papers/2611.08219)
+
+Large language models have made rapid progress in agentic reasoning and tool use, raising expectations for agents that can take over realistic productivity work from humans. However, current agents still struggle to finish such tasks, where success requires following long-horizon professional workflows, understanding heterogeneous file contexts, and producing usable deliverables under fine-grained requirements. A…
+
+## 75. From Twisted Facts to Rogue Agents: Can LLMs Reliably Detect Multi-Dimensional Hallucinations?
+
+- 分数：9.0  ·  HF 赞：0  ·  来源：arxiv
+- 兴趣命中：agent, benchmark, language model, large language
+- 作者：Hanyu Qiu, Ze Liu, Zhe Zhao, Kuang Xiong, Blaze Chen, Zhenxiang Yan, Renfen Hu
+- 链接：[arXiv](https://arxiv.org/abs/2611.08231) · [PDF](https://arxiv.org/pdf/2611.08231) · [HF](https://huggingface.co/papers/2611.08231)
+
+Large language models (LLMs) are widely used for information access, content production, and agent-based task execution, but their outputs remain vulnerable to subtle, high-risk hallucinations. To systematically evaluate and advance post-generation hallucination detection, we introduce HaluCheck, a large-scale, bilingual benchmark comprising over 42k instances spanning both factual hallucinations in text and…
+
+## 76. Signals, Evidence, and Context: User Scrutiny in Real-World LLM Conversations
+
+- 分数：9.0  ·  HF 赞：0  ·  来源：arxiv
+- 兴趣命中：reasoning, language model, large language, spec
+- 作者：Ahana Biswas, Yu-Ru Lin
+- 链接：[arXiv](https://arxiv.org/abs/2611.08232) · [PDF](https://arxiv.org/pdf/2611.08232) · [HF](https://huggingface.co/papers/2611.08232)
+
+Large language models (LLMs) often present synthesized answers without making their supporting evidence easy to inspect. We study how features of these answers relate to users' subsequent accepting, checking, and challenging in 489,283 assistant-user response pairs from ShareChat and WildChat. Broad attribution language appears in 31.9% of qualifying responses, compared with explicit URLs in 1.33%, revealing a gap…
+
+## 77. Multimodal-SEA: Benchmarking AI Agent Security under Multimodal Social Engineering Attacks
 
 - 分数：9.0  ·  HF 赞：0  ·  来源：arxiv
 - 兴趣命中：agent, evaluation, benchmark, spec
-- 作者：Haoxiang Cao, Yuxuan Zhang, Penghui Du, Bo Li, Jiajiong Cao, Yingying Fan, Zimeng Wu, Yifu Luo, Mingzhe Zheng, Junwen Miao, Huaisong Zhang, Yang Yao, Yu Wang, Dongfu Jiang, Ping Nie, Wenhu Chen, Chaoqun Wang, Changqian Yu, Kelsey R. Allen
-- 链接：[arXiv](https://arxiv.org/abs/2611.06856) · [PDF](https://arxiv.org/pdf/2611.06856) · [HF](https://huggingface.co/papers/2611.06856)
+- 作者：Zhitao He, Chi Him Zhang, Chengru Han, Yi R Fung
+- 链接：[arXiv](https://arxiv.org/abs/2611.08281) · [PDF](https://arxiv.org/pdf/2611.08281) · [HF](https://huggingface.co/papers/2611.08281)
 
-We introduce LongBanana, to our knowledge the first expert-designed and expert-verified benchmark for long-context multi-reference image synthesis in the age of agent-driven image generation. The task requires retrieving dispersed visual evidence, rejecting distractors, binding entities and relations, and composing one coherent final image from multiple references. LongBanana contains 90 carefully designed tasks…
+Personal AI agents face social engineering attacks supported by forged multimodal content, but existing evaluations mainly focus on text-based dialogue, leaving their intrinsic security under such attacks insufficiently studied. We introduce Multimodal-SEA, an interactive benchmark comprising 608 expert-designed tasks grounded in real-world fraud cases, covering 14 domains and 152 attack scenarios with prepared…
 
-## 106. SpecCompact: Accelerating LLM Agent Context Compaction with Slot-Parallel Semantic Speculative Verification
-
-- 分数：9.0  ·  HF 赞：0  ·  来源：arxiv
-- 兴趣命中：agent, evaluation, benchmark, spec
-- 作者：Yulu An, Yifei Feng, Xiangyang Yin
-- 链接：[arXiv](https://arxiv.org/abs/2611.06876) · [PDF](https://arxiv.org/pdf/2611.06876) · [HF](https://huggingface.co/papers/2611.06876)
-
-LLM agents use context compaction to manage growing interaction histories, but summarizing long histories with large models can introduce substantial delays. Compaction therefore requires balancing information retention against latency. We observe that structured summary slots can retain information when generated independently. Based on this observation, we present SpecCompact, a framework that accelerates…
-
-## 107. BEAKER: An Expert-Curated Benchmark for Embodied Brains in Self-Driving Chemical Laboratories
+## 78. AutoCompress: Automated Hardware-Guided Model Compression
 
 - 分数：9.0  ·  HF 赞：0  ·  来源：arxiv
-- 兴趣命中：reasoning, benchmark, language model, large language, spec, planning
-- 作者：Fei Lin, Tengchao Zhang, Ziyang Gong, Xiaotong Yu, Bohan Zhang, Yifan Zhou, Qihao Yang, Ji Dai, Dong Li, Yining Jiang, Qinghua Ni, Jun Huang, Qiang Zhang, Yue Zhou, Zhihang Zhong, Yonglin Tian, Fei-Yue Wang, Xue Yang
-- 链接：[arXiv](https://arxiv.org/abs/2611.06911) · [PDF](https://arxiv.org/pdf/2611.06911) · [HF](https://huggingface.co/papers/2611.06911)
+- 兴趣命中：memory, benchmark, coding, spec
+- 作者：Sheldon Liang, Ali Taghibakhshi, Saurav Muralidharan, Sharath Turuvekere Sreenivas, Ashwath Aithal, Pavlo Molchanov, Nima Tajbakhsh
+- 链接：[arXiv](https://arxiv.org/abs/2611.08290) · [PDF](https://arxiv.org/pdf/2611.08290) · [HF](https://huggingface.co/papers/2611.08290)
 
-Self-Driving Chemical Laboratories (SDCLs) are moving chemical experimentation toward embodied automation, where machines must perceive laboratory scenes, reason about experimental states, and act under physical, procedural, and safety constraints. Although Multimodal Large Language Models (MLLMs) are increasingly considered as embodied brains for such systems, existing laboratory benchmarks mainly focus on safety,…
+LLM pruning must preserve quality while meeting hardware- and workload-specific constraints on latency, throughput, and memory. Existing pruning workflows often target parameter counts, requiring practitioners to manually select model sizes that meet latency, throughput, and GPU memory limits. However, parameter count alone does not predict these metrics, which depend on the model architecture, workload, hardware,…
 
-## 108. SphereFlow: Missing Modality Imputation via Geometric Transport on Hypersphere
+## 79. RM-VLM: From Natural-Language Task Descriptions to Vision-Grounded Reward Machines
 
-- 分数：8.5  ·  HF 赞：1  ·  来源：huggingface
-- 兴趣命中：-
-- 作者：Huihan Wang, Juncheng Wang, Yuxiang Feng, Wenlong Hou, Guoqi Yu, Chao Xu, Yang Liu, Baigui Sun, Shujun Wang
-- 链接：[arXiv](https://arxiv.org/abs/2611.04414) · [PDF](https://arxiv.org/pdf/2611.04414) · [HF](https://huggingface.co/papers/2611.04414)
+- 分数：9.0  ·  HF 赞：0  ·  来源：arxiv
+- 兴趣命中：agent, reinforcement learning, language model, large language
+- 作者：Roko Parac, Christos Ziakas, Leo Ardon, Alessandra Russo
+- 链接：[arXiv](https://arxiv.org/abs/2611.08308) · [PDF](https://arxiv.org/pdf/2611.08308) · [HF](https://huggingface.co/papers/2611.08308)
 
-Missing modality imputation aims to synthesize unobserved modalities from observed ones. Existing methods treat each modality as living on its own latent manifold, forcing the generator to learn a long, unstructured jump between them. We present SphereFlow, which takes a fundamentally different view: by projecting all modalities into a shared hyperspherical latent space via a frozen self-supervised encoder,…
+Reward machines (RMs) have been proposed as a reward formulation in reinforcement learning (RL) to capture non-Markovian tasks where credit assignment depends on history. By representing reward functions as automata, RMs expose the task's temporal structure and allow such rewards to be handled within a Markovian framework. However, they assume a labelling function, a proposition-grounding oracle for observations,…
 
-## 109. QFabric: Guarded Cross-Domain Task Recovery and Its Limits on a Linux-RTOS Board
+## 80. Benchmarking Large Language Models on Heterogeneous Cognitive and Biomedical Knowledge Graphs: The Role of Graph Grounding in Multi-Hop Reasoning and Hallucination Mitigation
 
-- 分数：8.0  ·  HF 赞：0  ·  来源：huggingface
-- 兴趣命中：-
-- 作者：Ayushman Bhattacharya, Anwesha Chakraborty
-- 链接：[arXiv](https://arxiv.org/abs/2611.01598) · [PDF](https://arxiv.org/pdf/2611.01598) · [HF](https://huggingface.co/papers/2611.01598)
+- 分数：9.0  ·  HF 赞：0  ·  来源：arxiv
+- 兴趣命中：reasoning, benchmark, language model, large language, spec
+- 作者：Ali Sarabadani, Kheirolah Rahsepar Fard, Tahereh Jeirani
+- 链接：[arXiv](https://arxiv.org/abs/2611.08315) · [PDF](https://arxiv.org/pdf/2611.08315) · [HF](https://huggingface.co/papers/2611.08315)
 
-Heterogeneous embedded boards pair a Linux application processor with a real-time microcontroller (MCU), which suggests moving a task between the two domains when its timing degrades. We present QFabric, a prototype that treats cross-domain placement as guarded recovery from a violated empirical soft real-time contract: a bounded task is compiled for both domains, monitored in windows with hysteresis, switched only…
+Large language models (LLMs) are increasingly used in biomedical and cognitive neuroscience, but their ability to reason reliably over heterogeneous knowledge graphs (KGs) remains unclear. We benchmark five LLMs (GPT-5.1, Gemini 2.0 Pro, Llama 3, Qwen, and BioGPT) across five KGs: DrugBank, NeuroSynth, Cognitive Atlas, Brain Map, and GDPKG. We introduce a multitier query dataset to evaluate reasoning depth and…
 
-## 110. Overview of the NTCIR-19 SciClaimEval Task: Cross-modal Claim Verification in Scientific Papers
+## 81. Learning the Task or Learning the Verifier? Rethinking Criteria Exposure in Embodied Self-Improvement
+
+- 分数：9.0  ·  HF 赞：0  ·  来源：arxiv
+- 兴趣命中：agent, benchmark, coding, spec
+- 作者：Wenbo Huang, Jianxin Bi, Shunyu Yang, Ruiyang Si, Rui Ni, Qiang Wang, Shulong Jiang, Yintianrun Zhang, Feixiang Ruan, Kewei Zhang, Ye Huang, Shukai Gong, Daquan Zhou
+- 链接：[arXiv](https://arxiv.org/abs/2611.08318) · [PDF](https://arxiv.org/pdf/2611.08318) · [HF](https://huggingface.co/papers/2611.08318)
+
+Self-improving embodied agents are increasingly being developed and compared on robot simulation benchmarks. Several recent works expose the benchmark's success criteria to the learning agent, a practice we call Criteria Exposure (CE). These criteria, originally written to verify policies trained by imitation learning, often demand more than the corresponding language instructions, so a score from such a verifier…
+
+## 82. SpecCTMC: Exact Speculative Simulation of Diffusion Language Model Continuous-Time Markov Chains
+
+- 分数：9.0  ·  HF 赞：0  ·  来源：arxiv
+- 兴趣命中：evaluation, benchmark, language model, coding, spec
+- 作者：Siva Rajesh Kasa, Yasong Dai, Sumit Negi, Hongdong Li
+- 链接：[arXiv](https://arxiv.org/abs/2611.08362) · [PDF](https://arxiv.org/pdf/2611.08362) · [HF](https://huggingface.co/papers/2611.08362)
+
+Masked diffusion language models offer parallel text generation, but independently sampling multiple tokens can disrupt their dependencies and change the output distribution. Exact continuous-time sampling avoids this approximation, yet typically requires one sequential model evaluation per token. We introduce SpecCTMC, a training-free speculative sampler that reduces this sequential bottleneck without a separate…
+
+## 83. StrataFlux: Memory-Hierarchy-Native Low-Bit LLM Inference
+
+- 分数：9.0  ·  HF 赞：0  ·  来源：arxiv
+- 兴趣命中：memory, language model, large language, coding
+- 作者：Jake Hyun, Ziyu Zhao, Jae-sun Seo, Mohamed S. Abdelfattah
+- 链接：[arXiv](https://arxiv.org/abs/2611.08363) · [PDF](https://arxiv.org/pdf/2611.08363) · [HF](https://huggingface.co/papers/2611.08363)
+
+Quantization reduces the memory and bandwidth demands of large language model (LLM) inference but can degrade accuracy; offloading higher-precision data can instead stall generation. We introduce StrataFlux, a framework that challenges this tradeoff by recovering accuracy lost to low-bit weight and key-value (KV) cache quantization while retaining quantization's memory and speed advantages. StrataFlux co-designs…
+
+## 84. Benchmarks as Software: Terminal-Bench and the Case for Continuous Benchmarks
+
+- 分数：9.0  ·  HF 赞：0  ·  来源：arxiv
+- 兴趣命中：agent, evaluation, benchmark, coding, spec
+- 作者：E. Kelly Buchanan, Crystal Zhou, Scott W. Linderman, Christopher Ré
+- 链接：[arXiv](https://arxiv.org/abs/2611.08417) · [PDF](https://arxiv.org/pdf/2611.08417) · [HF](https://huggingface.co/papers/2611.08417)
+
+Coding agents are among the most economically consequential deployments of LLMs to date, making reliable evaluation increasingly important. Yet even benchmarks that are carefully validated at release can become stale. As models improve, they can discover valid solutions that existing verifiers reject, while changes to evaluation infrastructure can invalidate assumptions embedded in tasks and tests. We call the…
+
+## 85. The Power of Meta Access in the Software of the Future --- Demonstrated on LLM Chat UIs and Chat AI
+
+- 分数：9.0  ·  HF 赞：0  ·  来源：arxiv
+- 兴趣命中：agent, language model, large language, coding, retrieval
+- 作者：Julian Kunkel, Ali Doosthosseini
+- 链接：[arXiv](https://arxiv.org/abs/2611.08428) · [PDF](https://arxiv.org/pdf/2611.08428) · [HF](https://huggingface.co/papers/2611.08428)
+
+Chat remains the default surface for many large language model (LLM) tasks, even as agentic tools such as OpenCode excel at coding and automation. Yet the model sees the current dialogue but not the workspace around it. We explore meta access---giving the assistant a structured, permissioned view of the interface itself and propose a ladder of levels: feature tutoring; metadata, settings, and preference access;…
+
+## 86. Multimodal Information Interactions Bottleneck for Multimodal Self-Supervised Learning
+
+- 分数：7.0  ·  HF 赞：0  ·  来源：arxiv
+- 兴趣命中：benchmark, coding, spec
+- 作者：Liangjian Wen, Jiangtao Zheng, Jiang Duan, Qun Dai, Yong Dai, Jianzhuang Liu, Jun Wang, Shu-Dong Huang, Xinwang Liu, Zenglin Xu, Zhao Kang
+- 链接：[arXiv](https://arxiv.org/abs/2611.07718) · [PDF](https://arxiv.org/pdf/2611.07718) · [HF](https://huggingface.co/papers/2611.07718)
+
+Multimodal self-supervised learning is challenged by heterogeneity, unequal informativeness, and complex information interactions across multimodal data sources such as images, text, audio, and tabular data. While contrastive methods effectively align shared semantics, they typically rely on strong multi-view redundancy assumptions, overlooking modality-specific and synergistic information, thus leading to…
+
+## 87. Evaluating Language Model Features for Zero-Shot Time-Series Anomaly Detection Under Isolation Assumption
+
+- 分数：7.0  ·  HF 赞：0  ·  来源：arxiv
+- 兴趣命中：evaluation, language model, large language
+- 作者：Romain Hermary, Nesryne Mejri, Djamila Aouada
+- 链接：[arXiv](https://arxiv.org/abs/2611.07720) · [PDF](https://arxiv.org/pdf/2611.07720) · [HF](https://huggingface.co/papers/2611.07720)
+
+Time-Series Anomaly Detection (TSAD) is a fundamentally challenging task: it is unsupervised, requires high local precision capabilities, and suffers from limited labelled data. Recent work has explored adapting Large Language Models (LLMs) to time-series via cross-modal transfer. However, existing approaches are poorly suited to Multivariate TSAD (MTSAD), as tokenisation often obscures fine-grained temporal and…
+
+## 88. Seeing Beyond the Next Step: World-Model-Guided Human-Like Navigation in Multi-Agent Scenes
+
+- 分数：7.0  ·  HF 赞：0  ·  来源：arxiv
+- 兴趣命中：agent, reasoning, evaluation
+- 作者：Seong-Eun Hong, JuYeong Hwang, Jinhyun Kim, Hanyoung Jang, HyeongYeop Kang
+- 链接：[arXiv](https://arxiv.org/abs/2611.07730) · [PDF](https://arxiv.org/pdf/2611.07730) · [HF](https://huggingface.co/papers/2611.07730)
+
+Selecting a next motion in a populated scene is not just a matter of avoiding what is currently in the way: an action can be locally feasible yet drift onto the road instead of the crosswalk, cut into a stream of crossing pedestrians, or bottleneck a narrow passage. These failure modes are invisible from the current state alone, and acting on them requires reasoning about what each candidate action will cause. World…
+
+## 89. MV-Sign: Multi-View 3D Motion Integration and Enhanced Text-to-Motion Conditioning for Sign Language Production
+
+- 分数：7.0  ·  HF 赞：0  ·  来源：arxiv
+- 兴趣命中：benchmark, spec, retrieval
+- 作者：Singyu Muk, Kaustubh Kundu, Kunyuan Xie, Weijie Wang, Kalin Stefanov
+- 链接：[arXiv](https://arxiv.org/abs/2611.07811) · [PDF](https://arxiv.org/pdf/2611.07811) · [HF](https://huggingface.co/papers/2611.07811)
+
+Sign language production (SLP) aims to generate appropriate sign language motion from spoken language text. However, current 3D SLP methods suffer from noisy supervision and weak text conditioning. Specifically, these methods typically rely on pseudo-3D motion data fitted from single-view frontal videos, which introduces severe self-occlusion and loses fine-grained hand details, ultimately degrading downstream…
+
+## 90. Different Corpora, Different Skills? A Paired Study of Small Language Models
+
+- 分数：7.0  ·  HF 赞：0  ·  来源：arxiv
+- 兴趣命中：evaluation, benchmark, language model
+- 作者：Edoardo Vaira, Georgios Chavales, Pierre Nugues
+- 链接：[arXiv](https://arxiv.org/abs/2611.07812) · [PDF](https://arxiv.org/pdf/2611.07812) · [HF](https://huggingface.co/papers/2611.07812)
+
+Small language models are often trained under tight data budgets, where the choice of pretraining corpus may matter as much as model size or training recipe. We compare two contrasting corpora at matched 10-million- and 37-million-word budgets: the 1911 Encyclopaedia Britannica and the BabyLM 2026 strict pretraining corpus. For each corpus, we train teacher models, distilled 58-million-parameter Baby-Llama students,…
+
+## 91. Axis-LoRA: Probing and Adapting Embedding Models for Personal-Memory Retrieval
+
+- 分数：7.0  ·  HF 赞：0  ·  来源：arxiv
+- 兴趣命中：memory, benchmark, retrieval
+- 作者：Dohoon Kim, Junho Park, Hyunwoong Bae, Seyoon Kim, Taesup Moon
+- 链接：[arXiv](https://arxiv.org/abs/2611.07820) · [PDF](https://arxiv.org/pdf/2611.07820) · [HF](https://huggingface.co/papers/2611.07820)
+
+As LLMs are increasingly asked questions about a user's personal experiences, retrieval must distinguish memories by time, place, person, and event. Current personal-memory pipelines rely on frozen dense embedding models to embed memories for retrieval, but we find that these models do not capture the four axes well. Swapping a memory's date or place barely shifts its embedding, and a trained projection on top of…
+
+## 92. Estimating Spectrum-Free Information Bounds for Generative Surrogates Beyond Conditional Collapse
+
+- 分数：7.0  ·  HF 赞：0  ·  来源：arxiv
+- 兴趣命中：evaluation, benchmark, spec
+- 作者：Chaitanya Dumbre, Sourabh Dube
+- 链接：[arXiv](https://arxiv.org/abs/2611.07826) · [PDF](https://arxiv.org/pdf/2611.07826) · [HF](https://huggingface.co/papers/2611.07826)
+
+Conditional generative surrogates in high-energy physics, such as models that predict reconstructed jets from partons, are often evaluated on $1\text{D}$ marginal divergences among other metrics. Taken alone these metrics can reward conditional collapse. On a CMS simulation benchmark, a sampler that ignores the conditioner beats a trained Mixture Density Network (MDN) on all four target marginals under both KL and…
+
+## 93. Computation, not weight access: large language models as auditors of clinical prediction networks
 
 - 分数：7.0  ·  HF 赞：0  ·  来源：arxiv
 - 兴趣命中：language model, large language, spec
-- 作者：Xanh Ho, André Greiner-Petter, Florian Boudin, Yun-Ang Wu, Sunisth Kumar, Tian Cheng Xia, Hiba Akbi, Tim Schopf, Akiko Aizawa
-- 链接：[arXiv](https://arxiv.org/abs/2611.06090) · [PDF](https://arxiv.org/pdf/2611.06090) · [HF](https://huggingface.co/papers/2611.06090)
+- 作者：Zhiyu Liu, Xinyu Yang
+- 链接：[arXiv](https://arxiv.org/abs/2611.07847) · [PDF](https://arxiv.org/pdf/2611.07847) · [HF](https://huggingface.co/papers/2611.07847)
 
-This paper presents an overview of \emph{SciClaimEval}, a pilot task at NTCIR-19 on verifying scientific claims against the tables and figures of the papers in which they appear. Our dataset pairs authentic claims from 180 papers in machine learning, natural language processing, and medicine with contrastive versions of their tables and figures, one supporting the claim and one minimally modified so that it does…
+Frontier large language models (LLMs) have been reported to read, edit and write the weights of small neural networks, raising the prospect of auditing clinical prediction models from their files alone. Public demonstrations, however, mixed reading raw weights with running code. We separated these conditions in internally pre-specified simulation experiments. Tanh networks of 105 to 38,401 weights were trained on…
 
-## 111. Reasoning-Trace Overflow in Code Generation: An Empirical Study of Explicit Reasoning Models
-
-- 分数：7.0  ·  HF 赞：0  ·  来源：arxiv
-- 兴趣命中：reasoning, benchmark, language model
-- 作者：Lukas Twist, Helen Yannakoudakis, Jie M. Zhang
-- 链接：[arXiv](https://arxiv.org/abs/2611.06095) · [PDF](https://arxiv.org/pdf/2611.06095) · [HF](https://huggingface.co/papers/2611.06095)
-
-Explicit reasoning can help language models generate code, but it also introduces a practical risk: the model may spend so much of its output budget reasoning that it never produces usable code. We study this behaviour in relatively small open-weight reasoning models, framing it as reasoning-trace overflow. Across seven models and six code benchmark settings, we measure how much of a fixed 32k-token output budget is…
-
-## 112. The Harness Is the Model: Agent Scaffolding Changes a Fixed LLM's Compliance with Banking Conduct Rules, Unevenly Across Models
+## 94. Learning Robotic World Models with Semantic and Visual Feedback
 
 - 分数：7.0  ·  HF 赞：0  ·  来源：arxiv
-- 兴趣命中：agent, memory, language model
-- 作者：Mehmet Murat Huyut
-- 链接：[arXiv](https://arxiv.org/abs/2611.06116) · [PDF](https://arxiv.org/pdf/2611.06116) · [HF](https://huggingface.co/papers/2611.06116)
+- 兴趣命中：evaluation, spec, planning
+- 作者：Hao Wu, Yuqi Li, Yizhou Zhao, Kun Wang, Xiao Luo, Yu Cheng, Bo An, Yingli Tian, Laszlo A. Jeni, Ming-Hsuan Yang
+- 链接：[arXiv](https://arxiv.org/abs/2611.07850) · [PDF](https://arxiv.org/pdf/2611.07850) · [HF](https://huggingface.co/papers/2611.07850)
 
-Banks validate language models, but they deploy systems: a model inside a harness that decides what it sees, which tools it can call and who checks its actions. We test whether that harness changes compliance with banking conduct rules when the model is held fixed. Four open-weight models each ran five harnesses (a pipeline that makes one structured decision, a ReAct-style tool loop, a loop in which the policy is…
+Robot world models predict action-conditioned future visual states to support robotic planning and decision making. However, visual reconstruction does not fully capture task progress, semantic evaluation alone provides limited constraints on fine-grained visual errors, and homogeneous predictions limit comparative feedback. We present RoboImagine, a framework for post-training autoregressive robotic world models…
 
-## 113. ReactWorld: Structuring Interaction Responses for Embodied Video Generation
-
-- 分数：7.0  ·  HF 赞：0  ·  来源：arxiv
-- 兴趣命中：reasoning, spec, retrieval
-- 作者：Hanwei Liu, Huijia Zhang, Hanzhang Wang, Guangyu Liu, Hanbei Zhan, Linjie Hu, Bin Xiao, Xuan Zhou, Dong Zhang
-- 链接：[arXiv](https://arxiv.org/abs/2611.06120) · [PDF](https://arxiv.org/pdf/2611.06120) · [HF](https://huggingface.co/papers/2611.06120)
-
-Embodied video world models predict scene changes caused by robot actions, yet generated object responses may remain inconsistent with task intent and contact dynamics. Critical responses in embodied scenes often concentrate in local regions and specific time intervals. Inspired by chain-of-thought reasoning, we introduce ReactWorld, an embodied video generation model guided by structured interaction anticipation.…
-
-## 114. SafeStart: Mitigating the Overlooked Safety Cost of Active Expert Reduction in MoE LLM Serving
-
-- 分数：7.0  ·  HF 赞：0  ·  来源：arxiv
-- 兴趣命中：benchmark, language model, coding
-- 作者：Erfan Baghaei Potraghloo, Saeid Shokoufa, Seyedarmin Azizi, Arya Fayyazi, Souvik Kundu, Mehdi Kamal, Massoud Pedram
-- 链接：[arXiv](https://arxiv.org/abs/2611.06147) · [PDF](https://arxiv.org/pdf/2611.06147) · [HF](https://huggingface.co/papers/2611.06147)
-
-Mixture-of-Experts (MoE) language models send each token through a few of many expert subnetworks. Serving methods make these models faster by running even fewer experts per token, and they are validated on accuracy benchmarks. We show that these methods can weaken the model's refusal of harmful requests, and we introduce SafeStart, which largely restores refusal while keeping most of the speedup. In vLLM on one RTX…
-
-## 115. Chiron: Cache Management Empowered by LLM Intelligence for AI Workloads
-
-- 分数：7.0  ·  HF 赞：0  ·  来源：arxiv
-- 兴趣命中：reasoning, language model, large language
-- 作者：Bohan Zhang, Renshu Ge, Tianze Wang, Chen Chen
-- 链接：[arXiv](https://arxiv.org/abs/2611.06179) · [PDF](https://arxiv.org/pdf/2611.06179) · [HF](https://huggingface.co/papers/2611.06179)
-
-AI clusters keep data in remote object stores and rely on local caches to stop GPUs from waiting for data. A cache performs well only when its prefetching and eviction policies match the access pattern, yet these patterns differ across AI workloads and change between phases of one workflow. Existing methods either need code changes, which compromises user transparency, or use low-end heuristics, which cannot follow…
-
-## 116. Annotator-Free Object Detection via Foundation Model Collaboration
-
-- 分数：7.0  ·  HF 赞：0  ·  来源：arxiv
-- 兴趣命中：reasoning, evaluation, benchmark
-- 作者：Yasiru Ranasinghe, Vishal M. Patel
-- 链接：[arXiv](https://arxiv.org/abs/2611.06195) · [PDF](https://arxiv.org/pdf/2611.06195) · [HF](https://huggingface.co/papers/2611.06195)
-
-Object detection research remains constrained by high annotation costs and the closed-set assumptions of supervised models, limiting scalability to novel categories. We present a target-dataset annotation-free object detection framework that eliminates the need for human labeling on the target dataset by leveraging the complementary strengths of pretrained foundation models, including segmentation and…
-
-## 117. Rubric Curriculum RL: Exploiting the Generation-Verification Gap in Non-Verifiable Domains
-
-- 分数：7.0  ·  HF 赞：0  ·  来源：arxiv
-- 兴趣命中：reinforcement learning, benchmark, spec
-- 作者：Sumeet Ramesh Motwani, Tejas Krishnan, Alistair Letcher, Charles London, Suhaas Bhat, Huitian Jiao, Philip Torr, Riashat Islam, Christopher Summerfield, Jakob Foerster, Christian Schroeder de Witt, Qilong Gu, Shital Shah
-- 链接：[arXiv](https://arxiv.org/abs/2611.06244) · [PDF](https://arxiv.org/pdf/2611.06244) · [HF](https://huggingface.co/papers/2611.06244)
-
-Reinforcement learning with verifiable rewards (RLVR) has led to significant gains in math and code generation. Extending these gains to open-ended domains remains challenging: ground-truth verification is unavailable, human annotation is expensive, and learned reward models are prone to reward hacking. The generation-verification gap, where judging good outputs is easier than producing them, offers a potential path…
-
-## 118. Beyond Scene Shortcuts: Action-Centric Video-Text Alignment for Fine-Grained Action Understanding
-
-- 分数：7.0  ·  HF 赞：0  ·  来源：arxiv
-- 兴趣命中：agent, reasoning, language model
-- 作者：Zhiliang Zhu, Jiazheng Huang, Dawei Zhao
-- 链接：[arXiv](https://arxiv.org/abs/2611.06302) · [PDF](https://arxiv.org/pdf/2611.06302) · [HF](https://huggingface.co/papers/2611.06302)
-
-Fine-grained action understanding requires vision-language models to ground what an agent does, how it acts, and why it acts in spatio-temporal evidence. However, richer supervision can backfire: fine-tuned models may generate detailed action descriptions grounded in static scenes and salient objects rather than motion, a failure we call Environment-Grounded Action Hallucination (EGAH). To mitigate EGAH, we propose…
-
-## 119. Give Up to Get More: Priors, Not Policies, Govern Test-Time Compute Allocation
+## 95. FARR: Forecast-Aware Residual Refinement with Matched Endpoint Evidence for Long-Horizon Time-Series Forecasting
 
 - 分数：7.0  ·  HF 赞：0  ·  来源：arxiv
 - 兴趣命中：benchmark, language model, large language
-- 作者：Jinhyung Bae
-- 链接：[arXiv](https://arxiv.org/abs/2611.06372) · [PDF](https://arxiv.org/pdf/2611.06372) · [HF](https://huggingface.co/papers/2611.06372)
+- 作者：Yiyang Zhang, Yuli Zheng, Bin Li, Meimei Zhang, Qiang Sun
+- 链接：[arXiv](https://arxiv.org/abs/2611.07870) · [PDF](https://arxiv.org/pdf/2611.07870) · [HF](https://huggingface.co/papers/2611.07870)
 
-When many inputs share a budget of repeated attempts by a large language model (LLM), a common rule gives harder inputs more. On public math, code and formal-proof samples, the best published difficulty-proportional rule captures half or more of the oracle gain on benchmarks the model mostly solves, but at most 13% on hard workloads, even given true pass rates. Because the value of one more attempt peaks at…
+Large language models use auxiliary conditioning to incorporate additional information into time-series forecasts. However, auxiliary conditioning does not consistently improve accuracy and can increase forecasting error when its influence is poorly matched to the observed temporal context. We propose Forecast-Aware Residual Refinement (FARR), which learns to correct forecasts using endpoint evidence. FARR obtains a…
 
-## 120. Does Context Compression Preserve Refusal Alignment?
+## 96. When Bigger Becomes Brittle: Why Compression Hurts More as Language Models Scale
 
 - 分数：7.0  ·  HF 赞：0  ·  来源：arxiv
-- 兴趣命中：memory, language model, coding
-- 作者：Anthony Nguyen, Wenjun Lin
-- 链接：[arXiv](https://arxiv.org/abs/2611.06380) · [PDF](https://arxiv.org/pdf/2611.06380) · [HF](https://huggingface.co/papers/2611.06380)
+- 兴趣命中：benchmark, language model, retrieval
+- 作者：Gautam Gupta, Dikshant Kukreja, Unique Kumar, Avni Mittal, Deepanshu Dabas, Kshitij Sah, Erik Cambria, Rajiv Ratn Shah, Zhengkui Wang, Avinash Anand
+- 链接：[arXiv](https://arxiv.org/abs/2611.07891) · [PDF](https://arxiv.org/pdf/2611.07891) · [HF](https://huggingface.co/papers/2611.07891)
 
-Context compression reduces inference cost by encoding inputs into compact representations while preserving semantic content. An open question is whether semantic preservation alone is sufficient to maintain downstream behaviours such as refusal alignment. We investigate this question and find that encoder-based compression systematically weakens refusal behaviour in instruction-tuned language models, despite high…
+Quantization and pruning reduce the cost of deploying language models, but their effects are usually reported as benchmark scores. Such scores record only the loss that remains at the output. Inside the model, compression damages some components more than others, and the rest of the network can partly compensate. The observed loss therefore reflects both the damage and this compensation, which benchmark scores…
+
+## 97. Structure from Collision via Hypothesis-Space Reasoning
+
+- 分数：7.0  ·  HF 赞：0  ·  来源：arxiv
+- 兴趣命中：reasoning, benchmark, spec
+- 作者：Takuhiro Kaneko
+- 链接：[arXiv](https://arxiv.org/abs/2611.07900) · [PDF](https://arxiv.org/pdf/2611.07900) · [HF](https://huggingface.co/papers/2611.07900)
+
+Knowledge of the hidden interior structure of an object, including the presence and location of cavities, is essential for predictive simulation, robotic manipulation, and nondestructive inspection. However, such cavities leave no direct signature on the static visible surface, making collision-induced deformation one of the few cues used to infer their presence. Structure from Collision (SfC) addresses this problem…
+
+## 98. Adaptive Semantic Branching: Disagreement-Localized Cross-Trajectory Regeneration for Reasoning Candidate Expansion
+
+- 分数：7.0  ·  HF 赞：0  ·  来源：arxiv
+- 兴趣命中：reasoning, evaluation, spec
+- 作者：Jeong-Yoon Kim, Tae-Yoon Lee
+- 链接：[arXiv](https://arxiv.org/abs/2611.07918) · [PDF](https://arxiv.org/pdf/2611.07918) · [HF](https://huggingface.co/papers/2611.07918)
+
+Reasoning trajectories generated for the same problem often arrive at conflicting answers. These disagreements reveal alternative intermediate decisions that can be reused to explore new solutions. We introduce Adaptive Semantic Branching (ASB), a training-free inference procedure that turns cross-trajectory disagreement into targeted candidate generation. ASB first groups independently sampled trajectories by…
+
+## 99. ZeroRAG: Adaptive Semantic Peer Routing for Decentralized Retrieval-Augmented Generation
+
+- 分数：7.0  ·  HF 赞：0  ·  来源：arxiv
+- 兴趣命中：language model, large language, retrieval
+- 作者：Petru Neague, Quinten Stokkink, Martijn de Vos, Rafael Pires, Mathis Randl, Anne-Marie Kermarrec, Johan Pouwelse
+- 链接：[arXiv](https://arxiv.org/abs/2611.07928) · [PDF](https://arxiv.org/pdf/2611.07928) · [HF](https://huggingface.co/papers/2611.07928)
+
+Retrieval-augmented generation (RAG) is a standard approach to enhance the reliability of large language model (LLM) outputs by retrieving documents relevant to a query and supplying them in the LLM prompt. Today's RAG systems collect, index, and serve these documents from centralized stores. In practice, however, documents are owned by organizations, devices, and individuals who cannot or will not surrender custody…
+
+## 100. Towards Scalable Diagnostic-Driven Whole-Slide Image Retrieval for Pathology Archives
+
+- 分数：7.0  ·  HF 赞：0  ·  来源：arxiv
+- 兴趣命中：memory, benchmark, retrieval
+- 作者：Jingsong Liu, Youssef Wally Han Li, Weiwei Zhou, Jing Dai, Elisabeth Wetzer, Peter J. Schüffler
+- 链接：[arXiv](https://arxiv.org/abs/2611.07935) · [PDF](https://arxiv.org/pdf/2611.07935) · [HF](https://huggingface.co/papers/2611.07935)
+
+The growing adoption of digital pathology has rapidly expanded collections of hematoxylin-and-eosin whole-slide images, yet efficient navigation through these archives remains challenging, as metadata is often inconsistent or unavailable. Content-based image retrieval addresses this challenge by identifying similar cases directly from visual representations instead of manual annotations or metadata. Existing…
+
+## 101. CardioLM: A multilingual suite of small language models for the cardiology domain
+
+- 分数：7.0  ·  HF 赞：0  ·  来源：arxiv
+- 兴趣命中：benchmark, language model, spec
+- 作者：Manuela-Daniela Danu, Miguel Rodríguez-Ortega, Alberto Becerra-Tome, Pablo Arancibia, Fernando Gallego-Donoso, Lorenzo Pratesi, Xi Bai, Andrei-Damian Dinescu, Salvador Lima-López, Andrea Guala, Saskia Haitjema, Jonas Mack, Michele Miranda, Wesam Al Nabki, Jan Rodríguez-Miret, Vasile George Marica, Vladimír Kincl, Kateřina Dostálová, Michael Andrej, Alicia Ujil, Corinne Allaart, Machteld Boonstra, Malin Overmars, Anoop Shah, Giovanna Ceroni, Jonathan Kossoff, Domenico D'Amario, Renzo Laborante, Antonio Iaconelli, Isabella Fumarulo, Jacopo Lenkowicz, Livia Lilli, Emma Weiss, Alex Scafa, Felix Lindberg, Milou Gamage, Eulàlia Farré-Maduell, Sébastien Bratières, Martin Krallinger, Bram van Es
+- 链接：[arXiv](https://arxiv.org/abs/2611.07940) · [PDF](https://arxiv.org/pdf/2611.07940) · [HF](https://huggingface.co/papers/2611.07940)
+
+Background: Cardiovascular care generates large volumes of clinical free-text documentation in local languages. However, clinical natural language processing (NLP) resources remain concentrated in English, and no existing benchmark is cardiology-specific, multilingual, and broad in entity coverage. Methods: We present two contributions. The first is CardioCCC, a corpus of 508 cardiology case reports originally…
+
+## 102. ChemE-as-Code: An Open-Source Platform for Agentic AI in Chemical Engineering
+
+- 分数：7.0  ·  HF 赞：0  ·  来源：arxiv
+- 兴趣命中：agent, language model, large language
+- 作者：Artur M. Schweidtmann
+- 链接：[arXiv](https://arxiv.org/abs/2611.07947) · [PDF](https://arxiv.org/pdf/2611.07947) · [HF](https://huggingface.co/papers/2611.07947)
+
+ChemE-as-Code provides an open-source environment in which AI agents built on large language models (LLMs) can carry out chemical engineering work and engineers can check it. Its calculation tools range from catalysis through process simulation to plant layout, HAZOP and life cycle assessment, and skills tell a general-purpose agent how to use them. Engineering files are linked, machine-readable and versioned in…
+
+## 103. Beyond the Keyword: A Human-Annotated Benchmark for Arabic Anxiety-Related Discourse
+
+- 分数：7.0  ·  HF 赞：0  ·  来源：arxiv
+- 兴趣命中：evaluation, benchmark, retrieval
+- 作者：Shimaa Ibrahim, Mabrouka Bessghaier, Md. Rafiul Biswas, Insaf Elouard, Wajdi Zaghouani
+- 链接：[arXiv](https://arxiv.org/abs/2611.07949) · [PDF](https://arxiv.org/pdf/2611.07949) · [HF](https://huggingface.co/papers/2611.07949)
+
+Keyword retrieval returns expressions of personal anxiety together with many other uses of anxiety-related language. We present a benchmark of 1,000 Arabic Twitter/X posts retrieved with the keyword qalaq ("anxiety/worry") and annotated for six discourse functions. Two native Arabic-speaking annotators labeled every post independently, reaching 51.1% raw agreement (Cohen's $κ= 0.378$). We then reviewed all 489…
+
+## 104. Rotation Is Token-Blind: A Structural Criterion for Post-Training Quantization of Feed-Forward Geometry Transformers
+
+- 分数：7.0  ·  HF 赞：0  ·  来源：arxiv
+- 兴趣命中：memory, benchmark, spec
+- 作者：Huanfei He, Bohao Zhang, Jiaxin Zhang, Wei Sui, John See, Zeyd Boukhers, Cong Yang
+- 链接：[arXiv](https://arxiv.org/abs/2611.07955) · [PDF](https://arxiv.org/pdf/2611.07955) · [HF](https://huggingface.co/papers/2611.07955)
+
+Feed-forward 3D models use Transformers to predict camera poses, depth, and structure in one pass, avoiding iterative multi-view optimization. Long sequences and deep attention incur high compute and memory costs, motivating Post-Training Quantization (PTQ) for deployment. Existing PTQ methods mainly suppress channel-wise outliers by smoothing or orthogonal rotation. Geometry Transformers introduce a different…
+
+## 105. CoRD: Coupled Rollouts Fill the Blind Spot of On-Policy Distillation
+
+- 分数：7.0  ·  HF 赞：0  ·  来源：arxiv
+- 兴趣命中：benchmark, coding, spec
+- 作者：Guhan Chen, Bohan Li, Jun Rao, Hejin Wang, Songtao Tian, Yexin Xie, Xiaojun Meng, Peng Yuan, Jiansheng Wei, Xuebo Liu, Zixiong Yu
+- 链接：[arXiv](https://arxiv.org/abs/2611.07959) · [PDF](https://arxiv.org/pdf/2611.07959) · [HF](https://huggingface.co/papers/2611.07959)
+
+On-policy distillation trains a student on its own rollouts, so states the teacher would reach but the student does not are seldom supervised. We introduce CoRD (coupled-rollout distillation), which keeps the on-policy loss and moves only the distribution of training states toward the teacher, drawing rollouts from a geometric interpolation of student and teacher through the maximal coupling of speculative decoding.…
+
+## 106. NutriVisRAG: Multimodal Exemplar Grounding for Nutrient Estimation with Vision-Language Models
+
+- 分数：7.0  ·  HF 赞：0  ·  来源：arxiv
+- 兴趣命中：language model, spec, retrieval
+- 作者：Lubnaa Abdur Rahman, Ioannis Papathanail, Maria Panagiotou, Nefeli Dimitropoulou, Margret Harðardóttir, Elisabeth J. den Brok, Bastiaan E. de Galan, Stavroula Georgia Mougiakakou
+- 链接：[arXiv](https://arxiv.org/abs/2611.08054) · [PDF](https://arxiv.org/pdf/2611.08054) · [HF](https://huggingface.co/papers/2611.08054)
+
+Diet is a major determinant of health, yet accurate dietary assessment from free-living meal images remains challenging. Existing retrieval-based Vision-Language Model (VLM) approaches to nutrient estimation typically rely on textual food representations, while, to our knowledge, direct grounding on visually similar annotated meals has not been investigated. We present NutriVisRAG, a retrieval-augmented generation…
+
+## 107. Can an LLM Actually Reason and Program about Neural Network's Weights or is it just memorization on steroids? Exploring "Weight-Space Programming"
+
+- 分数：7.0  ·  HF 赞：0  ·  来源：arxiv
+- 兴趣命中：reasoning, language model, large language
+- 作者：Nazmus Sakib Ahmed
+- 链接：[arXiv](https://arxiv.org/abs/2611.08070) · [PDF](https://arxiv.org/pdf/2611.08070) · [HF](https://huggingface.co/papers/2611.08070)
+
+Large language models (LLMs) have recently been reported to read and write the raw weights of neural networks directly, a capability termed weight-space programming. We ask whether the reading side of this capability reflects reasoning about weight flows or a combination of local arithmetic at the network's edges and memorized priors over public datasets. We test Claude Opus 5.5 on small convolutional networks of…
+
+## 108. Spatiotemporal Dynamics-Aware Industrial Anomaly Detection and Reasoning
+
+- 分数：7.0  ·  HF 赞：0  ·  来源：arxiv
+- 兴趣命中：reasoning, language model, large language
+- 作者：S-Wei Chen, Siangyu Yang, Yi-Chen Jan, Chun-Yi Lee, Shao-Yuan Lo
+- 链接：[arXiv](https://arxiv.org/abs/2611.08080) · [PDF](https://arxiv.org/pdf/2611.08080) · [HF](https://huggingface.co/papers/2611.08080)
+
+Industrial Anomaly Detection (IAD) is a long-established problem that aims to detect defects in industrial products during manufacturing for quality control. Most existing studies focus on static visual patterns as the basis for detection. However, in real manufacturing environments, many anomalies are dynamics-based, such as irregular movements that cannot be perceived from static cues alone. We observe that even…
+
+## 109. TerraMesh-Masks: Open-Vocabulary Segmentation for Earth Observation
+
+- 分数：7.0  ·  HF 赞：0  ·  来源：arxiv
+- 兴趣命中：evaluation, benchmark, spec
+- 作者：Benedikt Blumenstiel, Hugues Devimeux, Johannes Jakubik, Konrad Schindler
+- 链接：[arXiv](https://arxiv.org/abs/2611.08081) · [PDF](https://arxiv.org/pdf/2611.08081) · [HF](https://huggingface.co/papers/2611.08081)
+
+Open-vocabulary segmentation (OVS) enables models to segment a variety of concepts specified in natural language, removing the need for fixed label sets and fine-tuning. While recent OVS approaches have shown strong performance on natural images, they transfer poorly to Earth observation (EO) data due to differing semantics, scales, sensing modality, and geographic context. To date, large-scale EO-specific datasets…
+
+## 110. Linguistic boundaries emerge from pressure-constrained processing dynamics
+
+- 分数：7.0  ·  HF 赞：0  ·  来源：arxiv
+- 兴趣命中：memory, language model, large language
+- 作者：Rui He, Philipp Homan, Wolfram Hinzen
+- 链接：[arXiv](https://arxiv.org/abs/2611.08085) · [PDF](https://arxiv.org/pdf/2611.08085) · [HF](https://huggingface.co/papers/2611.08085)
+
+Human cognition organizes continuous experience into bounded units while maintaining continuity across them. Linguistic elements are also organized into bounded structural units such as words and phrases, with sentence marking the final bound of a grammatical construction process. How do such boundaries emerge? We propose boundaries emerge from interacting demands to maintain unresolved dependencies, integrate…
+
+## 111. MUSS: A Multi-scale and Sequence-based Model for Single-cell Gene Regulation
+
+- 分数：7.0  ·  HF 赞：0  ·  来源：arxiv
+- 兴趣命中：language model, coding, spec
+- 作者：Kangjie Zheng, Amirhossein Vahidi, Liying Jin, Joseph Clarke, Vijaya Baskar MS, Connor Rogerson, Mengji Zhang, Muzlifah Haniffa, Anshul Kundaje, Mo Lotfollahi
+- 链接：[arXiv](https://arxiv.org/abs/2611.08086) · [PDF](https://arxiv.org/pdf/2611.08086) · [HF](https://huggingface.co/papers/2611.08086)
+
+Modeling gene regulation in single cells requires jointly representing DNA sequence, chromatin accessibility, and gene expression across regulatory scales. Sequence-based models capture DNA-level regulatory grammar but often lack cell-level resolution, whereas many single-cell omics models represent genes and peaks as fixed-vocabulary tokens without their underlying sequence. Here, we present MUSS, a sequence-based…
+
+## 112. Gabor Gabor: E-Gaborformer, a Strictly Causal Speech Recognizer with Gabor-Dictionary Convolutions and Delta-Rule Memory
+
+- 分数：7.0  ·  HF 赞：0  ·  来源：arxiv
+- 兴趣命中：agent, memory, coding
+- 作者：Nir Krakowski, Tamir Cohen, Ohad Zohar, Chen Zarfati
+- 链接：[arXiv](https://arxiv.org/abs/2611.08092) · [PDF](https://arxiv.org/pdf/2611.08092) · [HF](https://huggingface.co/papers/2611.08092)
+
+Real-time voice agents need a speech recognizer that never waits for future audio and whose memory per call does not grow with the length of the call. We present E-Gaborformer, a strictly causal encoder that combines Gated DeltaNet-2 recurrent layers with sliding-window attention in a 3:1 ratio, and builds every temporal convolution from a fixed dictionary of causal Gabor atoms. Its streaming state is constant,…
+
+## 113. Gradient Boosting for Efficient Rank Discovery in Tensor Network Kernel Machines
+
+- 分数：7.0  ·  HF 赞：0  ·  来源：arxiv
+- 兴趣命中：memory, benchmark, spec
+- 作者：Albert Saiapin, Kim Batselier
+- 链接：[arXiv](https://arxiv.org/abs/2611.08093) · [PDF](https://arxiv.org/pdf/2611.08093) · [HF](https://huggingface.co/papers/2611.08093)
+
+Tensor network kernel machines (TNKMs) combine nonlinear features with low-rank tensor representations to model complex relationships efficiently. However, selecting an appropriate tensor rank remains challenging, as conventional rank-search methods require training multiple candidate models, increasing computational costs. In this work, we focus on a canonical polyadic (CP) tensor network parameterization and…
+
+## 114. Reinforcing End-to-End Autonomous Driving Safety via Negative-Aware Planning in a Unified World-Action Model
+
+- 分数：7.0  ·  HF 赞：0  ·  来源：arxiv
+- 兴趣命中：evaluation, benchmark, planning
+- 作者：Zihao Zhang, Xinyu Zhang, Bing Zeng, Xingyu Chen, Zhenning Li, Bin Yu, Ziyuan Pu
+- 链接：[arXiv](https://arxiv.org/abs/2611.08111) · [PDF](https://arxiv.org/pdf/2611.08111) · [HF](https://huggingface.co/papers/2611.08111)
+
+World-action models (WAMs) jointly model future traffic states and driving actions for end-to-end autonomous driving in intelligent transportation systems. However, their action learning remains dominated by expert-trajectory imitation, leaving unsafe alternatives close to expert trajectories insufficiently constrained. To improve WAM robustness in safety-critical scenarios, we propose NegWAM, a safety post-training…
+
+## 115. Create Your Own Work Stack: Deploying Self-hosted AI and Tooling in a Tech Startup
+
+- 分数：7.0  ·  HF 赞：0  ·  来源：arxiv
+- 兴趣命中：agent, coding, retrieval
+- 作者：Saad Ahmed Bazaz, Talha Amjad, Abdurrehman Subhani, Sohaib Ahmed Bazaz, Abdullah Aamir
+- 链接：[arXiv](https://arxiv.org/abs/2611.08116) · [PDF](https://arxiv.org/pdf/2611.08116) · [HF](https://huggingface.co/papers/2611.08116)
+
+Self-hosting AI is often presented as a way to reduce inference costs and increase control, but deployment introduces its own costs. We report our experience deploying a hybrid AI stack at Grayhat Developers, a small software company with an AI-intensive development workflow. Our initial motivation was to counter the growing cost of commercial AI usage: Claude/Codex incurred approximately \$325 per month, with more…
+
+## 116. Detecting Silent Faults at the Environment-Trainer Boundary in Reinforcement Learning
+
+- 分数：7.0  ·  HF 赞：0  ·  来源：arxiv
+- 兴趣命中：agent, reinforcement learning, evaluation
+- 作者：Zuo Gou, Chenhao Lu
+- 链接：[arXiv](https://arxiv.org/abs/2611.08144) · [PDF](https://arxiv.org/pdf/2611.08144) · [HF](https://huggingface.co/papers/2611.08144)
+
+Robot reinforcement learning increasingly runs environments outside the trainer: in another process, on another machine, in another language. Many faults at this boundary raise no error. We make the boundary a wire protocol and ask what notices a fault in it. On Pendulum, HalfCheetah, Hopper and a 7-joint arm (Pusher), we injected up to 23 faults into what crosses the wire and 2 into the trainer's log, from one…
+
+## 117. A Generative Foundation Model for Multimodal Tokamak Tasks
+
+- 分数：7.0  ·  HF 赞：0  ·  来源：arxiv
+- 兴趣命中：evaluation, benchmark, spec
+- 作者：Yingshuai Ji, Haodong Feng, Guohong Deng, Gelin Bian, Yue Wang
+- 链接：[arXiv](https://arxiv.org/abs/2611.08153) · [PDF](https://arxiv.org/pdf/2611.08153) · [HF](https://huggingface.co/papers/2611.08153)
+
+Tokamak experiments record diverse measurements, including waveforms, profiles, fields, and scalars, which are used to reconstruct the plasma, forecast its evolution, recover associated control signals, and estimate disruption risk. Most models are built separately for one task and a fixed set of inputs and outputs, and each relies on a prescribed subset of diagnostics rather than structuring the full multimodal…
+
+## 118. BabyTheorist: A Benchmark for Learning to Theorize the World from Observation Alone
+
+- 分数：7.0  ·  HF 赞：0  ·  来源：arxiv
+- 兴趣命中：reasoning, evaluation, benchmark
+- 作者：Doojin Baek, Junyeob Baek, Mingyu Jo, Hosung Lee, Taegu Kang, Gyubin Lee, Sungjin Ahn
+- 链接：[arXiv](https://arxiv.org/abs/2611.08177) · [PDF](https://arxiv.org/pdf/2611.08177) · [HF](https://huggingface.co/papers/2611.08177)
+
+How would we know whether a machine truly understands the world? We argue that one key capability is \textit{observational theory learning}: acquiring reusable theories from pure observations and applying them to new situations. Current visual reasoning benchmarks focus primarily on the latter, presenting each task as a few-shot puzzle grouped by a common rule. We introduce BabyTheorist, a benchmark for controlled…
+
+## 119. LeanContext: Disentangling Mathematical Resources from Local Formal Context in Lean Whole-Proof Generation
+
+- 分数：7.0  ·  HF 赞：0  ·  来源：arxiv
+- 兴趣命中：evaluation, benchmark, spec
+- 作者：Hang Zhang, Qihao Ye, Litong Liu, Yunbei Zhang, Yugyung Lee, Yue Zhou, Bowen Liu, Emily First, Cheng Han, Qiao Zhuang
+- 链接：[arXiv](https://arxiv.org/abs/2611.08277) · [PDF](https://arxiv.org/pdf/2611.08277) · [HF](https://huggingface.co/papers/2611.08277)
+
+Neural theorem proving increasingly uses retrieved premises and project context to support proof generation. Evaluating these resources requires measuring the advantage of target-selected declarations over comparable alternatives and how this advantage depends on training. We introduce LeanContext, a benchmark of 129,826 Lean whole-proof generation problems, to investigate these questions. We group selected complete…
+
+## 120. A Generative Model of Contextual Integrity: Appropriate vs. Inappropriate Information Sharing
+
+- 分数：7.0  ·  HF 赞：0  ·  来源：arxiv
+- 兴趣命中：language model, large language, spec
+- 作者：Omer Ebead, Claude Formanek, Joel Z. Leibo
+- 链接：[arXiv](https://arxiv.org/abs/2611.08284) · [PDF](https://arxiv.org/pdf/2611.08284) · [HF](https://huggingface.co/papers/2611.08284)
+
+Contextual integrity (CI) holds that appropriate information flow depends on context-specific norms. The same disclosure may be appropriate in one context and inappropriate in another. We build a generative model of contextual integrity to study information sharing through simulated conversations. Two actors played by large language models exchange messages, with one holding private information and the other seeking…
