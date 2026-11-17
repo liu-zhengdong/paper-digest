@@ -1,5 +1,536 @@
 {
-  "generated_at": "2026-11-16T07:15:02.381134+00:00",
-  "count": 0,
-  "videos": []
+  "generated_at": "2026-11-17T08:28:10.367197+00:00",
+  "count": 35,
+  "videos": [
+    {
+      "id": "VpHYPfvfy0o",
+      "title": "Building Jarvis: JPMC’s Agent Building Assembly Line",
+      "summary": "David Odomirok, Tony Wu, and Jane Xue of JPMorgan Chase explain Jarvis, which they describe not as a single agent but as an agent-building assembly line, and how, in David's words, the one agent the team took months to build last year now takes minutes. Tony walks through the composable, replaceable skills that make up the line across the software development, agentic development, and production life cycles, from a deep agent setup with skills and enterprise security to the harness, CI/CD, deplo",
+      "published": "2026-11-16T13:23:40+00:00",
+      "channel": "LangChain",
+      "mode": "all",
+      "hits": [
+        "agent",
+        "agents",
+        "agentic",
+        "skill",
+        "langchain",
+        "harness"
+      ],
+      "url": "https://www.youtube.com/watch?v=VpHYPfvfy0o",
+      "score": 6
+    },
+    {
+      "id": "EuUF53Wwfm0",
+      "title": "Is n8n Dead? Not Even Close (Full Guide)",
+      "summary": "⚡ Self-host n8n on Hostinger and get an extra 10% OFF with code LEON: https://hostinger.com/leon Is n8n dead? My honest answer after going back to n8n for the first time in ages. 🚀 My exclusive AI engineering courses, live Q&As, workshops & deep dives: https://skool.com/agentic-labs 🎁 Free RAMP course + all the resources from my videos: https://skool.com/leonvanzyl Ever since Claude Code took off, people keep asking if n8n is dead. I went back to check, and it's not the n8n I remember. n8n now c",
+      "published": "2026-11-16T12:59:18+00:00",
+      "channel": "Leon van Zyl",
+      "mode": "all",
+      "hits": [
+        "agent",
+        "agents",
+        "agentic",
+        "claude code",
+        "claude",
+        "mcp",
+        "workflow",
+        "harness"
+      ],
+      "url": "https://www.youtube.com/watch?v=EuUF53Wwfm0",
+      "score": 6
+    },
+    {
+      "id": "1M8vagUOdJM",
+      "title": "Fireside Chat with Erik Bernhardsson, Modal",
+      "summary": "Erik Bernhardsson, CEO and Co-Founder of Modal, explains what drove demand for Modal's sandboxes (vibe coding apps, background agents, and reinforcement learning rollouts) and why he thinks agent harnesses should run outside the sandbox, with sandboxes that are short-lived, maybe one per tool call. He also covers how Modal, which builds AI infrastructure for inference, training, and sandboxes, moved up the stack with auto and shared endpoints for open source models, when he thinks RL is worth it",
+      "published": "2026-11-12T15:26:12+00:00",
+      "channel": "LangChain",
+      "mode": "all",
+      "hits": [
+        "agent",
+        "agents",
+        "mcp",
+        "langchain",
+        "harness",
+        "coding agent"
+      ],
+      "url": "https://www.youtube.com/watch?v=1M8vagUOdJM",
+      "score": 6
+    },
+    {
+      "id": "fLjGgbW0Ki8",
+      "title": "Your Complete Guide to Fable 5.2 (When to Use It, Effort Levels, Prompting)",
+      "summary": "Fable 5.2 is the smartest model you can use in Claude Code right now, and it's also the fastest way to burn through your rate limits. So this is my guide to getting the most out of it! I cover where Fable is actually worth it over Opus 5.5 (and where it isn't), the effort level to run each one at, how I split the work so Fable plans and Opus builds, and how to prompt Fable for the best results. ~~~~~~~~~~~~~~~~~~~~~~~~~~ - Firecrawl, give your AI agents web data and beyond: https://firecrawl.lin",
+      "published": "2026-11-12T04:24:26+00:00",
+      "channel": "Cole Medin",
+      "mode": "all",
+      "hits": [
+        "agent",
+        "agents",
+        "agentic",
+        "claude code",
+        "claude",
+        "subagent",
+        "harness"
+      ],
+      "url": "https://www.youtube.com/watch?v=fLjGgbW0Ki8",
+      "score": 6
+    },
+    {
+      "id": "7b6cMUBxUtw",
+      "title": "Grok Bot Full Guide: Get More Done Than 99% of People",
+      "summary": "⚡ Try Blotato https://blotato.com/?ref=leonfe Use code LEON30 for 30% OFF for 3 months! Grok Bot tutorial for beginners: set up Grok Bot and build your very first AI team. 🚀 My exclusive AI engineering courses, live Q&As, workshops & deep dives: https://skool.com/agentic-labs 🎁 Free RAMP course + all the resources from my videos: https://skool.com/leonvanzyl Most AI assistants make you set up the provider, the model and every tool yourself. Grok Bot picks the right model for each job on its own.",
+      "published": "2026-11-11T12:00:00+00:00",
+      "channel": "Leon van Zyl",
+      "mode": "all",
+      "hits": [
+        "agent",
+        "agents",
+        "agentic",
+        "claude"
+      ],
+      "url": "https://www.youtube.com/watch?v=7b6cMUBxUtw",
+      "score": 6
+    },
+    {
+      "id": "hMEQ4rdaOLw",
+      "title": "11 More Tiny Coding Agent Fixes With A Stupid Amount Of Payoff (Learn These Now)",
+      "summary": "Coding agents keep hitting the same problems for you: saying the work is done when it isn't, tests that pass while the app is still broken, ignoring your rules, burning through your limits, etc. In this video I go through 11 of them and the tiny fix for each one, built into your AI layer (skills, rules, hooks) through a conversation with your agent where you review and sign off on every change. The chapters are named after the problems, so you can jump straight to the ones you hit the most! ~~~~",
+      "published": "2026-11-10T22:57:03+00:00",
+      "channel": "Cole Medin",
+      "mode": "all",
+      "hits": [
+        "agent",
+        "agents",
+        "agentic",
+        "skill",
+        "coding agent"
+      ],
+      "url": "https://www.youtube.com/watch?v=hMEQ4rdaOLw",
+      "score": 6
+    },
+    {
+      "id": "xM_BhmEyKAY",
+      "title": "How Workday Builds Agent Prototypes in Under a Day with LangChain",
+      "summary": "Alex Gatto, Senior Machine Learning Engineer at Workday, explains how his team built an internal agent platform on LangChain's Agent Server and LangSmith, so Workday teams can get agents into production under the company's security and data retention policies. Every agent on the platform runs as an A2A and MCP server with authentication and security built in, which leaves teams to decide what their agent does and how to build its graph. Prototypes that took 4 to 5 months now reach staging in les",
+      "published": "2026-11-10T16:36:54+00:00",
+      "channel": "LangChain",
+      "mode": "all",
+      "hits": [
+        "agent",
+        "agents",
+        "mcp",
+        "langgraph",
+        "langchain"
+      ],
+      "url": "https://www.youtube.com/watch?v=xM_BhmEyKAY",
+      "score": 6
+    },
+    {
+      "id": "hYIymEMB9x4",
+      "title": "Fable 5.2 is CRACKED but THIS goes BEYOND THE MODEL",
+      "summary": "Fable 5.2 just dropped and most engineers DON'T need it. Everyone has access to the same frontier intelligence. The model is NOT your edge. The system you build around the model is. One super agent that does everything is a myth. Sub-agents hit a ceiling. Agent swarms burn more money than they make. The real multi-agent sweet spot? Small agent teams. 🚀 Phase 3 PRE-LAUNCH IS LIVE (What if your agents never stopped?) https://agenticengineer.com/infinite-agentic-engineering?y=hYIymEMB9x4 🔥 In Tiny ",
+      "published": "2026-11-16T14:00:02+00:00",
+      "channel": "IndyDevDan",
+      "mode": "all",
+      "hits": [
+        "agent",
+        "agents",
+        "agentic"
+      ],
+      "url": "https://www.youtube.com/watch?v=hYIymEMB9x4",
+      "score": 5
+    },
+    {
+      "id": "NeV6MSN6zEE",
+      "title": "LangSmith: The platform to run, improve, and govern agents",
+      "summary": "LangChain has raised $300 million in a Series C at a $3 billion valuation, and we're launching the new LangSmith, which puts what we've learned from millions of developers building agents into one platform. LangSmith processes billions of traces a month for more than 7,000 customers. The agents that change how a business runs get better because their teams keep iterating on them, and that work is spread across tools that weren't built for agents. This video walks through how LangSmith handles th",
+      "published": "2026-11-13T16:31:35+00:00",
+      "channel": "LangChain",
+      "mode": "all",
+      "hits": [
+        "agent",
+        "agents",
+        "langchain"
+      ],
+      "url": "https://www.youtube.com/watch?v=NeV6MSN6zEE",
+      "score": 5
+    },
+    {
+      "id": "tqgthjS7Ym4",
+      "title": "LangChain Academy New Course: Building and Deploying Managed Agents",
+      "summary": "Getting an agent working on your laptop takes hours, but putting it in front of real users can take weeks of infrastructure work around the agent itself. This new LangChain Academy course shows you how to close that gap with LangSmith Managed Agents, where you define the agent and the context it needs and deploy it with one command. You'll start with how an agent is put together, then run it on the managed platform with its own sandbox and user credentials. From there you'll add authentication a",
+      "published": "2026-11-12T19:48:38+00:00",
+      "channel": "LangChain",
+      "mode": "all",
+      "hits": [
+        "agent",
+        "agents",
+        "langchain"
+      ],
+      "url": "https://www.youtube.com/watch?v=tqgthjS7Ym4",
+      "score": 5
+    },
+    {
+      "id": "OSnAd5SuT_k",
+      "title": "Learn Local AI in 30 Minutes - Run LLMs locally for FREE",
+      "summary": "Build your freelance career with me: https://go.datalumina.com/yCHk1GX 📘 Guide to follow along: https://learn.datalumina.com/docs/local-chat 🔗 Code for the app: https://github.com/daveebbelaar/local-chat 🎙️ Get one free month of Glaido Pro: https://get.glaido.com/dave ⏱️ Timestamps 00:00 Intro 00:55 Run local AI with Ollama 04:08 How local models work 09:04 The Ollama API 10:56 Tauri and the app 13:59 Connect Ollama 19:19 Apple's model 20:36 Code mode with Pi 24:41 Bundle the app 27:43 What to b",
+      "published": "2026-11-11T14:47:14+00:00",
+      "channel": "Dave Ebbelaar",
+      "mode": "all",
+      "hits": [
+        "agent",
+        "harness",
+        "coding agent"
+      ],
+      "url": "https://www.youtube.com/watch?v=OSnAd5SuT_k",
+      "score": 5
+    },
+    {
+      "id": "kM7lnhS_uE8",
+      "title": "Something strange is happening to the internet right now",
+      "summary": "🔥 Join Maker School & get customer #1 guaranteed: https://skool.com/makerschool/about 💎 Get all course resources 100% free: https://skool.com/maker-zero/about ➡️ If this is your first video: I'm Nick Saraev. I run LeftClick, an AI growth agency. We've done work for large brands you're likely familiar with, like Mr. Beast, Anthropic, OpenAI, and a few others. In plain English: I help people build systems that generate leads, close deals, and scale businesses, mostly using new AI models like Claud",
+      "published": "2026-11-16T22:21:02+00:00",
+      "channel": "Nick Saraev",
+      "mode": "keyword",
+      "hits": [
+        "agent",
+        "agents",
+        "claude code",
+        "claude",
+        "workflow"
+      ],
+      "url": "https://www.youtube.com/watch?v=kM7lnhS_uE8",
+      "score": 4
+    },
+    {
+      "id": "Pyl5yyT7h-g",
+      "title": "The Highest-Paying Careers for The Next 2+ Years",
+      "summary": "🔥 AI media resources: https://higgsfield.ai/s/IkgpSM 💎 Get all course resources 100% free: https://go.nicksaraev.com/highest-paying-careers ➡️ If this is your first video: I'm Nick Saraev. I run LeftClick, an AI growth agency. We've done work for large brands you're likely familiar with, like Mr. Beast, Anthropic, OpenAI, and a few others. In plain English: I help people build systems that generate leads, close deals, and scale businesses, mostly using new AI models like Claude. I also make vide",
+      "published": "2026-11-14T18:30:45+00:00",
+      "channel": "Nick Saraev",
+      "mode": "keyword",
+      "hits": [
+        "agent",
+        "agents",
+        "claude",
+        "workflow"
+      ],
+      "url": "https://www.youtube.com/watch?v=Pyl5yyT7h-g",
+      "score": 4
+    },
+    {
+      "id": "G_Jrexy_5Bg",
+      "title": "AI News: Things Will Never Be The Same",
+      "summary": "Try @OpenAI Decisions API here: https://developers.openai.com/api/docs/guides/decisions Here's the AI news from one of the wildest weeks we've ever seen! Jensen Huang steps down as NVIDIA CEO, Anthropic launches Claude Fable 5.2, and Google's Gemini 4 Carbon finally becomes available. Plus, new AI features from Adobe MAX, big updates to Claude, and a rapid-fire roundup of everything else happening in AI. Sharing the latest news and advancements in AI Discover More: 🛠️ Explore AI Tools & News: ht",
+      "published": "2026-11-13T17:21:49+00:00",
+      "channel": "Matt Wolfe",
+      "mode": "keyword",
+      "hits": [
+        "agent",
+        "agents",
+        "claude",
+        "workflow"
+      ],
+      "url": "https://www.youtube.com/watch?v=G_Jrexy_5Bg",
+      "score": 4
+    },
+    {
+      "id": "pvl3z_GyU2Y",
+      "title": "How To Build An AI Operating System For Your Life",
+      "summary": "What if you could use AI agents to manage your emails, organize your schedule, create content, and help run your entire business? I sat down with Peter Yang to explore the personal AI system he uses to run his one-person business. He walks me through his AI chief of staff, a personal advisor that keeps him focused on his goals, and the automated workflows he uses for podcast research, video editing, content creation, and everyday tasks. We dive into how he connects ChatGPT, Claude Code, and Groq",
+      "published": "2026-11-11T16:00:07+00:00",
+      "channel": "Matt Wolfe",
+      "mode": "keyword",
+      "hits": [
+        "agent",
+        "agents",
+        "claude code",
+        "claude",
+        "workflow",
+        "skill"
+      ],
+      "url": "https://www.youtube.com/watch?v=pvl3z_GyU2Y",
+      "score": 4
+    },
+    {
+      "id": "U1IVZy9FhVQ",
+      "title": "What Will You Build With Coding Agents That Don’t Quit? | DevDay 2026",
+      "summary": "Learn from a Codex run that spent over 1,000 hours keeping builds and tests passing. Explore how to choose recurring tasks, improve feedback, manage token budgets, and decide when engineers should step in.",
+      "published": "2026-11-11T01:24:07+00:00",
+      "channel": "OpenAI",
+      "mode": "keyword",
+      "hits": [
+        "agent",
+        "agents",
+        "codex",
+        "coding agent"
+      ],
+      "url": "https://www.youtube.com/watch?v=U1IVZy9FhVQ",
+      "score": 4
+    },
+    {
+      "id": "b7l_Dhe1h8M",
+      "title": "Harness-as-a-Service: Building with the Agents API | DevDay 2026",
+      "summary": "Build with the Codex harness through the Agents API. Learn how to run agents in your environment, keep long-running tasks going, and understand which infrastructure OpenAI manages.",
+      "published": "2026-11-11T01:24:07+00:00",
+      "channel": "OpenAI",
+      "mode": "keyword",
+      "hits": [
+        "agent",
+        "agents",
+        "codex",
+        "harness"
+      ],
+      "url": "https://www.youtube.com/watch?v=b7l_Dhe1h8M",
+      "score": 4
+    },
+    {
+      "id": "r5iPi8RL7A8",
+      "title": "5 Types of AI Software Factories Clearly Explained",
+      "summary": "AI software factories are all the rage right now, but there's a lot of confusion about what they actually are. Here are the five most common types with the pros and cons of each, so you can find the right balance of control and autonomy for what you're building! ~~~~~~~~~~~~~~~~~~~~~~~~~~ - Thank you to LangChain for sponsoring this video! Try LangSmith with $50 in credit using my code ColeM: https://www.langchain.com/referral/cole-medin?utm_medium=creator&utm_source=youtube&utm_campaign=q3-2026",
+      "published": "2026-11-16T23:51:15+00:00",
+      "channel": "Cole Medin",
+      "mode": "all",
+      "hits": [
+        "langchain"
+      ],
+      "url": "https://www.youtube.com/watch?v=r5iPi8RL7A8",
+      "score": 3
+    },
+    {
+      "id": "PkAmyub12K8",
+      "title": "How Mozilla uses GPT-6 Cyber to find and fix Firefox vulnerabilities",
+      "summary": "Mozilla is combining decades of security engineering with AI agents to strengthen Firefox’s defenses. Brian Grinstead joins OpenAI’s Clint Gibler to discuss how the team prioritizes investigations, tests and verifies vulnerabilities, finds related bug patterns, and helps engineers develop fixes. They also explore how GPT-6 Cyber revealed that some known bugs could be more serious than initially understood, helping inform which issues need attention first. Across its security workflow, Mozilla sa",
+      "published": "2026-11-13T16:56:45+00:00",
+      "channel": "OpenAI",
+      "mode": "keyword",
+      "hits": [
+        "agent",
+        "agents",
+        "workflow"
+      ],
+      "url": "https://www.youtube.com/watch?v=PkAmyub12K8",
+      "score": 3
+    },
+    {
+      "id": "YmxpxJZvm4M",
+      "title": "Cyber at the Frontier: Introducing Daybreak Red Team & Daybreak Defense Factory",
+      "summary": "Greg Brockman, Nancy Wang, Fouad Matin, Clint Gibler, Alexander Thiemann, and Matt Boyle took the stage at Cyber at the Frontier, where OpenAI introduced two cybersecurity products under one unified Codex plugin called Daybreak: Daybreak Defense Factory: builds on Codex Security Cloud to help teams automate the defensive loop to find, validate, and fix vulnerabilities at scale. It gives engineers proposed patches with test results so they can review changes before merging. All of the work runs i",
+      "published": "2026-11-12T22:37:14+00:00",
+      "channel": "OpenAI",
+      "mode": "keyword",
+      "hits": [
+        "agent",
+        "agents",
+        "codex"
+      ],
+      "url": "https://www.youtube.com/watch?v=YmxpxJZvm4M",
+      "score": 3
+    },
+    {
+      "id": "QRm7VNMnurA",
+      "title": "Sites and the Next Generation of Web Apps | DevDay 2026",
+      "summary": "Turn an idea into an interactive web experience with Astra, ChatGPT Sites, and WebMCP. Learn how to build new kinds of interfaces alongside your colleagues and agents.",
+      "published": "2026-11-11T01:24:07+00:00",
+      "channel": "OpenAI",
+      "mode": "keyword",
+      "hits": [
+        "agent",
+        "agents",
+        "mcp"
+      ],
+      "url": "https://www.youtube.com/watch?v=QRm7VNMnurA",
+      "score": 3
+    },
+    {
+      "id": "EMysvWtyK0o",
+      "title": "It's Happening. Robots Just Took Another Blue Collar Job",
+      "summary": "🔥 Join Maker School & get customer #1 guaranteed: https://skool.com/makerschool/about 💎 Get all course resources 100% free: https://skool.com/maker-zero/about ➡️ If this is your first video: I'm Nick Saraev. I run LeftClick, an AI growth agency. We've done work for large brands you're likely familiar with, like Mr. Beast, Anthropic, OpenAI, and a few others. In plain English: I help people build systems that generate leads, close deals, and scale businesses, mostly using new AI models like Claud",
+      "published": "2026-11-16T16:42:43+00:00",
+      "channel": "Nick Saraev",
+      "mode": "keyword",
+      "hits": [
+        "claude",
+        "workflow"
+      ],
+      "url": "https://www.youtube.com/watch?v=EMysvWtyK0o",
+      "score": 2
+    },
+    {
+      "id": "ijinE_RBmYc",
+      "title": "Don’t Start Freelancing in Tech Until You Know This",
+      "summary": "Join my free live masterclass on freelancing: https://go.datalumina.com/ZiTGfcK 🎙️ Get one free month of Glaido Pro: https://get.glaido.com/dave 📘 Build your freelance career with me: https://go.datalumina.com/1Xfs7x0 ⏱️ Timestamps 00:00 Intro 02:23 Two models 06:59 Your first job is sales 09:28 Free masterclass 10:10 Don't niche down 15:29 You don't need a website 18:23 Pricing 23:23 Where you live matters 26:34 How the best freelancers do it 📌 Description Most people in tech picture freelancin",
+      "published": "2026-11-13T17:40:39+00:00",
+      "channel": "Dave Ebbelaar",
+      "mode": "all",
+      "hits": [],
+      "url": "https://www.youtube.com/watch?v=ijinE_RBmYc",
+      "score": 2
+    },
+    {
+      "id": "PvhjesKPASs",
+      "title": "Jensen Just Popped The AI Bubble",
+      "summary": "🔥 Join Maker School & get customer #1 guaranteed: https://go.nicksaraev.com/jensen-just-popped 💎 Get all course resources 100% free: https://go.nicksaraev.com/jensen-just-popped-maker-zero ➡️ If this is your first video: I'm Nick Saraev. I run LeftClick, an AI growth agency. We've done work for large brands you're likely familiar with, like Mr. Beast, Anthropic, OpenAI, and a few others. In plain English: I help people build systems that generate leads, close deals, and scale businesses, mostly ",
+      "published": "2026-11-12T20:50:54+00:00",
+      "channel": "Nick Saraev",
+      "mode": "keyword",
+      "hits": [
+        "claude",
+        "workflow"
+      ],
+      "url": "https://www.youtube.com/watch?v=PvhjesKPASs",
+      "score": 2
+    },
+    {
+      "id": "vdBDMj2UhDg",
+      "title": "How to enable PR security reviews with Codex Security",
+      "summary": "Bring security reviews into your pull request workflow with Codex Security. Learn how to check your GitHub connection, request a review, work through a fix, and review the change again. Then configure automatic reviews for your repository, including triggers and severity thresholds.",
+      "published": "2026-11-11T21:10:24+00:00",
+      "channel": "OpenAI",
+      "mode": "keyword",
+      "hits": [
+        "codex",
+        "workflow"
+      ],
+      "url": "https://www.youtube.com/watch?v=vdBDMj2UhDg",
+      "score": 2
+    },
+    {
+      "id": "hUhr0JiVZZs",
+      "title": "How to run your first Codex Security scan",
+      "summary": "Get started with Codex Security, from installing the plugin to running your first scan. Learn how to select a repository, add context, review findings, and generate a patch. Then follow the fix into GitHub and see how to use the CLI to bring security scans into your automation workflows.",
+      "published": "2026-11-11T21:10:05+00:00",
+      "channel": "OpenAI",
+      "mode": "keyword",
+      "hits": [
+        "codex",
+        "workflow"
+      ],
+      "url": "https://www.youtube.com/watch?v=hUhr0JiVZZs",
+      "score": 2
+    },
+    {
+      "id": "wpFw66kKixU",
+      "title": "I Threw $1000 at Fable 5.2 to Build The Coolest Demos Possible",
+      "summary": "🔥 Join Maker School & get customer #1 guaranteed: https://go.nicksaraev.com/threw-1000-fable 💎 Get all course resources 100% free: https://go.nicksaraev.com/threw-1000-fable-maker-zero ➡️ If this is your first video: I'm Nick Saraev. I run LeftClick, an AI growth agency. We've done work for large brands you're likely familiar with, like Mr. Beast, Anthropic, OpenAI, and a few others. In plain English: I help people build systems that generate leads, close deals, and scale businesses, mostly usin",
+      "published": "2026-11-11T20:35:24+00:00",
+      "channel": "Nick Saraev",
+      "mode": "keyword",
+      "hits": [
+        "claude",
+        "workflow"
+      ],
+      "url": "https://www.youtube.com/watch?v=wpFw66kKixU",
+      "score": 2
+    },
+    {
+      "id": "0NbLVdCZHF0",
+      "title": "Tabular Foundation Models for Data Science Agents",
+      "summary": "Learn More: https://bit.ly/4j2WLq8 Tabular foundation models use in-context learning to make predictions on new datasets without training a model from scratch. In this short course, built in partnership with Prior Labs and taught by Frank Hutter, Eliott Kalfon, and Tuana Çelik, you'll: - Make classification, regression, and forecasting predictions with a tabular foundation model - Speed up repeated predictions with KV caching - Interpret predictions to see which features influence them and what ",
+      "published": "2026-11-11T11:00:19+00:00",
+      "channel": "DeepLearningAI",
+      "mode": "keyword",
+      "hits": [
+        "agent",
+        "agents"
+      ],
+      "url": "https://www.youtube.com/watch?v=0NbLVdCZHF0",
+      "score": 2
+    },
+    {
+      "id": "jDxKzlGLCas",
+      "title": "Building with GPT-Live and Image Generation | DevDay 2026",
+      "summary": "See GPT-Live brainstorm, play games, and create images while coordinating work in the background. Learn to add voice to agents and design for delegation, latency, interruptions, and changing requests.",
+      "published": "2026-11-11T01:24:08+00:00",
+      "channel": "OpenAI",
+      "mode": "keyword",
+      "hits": [
+        "agent",
+        "agents"
+      ],
+      "url": "https://www.youtube.com/watch?v=jDxKzlGLCas",
+      "score": 2
+    },
+    {
+      "id": "5mA9Hab09Do",
+      "title": "13 INSANE Things You Can Build w/ Claude Fable 5.2",
+      "summary": "🔥 Join Maker School & get customer #1 guaranteed: https://go.nicksaraev.com/13-insane-things 💎 Get all course resources 100% free: https://go.nicksaraev.com/13-insane-things-maker-zero ➡️ If this is your first video: I'm Nick Saraev. I run LeftClick, an AI growth agency. We've done work for large brands you're likely familiar with, like Mr. Beast, Anthropic, OpenAI, and a few others. In plain English: I help people build systems that generate leads, close deals, and scale businesses, mostly usin",
+      "published": "2026-11-10T23:08:45+00:00",
+      "channel": "Nick Saraev",
+      "mode": "keyword",
+      "hits": [
+        "claude",
+        "workflow"
+      ],
+      "url": "https://www.youtube.com/watch?v=5mA9Hab09Do",
+      "score": 2
+    },
+    {
+      "id": "vVVdxMwPBuA",
+      "title": "How Check Point speeds up vulnerability research with Daybreak | OpenAI for Cybersecurity",
+      "summary": "Check Point CTO Jonathan Zanger explains how his team uses OpenAI Daybreak to analyze vulnerabilities and turn findings into protections for customers. A vulnerability research workflow that once took hours can now be completed in minutes, according to Zanger. Read the full customer story: https://openai.com/index/check-point-daybreak/",
+      "published": "2026-11-16T16:55:56+00:00",
+      "channel": "OpenAI",
+      "mode": "keyword",
+      "hits": [
+        "workflow"
+      ],
+      "url": "https://www.youtube.com/watch?v=vVVdxMwPBuA",
+      "score": 1
+    },
+    {
+      "id": "vu3YlUMkvyg",
+      "title": "What Codex Unlocks for Holiday Extras",
+      "summary": "What happens when the people who understand your customers can build the software to help them? At Holiday Extras, Codex is helping turn that ambition into reality—from rebuilding its main app in two weeks to responding faster to customer feedback. Hear how CEO Matthew Pack, David Lee and Liam Thompson are giving colleagues the confidence to build, improving the travel experience and rethinking what the business can achieve with OpenAI. Read the full story: https://openai.com/business/customer-s",
+      "published": "2026-11-12T09:45:17+00:00",
+      "channel": "OpenAI",
+      "mode": "keyword",
+      "hits": [
+        "codex"
+      ],
+      "url": "https://www.youtube.com/watch?v=vu3YlUMkvyg",
+      "score": 1
+    },
+    {
+      "id": "NS220dAaRMo",
+      "title": "How to request and enable Daybreak Blue",
+      "summary": "Learn how to request access to Daybreak Blue and enable it for your workspace and API organization. This walkthrough covers business verification, workspace permissions, role-based access controls, and confirming access in Codex. You’ll also see how to set up a project and API key for automation.",
+      "published": "2026-11-11T21:10:28+00:00",
+      "channel": "OpenAI",
+      "mode": "keyword",
+      "hits": [
+        "codex"
+      ],
+      "url": "https://www.youtube.com/watch?v=NS220dAaRMo",
+      "score": 1
+    },
+    {
+      "id": "pIW_8VyvCuQ",
+      "title": "Build What’s Next on the ChatGPT Platform with Plugins | DevDay 2026",
+      "summary": "Bring your tools, knowledge, and interfaces into ChatGPT and Codex with plugin extensions. Through live demos, learn how to turn an idea into a useful experience, share it, and reach new users.",
+      "published": "2026-11-11T01:24:08+00:00",
+      "channel": "OpenAI",
+      "mode": "keyword",
+      "hits": [
+        "codex"
+      ],
+      "url": "https://www.youtube.com/watch?v=pIW_8VyvCuQ",
+      "score": 1
+    },
+    {
+      "id": "gUQN7juxvVI",
+      "title": "Codex Security: From Vulnerability to Verified Fix | DevDay 2026",
+      "summary": "Find and fix vulnerabilities with OpenAI’s cyber models and open-source CLI and SDK. Learn to scan large codebases, catch issues in pull requests, and verify fixes, drawing on OpenAI’s own security work.",
+      "published": "2026-11-11T01:24:07+00:00",
+      "channel": "OpenAI",
+      "mode": "keyword",
+      "hits": [
+        "codex"
+      ],
+      "url": "https://www.youtube.com/watch?v=gUQN7juxvVI",
+      "score": 1
+    }
+  ]
 }

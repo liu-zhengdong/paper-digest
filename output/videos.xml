@@ -5,6 +5,251 @@
     <link>https://raw.githubusercontent.com/liu-zhengdong/paper-digest/main/output/videos.xml</link>
     <description>Agent 用法向 YouTube 频道的每日去重列表，已去掉 Shorts</description>
     <language>zh-CN</language>
-    <lastBuildDate>Mon, 16 Nov 2026 07:15:02 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 17 Nov 2026 08:28:10 +0000</lastBuildDate>
+    <item>
+      <title>Building Jarvis: JPMC’s Agent Building Assembly Line</title>
+      <link>https://www.youtube.com/watch?v=VpHYPfvfy0o</link>
+      <guid isPermaLink="true">https://www.youtube.com/watch?v=VpHYPfvfy0o</guid>
+      <pubDate>Mon, 16 Nov 2026 13:23:40 +0000</pubDate>
+      <description>&lt;p&gt;&lt;b&gt;LangChain&lt;/b&gt; · score 6 · hits agent, agents, agentic, skill, langchain, harness&lt;/p&gt;&lt;p&gt;David Odomirok, Tony Wu, and Jane Xue of JPMorgan Chase explain Jarvis, which they describe not as a single agent but as an agent-building assembly line, and how, in David&amp;#x27;s words, the one agent the team took months to build last year now takes minutes. Tony walks through the composable, replaceable skills that make up the line across the software development, agentic development, and production life cycles, from a deep agent setup with skills and enterprise security to the harness, CI/CD, deplo&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Is n8n Dead? Not Even Close (Full Guide)</title>
+      <link>https://www.youtube.com/watch?v=EuUF53Wwfm0</link>
+      <guid isPermaLink="true">https://www.youtube.com/watch?v=EuUF53Wwfm0</guid>
+      <pubDate>Mon, 16 Nov 2026 12:59:18 +0000</pubDate>
+      <description>&lt;p&gt;&lt;b&gt;Leon van Zyl&lt;/b&gt; · score 6 · hits agent, agents, agentic, claude code, claude, mcp, workflow, harness&lt;/p&gt;&lt;p&gt;⚡ Self-host n8n on Hostinger and get an extra 10% OFF with code LEON: https://hostinger.com/leon Is n8n dead? My honest answer after going back to n8n for the first time in ages. 🚀 My exclusive AI engineering courses, live Q&amp;amp;As, workshops &amp;amp; deep dives: https://skool.com/agentic-labs 🎁 Free RAMP course + all the resources from my videos: https://skool.com/leonvanzyl Ever since Claude Code took off, people keep asking if n8n is dead. I went back to check, and it&amp;#x27;s not the n8n I remember. n8n now c&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Fireside Chat with Erik Bernhardsson, Modal</title>
+      <link>https://www.youtube.com/watch?v=1M8vagUOdJM</link>
+      <guid isPermaLink="true">https://www.youtube.com/watch?v=1M8vagUOdJM</guid>
+      <pubDate>Thu, 12 Nov 2026 15:26:12 +0000</pubDate>
+      <description>&lt;p&gt;&lt;b&gt;LangChain&lt;/b&gt; · score 6 · hits agent, agents, mcp, langchain, harness, coding agent&lt;/p&gt;&lt;p&gt;Erik Bernhardsson, CEO and Co-Founder of Modal, explains what drove demand for Modal&amp;#x27;s sandboxes (vibe coding apps, background agents, and reinforcement learning rollouts) and why he thinks agent harnesses should run outside the sandbox, with sandboxes that are short-lived, maybe one per tool call. He also covers how Modal, which builds AI infrastructure for inference, training, and sandboxes, moved up the stack with auto and shared endpoints for open source models, when he thinks RL is worth it&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Your Complete Guide to Fable 5.2 (When to Use It, Effort Levels, Prompting)</title>
+      <link>https://www.youtube.com/watch?v=fLjGgbW0Ki8</link>
+      <guid isPermaLink="true">https://www.youtube.com/watch?v=fLjGgbW0Ki8</guid>
+      <pubDate>Thu, 12 Nov 2026 04:24:26 +0000</pubDate>
+      <description>&lt;p&gt;&lt;b&gt;Cole Medin&lt;/b&gt; · score 6 · hits agent, agents, agentic, claude code, claude, subagent, harness&lt;/p&gt;&lt;p&gt;Fable 5.2 is the smartest model you can use in Claude Code right now, and it&amp;#x27;s also the fastest way to burn through your rate limits. So this is my guide to getting the most out of it! I cover where Fable is actually worth it over Opus 5.5 (and where it isn&amp;#x27;t), the effort level to run each one at, how I split the work so Fable plans and Opus builds, and how to prompt Fable for the best results. ~~~~~~~~~~~~~~~~~~~~~~~~~~ - Firecrawl, give your AI agents web data and beyond: https://firecrawl.lin&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Grok Bot Full Guide: Get More Done Than 99% of People</title>
+      <link>https://www.youtube.com/watch?v=7b6cMUBxUtw</link>
+      <guid isPermaLink="true">https://www.youtube.com/watch?v=7b6cMUBxUtw</guid>
+      <pubDate>Wed, 11 Nov 2026 12:00:00 +0000</pubDate>
+      <description>&lt;p&gt;&lt;b&gt;Leon van Zyl&lt;/b&gt; · score 6 · hits agent, agents, agentic, claude&lt;/p&gt;&lt;p&gt;⚡ Try Blotato https://blotato.com/?ref=leonfe Use code LEON30 for 30% OFF for 3 months! Grok Bot tutorial for beginners: set up Grok Bot and build your very first AI team. 🚀 My exclusive AI engineering courses, live Q&amp;amp;As, workshops &amp;amp; deep dives: https://skool.com/agentic-labs 🎁 Free RAMP course + all the resources from my videos: https://skool.com/leonvanzyl Most AI assistants make you set up the provider, the model and every tool yourself. Grok Bot picks the right model for each job on its own.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>11 More Tiny Coding Agent Fixes With A Stupid Amount Of Payoff (Learn These Now)</title>
+      <link>https://www.youtube.com/watch?v=hMEQ4rdaOLw</link>
+      <guid isPermaLink="true">https://www.youtube.com/watch?v=hMEQ4rdaOLw</guid>
+      <pubDate>Tue, 10 Nov 2026 22:57:03 +0000</pubDate>
+      <description>&lt;p&gt;&lt;b&gt;Cole Medin&lt;/b&gt; · score 6 · hits agent, agents, agentic, skill, coding agent&lt;/p&gt;&lt;p&gt;Coding agents keep hitting the same problems for you: saying the work is done when it isn&amp;#x27;t, tests that pass while the app is still broken, ignoring your rules, burning through your limits, etc. In this video I go through 11 of them and the tiny fix for each one, built into your AI layer (skills, rules, hooks) through a conversation with your agent where you review and sign off on every change. The chapters are named after the problems, so you can jump straight to the ones you hit the most! ~~~~&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>How Workday Builds Agent Prototypes in Under a Day with LangChain</title>
+      <link>https://www.youtube.com/watch?v=xM_BhmEyKAY</link>
+      <guid isPermaLink="true">https://www.youtube.com/watch?v=xM_BhmEyKAY</guid>
+      <pubDate>Tue, 10 Nov 2026 16:36:54 +0000</pubDate>
+      <description>&lt;p&gt;&lt;b&gt;LangChain&lt;/b&gt; · score 6 · hits agent, agents, mcp, langgraph, langchain&lt;/p&gt;&lt;p&gt;Alex Gatto, Senior Machine Learning Engineer at Workday, explains how his team built an internal agent platform on LangChain&amp;#x27;s Agent Server and LangSmith, so Workday teams can get agents into production under the company&amp;#x27;s security and data retention policies. Every agent on the platform runs as an A2A and MCP server with authentication and security built in, which leaves teams to decide what their agent does and how to build its graph. Prototypes that took 4 to 5 months now reach staging in les&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Fable 5.2 is CRACKED but THIS goes BEYOND THE MODEL</title>
+      <link>https://www.youtube.com/watch?v=hYIymEMB9x4</link>
+      <guid isPermaLink="true">https://www.youtube.com/watch?v=hYIymEMB9x4</guid>
+      <pubDate>Mon, 16 Nov 2026 14:00:02 +0000</pubDate>
+      <description>&lt;p&gt;&lt;b&gt;IndyDevDan&lt;/b&gt; · score 5 · hits agent, agents, agentic&lt;/p&gt;&lt;p&gt;Fable 5.2 just dropped and most engineers DON&amp;#x27;T need it. Everyone has access to the same frontier intelligence. The model is NOT your edge. The system you build around the model is. One super agent that does everything is a myth. Sub-agents hit a ceiling. Agent swarms burn more money than they make. The real multi-agent sweet spot? Small agent teams. 🚀 Phase 3 PRE-LAUNCH IS LIVE (What if your agents never stopped?) https://agenticengineer.com/infinite-agentic-engineering?y=hYIymEMB9x4 🔥 In Tiny &lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>LangSmith: The platform to run, improve, and govern agents</title>
+      <link>https://www.youtube.com/watch?v=NeV6MSN6zEE</link>
+      <guid isPermaLink="true">https://www.youtube.com/watch?v=NeV6MSN6zEE</guid>
+      <pubDate>Fri, 13 Nov 2026 16:31:35 +0000</pubDate>
+      <description>&lt;p&gt;&lt;b&gt;LangChain&lt;/b&gt; · score 5 · hits agent, agents, langchain&lt;/p&gt;&lt;p&gt;LangChain has raised $300 million in a Series C at a $3 billion valuation, and we&amp;#x27;re launching the new LangSmith, which puts what we&amp;#x27;ve learned from millions of developers building agents into one platform. LangSmith processes billions of traces a month for more than 7,000 customers. The agents that change how a business runs get better because their teams keep iterating on them, and that work is spread across tools that weren&amp;#x27;t built for agents. This video walks through how LangSmith handles th&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>LangChain Academy New Course: Building and Deploying Managed Agents</title>
+      <link>https://www.youtube.com/watch?v=tqgthjS7Ym4</link>
+      <guid isPermaLink="true">https://www.youtube.com/watch?v=tqgthjS7Ym4</guid>
+      <pubDate>Thu, 12 Nov 2026 19:48:38 +0000</pubDate>
+      <description>&lt;p&gt;&lt;b&gt;LangChain&lt;/b&gt; · score 5 · hits agent, agents, langchain&lt;/p&gt;&lt;p&gt;Getting an agent working on your laptop takes hours, but putting it in front of real users can take weeks of infrastructure work around the agent itself. This new LangChain Academy course shows you how to close that gap with LangSmith Managed Agents, where you define the agent and the context it needs and deploy it with one command. You&amp;#x27;ll start with how an agent is put together, then run it on the managed platform with its own sandbox and user credentials. From there you&amp;#x27;ll add authentication a&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Learn Local AI in 30 Minutes - Run LLMs locally for FREE</title>
+      <link>https://www.youtube.com/watch?v=OSnAd5SuT_k</link>
+      <guid isPermaLink="true">https://www.youtube.com/watch?v=OSnAd5SuT_k</guid>
+      <pubDate>Wed, 11 Nov 2026 14:47:14 +0000</pubDate>
+      <description>&lt;p&gt;&lt;b&gt;Dave Ebbelaar&lt;/b&gt; · score 5 · hits agent, harness, coding agent&lt;/p&gt;&lt;p&gt;Build your freelance career with me: https://go.datalumina.com/yCHk1GX 📘 Guide to follow along: https://learn.datalumina.com/docs/local-chat 🔗 Code for the app: https://github.com/daveebbelaar/local-chat 🎙️ Get one free month of Glaido Pro: https://get.glaido.com/dave ⏱️ Timestamps 00:00 Intro 00:55 Run local AI with Ollama 04:08 How local models work 09:04 The Ollama API 10:56 Tauri and the app 13:59 Connect Ollama 19:19 Apple&amp;#x27;s model 20:36 Code mode with Pi 24:41 Bundle the app 27:43 What to b&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Something strange is happening to the internet right now</title>
+      <link>https://www.youtube.com/watch?v=kM7lnhS_uE8</link>
+      <guid isPermaLink="true">https://www.youtube.com/watch?v=kM7lnhS_uE8</guid>
+      <pubDate>Mon, 16 Nov 2026 22:21:02 +0000</pubDate>
+      <description>&lt;p&gt;&lt;b&gt;Nick Saraev&lt;/b&gt; · score 4 · hits agent, agents, claude code, claude, workflow&lt;/p&gt;&lt;p&gt;🔥 Join Maker School &amp;amp; get customer #1 guaranteed: https://skool.com/makerschool/about 💎 Get all course resources 100% free: https://skool.com/maker-zero/about ➡️ If this is your first video: I&amp;#x27;m Nick Saraev. I run LeftClick, an AI growth agency. We&amp;#x27;ve done work for large brands you&amp;#x27;re likely familiar with, like Mr. Beast, Anthropic, OpenAI, and a few others. In plain English: I help people build systems that generate leads, close deals, and scale businesses, mostly using new AI models like Claud&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>The Highest-Paying Careers for The Next 2+ Years</title>
+      <link>https://www.youtube.com/watch?v=Pyl5yyT7h-g</link>
+      <guid isPermaLink="true">https://www.youtube.com/watch?v=Pyl5yyT7h-g</guid>
+      <pubDate>Sat, 14 Nov 2026 18:30:45 +0000</pubDate>
+      <description>&lt;p&gt;&lt;b&gt;Nick Saraev&lt;/b&gt; · score 4 · hits agent, agents, claude, workflow&lt;/p&gt;&lt;p&gt;🔥 AI media resources: https://higgsfield.ai/s/IkgpSM 💎 Get all course resources 100% free: https://go.nicksaraev.com/highest-paying-careers ➡️ If this is your first video: I&amp;#x27;m Nick Saraev. I run LeftClick, an AI growth agency. We&amp;#x27;ve done work for large brands you&amp;#x27;re likely familiar with, like Mr. Beast, Anthropic, OpenAI, and a few others. In plain English: I help people build systems that generate leads, close deals, and scale businesses, mostly using new AI models like Claude. I also make vide&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>AI News: Things Will Never Be The Same</title>
+      <link>https://www.youtube.com/watch?v=G_Jrexy_5Bg</link>
+      <guid isPermaLink="true">https://www.youtube.com/watch?v=G_Jrexy_5Bg</guid>
+      <pubDate>Fri, 13 Nov 2026 17:21:49 +0000</pubDate>
+      <description>&lt;p&gt;&lt;b&gt;Matt Wolfe&lt;/b&gt; · score 4 · hits agent, agents, claude, workflow&lt;/p&gt;&lt;p&gt;Try @OpenAI Decisions API here: https://developers.openai.com/api/docs/guides/decisions Here&amp;#x27;s the AI news from one of the wildest weeks we&amp;#x27;ve ever seen! Jensen Huang steps down as NVIDIA CEO, Anthropic launches Claude Fable 5.2, and Google&amp;#x27;s Gemini 4 Carbon finally becomes available. Plus, new AI features from Adobe MAX, big updates to Claude, and a rapid-fire roundup of everything else happening in AI. Sharing the latest news and advancements in AI Discover More: 🛠️ Explore AI Tools &amp;amp; News: ht&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>How To Build An AI Operating System For Your Life</title>
+      <link>https://www.youtube.com/watch?v=pvl3z_GyU2Y</link>
+      <guid isPermaLink="true">https://www.youtube.com/watch?v=pvl3z_GyU2Y</guid>
+      <pubDate>Wed, 11 Nov 2026 16:00:07 +0000</pubDate>
+      <description>&lt;p&gt;&lt;b&gt;Matt Wolfe&lt;/b&gt; · score 4 · hits agent, agents, claude code, claude, workflow, skill&lt;/p&gt;&lt;p&gt;What if you could use AI agents to manage your emails, organize your schedule, create content, and help run your entire business? I sat down with Peter Yang to explore the personal AI system he uses to run his one-person business. He walks me through his AI chief of staff, a personal advisor that keeps him focused on his goals, and the automated workflows he uses for podcast research, video editing, content creation, and everyday tasks. We dive into how he connects ChatGPT, Claude Code, and Groq&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>What Will You Build With Coding Agents That Don’t Quit? | DevDay 2026</title>
+      <link>https://www.youtube.com/watch?v=U1IVZy9FhVQ</link>
+      <guid isPermaLink="true">https://www.youtube.com/watch?v=U1IVZy9FhVQ</guid>
+      <pubDate>Wed, 11 Nov 2026 01:24:07 +0000</pubDate>
+      <description>&lt;p&gt;&lt;b&gt;OpenAI&lt;/b&gt; · score 4 · hits agent, agents, codex, coding agent&lt;/p&gt;&lt;p&gt;Learn from a Codex run that spent over 1,000 hours keeping builds and tests passing. Explore how to choose recurring tasks, improve feedback, manage token budgets, and decide when engineers should step in.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Harness-as-a-Service: Building with the Agents API | DevDay 2026</title>
+      <link>https://www.youtube.com/watch?v=b7l_Dhe1h8M</link>
+      <guid isPermaLink="true">https://www.youtube.com/watch?v=b7l_Dhe1h8M</guid>
+      <pubDate>Wed, 11 Nov 2026 01:24:07 +0000</pubDate>
+      <description>&lt;p&gt;&lt;b&gt;OpenAI&lt;/b&gt; · score 4 · hits agent, agents, codex, harness&lt;/p&gt;&lt;p&gt;Build with the Codex harness through the Agents API. Learn how to run agents in your environment, keep long-running tasks going, and understand which infrastructure OpenAI manages.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>5 Types of AI Software Factories Clearly Explained</title>
+      <link>https://www.youtube.com/watch?v=r5iPi8RL7A8</link>
+      <guid isPermaLink="true">https://www.youtube.com/watch?v=r5iPi8RL7A8</guid>
+      <pubDate>Mon, 16 Nov 2026 23:51:15 +0000</pubDate>
+      <description>&lt;p&gt;&lt;b&gt;Cole Medin&lt;/b&gt; · score 3 · hits langchain&lt;/p&gt;&lt;p&gt;AI software factories are all the rage right now, but there&amp;#x27;s a lot of confusion about what they actually are. Here are the five most common types with the pros and cons of each, so you can find the right balance of control and autonomy for what you&amp;#x27;re building! ~~~~~~~~~~~~~~~~~~~~~~~~~~ - Thank you to LangChain for sponsoring this video! Try LangSmith with $50 in credit using my code ColeM: https://www.langchain.com/referral/cole-medin?utm_medium=creator&amp;amp;utm_source=youtube&amp;amp;utm_campaign=q3-2026&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>How Mozilla uses GPT-6 Cyber to find and fix Firefox vulnerabilities</title>
+      <link>https://www.youtube.com/watch?v=PkAmyub12K8</link>
+      <guid isPermaLink="true">https://www.youtube.com/watch?v=PkAmyub12K8</guid>
+      <pubDate>Fri, 13 Nov 2026 16:56:45 +0000</pubDate>
+      <description>&lt;p&gt;&lt;b&gt;OpenAI&lt;/b&gt; · score 3 · hits agent, agents, workflow&lt;/p&gt;&lt;p&gt;Mozilla is combining decades of security engineering with AI agents to strengthen Firefox’s defenses. Brian Grinstead joins OpenAI’s Clint Gibler to discuss how the team prioritizes investigations, tests and verifies vulnerabilities, finds related bug patterns, and helps engineers develop fixes. They also explore how GPT-6 Cyber revealed that some known bugs could be more serious than initially understood, helping inform which issues need attention first. Across its security workflow, Mozilla sa&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Cyber at the Frontier: Introducing Daybreak Red Team &amp; Daybreak Defense Factory</title>
+      <link>https://www.youtube.com/watch?v=YmxpxJZvm4M</link>
+      <guid isPermaLink="true">https://www.youtube.com/watch?v=YmxpxJZvm4M</guid>
+      <pubDate>Thu, 12 Nov 2026 22:37:14 +0000</pubDate>
+      <description>&lt;p&gt;&lt;b&gt;OpenAI&lt;/b&gt; · score 3 · hits agent, agents, codex&lt;/p&gt;&lt;p&gt;Greg Brockman, Nancy Wang, Fouad Matin, Clint Gibler, Alexander Thiemann, and Matt Boyle took the stage at Cyber at the Frontier, where OpenAI introduced two cybersecurity products under one unified Codex plugin called Daybreak: Daybreak Defense Factory: builds on Codex Security Cloud to help teams automate the defensive loop to find, validate, and fix vulnerabilities at scale. It gives engineers proposed patches with test results so they can review changes before merging. All of the work runs i&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Sites and the Next Generation of Web Apps | DevDay 2026</title>
+      <link>https://www.youtube.com/watch?v=QRm7VNMnurA</link>
+      <guid isPermaLink="true">https://www.youtube.com/watch?v=QRm7VNMnurA</guid>
+      <pubDate>Wed, 11 Nov 2026 01:24:07 +0000</pubDate>
+      <description>&lt;p&gt;&lt;b&gt;OpenAI&lt;/b&gt; · score 3 · hits agent, agents, mcp&lt;/p&gt;&lt;p&gt;Turn an idea into an interactive web experience with Astra, ChatGPT Sites, and WebMCP. Learn how to build new kinds of interfaces alongside your colleagues and agents.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>It&#x27;s Happening. Robots Just Took Another Blue Collar Job</title>
+      <link>https://www.youtube.com/watch?v=EMysvWtyK0o</link>
+      <guid isPermaLink="true">https://www.youtube.com/watch?v=EMysvWtyK0o</guid>
+      <pubDate>Mon, 16 Nov 2026 16:42:43 +0000</pubDate>
+      <description>&lt;p&gt;&lt;b&gt;Nick Saraev&lt;/b&gt; · score 2 · hits claude, workflow&lt;/p&gt;&lt;p&gt;🔥 Join Maker School &amp;amp; get customer #1 guaranteed: https://skool.com/makerschool/about 💎 Get all course resources 100% free: https://skool.com/maker-zero/about ➡️ If this is your first video: I&amp;#x27;m Nick Saraev. I run LeftClick, an AI growth agency. We&amp;#x27;ve done work for large brands you&amp;#x27;re likely familiar with, like Mr. Beast, Anthropic, OpenAI, and a few others. In plain English: I help people build systems that generate leads, close deals, and scale businesses, mostly using new AI models like Claud&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Don’t Start Freelancing in Tech Until You Know This</title>
+      <link>https://www.youtube.com/watch?v=ijinE_RBmYc</link>
+      <guid isPermaLink="true">https://www.youtube.com/watch?v=ijinE_RBmYc</guid>
+      <pubDate>Fri, 13 Nov 2026 17:40:39 +0000</pubDate>
+      <description>&lt;p&gt;&lt;b&gt;Dave Ebbelaar&lt;/b&gt; · score 2 · hits -&lt;/p&gt;&lt;p&gt;Join my free live masterclass on freelancing: https://go.datalumina.com/ZiTGfcK 🎙️ Get one free month of Glaido Pro: https://get.glaido.com/dave 📘 Build your freelance career with me: https://go.datalumina.com/1Xfs7x0 ⏱️ Timestamps 00:00 Intro 02:23 Two models 06:59 Your first job is sales 09:28 Free masterclass 10:10 Don&amp;#x27;t niche down 15:29 You don&amp;#x27;t need a website 18:23 Pricing 23:23 Where you live matters 26:34 How the best freelancers do it 📌 Description Most people in tech picture freelancin&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Jensen Just Popped The AI Bubble</title>
+      <link>https://www.youtube.com/watch?v=PvhjesKPASs</link>
+      <guid isPermaLink="true">https://www.youtube.com/watch?v=PvhjesKPASs</guid>
+      <pubDate>Thu, 12 Nov 2026 20:50:54 +0000</pubDate>
+      <description>&lt;p&gt;&lt;b&gt;Nick Saraev&lt;/b&gt; · score 2 · hits claude, workflow&lt;/p&gt;&lt;p&gt;🔥 Join Maker School &amp;amp; get customer #1 guaranteed: https://go.nicksaraev.com/jensen-just-popped 💎 Get all course resources 100% free: https://go.nicksaraev.com/jensen-just-popped-maker-zero ➡️ If this is your first video: I&amp;#x27;m Nick Saraev. I run LeftClick, an AI growth agency. We&amp;#x27;ve done work for large brands you&amp;#x27;re likely familiar with, like Mr. Beast, Anthropic, OpenAI, and a few others. In plain English: I help people build systems that generate leads, close deals, and scale businesses, mostly &lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>How to enable PR security reviews with Codex Security</title>
+      <link>https://www.youtube.com/watch?v=vdBDMj2UhDg</link>
+      <guid isPermaLink="true">https://www.youtube.com/watch?v=vdBDMj2UhDg</guid>
+      <pubDate>Wed, 11 Nov 2026 21:10:24 +0000</pubDate>
+      <description>&lt;p&gt;&lt;b&gt;OpenAI&lt;/b&gt; · score 2 · hits codex, workflow&lt;/p&gt;&lt;p&gt;Bring security reviews into your pull request workflow with Codex Security. Learn how to check your GitHub connection, request a review, work through a fix, and review the change again. Then configure automatic reviews for your repository, including triggers and severity thresholds.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>How to run your first Codex Security scan</title>
+      <link>https://www.youtube.com/watch?v=hUhr0JiVZZs</link>
+      <guid isPermaLink="true">https://www.youtube.com/watch?v=hUhr0JiVZZs</guid>
+      <pubDate>Wed, 11 Nov 2026 21:10:05 +0000</pubDate>
+      <description>&lt;p&gt;&lt;b&gt;OpenAI&lt;/b&gt; · score 2 · hits codex, workflow&lt;/p&gt;&lt;p&gt;Get started with Codex Security, from installing the plugin to running your first scan. Learn how to select a repository, add context, review findings, and generate a patch. Then follow the fix into GitHub and see how to use the CLI to bring security scans into your automation workflows.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>I Threw $1000 at Fable 5.2 to Build The Coolest Demos Possible</title>
+      <link>https://www.youtube.com/watch?v=wpFw66kKixU</link>
+      <guid isPermaLink="true">https://www.youtube.com/watch?v=wpFw66kKixU</guid>
+      <pubDate>Wed, 11 Nov 2026 20:35:24 +0000</pubDate>
+      <description>&lt;p&gt;&lt;b&gt;Nick Saraev&lt;/b&gt; · score 2 · hits claude, workflow&lt;/p&gt;&lt;p&gt;🔥 Join Maker School &amp;amp; get customer #1 guaranteed: https://go.nicksaraev.com/threw-1000-fable 💎 Get all course resources 100% free: https://go.nicksaraev.com/threw-1000-fable-maker-zero ➡️ If this is your first video: I&amp;#x27;m Nick Saraev. I run LeftClick, an AI growth agency. We&amp;#x27;ve done work for large brands you&amp;#x27;re likely familiar with, like Mr. Beast, Anthropic, OpenAI, and a few others. In plain English: I help people build systems that generate leads, close deals, and scale businesses, mostly usin&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Tabular Foundation Models for Data Science Agents</title>
+      <link>https://www.youtube.com/watch?v=0NbLVdCZHF0</link>
+      <guid isPermaLink="true">https://www.youtube.com/watch?v=0NbLVdCZHF0</guid>
+      <pubDate>Wed, 11 Nov 2026 11:00:19 +0000</pubDate>
+      <description>&lt;p&gt;&lt;b&gt;DeepLearningAI&lt;/b&gt; · score 2 · hits agent, agents&lt;/p&gt;&lt;p&gt;Learn More: https://bit.ly/4j2WLq8 Tabular foundation models use in-context learning to make predictions on new datasets without training a model from scratch. In this short course, built in partnership with Prior Labs and taught by Frank Hutter, Eliott Kalfon, and Tuana Çelik, you&amp;#x27;ll: - Make classification, regression, and forecasting predictions with a tabular foundation model - Speed up repeated predictions with KV caching - Interpret predictions to see which features influence them and what &lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Building with GPT-Live and Image Generation | DevDay 2026</title>
+      <link>https://www.youtube.com/watch?v=jDxKzlGLCas</link>
+      <guid isPermaLink="true">https://www.youtube.com/watch?v=jDxKzlGLCas</guid>
+      <pubDate>Wed, 11 Nov 2026 01:24:08 +0000</pubDate>
+      <description>&lt;p&gt;&lt;b&gt;OpenAI&lt;/b&gt; · score 2 · hits agent, agents&lt;/p&gt;&lt;p&gt;See GPT-Live brainstorm, play games, and create images while coordinating work in the background. Learn to add voice to agents and design for delegation, latency, interruptions, and changing requests.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>13 INSANE Things You Can Build w/ Claude Fable 5.2</title>
+      <link>https://www.youtube.com/watch?v=5mA9Hab09Do</link>
+      <guid isPermaLink="true">https://www.youtube.com/watch?v=5mA9Hab09Do</guid>
+      <pubDate>Tue, 10 Nov 2026 23:08:45 +0000</pubDate>
+      <description>&lt;p&gt;&lt;b&gt;Nick Saraev&lt;/b&gt; · score 2 · hits claude, workflow&lt;/p&gt;&lt;p&gt;🔥 Join Maker School &amp;amp; get customer #1 guaranteed: https://go.nicksaraev.com/13-insane-things 💎 Get all course resources 100% free: https://go.nicksaraev.com/13-insane-things-maker-zero ➡️ If this is your first video: I&amp;#x27;m Nick Saraev. I run LeftClick, an AI growth agency. We&amp;#x27;ve done work for large brands you&amp;#x27;re likely familiar with, like Mr. Beast, Anthropic, OpenAI, and a few others. In plain English: I help people build systems that generate leads, close deals, and scale businesses, mostly usin&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>How Check Point speeds up vulnerability research with Daybreak | OpenAI for Cybersecurity</title>
+      <link>https://www.youtube.com/watch?v=vVVdxMwPBuA</link>
+      <guid isPermaLink="true">https://www.youtube.com/watch?v=vVVdxMwPBuA</guid>
+      <pubDate>Mon, 16 Nov 2026 16:55:56 +0000</pubDate>
+      <description>&lt;p&gt;&lt;b&gt;OpenAI&lt;/b&gt; · score 1 · hits workflow&lt;/p&gt;&lt;p&gt;Check Point CTO Jonathan Zanger explains how his team uses OpenAI Daybreak to analyze vulnerabilities and turn findings into protections for customers. A vulnerability research workflow that once took hours can now be completed in minutes, according to Zanger. Read the full customer story: https://openai.com/index/check-point-daybreak/&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>What Codex Unlocks for Holiday Extras</title>
+      <link>https://www.youtube.com/watch?v=vu3YlUMkvyg</link>
+      <guid isPermaLink="true">https://www.youtube.com/watch?v=vu3YlUMkvyg</guid>
+      <pubDate>Thu, 12 Nov 2026 09:45:17 +0000</pubDate>
+      <description>&lt;p&gt;&lt;b&gt;OpenAI&lt;/b&gt; · score 1 · hits codex&lt;/p&gt;&lt;p&gt;What happens when the people who understand your customers can build the software to help them? At Holiday Extras, Codex is helping turn that ambition into reality—from rebuilding its main app in two weeks to responding faster to customer feedback. Hear how CEO Matthew Pack, David Lee and Liam Thompson are giving colleagues the confidence to build, improving the travel experience and rethinking what the business can achieve with OpenAI. Read the full story: https://openai.com/business/customer-s&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>How to request and enable Daybreak Blue</title>
+      <link>https://www.youtube.com/watch?v=NS220dAaRMo</link>
+      <guid isPermaLink="true">https://www.youtube.com/watch?v=NS220dAaRMo</guid>
+      <pubDate>Wed, 11 Nov 2026 21:10:28 +0000</pubDate>
+      <description>&lt;p&gt;&lt;b&gt;OpenAI&lt;/b&gt; · score 1 · hits codex&lt;/p&gt;&lt;p&gt;Learn how to request access to Daybreak Blue and enable it for your workspace and API organization. This walkthrough covers business verification, workspace permissions, role-based access controls, and confirming access in Codex. You’ll also see how to set up a project and API key for automation.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Build What’s Next on the ChatGPT Platform with Plugins | DevDay 2026</title>
+      <link>https://www.youtube.com/watch?v=pIW_8VyvCuQ</link>
+      <guid isPermaLink="true">https://www.youtube.com/watch?v=pIW_8VyvCuQ</guid>
+      <pubDate>Wed, 11 Nov 2026 01:24:08 +0000</pubDate>
+      <description>&lt;p&gt;&lt;b&gt;OpenAI&lt;/b&gt; · score 1 · hits codex&lt;/p&gt;&lt;p&gt;Bring your tools, knowledge, and interfaces into ChatGPT and Codex with plugin extensions. Through live demos, learn how to turn an idea into a useful experience, share it, and reach new users.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Codex Security: From Vulnerability to Verified Fix | DevDay 2026</title>
+      <link>https://www.youtube.com/watch?v=gUQN7juxvVI</link>
+      <guid isPermaLink="true">https://www.youtube.com/watch?v=gUQN7juxvVI</guid>
+      <pubDate>Wed, 11 Nov 2026 01:24:07 +0000</pubDate>
+      <description>&lt;p&gt;&lt;b&gt;OpenAI&lt;/b&gt; · score 1 · hits codex&lt;/p&gt;&lt;p&gt;Find and fix vulnerabilities with OpenAI’s cyber models and open-source CLI and SDK. Learn to scan large codebases, catch issues in pull requests, and verify fixes, drawing on OpenAI’s own security work.&lt;/p&gt;</description>
+    </item>
   </channel>
 </rss>
