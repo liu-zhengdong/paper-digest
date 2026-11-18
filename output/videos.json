@@ -1,7 +1,40 @@
 {
-  "generated_at": "2026-11-17T08:28:10.367197+00:00",
-  "count": 35,
+  "generated_at": "2026-11-18T07:55:25.953156+00:00",
+  "count": 40,
   "videos": [
+    {
+      "id": "eOGuaxHR2sI",
+      "title": "What is Tracing? | Introduction to LangSmith (2/12)",
+      "summary": "An agent's reply shows what it said and hides the tool calls behind it. This lesson turns on LangSmith tracing for the LangSlice pizza agent, loads a batch of recorded customer conversations, and uses the trace views to find a bug the output never shows. The add_pizza_to_order tool sees that pineapple is out of stock and adds it to the order anyway, with no error raised. For agents built on LangChain's open-source frameworks, tracing takes three environment variables and no code changes. You'll ",
+      "published": "2026-11-17T23:45:57+00:00",
+      "channel": "LangChain",
+      "mode": "all",
+      "hits": [
+        "agent",
+        "agents",
+        "claude",
+        "langgraph",
+        "langchain"
+      ],
+      "url": "https://www.youtube.com/watch?v=eOGuaxHR2sI",
+      "score": 6
+    },
+    {
+      "id": "Y8fW5LLvw10",
+      "title": "LangSmith Overview | Introduction to LangSmith (1/12)",
+      "summary": "A traditional program fails with a stack trace pointing at the line that broke. An agent can return a reasonable answer after choosing the wrong tools along the way, and nothing in the reply shows it. This first lesson of LangSmith Essentials explains why agents need a process that keeps improving them after they ship, the Agent Development Lifecycle (ADLC), and how the course maps each stage onto LangSmith. You'll also meet the agent we use for the whole series, an ordering assistant for a fict",
+      "published": "2026-11-17T23:45:41+00:00",
+      "channel": "LangChain",
+      "mode": "all",
+      "hits": [
+        "agent",
+        "agents",
+        "claude",
+        "langchain"
+      ],
+      "url": "https://www.youtube.com/watch?v=Y8fW5LLvw10",
+      "score": 6
+    },
     {
       "id": "VpHYPfvfy0o",
       "title": "Building Jarvis: JPMC’s Agent Building Assembly Line",
@@ -22,7 +55,7 @@
     },
     {
       "id": "EuUF53Wwfm0",
-      "title": "Is n8n Dead? Not Even Close (Full Guide)",
+      "title": "n8n’s Biggest Update Ever: It’s an Agent Harness Now",
       "summary": "⚡ Self-host n8n on Hostinger and get an extra 10% OFF with code LEON: https://hostinger.com/leon Is n8n dead? My honest answer after going back to n8n for the first time in ages. 🚀 My exclusive AI engineering courses, live Q&As, workshops & deep dives: https://skool.com/agentic-labs 🎁 Free RAMP course + all the resources from my videos: https://skool.com/leonvanzyl Ever since Claude Code took off, people keep asking if n8n is dead. I went back to check, and it's not the n8n I remember. n8n now c",
       "published": "2026-11-16T12:59:18+00:00",
       "channel": "Leon van Zyl",
@@ -38,24 +71,6 @@
         "harness"
       ],
       "url": "https://www.youtube.com/watch?v=EuUF53Wwfm0",
-      "score": 6
-    },
-    {
-      "id": "1M8vagUOdJM",
-      "title": "Fireside Chat with Erik Bernhardsson, Modal",
-      "summary": "Erik Bernhardsson, CEO and Co-Founder of Modal, explains what drove demand for Modal's sandboxes (vibe coding apps, background agents, and reinforcement learning rollouts) and why he thinks agent harnesses should run outside the sandbox, with sandboxes that are short-lived, maybe one per tool call. He also covers how Modal, which builds AI infrastructure for inference, training, and sandboxes, moved up the stack with auto and shared endpoints for open source models, when he thinks RL is worth it",
-      "published": "2026-11-12T15:26:12+00:00",
-      "channel": "LangChain",
-      "mode": "all",
-      "hits": [
-        "agent",
-        "agents",
-        "mcp",
-        "langchain",
-        "harness",
-        "coding agent"
-      ],
-      "url": "https://www.youtube.com/watch?v=1M8vagUOdJM",
       "score": 6
     },
     {
@@ -94,38 +109,34 @@
       "score": 6
     },
     {
-      "id": "hMEQ4rdaOLw",
-      "title": "11 More Tiny Coding Agent Fixes With A Stupid Amount Of Payoff (Learn These Now)",
-      "summary": "Coding agents keep hitting the same problems for you: saying the work is done when it isn't, tests that pass while the app is still broken, ignoring your rules, burning through your limits, etc. In this video I go through 11 of them and the tiny fix for each one, built into your AI layer (skills, rules, hooks) through a conversation with your agent where you review and sign off on every change. The chapters are named after the problems, so you can jump straight to the ones you hit the most! ~~~~",
-      "published": "2026-11-10T22:57:03+00:00",
-      "channel": "Cole Medin",
-      "mode": "all",
-      "hits": [
-        "agent",
-        "agents",
-        "agentic",
-        "skill",
-        "coding agent"
-      ],
-      "url": "https://www.youtube.com/watch?v=hMEQ4rdaOLw",
-      "score": 6
-    },
-    {
-      "id": "xM_BhmEyKAY",
-      "title": "How Workday Builds Agent Prototypes in Under a Day with LangChain",
-      "summary": "Alex Gatto, Senior Machine Learning Engineer at Workday, explains how his team built an internal agent platform on LangChain's Agent Server and LangSmith, so Workday teams can get agents into production under the company's security and data retention policies. Every agent on the platform runs as an A2A and MCP server with authentication and security built in, which leaves teams to decide what their agent does and how to build its graph. Prototypes that took 4 to 5 months now reach staging in les",
-      "published": "2026-11-10T16:36:54+00:00",
+      "id": "jZLy4WjTNII",
+      "title": "Deployments | Introduction to LangSmith (6/12)",
+      "summary": "The dev server we've used so far keeps state in memory and ties each run to the request that started it, which breaks once real customers arrive. A LangSmith deployment stores checkpoints in Postgres and puts runs on a queue, so a run survives a dropped connection. We compare langgraph dev with langgraph up, which runs the full Agent Server locally in Docker, and langgraph deploy, which hands it to LangSmith to host. Then we create a deployment from a GitHub repo. Each deployment gets its own tr",
+      "published": "2026-11-17T23:46:58+00:00",
       "channel": "LangChain",
       "mode": "all",
       "hits": [
         "agent",
-        "agents",
-        "mcp",
         "langgraph",
         "langchain"
       ],
-      "url": "https://www.youtube.com/watch?v=xM_BhmEyKAY",
-      "score": 6
+      "url": "https://www.youtube.com/watch?v=jZLy4WjTNII",
+      "score": 5
+    },
+    {
+      "id": "GPf7f8ZgYjs",
+      "title": "Debugging with Studio | Introduction to LangSmith (3/12)",
+      "summary": "A trace records a run that already happened, so it can't tell you what the agent would have done if a tool had behaved correctly. LangGraph Studio can. In this lesson we reproduce the LangSlice out-of-stock bug, edit the add_pizza_to_order result at its checkpoint to the rejection it should have returned, and fork the run from there. With that one value changed, the agent tells the customer pineapple is out of stock. The defect sits in one missing check in one tool rather than in the model or th",
+      "published": "2026-11-17T23:46:12+00:00",
+      "channel": "LangChain",
+      "mode": "all",
+      "hits": [
+        "agent",
+        "langgraph",
+        "langchain"
+      ],
+      "url": "https://www.youtube.com/watch?v=GPf7f8ZgYjs",
+      "score": 5
     },
     {
       "id": "hYIymEMB9x4",
@@ -158,21 +169,6 @@
       "score": 5
     },
     {
-      "id": "tqgthjS7Ym4",
-      "title": "LangChain Academy New Course: Building and Deploying Managed Agents",
-      "summary": "Getting an agent working on your laptop takes hours, but putting it in front of real users can take weeks of infrastructure work around the agent itself. This new LangChain Academy course shows you how to close that gap with LangSmith Managed Agents, where you define the agent and the context it needs and deploy it with one command. You'll start with how an agent is put together, then run it on the managed platform with its own sandbox and user credentials. From there you'll add authentication a",
-      "published": "2026-11-12T19:48:38+00:00",
-      "channel": "LangChain",
-      "mode": "all",
-      "hits": [
-        "agent",
-        "agents",
-        "langchain"
-      ],
-      "url": "https://www.youtube.com/watch?v=tqgthjS7Ym4",
-      "score": 5
-    },
-    {
       "id": "OSnAd5SuT_k",
       "title": "Learn Local AI in 30 Minutes - Run LLMs locally for FREE",
       "summary": "Build your freelance career with me: https://go.datalumina.com/yCHk1GX 📘 Guide to follow along: https://learn.datalumina.com/docs/local-chat 🔗 Code for the app: https://github.com/daveebbelaar/local-chat 🎙️ Get one free month of Glaido Pro: https://get.glaido.com/dave ⏱️ Timestamps 00:00 Intro 00:55 Run local AI with Ollama 04:08 How local models work 09:04 The Ollama API 10:56 Tauri and the app 13:59 Connect Ollama 19:19 Apple's model 20:36 Code mode with Pi 24:41 Bundle the app 27:43 What to b",
@@ -186,6 +182,148 @@
       ],
       "url": "https://www.youtube.com/watch?v=OSnAd5SuT_k",
       "score": 5
+    },
+    {
+      "id": "_5ZDkWP8K0c",
+      "title": "Automating the ADLC with Engine | Introduction to LangSmith (12/12)",
+      "summary": "Every step of the loop so far was done by hand, and that gets slower as tens of traces become thousands. LangSmith Engine automates the ADLC. It clusters your traces into a short list of agent issues and drafts fixes as pull requests against your codebase. For each issue it also writes dataset examples, with assertions about the agent's behavior as reference outputs. Run on the LangSlice project, Engine finds the delivery minimum bug as a single issue, the one that took the whole Monitor stage t",
+      "published": "2026-11-17T23:48:31+00:00",
+      "channel": "LangChain",
+      "mode": "all",
+      "hits": [
+        "agent",
+        "langchain"
+      ],
+      "url": "https://www.youtube.com/watch?v=_5ZDkWP8K0c",
+      "score": 4
+    },
+    {
+      "id": "eg5O6q9H84I",
+      "title": "Closing the Loop | Introduction to LangSmith (11/12)",
+      "summary": "In the Monitor stage, five LangSmith features worked together to surface the LangSlice agent's second bug. The confirm_order tool checks the delivery minimum against the sides and ignores the pizzas. This short lesson lays out how that chain fit together and what fixing the bug looks like. Fixing it sends us back to the Test stage. The confirmed threads in the annotation queue and the delivery complaints Insights clustered both push straight to a dataset. From there, a code evaluator that recomp",
+      "published": "2026-11-17T23:48:17+00:00",
+      "channel": "LangChain",
+      "mode": "all",
+      "hits": [
+        "agent",
+        "langchain"
+      ],
+      "url": "https://www.youtube.com/watch?v=eg5O6q9H84I",
+      "score": 4
+    },
+    {
+      "id": "keMWUys2BMs",
+      "title": "Dashboards and Alerts | Introduction to LangSmith (10/12)",
+      "summary": "Everything we found in the Monitor stage so far came from going looking for it. Dashboards chart how the agent behaves over time, and alerts tell you when a metric crosses a line you set. This lesson starts with the dashboard every LangSmith tracing project comes with, then builds a custom chart of average sentiment from the online evaluator. We finish with an alert that fires when average sentiment drops below 0.8 within a five-minute window, sent to Slack, PagerDuty or a webhook of your own. C",
+      "published": "2026-11-17T23:48:01+00:00",
+      "channel": "LangChain",
+      "mode": "all",
+      "hits": [
+        "agent",
+        "langchain"
+      ],
+      "url": "https://www.youtube.com/watch?v=keMWUys2BMs",
+      "score": 4
+    },
+    {
+      "id": "HVXydoGAWsQ",
+      "title": "Insights | Introduction to LangSmith (9/12)",
+      "summary": "An evaluator answers a question you can write down as a score. Insights is for questions about categories you don't know yet, such as what customers talk about when they're upset. In this lesson we run an Insights report on the LangSlice traces with the auto flow and ask how customers engage with the agent. The report groups conversations into categories, each with the share of traces it covers. The delivery minimum complaints land in one category. The rest show what people order and which reque",
+      "published": "2026-11-17T23:47:43+00:00",
+      "channel": "LangChain",
+      "mode": "all",
+      "hits": [
+        "agent",
+        "langchain"
+      ],
+      "url": "https://www.youtube.com/watch?v=HVXydoGAWsQ",
+      "score": 4
+    },
+    {
+      "id": "LfdGwdUhGW4",
+      "title": "Annotation Queues | Introduction to LangSmith (8/12)",
+      "summary": "An LLM judge that has never been checked against human labels can be confidently wrong at scale. In this lesson we label the LangSlice threads in an annotation queue by hand and compare our labels with the sentiment evaluator's. Two customers stayed polite while leaving without what they came for, and the judge scored both as positive. Adding an outcome section to the rubric fixes it. The same review turns up the agent's second bug. The confirm_order tool checks the $25 delivery minimum against ",
+      "published": "2026-11-17T23:47:25+00:00",
+      "channel": "LangChain",
+      "mode": "all",
+      "hits": [
+        "agent",
+        "langchain"
+      ],
+      "url": "https://www.youtube.com/watch?v=LfdGwdUhGW4",
+      "score": 4
+    },
+    {
+      "id": "Y6Gi_gYnOAo",
+      "title": "Online Evals and Automations | Introduction to LangSmith (7/12)",
+      "summary": "In the Test stage, we only learned customers were upset because the LangSlice staff told us. This lesson starts the Monitor stage by scoring sentiment directly from what customers write, as each conversation comes in. We build an LLM-as-judge evaluator that scores whole threads from their human-AI message pairs, so the judge reads the conversation without the tool calls. An automation then routes every scored thread to an annotation queue for human review. You'll also see when an offline evaluat",
+      "published": "2026-11-17T23:47:12+00:00",
+      "channel": "LangChain",
+      "mode": "all",
+      "hits": [
+        "agent",
+        "langchain"
+      ],
+      "url": "https://www.youtube.com/watch?v=Y6Gi_gYnOAo",
+      "score": 4
+    },
+    {
+      "id": "9tB7ARhlDPQ",
+      "title": "Experiments | Introduction to LangSmith (5/12)",
+      "summary": "An experiment runs your agent over every example in a dataset and scores the results with your evaluators. In this lesson we run a baseline experiment on the LangSlice pizza agent with the LangSmith SDK and read the evaluator's comments on the orders that let out-of-stock toppings through. Then we add a stock check to add_pizza_to_order and run the experiment again. The comparison view lines the two runs up example by example, so you can confirm the failures flipped to passing and the passing or",
+      "published": "2026-11-17T23:46:43+00:00",
+      "channel": "LangChain",
+      "mode": "all",
+      "hits": [
+        "agent",
+        "langchain"
+      ],
+      "url": "https://www.youtube.com/watch?v=9tB7ARhlDPQ",
+      "score": 4
+    },
+    {
+      "id": "TyxwaLr89V4",
+      "title": "Datasets and Offline Evaluations | Introduction to LangSmith (4/12)",
+      "summary": "Forking one run in Studio showed how the out-of-stock bug works, but one run can't tell you how often it happens across all the ways customers ask for a pizza. This lesson starts the Test stage by turning LangSlice traces into a LangSmith dataset and writing an evaluator that checks every topping on an order against the ingredient catalog. You'll use a tree filter to pull every trace that added a pizza, including the correct orders, since those are what catch a regression. We also cover when a c",
+      "published": "2026-11-17T23:46:25+00:00",
+      "channel": "LangChain",
+      "mode": "all",
+      "hits": [
+        "agent",
+        "langchain"
+      ],
+      "url": "https://www.youtube.com/watch?v=TyxwaLr89V4",
+      "score": 4
+    },
+    {
+      "id": "Z12YkD3lZc0",
+      "title": "Control Who Sees Sensitive Trace Data in LangSmith",
+      "summary": "Production traces show engineers how an agent behaved, but their inputs and outputs often hold sensitive customer data such as health or payment details. LangSmith's new access controls let admins restrict who can see trace inputs and outputs, so engineers can keep debugging from the run tree and performance stats without seeing that data. Admins can also give user groups their own access settings, or write policies on trace metadata so that a user researcher only sees traces from the accounts t",
+      "published": "2026-11-17T18:03:08+00:00",
+      "channel": "LangChain",
+      "mode": "all",
+      "hits": [
+        "agent",
+        "langchain"
+      ],
+      "url": "https://www.youtube.com/watch?v=Z12YkD3lZc0",
+      "score": 4
+    },
+    {
+      "id": "C1zYX5jwqq4",
+      "title": "GPT-6.2 Astra and GPT-6.2 Sol—Models built for the real world",
+      "summary": "We’re introducing GPT‑6.2 Astra, our new frontier model for your hardest projects, and GPT‑6.2 Sol, our efficient, versatile model for everyday work. Both models deliver better results on demanding tasks with fewer output tokens, so you can get more done within your usage limits. For businesses and developers, that means frontier performance at costs that make sense at scale. GPT‑6.2 Astra sets a new quality bar for AI in complex professional work. Its slides, spreadsheets, and documents read le",
+      "published": "2026-11-17T17:55:40+00:00",
+      "channel": "OpenAI",
+      "mode": "keyword",
+      "hits": [
+        "agent",
+        "agentic",
+        "codex",
+        "workflow"
+      ],
+      "url": "https://www.youtube.com/watch?v=C1zYX5jwqq4",
+      "score": 4
     },
     {
       "id": "kM7lnhS_uE8",
@@ -255,36 +393,19 @@
       "score": 4
     },
     {
-      "id": "U1IVZy9FhVQ",
-      "title": "What Will You Build With Coding Agents That Don’t Quit? | DevDay 2026",
-      "summary": "Learn from a Codex run that spent over 1,000 hours keeping builds and tests passing. Explore how to choose recurring tasks, improve feedback, manage token budgets, and decide when engineers should step in.",
-      "published": "2026-11-11T01:24:07+00:00",
+      "id": "R_sl8zEp9ng",
+      "title": "How one engineer built a code review service with Codex | Revolut’s Dmitry Pitik",
+      "summary": "Dmitry Pitik thought he’d need a team of developers to build Revolut’s internal code review service. In this film, the Senior Platform Engineer explains how he broke the design into tasks, assigned them to Codex agents working in parallel and reviewed the code himself. That gave him more time for the engineering decisions he wanted to get right. Read the full story: https://openai.com/business/customer-stories/revolut/",
+      "published": "2026-11-17T09:45:34+00:00",
       "channel": "OpenAI",
       "mode": "keyword",
       "hits": [
         "agent",
         "agents",
-        "codex",
-        "coding agent"
+        "codex"
       ],
-      "url": "https://www.youtube.com/watch?v=U1IVZy9FhVQ",
-      "score": 4
-    },
-    {
-      "id": "b7l_Dhe1h8M",
-      "title": "Harness-as-a-Service: Building with the Agents API | DevDay 2026",
-      "summary": "Build with the Codex harness through the Agents API. Learn how to run agents in your environment, keep long-running tasks going, and understand which infrastructure OpenAI manages.",
-      "published": "2026-11-11T01:24:07+00:00",
-      "channel": "OpenAI",
-      "mode": "keyword",
-      "hits": [
-        "agent",
-        "agents",
-        "codex",
-        "harness"
-      ],
-      "url": "https://www.youtube.com/watch?v=b7l_Dhe1h8M",
-      "score": 4
+      "url": "https://www.youtube.com/watch?v=R_sl8zEp9ng",
+      "score": 3
     },
     {
       "id": "r5iPi8RL7A8",
@@ -330,19 +451,32 @@
       "score": 3
     },
     {
-      "id": "QRm7VNMnurA",
-      "title": "Sites and the Next Generation of Web Apps | DevDay 2026",
-      "summary": "Turn an idea into an interactive web experience with Astra, ChatGPT Sites, and WebMCP. Learn how to build new kinds of interfaces alongside your colleagues and agents.",
-      "published": "2026-11-11T01:24:07+00:00",
+      "id": "JePtqPwfD6M",
+      "title": "GPT-6.2 Astra Just Dropped, And It's Not Great",
+      "summary": "🔥 Join Maker School & get customer #1 guaranteed: https://skool.com/makerschool/about 💎 Get all course resources 100% free: https://skool.com/maker-zero/about ➡️ If this is your first video: I'm Nick Saraev. I run LeftClick, an AI growth agency. We've done work for large brands you're likely familiar with, like Mr. Beast, Anthropic, OpenAI, and a few others. In plain English: I help people build systems that generate leads, close deals, and scale businesses, mostly using new AI models like Claud",
+      "published": "2026-11-17T20:11:18+00:00",
+      "channel": "Nick Saraev",
+      "mode": "keyword",
+      "hits": [
+        "claude",
+        "workflow"
+      ],
+      "url": "https://www.youtube.com/watch?v=JePtqPwfD6M",
+      "score": 2
+    },
+    {
+      "id": "tKoDPOrLMX0",
+      "title": "Building 3D video sets with GPT-6.2 Astra",
+      "summary": "GPT-6.2 Astra is our new flagship model, delivering a step up in capability with cleaner code, better frontends and 3D models, and more efficient tool use. Recreate a room from just two video frames with GPT-6.2 Astra in Codex. See how it builds the set in Blender, changes the decor and lighting, and turns the scene into an interactive space and a virtual webcam background.",
+      "published": "2026-11-17T18:41:32+00:00",
       "channel": "OpenAI",
       "mode": "keyword",
       "hits": [
-        "agent",
-        "agents",
-        "mcp"
+        "codex",
+        "tool use"
       ],
-      "url": "https://www.youtube.com/watch?v=QRm7VNMnurA",
-      "score": 3
+      "url": "https://www.youtube.com/watch?v=tKoDPOrLMX0",
+      "score": 2
     },
     {
       "id": "EMysvWtyK0o",
@@ -398,20 +532,6 @@
       "score": 2
     },
     {
-      "id": "hUhr0JiVZZs",
-      "title": "How to run your first Codex Security scan",
-      "summary": "Get started with Codex Security, from installing the plugin to running your first scan. Learn how to select a repository, add context, review findings, and generate a patch. Then follow the fix into GitHub and see how to use the CLI to bring security scans into your automation workflows.",
-      "published": "2026-11-11T21:10:05+00:00",
-      "channel": "OpenAI",
-      "mode": "keyword",
-      "hits": [
-        "codex",
-        "workflow"
-      ],
-      "url": "https://www.youtube.com/watch?v=hUhr0JiVZZs",
-      "score": 2
-    },
-    {
       "id": "wpFw66kKixU",
       "title": "I Threw $1000 at Fable 5.2 to Build The Coolest Demos Possible",
       "summary": "🔥 Join Maker School & get customer #1 guaranteed: https://go.nicksaraev.com/threw-1000-fable 💎 Get all course resources 100% free: https://go.nicksaraev.com/threw-1000-fable-maker-zero ➡️ If this is your first video: I'm Nick Saraev. I run LeftClick, an AI growth agency. We've done work for large brands you're likely familiar with, like Mr. Beast, Anthropic, OpenAI, and a few others. In plain English: I help people build systems that generate leads, close deals, and scale businesses, mostly usin",
@@ -440,96 +560,42 @@
       "score": 2
     },
     {
-      "id": "jDxKzlGLCas",
-      "title": "Building with GPT-Live and Image Generation | DevDay 2026",
-      "summary": "See GPT-Live brainstorm, play games, and create images while coordinating work in the background. Learn to add voice to agents and design for delegation, latency, interruptions, and changing requests.",
-      "published": "2026-11-11T01:24:08+00:00",
-      "channel": "OpenAI",
-      "mode": "keyword",
-      "hits": [
-        "agent",
-        "agents"
-      ],
-      "url": "https://www.youtube.com/watch?v=jDxKzlGLCas",
-      "score": 2
-    },
-    {
-      "id": "5mA9Hab09Do",
-      "title": "13 INSANE Things You Can Build w/ Claude Fable 5.2",
-      "summary": "🔥 Join Maker School & get customer #1 guaranteed: https://go.nicksaraev.com/13-insane-things 💎 Get all course resources 100% free: https://go.nicksaraev.com/13-insane-things-maker-zero ➡️ If this is your first video: I'm Nick Saraev. I run LeftClick, an AI growth agency. We've done work for large brands you're likely familiar with, like Mr. Beast, Anthropic, OpenAI, and a few others. In plain English: I help people build systems that generate leads, close deals, and scale businesses, mostly usin",
-      "published": "2026-11-10T23:08:45+00:00",
-      "channel": "Nick Saraev",
-      "mode": "keyword",
-      "hits": [
-        "claude",
-        "workflow"
-      ],
-      "url": "https://www.youtube.com/watch?v=5mA9Hab09Do",
-      "score": 2
-    },
-    {
-      "id": "vVVdxMwPBuA",
-      "title": "How Check Point speeds up vulnerability research with Daybreak | OpenAI for Cybersecurity",
-      "summary": "Check Point CTO Jonathan Zanger explains how his team uses OpenAI Daybreak to analyze vulnerabilities and turn findings into protections for customers. A vulnerability research workflow that once took hours can now be completed in minutes, according to Zanger. Read the full customer story: https://openai.com/index/check-point-daybreak/",
-      "published": "2026-11-16T16:55:56+00:00",
-      "channel": "OpenAI",
-      "mode": "keyword",
-      "hits": [
-        "workflow"
-      ],
-      "url": "https://www.youtube.com/watch?v=vVVdxMwPBuA",
-      "score": 1
-    },
-    {
-      "id": "vu3YlUMkvyg",
-      "title": "What Codex Unlocks for Holiday Extras",
-      "summary": "What happens when the people who understand your customers can build the software to help them? At Holiday Extras, Codex is helping turn that ambition into reality—from rebuilding its main app in two weeks to responding faster to customer feedback. Hear how CEO Matthew Pack, David Lee and Liam Thompson are giving colleagues the confidence to build, improving the travel experience and rethinking what the business can achieve with OpenAI. Read the full story: https://openai.com/business/customer-s",
-      "published": "2026-11-12T09:45:17+00:00",
+      "id": "ZIpm-0RczCk",
+      "title": "How Revolut’s lean teams take on bigger challenges with OpenAI",
+      "summary": "What can one engineer build when a project looks like it needs a whole team? At Revolut, an engineer used Codex to build an internal code review service himself. Its designers used Codex to turn seven years of design documentation into a format AI could read in a single day. OpenAI also helps Revolut’s financial crime team investigate flagged payments and respond faster to make shopping safer. Read the full story: https://openai.com/business/customer-stories/revolut/",
+      "published": "2026-11-17T09:45:35+00:00",
       "channel": "OpenAI",
       "mode": "keyword",
       "hits": [
         "codex"
       ],
-      "url": "https://www.youtube.com/watch?v=vu3YlUMkvyg",
+      "url": "https://www.youtube.com/watch?v=ZIpm-0RczCk",
       "score": 1
     },
     {
-      "id": "NS220dAaRMo",
-      "title": "How to request and enable Daybreak Blue",
-      "summary": "Learn how to request access to Daybreak Blue and enable it for your workspace and API organization. This walkthrough covers business verification, workspace permissions, role-based access controls, and confirming access in Codex. You’ll also see how to set up a project and API key for automation.",
-      "published": "2026-11-11T21:10:28+00:00",
+      "id": "-O0tMcyH4Wo",
+      "title": "Faster fraud response for safer shopping | Revolut’s David Abitbol",
+      "summary": "OpenAI helps Revolut’s financial crime team investigate flagged payments and respond faster to make shopping safer. David Abitbol, AI Lead at Revolut, explains how his team tests AI systems before putting them to work. He also shares how Codex gives engineers more time to weigh up different designs and decide what to build. Read the full story: https://openai.com/business/customer-stories/revolut/",
+      "published": "2026-11-17T09:45:26+00:00",
       "channel": "OpenAI",
       "mode": "keyword",
       "hits": [
         "codex"
       ],
-      "url": "https://www.youtube.com/watch?v=NS220dAaRMo",
+      "url": "https://www.youtube.com/watch?v=-O0tMcyH4Wo",
       "score": 1
     },
     {
-      "id": "pIW_8VyvCuQ",
-      "title": "Build What’s Next on the ChatGPT Platform with Plugins | DevDay 2026",
-      "summary": "Bring your tools, knowledge, and interfaces into ChatGPT and Codex with plugin extensions. Through live demos, learn how to turn an idea into a useful experience, share it, and reach new users.",
-      "published": "2026-11-11T01:24:08+00:00",
+      "id": "hAASMPKkaXA",
+      "title": "Making seven years of design documentation AI-readable in a day | Revolut’s Dmytro Pavlov",
+      "summary": "Revolut’s designers had spent seven years documenting how their design system works. Senior Designer Dmytro Pavlov shares how his team used Codex to turn that material into a format AI could read in a single day. Along the way, they spotted gaps in their templates and made the guidance clearer for the designers who use it. Read the full story: https://openai.com/business/customer-stories/revolut/",
+      "published": "2026-11-17T09:45:10+00:00",
       "channel": "OpenAI",
       "mode": "keyword",
       "hits": [
         "codex"
       ],
-      "url": "https://www.youtube.com/watch?v=pIW_8VyvCuQ",
-      "score": 1
-    },
-    {
-      "id": "gUQN7juxvVI",
-      "title": "Codex Security: From Vulnerability to Verified Fix | DevDay 2026",
-      "summary": "Find and fix vulnerabilities with OpenAI’s cyber models and open-source CLI and SDK. Learn to scan large codebases, catch issues in pull requests, and verify fixes, drawing on OpenAI’s own security work.",
-      "published": "2026-11-11T01:24:07+00:00",
-      "channel": "OpenAI",
-      "mode": "keyword",
-      "hits": [
-        "codex"
-      ],
-      "url": "https://www.youtube.com/watch?v=gUQN7juxvVI",
+      "url": "https://www.youtube.com/watch?v=hAASMPKkaXA",
       "score": 1
     }
   ]
