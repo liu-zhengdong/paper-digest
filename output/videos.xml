@@ -5,7 +5,21 @@
     <link>https://raw.githubusercontent.com/liu-zhengdong/paper-digest/main/output/videos.xml</link>
     <description>Agent 用法向 YouTube 频道的每日去重列表，已去掉 Shorts</description>
     <language>zh-CN</language>
-    <lastBuildDate>Thu, 19 Nov 2026 07:55:01 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 20 Nov 2026 07:44:08 +0000</lastBuildDate>
+    <item>
+      <title>LangSmith Tool Gateway: Secure, Governed Tool Use for Agents</title>
+      <link>https://www.youtube.com/watch?v=achbbrgQnRA</link>
+      <guid isPermaLink="true">https://www.youtube.com/watch?v=achbbrgQnRA</guid>
+      <pubDate>Thu, 19 Nov 2026 17:16:07 +0000</pubDate>
+      <description>&lt;p&gt;&lt;b&gt;LangChain&lt;/b&gt; · score 6 · hits agent, agents, mcp, tool use, langchain&lt;/p&gt;&lt;p&gt;Introducing LangSmith Tool Gateway, a managed tool layer that handles credentials, identity, and access for every tool call an agent makes. Now in Public Beta on the LangSmith Agent Platform, where it sits alongside LLM Gateway, so you can govern both the model calls and the tool calls your agents make. Agents route tool requests through a single kit URL, a curated set of tools that scopes each agent to only what it needs. Each call runs either as the user, with credentials they connect once, or&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Inside Clay’s GTM agent rebuild</title>
+      <link>https://www.youtube.com/watch?v=efBlbQahwng</link>
+      <guid isPermaLink="true">https://www.youtube.com/watch?v=efBlbQahwng</guid>
+      <pubDate>Thu, 19 Nov 2026 15:00:05 +0000</pubDate>
+      <description>&lt;p&gt;&lt;b&gt;LangChain&lt;/b&gt; · score 6 · hits agent, agents, claude code, claude, codex, langchain, harness, coding agent&lt;/p&gt;&lt;p&gt;Jeff Barg is Head of AI at Clay, the go-to-market platform for list building, data enrichment and orchestration, with a dataset of 900 million contacts and 40 million companies. Clay recently launched a new global agent, built around a coding agent that runs on the same CLI external agents use. In this conversation, Jeff explains why Clay got more out of harness engineering than post-training, how the agent asks for approval on 100+ line Bash commands, and why he’d rather charge for tokens than &lt;/p&gt;</description>
+    </item>
     <item>
       <title>This Skill Turns Claude Code Into an Expert Video Editor (I&#x27;m Giving It Away)</title>
       <link>https://www.youtube.com/watch?v=a90pZ1DSyls</link>
@@ -33,13 +47,6 @@
       <guid isPermaLink="true">https://www.youtube.com/watch?v=eOGuaxHR2sI</guid>
       <pubDate>Tue, 17 Nov 2026 23:45:57 +0000</pubDate>
       <description>&lt;p&gt;&lt;b&gt;LangChain&lt;/b&gt; · score 6 · hits agent, agents, claude, langgraph, langchain&lt;/p&gt;&lt;p&gt;An agent&amp;#x27;s reply shows what it said and hides the tool calls behind it. This lesson turns on LangSmith tracing for the LangSlice pizza agent, loads a batch of recorded customer conversations, and uses the trace views to find a bug the output never shows. The add_pizza_to_order tool sees that pineapple is out of stock and adds it to the order anyway, with no error raised. For agents built on LangChain&amp;#x27;s open-source frameworks, tracing takes three environment variables and no code changes. You&amp;#x27;ll &lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>LangSmith Overview | Introduction to LangSmith (1/12)</title>
-      <link>https://www.youtube.com/watch?v=Y8fW5LLvw10</link>
-      <guid isPermaLink="true">https://www.youtube.com/watch?v=Y8fW5LLvw10</guid>
-      <pubDate>Tue, 17 Nov 2026 23:45:41 +0000</pubDate>
-      <description>&lt;p&gt;&lt;b&gt;LangChain&lt;/b&gt; · score 6 · hits agent, agents, claude, langchain&lt;/p&gt;&lt;p&gt;A traditional program fails with a stack trace pointing at the line that broke. An agent can return a reasonable answer after choosing the wrong tools along the way, and nothing in the reply shows it. This first lesson of LangSmith Essentials explains why agents need a process that keeps improving them after they ship, the Agent Development Lifecycle (ADLC), and how the course maps each stage onto LangSmith. You&amp;#x27;ll also meet the agent we use for the whole series, an ordering assistant for a fict&lt;/p&gt;</description>
     </item>
     <item>
       <title>n8n’s Biggest Update Ever: It’s an Agent Harness Now</title>
@@ -75,6 +82,13 @@
       <guid isPermaLink="true">https://www.youtube.com/watch?v=hYIymEMB9x4</guid>
       <pubDate>Mon, 16 Nov 2026 14:00:02 +0000</pubDate>
       <description>&lt;p&gt;&lt;b&gt;IndyDevDan&lt;/b&gt; · score 5 · hits agent, agents, agentic&lt;/p&gt;&lt;p&gt;Fable 5.2 just dropped and most engineers DON&amp;#x27;T need it. Everyone has access to the same frontier intelligence. The model is NOT your edge. The system you build around the model is. One super agent that does everything is a myth. Sub-agents hit a ceiling. Agent swarms burn more money than they make. The real multi-agent sweet spot? Small agent teams. 🚀 Phase 3 PRE-LAUNCH IS LIVE (What if your agents never stopped?) https://agenticengineer.com/infinite-agentic-engineering?y=hYIymEMB9x4 🔥 In Tiny &lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Full Course: AI Coding Workflows From Cloud to Local</title>
+      <link>https://www.youtube.com/watch?v=H2tmNDX9FnQ</link>
+      <guid isPermaLink="true">https://www.youtube.com/watch?v=H2tmNDX9FnQ</guid>
+      <pubDate>Thu, 19 Nov 2026 18:02:34 +0000</pubDate>
+      <description>&lt;p&gt;&lt;b&gt;DeepLearningAI&lt;/b&gt; · score 4 · hits agent, agents, claude code, claude, codex, workflow, subagent, opencode, coding agent&lt;/p&gt;&lt;p&gt;Coding agents like Claude Code are convenient, but they limit your control over which models you use, what you spend, and where your code goes. This course gives you that control back one layer at a time, rebuilding the same Python app in cloud, hybrid, and fully local setups. Take the quiz and earn your accomplishment here: https://bit.ly/3Uz1pmF You&amp;#x27;ll learn to: - Evaluate AI coding setups: the agent, the models, and where those models run - Split work across subagents and hand implementation &lt;/p&gt;</description>
     </item>
     <item>
       <title>Automating the ADLC with Engine | Introduction to LangSmith (12/12)</title>
@@ -133,13 +147,6 @@
       <description>&lt;p&gt;&lt;b&gt;LangChain&lt;/b&gt; · score 4 · hits agent, langchain&lt;/p&gt;&lt;p&gt;Forking one run in Studio showed how the out-of-stock bug works, but one run can&amp;#x27;t tell you how often it happens across all the ways customers ask for a pizza. This lesson starts the Test stage by turning LangSlice traces into a LangSmith dataset and writing an evaluator that checks every topping on an order against the ingredient catalog. You&amp;#x27;ll use a tree filter to pull every trace that added a pizza, including the correct orders, since those are what catch a regression. We also cover when a c&lt;/p&gt;</description>
     </item>
     <item>
-      <title>Control Who Sees Sensitive Trace Data in LangSmith</title>
-      <link>https://www.youtube.com/watch?v=Z12YkD3lZc0</link>
-      <guid isPermaLink="true">https://www.youtube.com/watch?v=Z12YkD3lZc0</guid>
-      <pubDate>Tue, 17 Nov 2026 18:03:08 +0000</pubDate>
-      <description>&lt;p&gt;&lt;b&gt;LangChain&lt;/b&gt; · score 4 · hits agent, langchain&lt;/p&gt;&lt;p&gt;Production traces show engineers how an agent behaved, but their inputs and outputs often hold sensitive customer data such as health or payment details. LangSmith&amp;#x27;s new access controls let admins restrict who can see trace inputs and outputs, so engineers can keep debugging from the run tree and performance stats without seeing that data. Admins can also give user groups their own access settings, or write policies on trace metadata so that a user researcher only sees traces from the accounts t&lt;/p&gt;</description>
-    </item>
-    <item>
       <title>GPT-6.2 Astra and GPT-6.2 Sol—Models built for the real world</title>
       <link>https://www.youtube.com/watch?v=C1zYX5jwqq4</link>
       <guid isPermaLink="true">https://www.youtube.com/watch?v=C1zYX5jwqq4</guid>
@@ -168,6 +175,13 @@
       <description>&lt;p&gt;&lt;b&gt;Matt Wolfe&lt;/b&gt; · score 4 · hits agent, agents, claude, workflow&lt;/p&gt;&lt;p&gt;Try @OpenAI Decisions API here: https://developers.openai.com/api/docs/guides/decisions Here&amp;#x27;s the AI news from one of the wildest weeks we&amp;#x27;ve ever seen! Jensen Huang steps down as NVIDIA CEO, Anthropic launches Claude Fable 5.2, and Google&amp;#x27;s Gemini 4 Carbon finally becomes available. Plus, new AI features from Adobe MAX, big updates to Claude, and a rapid-fire roundup of everything else happening in AI. Sharing the latest news and advancements in AI Discover More: 🛠️ Explore AI Tools &amp;amp; News: ht&lt;/p&gt;</description>
     </item>
     <item>
+      <title>Connect Your Team’s Data to ChatGPT</title>
+      <link>https://www.youtube.com/watch?v=oJIuz3AFfEQ</link>
+      <guid isPermaLink="true">https://www.youtube.com/watch?v=oJIuz3AFfEQ</guid>
+      <pubDate>Fri, 20 Nov 2026 06:02:57 +0000</pubDate>
+      <description>&lt;p&gt;&lt;b&gt;OpenAI&lt;/b&gt; · score 3 · hits agent, codex, mcp&lt;/p&gt;&lt;p&gt;Connect the data tools your team already uses to ChatGPT. This walkthrough is for workspace admins: enable the Data plugin, choose how teammates can install it, and explore the setup for a Snowflake connection. You’ll also see how to add a custom plugin or MCP server and why connecting your team’s messages, email, and files gives ChatGPT more context for its answers. Workspace setup and access: https://help.openai.com/en/articles/20001518-using-the-data-plugin-in-chatgpt-work-and-codex Snowflake&lt;/p&gt;</description>
+    </item>
+    <item>
       <title>How one engineer built a code review service with Codex | Revolut’s Dmitry Pitik</title>
       <link>https://www.youtube.com/watch?v=R_sl8zEp9ng</link>
       <guid isPermaLink="true">https://www.youtube.com/watch?v=R_sl8zEp9ng</guid>
@@ -182,18 +196,18 @@
       <description>&lt;p&gt;&lt;b&gt;Cole Medin&lt;/b&gt; · score 3 · hits langchain&lt;/p&gt;&lt;p&gt;AI software factories are all the rage right now, but there&amp;#x27;s a lot of confusion about what they actually are. Here are the five most common types with the pros and cons of each, so you can find the right balance of control and autonomy for what you&amp;#x27;re building! ~~~~~~~~~~~~~~~~~~~~~~~~~~ - Thank you to LangChain for sponsoring this video! Try LangSmith with $50 in credit using my code ColeM: https://www.langchain.com/referral/cole-medin?utm_medium=creator&amp;amp;utm_source=youtube&amp;amp;utm_campaign=q3-2026&lt;/p&gt;</description>
     </item>
     <item>
-      <title>How Mozilla uses GPT-6 Cyber to find and fix Firefox vulnerabilities</title>
-      <link>https://www.youtube.com/watch?v=PkAmyub12K8</link>
-      <guid isPermaLink="true">https://www.youtube.com/watch?v=PkAmyub12K8</guid>
-      <pubDate>Fri, 13 Nov 2026 16:56:45 +0000</pubDate>
-      <description>&lt;p&gt;&lt;b&gt;OpenAI&lt;/b&gt; · score 3 · hits agent, agents, workflow&lt;/p&gt;&lt;p&gt;Mozilla is combining decades of security engineering with AI agents to strengthen Firefox’s defenses. Brian Grinstead joins OpenAI’s Clint Gibler to discuss how the team prioritizes investigations, tests and verifies vulnerabilities, finds related bug patterns, and helps engineers develop fixes. They also explore how GPT-6 Cyber revealed that some known bugs could be more serious than initially understood, helping inform which issues need attention first. Across its security workflow, Mozilla sa&lt;/p&gt;</description>
+      <title>Meet the Data Agent in ChatGPT</title>
+      <link>https://www.youtube.com/watch?v=KrlfehIapEA</link>
+      <guid isPermaLink="true">https://www.youtube.com/watch?v=KrlfehIapEA</guid>
+      <pubDate>Fri, 20 Nov 2026 05:35:32 +0000</pubDate>
+      <description>&lt;p&gt;&lt;b&gt;OpenAI&lt;/b&gt; · score 2 · hits agent, skill&lt;/p&gt;&lt;p&gt;Get started with the Data plugin in ChatGPT. Take a quick tour of how to ask questions about your data, create visualizations, build dashboards, and share reports with your team. See where to find Data in the plugin marketplace, how it works with your files and connected tools, and the skills available for tasks like checking data quality, defining KPIs, and business analysis. Explore the Data plugin: https://chatgpt.com/plugins/Plugin_fc9843a6fb34819195d6c7802398a8a7 Plugin availability depends&lt;/p&gt;</description>
     </item>
     <item>
-      <title>Cyber at the Frontier: Introducing Daybreak Red Team &amp; Daybreak Defense Factory</title>
-      <link>https://www.youtube.com/watch?v=YmxpxJZvm4M</link>
-      <guid isPermaLink="true">https://www.youtube.com/watch?v=YmxpxJZvm4M</guid>
-      <pubDate>Thu, 12 Nov 2026 22:37:14 +0000</pubDate>
-      <description>&lt;p&gt;&lt;b&gt;OpenAI&lt;/b&gt; · score 3 · hits agent, agents, codex&lt;/p&gt;&lt;p&gt;Greg Brockman, Nancy Wang, Fouad Matin, Clint Gibler, Alexander Thiemann, and Matt Boyle took the stage at Cyber at the Frontier, where OpenAI introduced two cybersecurity products under one unified Codex plugin called Daybreak: Daybreak Defense Factory: builds on Codex Security Cloud to help teams automate the defensive loop to find, validate, and fix vulnerabilities at scale. It gives engineers proposed patches with test results so they can review changes before merging. All of the work runs i&lt;/p&gt;</description>
+      <title>Anthropic is Eating The World</title>
+      <link>https://www.youtube.com/watch?v=4TnNitqm8uM</link>
+      <guid isPermaLink="true">https://www.youtube.com/watch?v=4TnNitqm8uM</guid>
+      <pubDate>Fri, 20 Nov 2026 00:41:40 +0000</pubDate>
+      <description>&lt;p&gt;&lt;b&gt;Nick Saraev&lt;/b&gt; · score 2 · hits claude, workflow&lt;/p&gt;&lt;p&gt;🔥 Join Maker School &amp;amp; get customer #1 guaranteed: https://go.nicksaraev.com/anthropic-eating-world 💎 Get all course resources 100% free: https://go.nicksaraev.com/anthropic-eating-world-maker-zero ➡️ If this is your first video: I&amp;#x27;m Nick Saraev. I run LeftClick, an AI growth agency. We&amp;#x27;ve done work for large brands you&amp;#x27;re likely familiar with, like Mr. Beast, Anthropic, OpenAI, and a few others. In plain English: I help people build systems that generate leads, close deals, and scale businesses,&lt;/p&gt;</description>
     </item>
     <item>
       <title>Insane AI Breakthroughs Nobody Is Talking About</title>
@@ -231,11 +245,25 @@
       <description>&lt;p&gt;&lt;b&gt;Dave Ebbelaar&lt;/b&gt; · score 2 · hits -&lt;/p&gt;&lt;p&gt;Join my free live masterclass on freelancing: https://go.datalumina.com/ZiTGfcK 🎙️ Get one free month of Glaido Pro: https://get.glaido.com/dave 📘 Build your freelance career with me: https://go.datalumina.com/1Xfs7x0 ⏱️ Timestamps 00:00 Intro 02:23 Two models 06:59 Your first job is sales 09:28 Free masterclass 10:10 Don&amp;#x27;t niche down 15:29 You don&amp;#x27;t need a website 18:23 Pricing 23:23 Where you live matters 26:34 How the best freelancers do it 📌 Description Most people in tech picture freelancin&lt;/p&gt;</description>
     </item>
     <item>
-      <title>Jensen Just Popped The AI Bubble</title>
-      <link>https://www.youtube.com/watch?v=PvhjesKPASs</link>
-      <guid isPermaLink="true">https://www.youtube.com/watch?v=PvhjesKPASs</guid>
-      <pubDate>Thu, 12 Nov 2026 20:50:54 +0000</pubDate>
-      <description>&lt;p&gt;&lt;b&gt;Nick Saraev&lt;/b&gt; · score 2 · hits claude, workflow&lt;/p&gt;&lt;p&gt;🔥 Join Maker School &amp;amp; get customer #1 guaranteed: https://go.nicksaraev.com/jensen-just-popped 💎 Get all course resources 100% free: https://go.nicksaraev.com/jensen-just-popped-maker-zero ➡️ If this is your first video: I&amp;#x27;m Nick Saraev. I run LeftClick, an AI growth agency. We&amp;#x27;ve done work for large brands you&amp;#x27;re likely familiar with, like Mr. Beast, Anthropic, OpenAI, and a few others. In plain English: I help people build systems that generate leads, close deals, and scale businesses, mostly &lt;/p&gt;</description>
+      <title>Create and Share a Dashboard in ChatGPT</title>
+      <link>https://www.youtube.com/watch?v=OSHSopaYjTw</link>
+      <guid isPermaLink="true">https://www.youtube.com/watch?v=OSHSopaYjTw</guid>
+      <pubDate>Fri, 20 Nov 2026 06:07:50 +0000</pubDate>
+      <description>&lt;p&gt;&lt;b&gt;OpenAI&lt;/b&gt; · score 1 · hits agent&lt;/p&gt;&lt;p&gt;Turn your analysis into a dashboard your team can use. Building on the fictional Acme sales example, this walkthrough brings quarterly metrics and customer follow-ups into one view. See how to inspect the data behind a chart, edit its appearance, ask questions about the numbers, and refine the dashboard with annotations. The video also covers refreshes, matching your branding, and sharing through Sites with connected data. Sites data connections and viewer access: https://learn.chatgpt.com/docs/&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Ask Questions About Your Data in ChatGPT</title>
+      <link>https://www.youtube.com/watch?v=JEgTn37Sk50</link>
+      <guid isPermaLink="true">https://www.youtube.com/watch?v=JEgTn37Sk50</guid>
+      <pubDate>Fri, 20 Nov 2026 06:05:59 +0000</pubDate>
+      <description>&lt;p&gt;&lt;b&gt;OpenAI&lt;/b&gt; · score 1 · hits agent&lt;/p&gt;&lt;p&gt;Prepare for a sales meeting by asking ChatGPT what changed in your data and which customers need attention. Using sample data from the fictional company Acme, this walkthrough compares quarterly sales, visualizes the segments behind the change, and explores customer orders alongside account notes. See how to ask follow-up questions, check which sources ChatGPT is using, and turn the findings into a concise three-slide presentation for your team. Explore the Data plugin: https://chatgpt.com/plugi&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Create and Share a Report in ChatGPT Space</title>
+      <link>https://www.youtube.com/watch?v=3_fayTbZrW8</link>
+      <guid isPermaLink="true">https://www.youtube.com/watch?v=3_fayTbZrW8</guid>
+      <pubDate>Fri, 20 Nov 2026 05:32:52 +0000</pubDate>
+      <description>&lt;p&gt;&lt;b&gt;OpenAI&lt;/b&gt; · score 1 · hits agent&lt;/p&gt;&lt;p&gt;Give your team a report they can read, discuss, and work on together. In this walkthrough, turn the fictional Acme sales analysis into a Page in Space, with the highlights, quarterly comparisons, and charts in one place. See how to choose who can access the report, copy a link for your meeting, edit a heading directly, ask ChatGPT questions about the report, and leave comments beside the findings you want to discuss. Create and edit Pages: https://learn.chatgpt.com/docs/space/pages Share a Page &lt;/p&gt;</description>
     </item>
     <item>
       <title>How Revolut’s lean teams take on bigger challenges with OpenAI</title>
@@ -257,20 +285,6 @@
       <guid isPermaLink="true">https://www.youtube.com/watch?v=hAASMPKkaXA</guid>
       <pubDate>Tue, 17 Nov 2026 09:45:10 +0000</pubDate>
       <description>&lt;p&gt;&lt;b&gt;OpenAI&lt;/b&gt; · score 1 · hits codex&lt;/p&gt;&lt;p&gt;Revolut’s designers had spent seven years documenting how their design system works. Senior Designer Dmytro Pavlov shares how his team used Codex to turn that material into a format AI could read in a single day. Along the way, they spotted gaps in their templates and made the guidance clearer for the designers who use it. Read the full story: https://openai.com/business/customer-stories/revolut/&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>How Check Point speeds up vulnerability research with Daybreak | OpenAI for Cybersecurity</title>
-      <link>https://www.youtube.com/watch?v=vVVdxMwPBuA</link>
-      <guid isPermaLink="true">https://www.youtube.com/watch?v=vVVdxMwPBuA</guid>
-      <pubDate>Mon, 16 Nov 2026 16:55:56 +0000</pubDate>
-      <description>&lt;p&gt;&lt;b&gt;OpenAI&lt;/b&gt; · score 1 · hits workflow&lt;/p&gt;&lt;p&gt;Check Point CTO Jonathan Zanger explains how his team uses OpenAI Daybreak to analyze vulnerabilities and turn findings into protections for customers. A vulnerability research workflow that once took hours can now be completed in minutes, according to Zanger. Read the full customer story: https://openai.com/index/check-point-daybreak/&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>What Codex Unlocks for Holiday Extras</title>
-      <link>https://www.youtube.com/watch?v=vu3YlUMkvyg</link>
-      <guid isPermaLink="true">https://www.youtube.com/watch?v=vu3YlUMkvyg</guid>
-      <pubDate>Thu, 12 Nov 2026 09:45:17 +0000</pubDate>
-      <description>&lt;p&gt;&lt;b&gt;OpenAI&lt;/b&gt; · score 1 · hits codex&lt;/p&gt;&lt;p&gt;What happens when the people who understand your customers can build the software to help them? At Holiday Extras, Codex is helping turn that ambition into reality—from rebuilding its main app in two weeks to responding faster to customer feedback. Hear how CEO Matthew Pack, David Lee and Liam Thompson are giving colleagues the confidence to build, improving the travel experience and rethinking what the business can achieve with OpenAI. Read the full story: https://openai.com/business/customer-s&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>
