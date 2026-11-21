@@ -5,7 +5,21 @@
     <link>https://raw.githubusercontent.com/liu-zhengdong/paper-digest/main/output/videos.xml</link>
     <description>Agent 用法向 YouTube 频道的每日去重列表，已去掉 Shorts</description>
     <language>zh-CN</language>
-    <lastBuildDate>Fri, 20 Nov 2026 07:44:08 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 21 Nov 2026 07:40:57 +0000</lastBuildDate>
+    <item>
+      <title>New in LangSmith: 4 Updates for Managing Agents in Production</title>
+      <link>https://www.youtube.com/watch?v=G-4VnMltDlc</link>
+      <guid isPermaLink="true">https://www.youtube.com/watch?v=G-4VnMltDlc</guid>
+      <pubDate>Fri, 20 Nov 2026 18:51:55 +0000</pubDate>
+      <description>&lt;p&gt;&lt;b&gt;LangChain&lt;/b&gt; · score 6 · hits agent, agents, mcp, langchain, coding agent&lt;/p&gt;&lt;p&gt;A year ago most teams had one or two agents in production. Now many have dozens, built by different teams on different frameworks, and Jess Weng, Education Engineer at LangChain, walks through four LangSmith updates for keeping track of them. LangSmith is now organized around agents, so each agent is managed in one place across its full lifecycle. Agents also get views tailored to their type, and coding agents come first: LangSmith for coding agents ties spend to the pull requests your agents pr&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Context7 Search: The Best Free Way to Give AI Fresh Docs</title>
+      <link>https://www.youtube.com/watch?v=XNlfTH9XX5w</link>
+      <guid isPermaLink="true">https://www.youtube.com/watch?v=XNlfTH9XX5w</guid>
+      <pubDate>Fri, 20 Nov 2026 12:00:35 +0000</pubDate>
+      <description>&lt;p&gt;&lt;b&gt;Leon van Zyl&lt;/b&gt; · score 6 · hits agent, agentic, claude code, claude, mcp, coding agent&lt;/p&gt;&lt;p&gt;⚡ 1,000 free Context7 Search lookups a month with a free API key: https://context7.com Context7 Search gives any AI agent up-to-date docs, straight from official sources. 🚀 My exclusive AI engineering courses, live Q&amp;amp;As, workshops &amp;amp; deep dives: https://skool.com/agentic-labs 🎁 Free RAMP course + all the resources from my videos: https://skool.com/leonvanzyl Every AI model has a training cutoff, so your coding agent doesn&amp;#x27;t know what changed in the libraries it uses. Web search won&amp;#x27;t fix it, beca&lt;/p&gt;</description>
+    </item>
     <item>
       <title>LangSmith Tool Gateway: Secure, Governed Tool Use for Agents</title>
       <link>https://www.youtube.com/watch?v=achbbrgQnRA</link>
@@ -42,18 +56,25 @@
       <description>&lt;p&gt;&lt;b&gt;Leon van Zyl&lt;/b&gt; · score 6 · hits agent, agents, agentic, claude code, claude, codex, cursor, opencode, harness, coding agent&lt;/p&gt;&lt;p&gt;Get typed decisions from text and images in milliseconds. Get $5 off your first top-up of $10 or more 👉 https://decisionnode.com/?ref=4rdnufd7 AI coding harnesses come in 4 levels, from one agent you babysit to agents that ship code without you. 🚀 My exclusive AI engineering courses, live Q&amp;amp;As, workshops &amp;amp; deep dives: https://skool.com/agentic-labs 🎁 Free RAMP course + all the resources from my videos: https://skool.com/leonvanzyl Most AI coding tools leave you chatting with one agent, or juggli&lt;/p&gt;</description>
     </item>
     <item>
-      <title>What is Tracing? | Introduction to LangSmith (2/12)</title>
-      <link>https://www.youtube.com/watch?v=eOGuaxHR2sI</link>
-      <guid isPermaLink="true">https://www.youtube.com/watch?v=eOGuaxHR2sI</guid>
-      <pubDate>Tue, 17 Nov 2026 23:45:57 +0000</pubDate>
-      <description>&lt;p&gt;&lt;b&gt;LangChain&lt;/b&gt; · score 6 · hits agent, agents, claude, langgraph, langchain&lt;/p&gt;&lt;p&gt;An agent&amp;#x27;s reply shows what it said and hides the tool calls behind it. This lesson turns on LangSmith tracing for the LangSlice pizza agent, loads a batch of recorded customer conversations, and uses the trace views to find a bug the output never shows. The add_pizza_to_order tool sees that pineapple is out of stock and adds it to the order anyway, with no error raised. For agents built on LangChain&amp;#x27;s open-source frameworks, tracing takes three environment variables and no code changes. You&amp;#x27;ll &lt;/p&gt;</description>
-    </item>
-    <item>
       <title>n8n’s Biggest Update Ever: It’s an Agent Harness Now</title>
       <link>https://www.youtube.com/watch?v=EuUF53Wwfm0</link>
       <guid isPermaLink="true">https://www.youtube.com/watch?v=EuUF53Wwfm0</guid>
       <pubDate>Mon, 16 Nov 2026 12:59:18 +0000</pubDate>
       <description>&lt;p&gt;&lt;b&gt;Leon van Zyl&lt;/b&gt; · score 6 · hits agent, agents, agentic, claude code, claude, mcp, workflow, harness&lt;/p&gt;&lt;p&gt;⚡ Self-host n8n on Hostinger and get an extra 10% OFF with code LEON: https://hostinger.com/leon Is n8n dead? My honest answer after going back to n8n for the first time in ages. 🚀 My exclusive AI engineering courses, live Q&amp;amp;As, workshops &amp;amp; deep dives: https://skool.com/agentic-labs 🎁 Free RAMP course + all the resources from my videos: https://skool.com/leonvanzyl Ever since Claude Code took off, people keep asking if n8n is dead. I went back to check, and it&amp;#x27;s not the n8n I remember. n8n now c&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>The Future of Agents with Harrison Chase</title>
+      <link>https://www.youtube.com/watch?v=GojQtxCT3dg</link>
+      <guid isPermaLink="true">https://www.youtube.com/watch?v=GojQtxCT3dg</guid>
+      <pubDate>Sat, 21 Nov 2026 02:26:38 +0000</pubDate>
+      <description>&lt;p&gt;&lt;b&gt;LangChain&lt;/b&gt; · score 5 · hits agent, agents, langchain&lt;/p&gt;&lt;p&gt;Organizations are in a very different phase of agent development than they were a year ago. So what does the next chapter look like in 2027? New challenges are emerging in agent development and context engineering. How can teams better understand the impact and value of their agents? How is the rise of proactive, always-on agents surfacing new obstacles? How can developers manage growing complexity while maintaining control over performance and costs? Hear from Harrison Chase, Co-founder and CEO&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>The Most Dangerous AI Agent Is an Overly Helpful One (It&#x27;s Not Why You Think)</title>
+      <link>https://www.youtube.com/watch?v=k87Iqft91j8</link>
+      <guid isPermaLink="true">https://www.youtube.com/watch?v=k87Iqft91j8</guid>
+      <pubDate>Fri, 20 Nov 2026 15:14:53 +0000</pubDate>
+      <description>&lt;p&gt;&lt;b&gt;Cole Medin&lt;/b&gt; · score 5 · hits agent, agents, langgraph&lt;/p&gt;&lt;p&gt;The most dangerous AI agent is an overly helpful one. It&amp;#x27;ll take risky actions just to get the job done, even something like deleting a production database! In this video I go through the five things I need for every agent before it goes to production: tool permissions, human in the loop, network limits, memory, and observability. I show a real example of each with a LangGraph agent running in MongoDB&amp;#x27;s Atlas Agent Engine. ~~~~~~~~~~~~~~~~~~~~~~~~~~ Atlas Agent Engine, MongoDB&amp;#x27;s platform to buil&lt;/p&gt;</description>
     </item>
     <item>
       <title>Fireside Chat With Alex Atallah, OpenRouter</title>
@@ -70,18 +91,18 @@
       <description>&lt;p&gt;&lt;b&gt;LangChain&lt;/b&gt; · score 5 · hits agent, langgraph, langchain&lt;/p&gt;&lt;p&gt;The dev server we&amp;#x27;ve used so far keeps state in memory and ties each run to the request that started it, which breaks once real customers arrive. A LangSmith deployment stores checkpoints in Postgres and puts runs on a queue, so a run survives a dropped connection. We compare langgraph dev with langgraph up, which runs the full Agent Server locally in Docker, and langgraph deploy, which hands it to LangSmith to host. Then we create a deployment from a GitHub repo. Each deployment gets its own tr&lt;/p&gt;</description>
     </item>
     <item>
-      <title>Debugging with Studio | Introduction to LangSmith (3/12)</title>
-      <link>https://www.youtube.com/watch?v=GPf7f8ZgYjs</link>
-      <guid isPermaLink="true">https://www.youtube.com/watch?v=GPf7f8ZgYjs</guid>
-      <pubDate>Tue, 17 Nov 2026 23:46:12 +0000</pubDate>
-      <description>&lt;p&gt;&lt;b&gt;LangChain&lt;/b&gt; · score 5 · hits agent, langgraph, langchain&lt;/p&gt;&lt;p&gt;A trace records a run that already happened, so it can&amp;#x27;t tell you what the agent would have done if a tool had behaved correctly. LangGraph Studio can. In this lesson we reproduce the LangSlice out-of-stock bug, edit the add_pizza_to_order result at its checkpoint to the rejection it should have returned, and fork the run from there. With that one value changed, the agent tells the customer pineapple is out of stock. The defect sits in one missing check in one tool rather than in the model or th&lt;/p&gt;</description>
-    </item>
-    <item>
       <title>Fable 5.2 is CRACKED but THIS goes BEYOND THE MODEL</title>
       <link>https://www.youtube.com/watch?v=hYIymEMB9x4</link>
       <guid isPermaLink="true">https://www.youtube.com/watch?v=hYIymEMB9x4</guid>
       <pubDate>Mon, 16 Nov 2026 14:00:02 +0000</pubDate>
       <description>&lt;p&gt;&lt;b&gt;IndyDevDan&lt;/b&gt; · score 5 · hits agent, agents, agentic&lt;/p&gt;&lt;p&gt;Fable 5.2 just dropped and most engineers DON&amp;#x27;T need it. Everyone has access to the same frontier intelligence. The model is NOT your edge. The system you build around the model is. One super agent that does everything is a myth. Sub-agents hit a ceiling. Agent swarms burn more money than they make. The real multi-agent sweet spot? Small agent teams. 🚀 Phase 3 PRE-LAUNCH IS LIVE (What if your agents never stopped?) https://agenticengineer.com/infinite-agentic-engineering?y=hYIymEMB9x4 🔥 In Tiny &lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>AI News: This Is The Make or Break Week!!</title>
+      <link>https://www.youtube.com/watch?v=wqNIzUmNt9M</link>
+      <guid isPermaLink="true">https://www.youtube.com/watch?v=wqNIzUmNt9M</guid>
+      <pubDate>Fri, 20 Nov 2026 19:00:16 +0000</pubDate>
+      <description>&lt;p&gt;&lt;b&gt;Matt Wolfe&lt;/b&gt; · score 4 · hits agent, agents, claude code, claude&lt;/p&gt;&lt;p&gt;Hire your own team of agents with Hyperagent for free here: https://hyperagent.com/login?utm_source=youtube&amp;amp;utm_medium=influencer&amp;amp;utm_campaign=MATT Anthropic’s IPO puts the AI bubble to the test as OpenAI and Google launch powerful new models for less. This week, I test GPT-6.2 Astra, Sol, and Gemini 4 Neon, break down Microsoft’s latest AI releases, and try Gemini Notebook’s new website builder. Plus, ChatGPT Wallet, HeyGen Avatar 6, and more AI news. Watch my full GPT-6.2 breakdown: https://yo&lt;/p&gt;</description>
     </item>
     <item>
       <title>Full Course: AI Coding Workflows From Cloud to Local</title>
@@ -168,13 +189,6 @@
       <description>&lt;p&gt;&lt;b&gt;Nick Saraev&lt;/b&gt; · score 4 · hits agent, agents, claude, workflow&lt;/p&gt;&lt;p&gt;🔥 AI media resources: https://higgsfield.ai/s/IkgpSM 💎 Get all course resources 100% free: https://go.nicksaraev.com/highest-paying-careers ➡️ If this is your first video: I&amp;#x27;m Nick Saraev. I run LeftClick, an AI growth agency. We&amp;#x27;ve done work for large brands you&amp;#x27;re likely familiar with, like Mr. Beast, Anthropic, OpenAI, and a few others. In plain English: I help people build systems that generate leads, close deals, and scale businesses, mostly using new AI models like Claude. I also make vide&lt;/p&gt;</description>
     </item>
     <item>
-      <title>AI News: Things Will Never Be The Same</title>
-      <link>https://www.youtube.com/watch?v=G_Jrexy_5Bg</link>
-      <guid isPermaLink="true">https://www.youtube.com/watch?v=G_Jrexy_5Bg</guid>
-      <pubDate>Fri, 13 Nov 2026 17:21:49 +0000</pubDate>
-      <description>&lt;p&gt;&lt;b&gt;Matt Wolfe&lt;/b&gt; · score 4 · hits agent, agents, claude, workflow&lt;/p&gt;&lt;p&gt;Try @OpenAI Decisions API here: https://developers.openai.com/api/docs/guides/decisions Here&amp;#x27;s the AI news from one of the wildest weeks we&amp;#x27;ve ever seen! Jensen Huang steps down as NVIDIA CEO, Anthropic launches Claude Fable 5.2, and Google&amp;#x27;s Gemini 4 Carbon finally becomes available. Plus, new AI features from Adobe MAX, big updates to Claude, and a rapid-fire roundup of everything else happening in AI. Sharing the latest news and advancements in AI Discover More: 🛠️ Explore AI Tools &amp;amp; News: ht&lt;/p&gt;</description>
-    </item>
-    <item>
       <title>Connect Your Team’s Data to ChatGPT</title>
       <link>https://www.youtube.com/watch?v=oJIuz3AFfEQ</link>
       <guid isPermaLink="true">https://www.youtube.com/watch?v=oJIuz3AFfEQ</guid>
@@ -203,7 +217,7 @@
       <description>&lt;p&gt;&lt;b&gt;OpenAI&lt;/b&gt; · score 2 · hits agent, skill&lt;/p&gt;&lt;p&gt;Get started with the Data plugin in ChatGPT. Take a quick tour of how to ask questions about your data, create visualizations, build dashboards, and share reports with your team. See where to find Data in the plugin marketplace, how it works with your files and connected tools, and the skills available for tasks like checking data quality, defining KPIs, and business analysis. Explore the Data plugin: https://chatgpt.com/plugins/Plugin_fc9843a6fb34819195d6c7802398a8a7 Plugin availability depends&lt;/p&gt;</description>
     </item>
     <item>
-      <title>Anthropic is Eating The World</title>
+      <title>Claude is Eating The World</title>
       <link>https://www.youtube.com/watch?v=4TnNitqm8uM</link>
       <guid isPermaLink="true">https://www.youtube.com/watch?v=4TnNitqm8uM</guid>
       <pubDate>Fri, 20 Nov 2026 00:41:40 +0000</pubDate>
@@ -238,13 +252,6 @@
       <description>&lt;p&gt;&lt;b&gt;Nick Saraev&lt;/b&gt; · score 2 · hits claude, workflow&lt;/p&gt;&lt;p&gt;🔥 Join Maker School &amp;amp; get customer #1 guaranteed: https://skool.com/makerschool/about 💎 Get all course resources 100% free: https://skool.com/maker-zero/about ➡️ If this is your first video: I&amp;#x27;m Nick Saraev. I run LeftClick, an AI growth agency. We&amp;#x27;ve done work for large brands you&amp;#x27;re likely familiar with, like Mr. Beast, Anthropic, OpenAI, and a few others. In plain English: I help people build systems that generate leads, close deals, and scale businesses, mostly using new AI models like Claud&lt;/p&gt;</description>
     </item>
     <item>
-      <title>Don’t Start Freelancing in Tech Until You Know This</title>
-      <link>https://www.youtube.com/watch?v=ijinE_RBmYc</link>
-      <guid isPermaLink="true">https://www.youtube.com/watch?v=ijinE_RBmYc</guid>
-      <pubDate>Fri, 13 Nov 2026 17:40:39 +0000</pubDate>
-      <description>&lt;p&gt;&lt;b&gt;Dave Ebbelaar&lt;/b&gt; · score 2 · hits -&lt;/p&gt;&lt;p&gt;Join my free live masterclass on freelancing: https://go.datalumina.com/ZiTGfcK 🎙️ Get one free month of Glaido Pro: https://get.glaido.com/dave 📘 Build your freelance career with me: https://go.datalumina.com/1Xfs7x0 ⏱️ Timestamps 00:00 Intro 02:23 Two models 06:59 Your first job is sales 09:28 Free masterclass 10:10 Don&amp;#x27;t niche down 15:29 You don&amp;#x27;t need a website 18:23 Pricing 23:23 Where you live matters 26:34 How the best freelancers do it 📌 Description Most people in tech picture freelancin&lt;/p&gt;</description>
-    </item>
-    <item>
       <title>Create and Share a Dashboard in ChatGPT</title>
       <link>https://www.youtube.com/watch?v=OSHSopaYjTw</link>
       <guid isPermaLink="true">https://www.youtube.com/watch?v=OSHSopaYjTw</guid>
@@ -271,20 +278,6 @@
       <guid isPermaLink="true">https://www.youtube.com/watch?v=ZIpm-0RczCk</guid>
       <pubDate>Tue, 17 Nov 2026 09:45:35 +0000</pubDate>
       <description>&lt;p&gt;&lt;b&gt;OpenAI&lt;/b&gt; · score 1 · hits codex&lt;/p&gt;&lt;p&gt;What can one engineer build when a project looks like it needs a whole team? At Revolut, an engineer used Codex to build an internal code review service himself. Its designers used Codex to turn seven years of design documentation into a format AI could read in a single day. OpenAI also helps Revolut’s financial crime team investigate flagged payments and respond faster to make shopping safer. Read the full story: https://openai.com/business/customer-stories/revolut/&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Faster fraud response for safer shopping | Revolut’s David Abitbol</title>
-      <link>https://www.youtube.com/watch?v=-O0tMcyH4Wo</link>
-      <guid isPermaLink="true">https://www.youtube.com/watch?v=-O0tMcyH4Wo</guid>
-      <pubDate>Tue, 17 Nov 2026 09:45:26 +0000</pubDate>
-      <description>&lt;p&gt;&lt;b&gt;OpenAI&lt;/b&gt; · score 1 · hits codex&lt;/p&gt;&lt;p&gt;OpenAI helps Revolut’s financial crime team investigate flagged payments and respond faster to make shopping safer. David Abitbol, AI Lead at Revolut, explains how his team tests AI systems before putting them to work. He also shares how Codex gives engineers more time to weigh up different designs and decide what to build. Read the full story: https://openai.com/business/customer-stories/revolut/&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Making seven years of design documentation AI-readable in a day | Revolut’s Dmytro Pavlov</title>
-      <link>https://www.youtube.com/watch?v=hAASMPKkaXA</link>
-      <guid isPermaLink="true">https://www.youtube.com/watch?v=hAASMPKkaXA</guid>
-      <pubDate>Tue, 17 Nov 2026 09:45:10 +0000</pubDate>
-      <description>&lt;p&gt;&lt;b&gt;OpenAI&lt;/b&gt; · score 1 · hits codex&lt;/p&gt;&lt;p&gt;Revolut’s designers had spent seven years documenting how their design system works. Senior Designer Dmytro Pavlov shares how his team used Codex to turn that material into a format AI could read in a single day. Along the way, they spotted gaps in their templates and made the guidance clearer for the designers who use it. Read the full story: https://openai.com/business/customer-stories/revolut/&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>
