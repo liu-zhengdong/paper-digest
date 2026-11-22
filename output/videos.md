@@ -1,6 +1,6 @@
 # 每日 Agent 视频
 
-生成时间：2026-11-21 07:40 UTC  ·  共 39 条（近 7 天，已去 Shorts、按视频 ID 去重）
+生成时间：2026-11-22 07:25 UTC  ·  共 38 条（近 7 天，已去 Shorts、按视频 ID 去重）
 
 专注频道全收，泛 AI 频道只留标题或简介命中关键词的。关键词在 `videos.config.json`。
 
@@ -179,98 +179,91 @@ We’re introducing GPT‑6.2 Astra, our new frontier model for your hardest pro
 
 🔥 Join Maker School & get customer #1 guaranteed: https://skool.com/makerschool/about 💎 Get all course resources 100% free: https://skool.com/maker-zero/about ➡️ If this is your first video: I'm Nick Saraev. I run LeftClick, an AI growth agency. We've done work for large brands…
 
-## 26. The Highest-Paying Careers for The Next 2+ Years
-
-- 频道：Nick Saraev  ·  分数：4  ·  命中：agent, agents, claude, workflow
-- 链接：https://www.youtube.com/watch?v=Pyl5yyT7h-g
-
-🔥 AI media resources: https://higgsfield.ai/s/IkgpSM 💎 Get all course resources 100% free: https://go.nicksaraev.com/highest-paying-careers ➡️ If this is your first video: I'm Nick Saraev. I run LeftClick, an AI growth agency. We've done work for large brands you're likely…
-
-## 27. Connect Your Team’s Data to ChatGPT
+## 26. Connect Your Team’s Data to ChatGPT
 
 - 频道：OpenAI  ·  分数：3  ·  命中：agent, codex, mcp
 - 链接：https://www.youtube.com/watch?v=oJIuz3AFfEQ
 
 Connect the data tools your team already uses to ChatGPT. This walkthrough is for workspace admins: enable the Data plugin, choose how teammates can install it, and explore the setup for a Snowflake connection. You’ll also see how to add a custom plugin or MCP server and why…
 
-## 28. How one engineer built a code review service with Codex | Revolut’s Dmitry Pitik
+## 27. How one engineer built a code review service with Codex | Revolut’s Dmitry Pitik
 
 - 频道：OpenAI  ·  分数：3  ·  命中：agent, agents, codex
 - 链接：https://www.youtube.com/watch?v=R_sl8zEp9ng
 
 Dmitry Pitik thought he’d need a team of developers to build Revolut’s internal code review service. In this film, the Senior Platform Engineer explains how he broke the design into tasks, assigned them to Codex agents working in parallel and reviewed the code himself. That gave…
 
-## 29. 5 Types of AI Software Factories Clearly Explained
+## 28. 5 Types of AI Software Factories Clearly Explained
 
 - 频道：Cole Medin  ·  分数：3  ·  命中：langchain
 - 链接：https://www.youtube.com/watch?v=r5iPi8RL7A8
 
 AI software factories are all the rage right now, but there's a lot of confusion about what they actually are. Here are the five most common types with the pros and cons of each, so you can find the right balance of control and autonomy for what you're building!…
 
-## 30. Meet the Data Agent in ChatGPT
+## 29. Meet the Data Agent in ChatGPT
 
 - 频道：OpenAI  ·  分数：2  ·  命中：agent, skill
 - 链接：https://www.youtube.com/watch?v=KrlfehIapEA
 
 Get started with the Data plugin in ChatGPT. Take a quick tour of how to ask questions about your data, create visualizations, build dashboards, and share reports with your team. See where to find Data in the plugin marketplace, how it works with your files and connected tools,…
 
-## 31. Claude is Eating The World
+## 30. Claude is eating the world
 
 - 频道：Nick Saraev  ·  分数：2  ·  命中：claude, workflow
 - 链接：https://www.youtube.com/watch?v=4TnNitqm8uM
 
 🔥 Join Maker School & get customer #1 guaranteed: https://go.nicksaraev.com/anthropic-eating-world 💎 Get all course resources 100% free: https://go.nicksaraev.com/anthropic-eating-world-maker-zero ➡️ If this is your first video: I'm Nick Saraev. I run LeftClick, an AI growth…
 
-## 32. Insane AI Breakthroughs Nobody Is Talking About
+## 31. Insane AI Breakthroughs Nobody Is Talking About
 
 - 频道：Matt Wolfe  ·  分数：2  ·  命中：agent, agents
 - 链接：https://www.youtube.com/watch?v=-oA6oLxWpJg
 
 12 AI breakthroughs you probably missed, from incredibly human AI voices to a walking robot powered by an old phone. These are some of the coolest AI tools, research projects, and tech demos I’ve come across recently that didn’t make it into my weekly AI news videos. We’re…
 
-## 33. GPT-6.2 Astra Just Dropped, And It's Not Great
+## 32. GPT-6.2 Astra Just Dropped, And It's Not Great
 
 - 频道：Nick Saraev  ·  分数：2  ·  命中：claude, workflow
 - 链接：https://www.youtube.com/watch?v=JePtqPwfD6M
 
 🔥 Join Maker School & get customer #1 guaranteed: https://skool.com/makerschool/about 💎 Get all course resources 100% free: https://skool.com/maker-zero/about ➡️ If this is your first video: I'm Nick Saraev. I run LeftClick, an AI growth agency. We've done work for large brands…
 
-## 34. Building 3D video sets with GPT-6.2 Astra
+## 33. Building 3D video sets with GPT-6.2 Astra
 
 - 频道：OpenAI  ·  分数：2  ·  命中：codex, tool use
 - 链接：https://www.youtube.com/watch?v=tKoDPOrLMX0
 
 GPT-6.2 Astra is our new flagship model, delivering a step up in capability with cleaner code, better frontends and 3D models, and more efficient tool use. Recreate a room from just two video frames with GPT-6.2 Astra in Codex. See how it builds the set in Blender, changes the…
 
-## 35. It's Happening. Robots Just Took Another Blue Collar Job
+## 34. It's Happening. Robots Just Took Another Blue Collar Job
 
 - 频道：Nick Saraev  ·  分数：2  ·  命中：claude, workflow
 - 链接：https://www.youtube.com/watch?v=EMysvWtyK0o
 
 🔥 Join Maker School & get customer #1 guaranteed: https://skool.com/makerschool/about 💎 Get all course resources 100% free: https://skool.com/maker-zero/about ➡️ If this is your first video: I'm Nick Saraev. I run LeftClick, an AI growth agency. We've done work for large brands…
 
-## 36. Create and Share a Dashboard in ChatGPT
+## 35. Create and Share a Dashboard in ChatGPT
 
 - 频道：OpenAI  ·  分数：1  ·  命中：agent
 - 链接：https://www.youtube.com/watch?v=OSHSopaYjTw
 
 Turn your analysis into a dashboard your team can use. Building on the fictional Acme sales example, this walkthrough brings quarterly metrics and customer follow-ups into one view. See how to inspect the data behind a chart, edit its appearance, ask questions about the numbers,…
 
-## 37. Ask Questions About Your Data in ChatGPT
+## 36. Ask Questions About Your Data in ChatGPT
 
 - 频道：OpenAI  ·  分数：1  ·  命中：agent
 - 链接：https://www.youtube.com/watch?v=JEgTn37Sk50
 
 Prepare for a sales meeting by asking ChatGPT what changed in your data and which customers need attention. Using sample data from the fictional company Acme, this walkthrough compares quarterly sales, visualizes the segments behind the change, and explores customer orders…
 
-## 38. Create and Share a Report in ChatGPT Space
+## 37. Create and Share a Report in ChatGPT Space
 
 - 频道：OpenAI  ·  分数：1  ·  命中：agent
 - 链接：https://www.youtube.com/watch?v=3_fayTbZrW8
 
 Give your team a report they can read, discuss, and work on together. In this walkthrough, turn the fictional Acme sales analysis into a Page in Space, with the highlights, quarterly comparisons, and charts in one place. See how to choose who can access the report, copy a link…
 
-## 39. How Revolut’s lean teams take on bigger challenges with OpenAI
+## 38. How Revolut’s lean teams take on bigger challenges with OpenAI
 
 - 频道：OpenAI  ·  分数：1  ·  命中：codex
 - 链接：https://www.youtube.com/watch?v=ZIpm-0RczCk
