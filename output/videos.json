@@ -1,7 +1,58 @@
 {
-  "generated_at": "2026-11-23T08:12:04.138507+00:00",
-  "count": 38,
+  "generated_at": "2026-11-24T10:25:06.387145+00:00",
+  "count": 34,
   "videos": [
+    {
+      "id": "emId9_O2sU8",
+      "title": "We Open Sourced Our Design Brain",
+      "summary": "Content Studio is the design agent LangChain runs in Slack, and it's now open source. It has made over 3,000 assets for us, including work for some of our biggest launches. Every graphic it makes is an HTML page and every video is an animation timeline, so the work stays editable and on-brand. We walk through how it's built, then deploy it to a Slack workspace in three steps. Once it's live, we hand it our brand book, save the brand to its memory, and ask for a launch card in three sizes. Then i",
+      "published": "2026-11-23T18:17:47+00:00",
+      "channel": "LangChain",
+      "mode": "all",
+      "hits": [
+        "agent",
+        "agents",
+        "skill",
+        "langchain",
+        "harness"
+      ],
+      "url": "https://www.youtube.com/watch?v=emId9_O2sU8",
+      "score": 6
+    },
+    {
+      "id": "0q0UbO4oqgQ",
+      "title": "Hackers Are Coming for Your AI Coding Agent (Lock It Down Now)",
+      "summary": "Attackers are using AI to find and exploit vulnerabilities faster than ever, and a lot of those attacks now go straight through our coding agents. In this video I cover real attacks from the last few weeks, the basics you can do right now to lock down your setup, and a free skill I built that audits your whole agent configuration for you! ~~~~~~~~~~~~~~~~~~~~~~~~~~ Blacksmith: run your GitHub Actions faster and search the logs from every CI job, with 3,000 free minutes a month: https://www.black",
+      "published": "2026-11-23T15:23:29+00:00",
+      "channel": "Cole Medin",
+      "mode": "all",
+      "hits": [
+        "agent",
+        "agents",
+        "agentic",
+        "claude",
+        "skill",
+        "coding agent"
+      ],
+      "url": "https://www.youtube.com/watch?v=0q0UbO4oqgQ",
+      "score": 6
+    },
+    {
+      "id": "0vz5slHWAp8",
+      "title": "Jev Explained: How TypeSafe's System One Model Fits into Your Agents",
+      "summary": "Sydney Runkle, product manager for open source at LangChain, talks with Sasha Sheng, co-founder of TypeSafe AI, whose team builds the training data behind Jev. Sasha explains why TypeSafe built a model that returns typed answers with a confidence score rather than generated text, and how to break a fuzzy problem into small questions that Jev answers in parallel. They also get into where Jev fits inside a LangChain agent, such as choosing which model or tools a step needs, and why Jev as a judge ",
+      "published": "2026-11-23T14:25:33+00:00",
+      "channel": "LangChain",
+      "mode": "all",
+      "hits": [
+        "agent",
+        "agents",
+        "langchain",
+        "harness"
+      ],
+      "url": "https://www.youtube.com/watch?v=0vz5slHWAp8",
+      "score": 6
+    },
     {
       "id": "G-4VnMltDlc",
       "title": "New in LangSmith: 4 Updates for Managing Agents in Production",
@@ -134,24 +185,19 @@
       "score": 6
     },
     {
-      "id": "EuUF53Wwfm0",
-      "title": "n8n’s Biggest Update Ever: It’s an Agent Harness Now",
-      "summary": "⚡ Self-host n8n on Hostinger and get an extra 10% OFF with code LEON: https://hostinger.com/leon Is n8n dead? My honest answer after going back to n8n for the first time in ages. 🚀 My exclusive AI engineering courses, live Q&As, workshops & deep dives: https://skool.com/agentic-labs 🎁 Free RAMP course + all the resources from my videos: https://skool.com/leonvanzyl Ever since Claude Code took off, people keep asking if n8n is dead. I went back to check, and it's not the n8n I remember. n8n now c",
-      "published": "2026-11-16T12:59:18+00:00",
-      "channel": "Leon van Zyl",
+      "id": "PuHDu3Kn8sQ",
+      "title": "The Meta Software Factory: Advanced Agentic Engineering",
+      "summary": "If you are still the human IN the loop every time your system needs an update, YOU are the bottleneck. 🔥 In the age of agents, the winning software is liquid software that adapts at the speed of agents. With a meta factory, you stop building one-off solutions and build the system that builds your tiny software factories. 💡 Join To Get Your Tiny Software Factory: https://agenticengineer.com/infinite-agentic-engineering?y=PuHDu3Kn8sQ 🚀 In this Level 4 finale of Tiny Software Factories, IndyDevDan ",
+      "published": "2026-11-23T14:00:13+00:00",
+      "channel": "IndyDevDan",
       "mode": "all",
       "hits": [
         "agent",
         "agents",
-        "agentic",
-        "claude code",
-        "claude",
-        "mcp",
-        "workflow",
-        "harness"
+        "agentic"
       ],
-      "url": "https://www.youtube.com/watch?v=EuUF53Wwfm0",
-      "score": 6
+      "url": "https://www.youtube.com/watch?v=PuHDu3Kn8sQ",
+      "score": 5
     },
     {
       "id": "GojQtxCT3dg",
@@ -214,19 +260,18 @@
       "score": 5
     },
     {
-      "id": "hYIymEMB9x4",
-      "title": "Fable 5.2 is CRACKED but THIS goes BEYOND THE MODEL",
-      "summary": "Fable 5.2 just dropped and most engineers DON'T need it. Everyone has access to the same frontier intelligence. The model is NOT your edge. The system you build around the model is. One super agent that does everything is a myth. Sub-agents hit a ceiling. Agent swarms burn more money than they make. The real multi-agent sweet spot? Small agent teams. 🚀 Phase 3 PRE-LAUNCH IS LIVE (What if your agents never stopped?) https://agenticengineer.com/infinite-agentic-engineering?y=hYIymEMB9x4 🔥 In Tiny ",
-      "published": "2026-11-16T14:00:02+00:00",
-      "channel": "IndyDevDan",
+      "id": "ayPHxPGLjVc",
+      "title": "6 Boring But In Demand AI Projects That Pay Really Well",
+      "summary": "Join my free live masterclass on freelancing: https://go.datalumina.com/bQD4OOa Build your freelance career with me: https://go.datalumina.com/wqcMeEY 🎙️ Get one free month of Glaido Pro: https://get.glaido.com/dave ⏱️ Timestamps 00:00 Intro 00:58 Integration first 01:28 Support agents 03:30 Data portals 06:19 Automation hubs 08:35 Free masterclass 09:33 Marketing and sales 12:30 Document intelligence 14:58 Replace the app 18:23 Where things are going 📌 Description Most AI projects that companie",
+      "published": "2026-11-23T15:04:58+00:00",
+      "channel": "Dave Ebbelaar",
       "mode": "all",
       "hits": [
         "agent",
-        "agents",
-        "agentic"
+        "agents"
       ],
-      "url": "https://www.youtube.com/watch?v=hYIymEMB9x4",
-      "score": 5
+      "url": "https://www.youtube.com/watch?v=ayPHxPGLjVc",
+      "score": 4
     },
     {
       "id": "wqNIzUmNt9M",
@@ -350,34 +395,6 @@
       "score": 4
     },
     {
-      "id": "9tB7ARhlDPQ",
-      "title": "Experiments | Introduction to LangSmith (5/12)",
-      "summary": "An experiment runs your agent over every example in a dataset and scores the results with your evaluators. In this lesson we run a baseline experiment on the LangSlice pizza agent with the LangSmith SDK and read the evaluator's comments on the orders that let out-of-stock toppings through. Then we add a stock check to add_pizza_to_order and run the experiment again. The comparison view lines the two runs up example by example, so you can confirm the failures flipped to passing and the passing or",
-      "published": "2026-11-17T23:46:43+00:00",
-      "channel": "LangChain",
-      "mode": "all",
-      "hits": [
-        "agent",
-        "langchain"
-      ],
-      "url": "https://www.youtube.com/watch?v=9tB7ARhlDPQ",
-      "score": 4
-    },
-    {
-      "id": "TyxwaLr89V4",
-      "title": "Datasets and Offline Evaluations | Introduction to LangSmith (4/12)",
-      "summary": "Forking one run in Studio showed how the out-of-stock bug works, but one run can't tell you how often it happens across all the ways customers ask for a pizza. This lesson starts the Test stage by turning LangSlice traces into a LangSmith dataset and writing an evaluator that checks every topping on an order against the ingredient catalog. You'll use a tree filter to pull every trace that added a pizza, including the correct orders, since those are what catch a regression. We also cover when a c",
-      "published": "2026-11-17T23:46:25+00:00",
-      "channel": "LangChain",
-      "mode": "all",
-      "hits": [
-        "agent",
-        "langchain"
-      ],
-      "url": "https://www.youtube.com/watch?v=TyxwaLr89V4",
-      "score": 4
-    },
-    {
       "id": "C1zYX5jwqq4",
       "title": "GPT-6.2 Astra and GPT-6.2 Sol—Models built for the real world",
       "summary": "We’re introducing GPT‑6.2 Astra, our new frontier model for your hardest projects, and GPT‑6.2 Sol, our efficient, versatile model for everyday work. Both models deliver better results on demanding tasks with fewer output tokens, so you can get more done within your usage limits. For businesses and developers, that means frontier performance at costs that make sense at scale. GPT‑6.2 Astra sets a new quality bar for AI in complex professional work. Its slides, spreadsheets, and documents read le",
@@ -394,23 +411,6 @@
       "score": 4
     },
     {
-      "id": "kM7lnhS_uE8",
-      "title": "Something strange is happening to the internet right now",
-      "summary": "🔥 Join Maker School & get customer #1 guaranteed: https://skool.com/makerschool/about 💎 Get all course resources 100% free: https://skool.com/maker-zero/about ➡️ If this is your first video: I'm Nick Saraev. I run LeftClick, an AI growth agency. We've done work for large brands you're likely familiar with, like Mr. Beast, Anthropic, OpenAI, and a few others. In plain English: I help people build systems that generate leads, close deals, and scale businesses, mostly using new AI models like Claud",
-      "published": "2026-11-16T22:21:02+00:00",
-      "channel": "Nick Saraev",
-      "mode": "keyword",
-      "hits": [
-        "agent",
-        "agents",
-        "claude code",
-        "claude",
-        "workflow"
-      ],
-      "url": "https://www.youtube.com/watch?v=kM7lnhS_uE8",
-      "score": 4
-    },
-    {
       "id": "oJIuz3AFfEQ",
       "title": "Connect Your Team’s Data to ChatGPT",
       "summary": "Connect the data tools your team already uses to ChatGPT. This walkthrough is for workspace admins: enable the Data plugin, choose how teammates can install it, and explore the setup for a Snowflake connection. You’ll also see how to add a custom plugin or MCP server and why connecting your team’s messages, email, and files gives ChatGPT more context for its answers. Workspace setup and access: https://help.openai.com/en/articles/20001518-using-the-data-plugin-in-chatgpt-work-and-codex Snowflake",
@@ -423,34 +423,6 @@
         "mcp"
       ],
       "url": "https://www.youtube.com/watch?v=oJIuz3AFfEQ",
-      "score": 3
-    },
-    {
-      "id": "R_sl8zEp9ng",
-      "title": "How one engineer built a code review service with Codex | Revolut’s Dmitry Pitik",
-      "summary": "Dmitry Pitik thought he’d need a team of developers to build Revolut’s internal code review service. In this film, the Senior Platform Engineer explains how he broke the design into tasks, assigned them to Codex agents working in parallel and reviewed the code himself. That gave him more time for the engineering decisions he wanted to get right. Read the full story: https://openai.com/business/customer-stories/revolut/",
-      "published": "2026-11-17T09:45:34+00:00",
-      "channel": "OpenAI",
-      "mode": "keyword",
-      "hits": [
-        "agent",
-        "agents",
-        "codex"
-      ],
-      "url": "https://www.youtube.com/watch?v=R_sl8zEp9ng",
-      "score": 3
-    },
-    {
-      "id": "r5iPi8RL7A8",
-      "title": "5 Types of AI Software Factories Clearly Explained",
-      "summary": "AI software factories are all the rage right now, but there's a lot of confusion about what they actually are. Here are the five most common types with the pros and cons of each, so you can find the right balance of control and autonomy for what you're building! ~~~~~~~~~~~~~~~~~~~~~~~~~~ - Thank you to LangChain for sponsoring this video! Try LangSmith with $50 in credit using my code ColeM: https://www.langchain.com/referral/cole-medin?utm_medium=creator&utm_source=youtube&utm_campaign=q3-2026",
-      "published": "2026-11-16T23:51:15+00:00",
-      "channel": "Cole Medin",
-      "mode": "all",
-      "hits": [
-        "langchain"
-      ],
-      "url": "https://www.youtube.com/watch?v=r5iPi8RL7A8",
       "score": 3
     },
     {
@@ -524,20 +496,6 @@
       "score": 2
     },
     {
-      "id": "EMysvWtyK0o",
-      "title": "It's Happening. Robots Just Took Another Blue Collar Job",
-      "summary": "🔥 Join Maker School & get customer #1 guaranteed: https://skool.com/makerschool/about 💎 Get all course resources 100% free: https://skool.com/maker-zero/about ➡️ If this is your first video: I'm Nick Saraev. I run LeftClick, an AI growth agency. We've done work for large brands you're likely familiar with, like Mr. Beast, Anthropic, OpenAI, and a few others. In plain English: I help people build systems that generate leads, close deals, and scale businesses, mostly using new AI models like Claud",
-      "published": "2026-11-16T16:42:43+00:00",
-      "channel": "Nick Saraev",
-      "mode": "keyword",
-      "hits": [
-        "claude",
-        "workflow"
-      ],
-      "url": "https://www.youtube.com/watch?v=EMysvWtyK0o",
-      "score": 2
-    },
-    {
       "id": "OSHSopaYjTw",
       "title": "Create and Share a Dashboard in ChatGPT",
       "summary": "Turn your analysis into a dashboard your team can use. Building on the fictional Acme sales example, this walkthrough brings quarterly metrics and customer follow-ups into one view. See how to inspect the data behind a chart, edit its appearance, ask questions about the numbers, and refine the dashboard with annotations. The video also covers refreshes, matching your branding, and sharing through Sites with connected data. Sites data connections and viewer access: https://learn.chatgpt.com/docs/",
@@ -574,19 +532,6 @@
         "agent"
       ],
       "url": "https://www.youtube.com/watch?v=3_fayTbZrW8",
-      "score": 1
-    },
-    {
-      "id": "ZIpm-0RczCk",
-      "title": "How Revolut’s lean teams take on bigger challenges with OpenAI",
-      "summary": "What can one engineer build when a project looks like it needs a whole team? At Revolut, an engineer used Codex to build an internal code review service himself. Its designers used Codex to turn seven years of design documentation into a format AI could read in a single day. OpenAI also helps Revolut’s financial crime team investigate flagged payments and respond faster to make shopping safer. Read the full story: https://openai.com/business/customer-stories/revolut/",
-      "published": "2026-11-17T09:45:35+00:00",
-      "channel": "OpenAI",
-      "mode": "keyword",
-      "hits": [
-        "codex"
-      ],
-      "url": "https://www.youtube.com/watch?v=ZIpm-0RczCk",
       "score": 1
     }
   ]

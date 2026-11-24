@@ -5,7 +5,28 @@
     <link>https://raw.githubusercontent.com/liu-zhengdong/paper-digest/main/output/videos.xml</link>
     <description>Agent 用法向 YouTube 频道的每日去重列表，已去掉 Shorts</description>
     <language>zh-CN</language>
-    <lastBuildDate>Mon, 23 Nov 2026 08:12:04 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 24 Nov 2026 10:25:06 +0000</lastBuildDate>
+    <item>
+      <title>We Open Sourced Our Design Brain</title>
+      <link>https://www.youtube.com/watch?v=emId9_O2sU8</link>
+      <guid isPermaLink="true">https://www.youtube.com/watch?v=emId9_O2sU8</guid>
+      <pubDate>Mon, 23 Nov 2026 18:17:47 +0000</pubDate>
+      <description>&lt;p&gt;&lt;b&gt;LangChain&lt;/b&gt; · score 6 · hits agent, agents, skill, langchain, harness&lt;/p&gt;&lt;p&gt;Content Studio is the design agent LangChain runs in Slack, and it&amp;#x27;s now open source. It has made over 3,000 assets for us, including work for some of our biggest launches. Every graphic it makes is an HTML page and every video is an animation timeline, so the work stays editable and on-brand. We walk through how it&amp;#x27;s built, then deploy it to a Slack workspace in three steps. Once it&amp;#x27;s live, we hand it our brand book, save the brand to its memory, and ask for a launch card in three sizes. Then i&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Hackers Are Coming for Your AI Coding Agent (Lock It Down Now)</title>
+      <link>https://www.youtube.com/watch?v=0q0UbO4oqgQ</link>
+      <guid isPermaLink="true">https://www.youtube.com/watch?v=0q0UbO4oqgQ</guid>
+      <pubDate>Mon, 23 Nov 2026 15:23:29 +0000</pubDate>
+      <description>&lt;p&gt;&lt;b&gt;Cole Medin&lt;/b&gt; · score 6 · hits agent, agents, agentic, claude, skill, coding agent&lt;/p&gt;&lt;p&gt;Attackers are using AI to find and exploit vulnerabilities faster than ever, and a lot of those attacks now go straight through our coding agents. In this video I cover real attacks from the last few weeks, the basics you can do right now to lock down your setup, and a free skill I built that audits your whole agent configuration for you! ~~~~~~~~~~~~~~~~~~~~~~~~~~ Blacksmith: run your GitHub Actions faster and search the logs from every CI job, with 3,000 free minutes a month: https://www.black&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Jev Explained: How TypeSafe&#x27;s System One Model Fits into Your Agents</title>
+      <link>https://www.youtube.com/watch?v=0vz5slHWAp8</link>
+      <guid isPermaLink="true">https://www.youtube.com/watch?v=0vz5slHWAp8</guid>
+      <pubDate>Mon, 23 Nov 2026 14:25:33 +0000</pubDate>
+      <description>&lt;p&gt;&lt;b&gt;LangChain&lt;/b&gt; · score 6 · hits agent, agents, langchain, harness&lt;/p&gt;&lt;p&gt;Sydney Runkle, product manager for open source at LangChain, talks with Sasha Sheng, co-founder of TypeSafe AI, whose team builds the training data behind Jev. Sasha explains why TypeSafe built a model that returns typed answers with a confidence score rather than generated text, and how to break a fuzzy problem into small questions that Jev answers in parallel. They also get into where Jev fits inside a LangChain agent, such as choosing which model or tools a step needs, and why Jev as a judge &lt;/p&gt;</description>
+    </item>
     <item>
       <title>New in LangSmith: 4 Updates for Managing Agents in Production</title>
       <link>https://www.youtube.com/watch?v=G-4VnMltDlc</link>
@@ -56,11 +77,11 @@
       <description>&lt;p&gt;&lt;b&gt;Leon van Zyl&lt;/b&gt; · score 6 · hits agent, agents, agentic, claude code, claude, codex, cursor, opencode, harness, coding agent&lt;/p&gt;&lt;p&gt;Get typed decisions from text and images in milliseconds. Get $5 off your first top-up of $10 or more 👉 https://decisionnode.com/?ref=4rdnufd7 AI coding harnesses come in 4 levels, from one agent you babysit to agents that ship code without you. 🚀 My exclusive AI engineering courses, live Q&amp;amp;As, workshops &amp;amp; deep dives: https://skool.com/agentic-labs 🎁 Free RAMP course + all the resources from my videos: https://skool.com/leonvanzyl Most AI coding tools leave you chatting with one agent, or juggli&lt;/p&gt;</description>
     </item>
     <item>
-      <title>n8n’s Biggest Update Ever: It’s an Agent Harness Now</title>
-      <link>https://www.youtube.com/watch?v=EuUF53Wwfm0</link>
-      <guid isPermaLink="true">https://www.youtube.com/watch?v=EuUF53Wwfm0</guid>
-      <pubDate>Mon, 16 Nov 2026 12:59:18 +0000</pubDate>
-      <description>&lt;p&gt;&lt;b&gt;Leon van Zyl&lt;/b&gt; · score 6 · hits agent, agents, agentic, claude code, claude, mcp, workflow, harness&lt;/p&gt;&lt;p&gt;⚡ Self-host n8n on Hostinger and get an extra 10% OFF with code LEON: https://hostinger.com/leon Is n8n dead? My honest answer after going back to n8n for the first time in ages. 🚀 My exclusive AI engineering courses, live Q&amp;amp;As, workshops &amp;amp; deep dives: https://skool.com/agentic-labs 🎁 Free RAMP course + all the resources from my videos: https://skool.com/leonvanzyl Ever since Claude Code took off, people keep asking if n8n is dead. I went back to check, and it&amp;#x27;s not the n8n I remember. n8n now c&lt;/p&gt;</description>
+      <title>The Meta Software Factory: Advanced Agentic Engineering</title>
+      <link>https://www.youtube.com/watch?v=PuHDu3Kn8sQ</link>
+      <guid isPermaLink="true">https://www.youtube.com/watch?v=PuHDu3Kn8sQ</guid>
+      <pubDate>Mon, 23 Nov 2026 14:00:13 +0000</pubDate>
+      <description>&lt;p&gt;&lt;b&gt;IndyDevDan&lt;/b&gt; · score 5 · hits agent, agents, agentic&lt;/p&gt;&lt;p&gt;If you are still the human IN the loop every time your system needs an update, YOU are the bottleneck. 🔥 In the age of agents, the winning software is liquid software that adapts at the speed of agents. With a meta factory, you stop building one-off solutions and build the system that builds your tiny software factories. 💡 Join To Get Your Tiny Software Factory: https://agenticengineer.com/infinite-agentic-engineering?y=PuHDu3Kn8sQ 🚀 In this Level 4 finale of Tiny Software Factories, IndyDevDan &lt;/p&gt;</description>
     </item>
     <item>
       <title>The Future of Agents with Harrison Chase</title>
@@ -91,11 +112,11 @@
       <description>&lt;p&gt;&lt;b&gt;LangChain&lt;/b&gt; · score 5 · hits agent, langgraph, langchain&lt;/p&gt;&lt;p&gt;The dev server we&amp;#x27;ve used so far keeps state in memory and ties each run to the request that started it, which breaks once real customers arrive. A LangSmith deployment stores checkpoints in Postgres and puts runs on a queue, so a run survives a dropped connection. We compare langgraph dev with langgraph up, which runs the full Agent Server locally in Docker, and langgraph deploy, which hands it to LangSmith to host. Then we create a deployment from a GitHub repo. Each deployment gets its own tr&lt;/p&gt;</description>
     </item>
     <item>
-      <title>Fable 5.2 is CRACKED but THIS goes BEYOND THE MODEL</title>
-      <link>https://www.youtube.com/watch?v=hYIymEMB9x4</link>
-      <guid isPermaLink="true">https://www.youtube.com/watch?v=hYIymEMB9x4</guid>
-      <pubDate>Mon, 16 Nov 2026 14:00:02 +0000</pubDate>
-      <description>&lt;p&gt;&lt;b&gt;IndyDevDan&lt;/b&gt; · score 5 · hits agent, agents, agentic&lt;/p&gt;&lt;p&gt;Fable 5.2 just dropped and most engineers DON&amp;#x27;T need it. Everyone has access to the same frontier intelligence. The model is NOT your edge. The system you build around the model is. One super agent that does everything is a myth. Sub-agents hit a ceiling. Agent swarms burn more money than they make. The real multi-agent sweet spot? Small agent teams. 🚀 Phase 3 PRE-LAUNCH IS LIVE (What if your agents never stopped?) https://agenticengineer.com/infinite-agentic-engineering?y=hYIymEMB9x4 🔥 In Tiny &lt;/p&gt;</description>
+      <title>6 Boring But In Demand AI Projects That Pay Really Well</title>
+      <link>https://www.youtube.com/watch?v=ayPHxPGLjVc</link>
+      <guid isPermaLink="true">https://www.youtube.com/watch?v=ayPHxPGLjVc</guid>
+      <pubDate>Mon, 23 Nov 2026 15:04:58 +0000</pubDate>
+      <description>&lt;p&gt;&lt;b&gt;Dave Ebbelaar&lt;/b&gt; · score 4 · hits agent, agents&lt;/p&gt;&lt;p&gt;Join my free live masterclass on freelancing: https://go.datalumina.com/bQD4OOa Build your freelance career with me: https://go.datalumina.com/wqcMeEY 🎙️ Get one free month of Glaido Pro: https://get.glaido.com/dave ⏱️ Timestamps 00:00 Intro 00:58 Integration first 01:28 Support agents 03:30 Data portals 06:19 Automation hubs 08:35 Free masterclass 09:33 Marketing and sales 12:30 Document intelligence 14:58 Replace the app 18:23 Where things are going 📌 Description Most AI projects that companie&lt;/p&gt;</description>
     </item>
     <item>
       <title>AI News: This Is The Make or Break Week!!</title>
@@ -154,20 +175,6 @@
       <description>&lt;p&gt;&lt;b&gt;LangChain&lt;/b&gt; · score 4 · hits agent, langchain&lt;/p&gt;&lt;p&gt;In the Test stage, we only learned customers were upset because the LangSlice staff told us. This lesson starts the Monitor stage by scoring sentiment directly from what customers write, as each conversation comes in. We build an LLM-as-judge evaluator that scores whole threads from their human-AI message pairs, so the judge reads the conversation without the tool calls. An automation then routes every scored thread to an annotation queue for human review. You&amp;#x27;ll also see when an offline evaluat&lt;/p&gt;</description>
     </item>
     <item>
-      <title>Experiments | Introduction to LangSmith (5/12)</title>
-      <link>https://www.youtube.com/watch?v=9tB7ARhlDPQ</link>
-      <guid isPermaLink="true">https://www.youtube.com/watch?v=9tB7ARhlDPQ</guid>
-      <pubDate>Tue, 17 Nov 2026 23:46:43 +0000</pubDate>
-      <description>&lt;p&gt;&lt;b&gt;LangChain&lt;/b&gt; · score 4 · hits agent, langchain&lt;/p&gt;&lt;p&gt;An experiment runs your agent over every example in a dataset and scores the results with your evaluators. In this lesson we run a baseline experiment on the LangSlice pizza agent with the LangSmith SDK and read the evaluator&amp;#x27;s comments on the orders that let out-of-stock toppings through. Then we add a stock check to add_pizza_to_order and run the experiment again. The comparison view lines the two runs up example by example, so you can confirm the failures flipped to passing and the passing or&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Datasets and Offline Evaluations | Introduction to LangSmith (4/12)</title>
-      <link>https://www.youtube.com/watch?v=TyxwaLr89V4</link>
-      <guid isPermaLink="true">https://www.youtube.com/watch?v=TyxwaLr89V4</guid>
-      <pubDate>Tue, 17 Nov 2026 23:46:25 +0000</pubDate>
-      <description>&lt;p&gt;&lt;b&gt;LangChain&lt;/b&gt; · score 4 · hits agent, langchain&lt;/p&gt;&lt;p&gt;Forking one run in Studio showed how the out-of-stock bug works, but one run can&amp;#x27;t tell you how often it happens across all the ways customers ask for a pizza. This lesson starts the Test stage by turning LangSlice traces into a LangSmith dataset and writing an evaluator that checks every topping on an order against the ingredient catalog. You&amp;#x27;ll use a tree filter to pull every trace that added a pizza, including the correct orders, since those are what catch a regression. We also cover when a c&lt;/p&gt;</description>
-    </item>
-    <item>
       <title>GPT-6.2 Astra and GPT-6.2 Sol—Models built for the real world</title>
       <link>https://www.youtube.com/watch?v=C1zYX5jwqq4</link>
       <guid isPermaLink="true">https://www.youtube.com/watch?v=C1zYX5jwqq4</guid>
@@ -175,32 +182,11 @@
       <description>&lt;p&gt;&lt;b&gt;OpenAI&lt;/b&gt; · score 4 · hits agent, agentic, codex, workflow&lt;/p&gt;&lt;p&gt;We’re introducing GPT‑6.2 Astra, our new frontier model for your hardest projects, and GPT‑6.2 Sol, our efficient, versatile model for everyday work. Both models deliver better results on demanding tasks with fewer output tokens, so you can get more done within your usage limits. For businesses and developers, that means frontier performance at costs that make sense at scale. GPT‑6.2 Astra sets a new quality bar for AI in complex professional work. Its slides, spreadsheets, and documents read le&lt;/p&gt;</description>
     </item>
     <item>
-      <title>Something strange is happening to the internet right now</title>
-      <link>https://www.youtube.com/watch?v=kM7lnhS_uE8</link>
-      <guid isPermaLink="true">https://www.youtube.com/watch?v=kM7lnhS_uE8</guid>
-      <pubDate>Mon, 16 Nov 2026 22:21:02 +0000</pubDate>
-      <description>&lt;p&gt;&lt;b&gt;Nick Saraev&lt;/b&gt; · score 4 · hits agent, agents, claude code, claude, workflow&lt;/p&gt;&lt;p&gt;🔥 Join Maker School &amp;amp; get customer #1 guaranteed: https://skool.com/makerschool/about 💎 Get all course resources 100% free: https://skool.com/maker-zero/about ➡️ If this is your first video: I&amp;#x27;m Nick Saraev. I run LeftClick, an AI growth agency. We&amp;#x27;ve done work for large brands you&amp;#x27;re likely familiar with, like Mr. Beast, Anthropic, OpenAI, and a few others. In plain English: I help people build systems that generate leads, close deals, and scale businesses, mostly using new AI models like Claud&lt;/p&gt;</description>
-    </item>
-    <item>
       <title>Connect Your Team’s Data to ChatGPT</title>
       <link>https://www.youtube.com/watch?v=oJIuz3AFfEQ</link>
       <guid isPermaLink="true">https://www.youtube.com/watch?v=oJIuz3AFfEQ</guid>
       <pubDate>Fri, 20 Nov 2026 06:02:57 +0000</pubDate>
       <description>&lt;p&gt;&lt;b&gt;OpenAI&lt;/b&gt; · score 3 · hits agent, codex, mcp&lt;/p&gt;&lt;p&gt;Connect the data tools your team already uses to ChatGPT. This walkthrough is for workspace admins: enable the Data plugin, choose how teammates can install it, and explore the setup for a Snowflake connection. You’ll also see how to add a custom plugin or MCP server and why connecting your team’s messages, email, and files gives ChatGPT more context for its answers. Workspace setup and access: https://help.openai.com/en/articles/20001518-using-the-data-plugin-in-chatgpt-work-and-codex Snowflake&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>How one engineer built a code review service with Codex | Revolut’s Dmitry Pitik</title>
-      <link>https://www.youtube.com/watch?v=R_sl8zEp9ng</link>
-      <guid isPermaLink="true">https://www.youtube.com/watch?v=R_sl8zEp9ng</guid>
-      <pubDate>Tue, 17 Nov 2026 09:45:34 +0000</pubDate>
-      <description>&lt;p&gt;&lt;b&gt;OpenAI&lt;/b&gt; · score 3 · hits agent, agents, codex&lt;/p&gt;&lt;p&gt;Dmitry Pitik thought he’d need a team of developers to build Revolut’s internal code review service. In this film, the Senior Platform Engineer explains how he broke the design into tasks, assigned them to Codex agents working in parallel and reviewed the code himself. That gave him more time for the engineering decisions he wanted to get right. Read the full story: https://openai.com/business/customer-stories/revolut/&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>5 Types of AI Software Factories Clearly Explained</title>
-      <link>https://www.youtube.com/watch?v=r5iPi8RL7A8</link>
-      <guid isPermaLink="true">https://www.youtube.com/watch?v=r5iPi8RL7A8</guid>
-      <pubDate>Mon, 16 Nov 2026 23:51:15 +0000</pubDate>
-      <description>&lt;p&gt;&lt;b&gt;Cole Medin&lt;/b&gt; · score 3 · hits langchain&lt;/p&gt;&lt;p&gt;AI software factories are all the rage right now, but there&amp;#x27;s a lot of confusion about what they actually are. Here are the five most common types with the pros and cons of each, so you can find the right balance of control and autonomy for what you&amp;#x27;re building! ~~~~~~~~~~~~~~~~~~~~~~~~~~ - Thank you to LangChain for sponsoring this video! Try LangSmith with $50 in credit using my code ColeM: https://www.langchain.com/referral/cole-medin?utm_medium=creator&amp;amp;utm_source=youtube&amp;amp;utm_campaign=q3-2026&lt;/p&gt;</description>
     </item>
     <item>
       <title>Meet the Data Agent in ChatGPT</title>
@@ -238,13 +224,6 @@
       <description>&lt;p&gt;&lt;b&gt;OpenAI&lt;/b&gt; · score 2 · hits codex, tool use&lt;/p&gt;&lt;p&gt;GPT-6.2 Astra is our new flagship model, delivering a step up in capability with cleaner code, better frontends and 3D models, and more efficient tool use. Recreate a room from just two video frames with GPT-6.2 Astra in Codex. See how it builds the set in Blender, changes the decor and lighting, and turns the scene into an interactive space and a virtual webcam background.&lt;/p&gt;</description>
     </item>
     <item>
-      <title>It&#x27;s Happening. Robots Just Took Another Blue Collar Job</title>
-      <link>https://www.youtube.com/watch?v=EMysvWtyK0o</link>
-      <guid isPermaLink="true">https://www.youtube.com/watch?v=EMysvWtyK0o</guid>
-      <pubDate>Mon, 16 Nov 2026 16:42:43 +0000</pubDate>
-      <description>&lt;p&gt;&lt;b&gt;Nick Saraev&lt;/b&gt; · score 2 · hits claude, workflow&lt;/p&gt;&lt;p&gt;🔥 Join Maker School &amp;amp; get customer #1 guaranteed: https://skool.com/makerschool/about 💎 Get all course resources 100% free: https://skool.com/maker-zero/about ➡️ If this is your first video: I&amp;#x27;m Nick Saraev. I run LeftClick, an AI growth agency. We&amp;#x27;ve done work for large brands you&amp;#x27;re likely familiar with, like Mr. Beast, Anthropic, OpenAI, and a few others. In plain English: I help people build systems that generate leads, close deals, and scale businesses, mostly using new AI models like Claud&lt;/p&gt;</description>
-    </item>
-    <item>
       <title>Create and Share a Dashboard in ChatGPT</title>
       <link>https://www.youtube.com/watch?v=OSHSopaYjTw</link>
       <guid isPermaLink="true">https://www.youtube.com/watch?v=OSHSopaYjTw</guid>
@@ -264,13 +243,6 @@
       <guid isPermaLink="true">https://www.youtube.com/watch?v=3_fayTbZrW8</guid>
       <pubDate>Fri, 20 Nov 2026 05:32:52 +0000</pubDate>
       <description>&lt;p&gt;&lt;b&gt;OpenAI&lt;/b&gt; · score 1 · hits agent&lt;/p&gt;&lt;p&gt;Give your team a report they can read, discuss, and work on together. In this walkthrough, turn the fictional Acme sales analysis into a Page in Space, with the highlights, quarterly comparisons, and charts in one place. See how to choose who can access the report, copy a link for your meeting, edit a heading directly, ask ChatGPT questions about the report, and leave comments beside the findings you want to discuss. Create and edit Pages: https://learn.chatgpt.com/docs/space/pages Share a Page &lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>How Revolut’s lean teams take on bigger challenges with OpenAI</title>
-      <link>https://www.youtube.com/watch?v=ZIpm-0RczCk</link>
-      <guid isPermaLink="true">https://www.youtube.com/watch?v=ZIpm-0RczCk</guid>
-      <pubDate>Tue, 17 Nov 2026 09:45:35 +0000</pubDate>
-      <description>&lt;p&gt;&lt;b&gt;OpenAI&lt;/b&gt; · score 1 · hits codex&lt;/p&gt;&lt;p&gt;What can one engineer build when a project looks like it needs a whole team? At Revolut, an engineer used Codex to build an internal code review service himself. Its designers used Codex to turn seven years of design documentation into a format AI could read in a single day. OpenAI also helps Revolut’s financial crime team investigate flagged payments and respond faster to make shopping safer. Read the full story: https://openai.com/business/customer-stories/revolut/&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>
