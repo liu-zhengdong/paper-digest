@@ -1,7 +1,77 @@
 {
-  "generated_at": "2026-11-24T10:25:06.387145+00:00",
-  "count": 34,
+  "generated_at": "2026-11-25T09:07:46.192351+00:00",
+  "count": 28,
   "videos": [
+    {
+      "id": "T5ULj8VEJZo",
+      "title": "Don't Call It a Decision Model: Allie Laabs on Jev and System One",
+      "summary": "Allie Laabs, Founding Developer Advocate at TypeSafe AI, explains why the company calls its model Jev a System One model, after Daniel Kahneman's term for the quick, intuitive judgments a knowledgeable person makes in seconds. With a customer support routing example, she shows how putting a whole decision into one Jev question leads to prompt gymnastics. Her alternative is to ask Jev only the small, fuzzy questions and let code handle the math and business logic. The result is a system where you",
+      "published": "2026-11-24T19:34:55+00:00",
+      "channel": "LangChain",
+      "mode": "all",
+      "hits": [
+        "agent",
+        "agents",
+        "langgraph",
+        "langchain"
+      ],
+      "url": "https://www.youtube.com/watch?v=T5ULj8VEJZo",
+      "score": 6
+    },
+    {
+      "id": "ID6SE3eY3PY",
+      "title": "Inside LangChain’s GTM agent: one agent, 47 use cases",
+      "summary": "Danny Lambert, who leads GTM engineering at LangChain, talks with Julia Schottenstein about the GTM agent his team built on Deep Agents. It started by drafting personalized emails for inbound leads and is now one central agent with 47 graphs that half the company uses every week. Danny walks through how requests are routed by role before they reach the harness, and how LangSmith Engine found a change that made the contact enrichment flow about 40% cheaper. The agent now drives about 46 meetings ",
+      "published": "2026-11-24T15:00:10+00:00",
+      "channel": "LangChain",
+      "mode": "all",
+      "hits": [
+        "agent",
+        "agents",
+        "claude",
+        "codex",
+        "skill",
+        "langchain",
+        "harness"
+      ],
+      "url": "https://www.youtube.com/watch?v=ID6SE3eY3PY",
+      "score": 6
+    },
+    {
+      "id": "qquIt--ANqI",
+      "title": "Building Agent Harnesses with Jev: Where Decision Models Fit",
+      "summary": "Sydney Runkle, Product Manager on LangChain's open source team, walks through where decision models like TypeSafe AI's Jev fit in an agent harness, the layer around the core agent loop where much of the logic runs on extra LLM calls that slow the application down. In one LangChain A/B test, routed threads took much longer than unrouted ones because of the routing LLM call itself, which she only figured out after swapping in Jev. She closes on starting cheap by default and moving to a frontier mo",
+      "published": "2026-11-24T12:47:44+00:00",
+      "channel": "LangChain",
+      "mode": "all",
+      "hits": [
+        "agent",
+        "agents",
+        "skill",
+        "langchain",
+        "harness"
+      ],
+      "url": "https://www.youtube.com/watch?v=qquIt--ANqI",
+      "score": 6
+    },
+    {
+      "id": "P4JSc8TYo4I",
+      "title": "Claude Code Can't See These Bugs. Fiddler MCP Can",
+      "summary": "⚡ Give your coding agent the full picture with Fiddler MCP. Try Fiddler Everywhere free for 10 days, with every feature included: https://www.telerik.com/fiddler/fiddler-everywhere/mcp Claude Code debugging with Fiddler MCP, so your agent can see what your app sends and gets back. 🚀 My exclusive AI engineering courses, live Q&As, workshops & deep dives: https://skool.com/agentic-labs 🎁 Free RAMP course + all the resources from my videos: https://skool.com/leonvanzyl Your app works on your machin",
+      "published": "2026-11-24T12:00:14+00:00",
+      "channel": "Leon van Zyl",
+      "mode": "all",
+      "hits": [
+        "agent",
+        "agentic",
+        "claude code",
+        "claude",
+        "mcp",
+        "coding agent"
+      ],
+      "url": "https://www.youtube.com/watch?v=P4JSc8TYo4I",
+      "score": 6
+    },
     {
       "id": "emId9_O2sU8",
       "title": "We Open Sourced Our Design Brain",
@@ -200,21 +270,6 @@
       "score": 5
     },
     {
-      "id": "GojQtxCT3dg",
-      "title": "The Future of Agents with Harrison Chase",
-      "summary": "Organizations are in a very different phase of agent development than they were a year ago. So what does the next chapter look like in 2027? New challenges are emerging in agent development and context engineering. How can teams better understand the impact and value of their agents? How is the rise of proactive, always-on agents surfacing new obstacles? How can developers manage growing complexity while maintaining control over performance and costs? Hear from Harrison Chase, Co-founder and CEO",
-      "published": "2026-11-21T02:26:38+00:00",
-      "channel": "LangChain",
-      "mode": "all",
-      "hits": [
-        "agent",
-        "agents",
-        "langchain"
-      ],
-      "url": "https://www.youtube.com/watch?v=GojQtxCT3dg",
-      "score": 5
-    },
-    {
       "id": "k87Iqft91j8",
       "title": "The Most Dangerous AI Agent Is an Overly Helpful One (It's Not Why You Think)",
       "summary": "The most dangerous AI agent is an overly helpful one. It'll take risky actions just to get the job done, even something like deleting a production database! In this video I go through the five things I need for every agent before it goes to production: tool permissions, human in the loop, network limits, memory, and observability. I show a real example of each with a LangGraph agent running in MongoDB's Atlas Agent Engine. ~~~~~~~~~~~~~~~~~~~~~~~~~~ Atlas Agent Engine, MongoDB's platform to buil",
@@ -242,21 +297,6 @@
         "harness"
       ],
       "url": "https://www.youtube.com/watch?v=6UJPFP09lro",
-      "score": 5
-    },
-    {
-      "id": "jZLy4WjTNII",
-      "title": "Deployments | Introduction to LangSmith (6/12)",
-      "summary": "The dev server we've used so far keeps state in memory and ties each run to the request that started it, which breaks once real customers arrive. A LangSmith deployment stores checkpoints in Postgres and puts runs on a queue, so a run survives a dropped connection. We compare langgraph dev with langgraph up, which runs the full Agent Server locally in Docker, and langgraph deploy, which hands it to LangSmith to host. Then we create a deployment from a GitHub repo. Each deployment gets its own tr",
-      "published": "2026-11-17T23:46:58+00:00",
-      "channel": "LangChain",
-      "mode": "all",
-      "hits": [
-        "agent",
-        "langgraph",
-        "langchain"
-      ],
-      "url": "https://www.youtube.com/watch?v=jZLy4WjTNII",
       "score": 5
     },
     {
@@ -311,106 +351,6 @@
       "score": 4
     },
     {
-      "id": "_5ZDkWP8K0c",
-      "title": "Automating the ADLC with Engine | Introduction to LangSmith (12/12)",
-      "summary": "Every step of the loop so far was done by hand, and that gets slower as tens of traces become thousands. LangSmith Engine automates the ADLC. It clusters your traces into a short list of agent issues and drafts fixes as pull requests against your codebase. For each issue it also writes dataset examples, with assertions about the agent's behavior as reference outputs. Run on the LangSlice project, Engine finds the delivery minimum bug as a single issue, the one that took the whole Monitor stage t",
-      "published": "2026-11-17T23:48:31+00:00",
-      "channel": "LangChain",
-      "mode": "all",
-      "hits": [
-        "agent",
-        "langchain"
-      ],
-      "url": "https://www.youtube.com/watch?v=_5ZDkWP8K0c",
-      "score": 4
-    },
-    {
-      "id": "eg5O6q9H84I",
-      "title": "Closing the Loop | Introduction to LangSmith (11/12)",
-      "summary": "In the Monitor stage, five LangSmith features worked together to surface the LangSlice agent's second bug. The confirm_order tool checks the delivery minimum against the sides and ignores the pizzas. This short lesson lays out how that chain fit together and what fixing the bug looks like. Fixing it sends us back to the Test stage. The confirmed threads in the annotation queue and the delivery complaints Insights clustered both push straight to a dataset. From there, a code evaluator that recomp",
-      "published": "2026-11-17T23:48:17+00:00",
-      "channel": "LangChain",
-      "mode": "all",
-      "hits": [
-        "agent",
-        "langchain"
-      ],
-      "url": "https://www.youtube.com/watch?v=eg5O6q9H84I",
-      "score": 4
-    },
-    {
-      "id": "keMWUys2BMs",
-      "title": "Dashboards and Alerts | Introduction to LangSmith (10/12)",
-      "summary": "Everything we found in the Monitor stage so far came from going looking for it. Dashboards chart how the agent behaves over time, and alerts tell you when a metric crosses a line you set. This lesson starts with the dashboard every LangSmith tracing project comes with, then builds a custom chart of average sentiment from the online evaluator. We finish with an alert that fires when average sentiment drops below 0.8 within a five-minute window, sent to Slack, PagerDuty or a webhook of your own. C",
-      "published": "2026-11-17T23:48:01+00:00",
-      "channel": "LangChain",
-      "mode": "all",
-      "hits": [
-        "agent",
-        "langchain"
-      ],
-      "url": "https://www.youtube.com/watch?v=keMWUys2BMs",
-      "score": 4
-    },
-    {
-      "id": "HVXydoGAWsQ",
-      "title": "Insights | Introduction to LangSmith (9/12)",
-      "summary": "An evaluator answers a question you can write down as a score. Insights is for questions about categories you don't know yet, such as what customers talk about when they're upset. In this lesson we run an Insights report on the LangSlice traces with the auto flow and ask how customers engage with the agent. The report groups conversations into categories, each with the share of traces it covers. The delivery minimum complaints land in one category. The rest show what people order and which reque",
-      "published": "2026-11-17T23:47:43+00:00",
-      "channel": "LangChain",
-      "mode": "all",
-      "hits": [
-        "agent",
-        "langchain"
-      ],
-      "url": "https://www.youtube.com/watch?v=HVXydoGAWsQ",
-      "score": 4
-    },
-    {
-      "id": "LfdGwdUhGW4",
-      "title": "Annotation Queues | Introduction to LangSmith (8/12)",
-      "summary": "An LLM judge that has never been checked against human labels can be confidently wrong at scale. In this lesson we label the LangSlice threads in an annotation queue by hand and compare our labels with the sentiment evaluator's. Two customers stayed polite while leaving without what they came for, and the judge scored both as positive. Adding an outcome section to the rubric fixes it. The same review turns up the agent's second bug. The confirm_order tool checks the $25 delivery minimum against ",
-      "published": "2026-11-17T23:47:25+00:00",
-      "channel": "LangChain",
-      "mode": "all",
-      "hits": [
-        "agent",
-        "langchain"
-      ],
-      "url": "https://www.youtube.com/watch?v=LfdGwdUhGW4",
-      "score": 4
-    },
-    {
-      "id": "Y6Gi_gYnOAo",
-      "title": "Online Evals and Automations | Introduction to LangSmith (7/12)",
-      "summary": "In the Test stage, we only learned customers were upset because the LangSlice staff told us. This lesson starts the Monitor stage by scoring sentiment directly from what customers write, as each conversation comes in. We build an LLM-as-judge evaluator that scores whole threads from their human-AI message pairs, so the judge reads the conversation without the tool calls. An automation then routes every scored thread to an annotation queue for human review. You'll also see when an offline evaluat",
-      "published": "2026-11-17T23:47:12+00:00",
-      "channel": "LangChain",
-      "mode": "all",
-      "hits": [
-        "agent",
-        "langchain"
-      ],
-      "url": "https://www.youtube.com/watch?v=Y6Gi_gYnOAo",
-      "score": 4
-    },
-    {
-      "id": "C1zYX5jwqq4",
-      "title": "GPT-6.2 Astra and GPT-6.2 Sol—Models built for the real world",
-      "summary": "We’re introducing GPT‑6.2 Astra, our new frontier model for your hardest projects, and GPT‑6.2 Sol, our efficient, versatile model for everyday work. Both models deliver better results on demanding tasks with fewer output tokens, so you can get more done within your usage limits. For businesses and developers, that means frontier performance at costs that make sense at scale. GPT‑6.2 Astra sets a new quality bar for AI in complex professional work. Its slides, spreadsheets, and documents read le",
-      "published": "2026-11-17T17:55:40+00:00",
-      "channel": "OpenAI",
-      "mode": "keyword",
-      "hits": [
-        "agent",
-        "agentic",
-        "codex",
-        "workflow"
-      ],
-      "url": "https://www.youtube.com/watch?v=C1zYX5jwqq4",
-      "score": 4
-    },
-    {
       "id": "oJIuz3AFfEQ",
       "title": "Connect Your Team’s Data to ChatGPT",
       "summary": "Connect the data tools your team already uses to ChatGPT. This walkthrough is for workspace admins: enable the Data plugin, choose how teammates can install it, and explore the setup for a Snowflake connection. You’ll also see how to add a custom plugin or MCP server and why connecting your team’s messages, email, and files gives ChatGPT more context for its answers. Workspace setup and access: https://help.openai.com/en/articles/20001518-using-the-data-plugin-in-chatgpt-work-and-codex Snowflake",
@@ -426,17 +366,31 @@
       "score": 3
     },
     {
-      "id": "KrlfehIapEA",
-      "title": "Meet the Data Agent in ChatGPT",
-      "summary": "Get started with the Data plugin in ChatGPT. Take a quick tour of how to ask questions about your data, create visualizations, build dashboards, and share reports with your team. See where to find Data in the plugin marketplace, how it works with your files and connected tools, and the skills available for tasks like checking data quality, defining KPIs, and business analysis. Explore the Data plugin: https://chatgpt.com/plugins/Plugin_fc9843a6fb34819195d6c7802398a8a7 Plugin availability depends",
-      "published": "2026-11-20T05:35:32+00:00",
+      "id": "pdRDp3iULGk",
+      "title": "The CIA Hack Was a Test Run.. You're Next.",
+      "summary": "🔥 Join Maker School & get customer #1 guaranteed: https://go.nicksaraev.com/cia-hacked 💎 Get all course resources 100% free: https://go.nicksaraev.com/cia-hacked-maker-zero ➡️ If this is your first video: I'm Nick Saraev. I run LeftClick, an AI growth agency. We've done work for large brands you're likely familiar with, like Mr. Beast, Anthropic, OpenAI, and a few others. In plain English: I help people build systems that generate leads, close deals, and scale businesses, mostly using new AI mod",
+      "published": "2026-11-24T22:00:43+00:00",
+      "channel": "Nick Saraev",
+      "mode": "keyword",
+      "hits": [
+        "claude",
+        "workflow"
+      ],
+      "url": "https://www.youtube.com/watch?v=pdRDp3iULGk",
+      "score": 2
+    },
+    {
+      "id": "1u0hTd86_HU",
+      "title": "Experiment with SVG & 3D Design with the Codex Plugin",
+      "summary": "Craig Dennis had never drawn an SVG by hand or used Blender. With the SVG & 3D Design plugin for Codex, he shows how to turn a reference image into an editable graphic or 3D model, then ask for changes in plain language. See how a small change in SVG code can make a character’s eyes follow your cursor, and how Codex uses Blender to check a model from another angle. Enable SVG & 3D Design in Codex and tell us what you build! Learn more: SVG & 3D Design Plugin: https://chatgpt.com/plugins/Plugin_1",
+      "published": "2026-11-24T21:32:42+00:00",
       "channel": "OpenAI",
       "mode": "keyword",
       "hits": [
-        "agent",
-        "skill"
+        "codex",
+        "cursor"
       ],
-      "url": "https://www.youtube.com/watch?v=KrlfehIapEA",
+      "url": "https://www.youtube.com/watch?v=1u0hTd86_HU",
       "score": 2
     },
     {
@@ -468,32 +422,17 @@
       "score": 2
     },
     {
-      "id": "JePtqPwfD6M",
-      "title": "GPT-6.2 Astra Just Dropped, And It's Not Great",
-      "summary": "🔥 Join Maker School & get customer #1 guaranteed: https://skool.com/makerschool/about 💎 Get all course resources 100% free: https://skool.com/maker-zero/about ➡️ If this is your first video: I'm Nick Saraev. I run LeftClick, an AI growth agency. We've done work for large brands you're likely familiar with, like Mr. Beast, Anthropic, OpenAI, and a few others. In plain English: I help people build systems that generate leads, close deals, and scale businesses, mostly using new AI models like Claud",
-      "published": "2026-11-17T20:11:18+00:00",
-      "channel": "Nick Saraev",
-      "mode": "keyword",
-      "hits": [
-        "claude",
-        "workflow"
-      ],
-      "url": "https://www.youtube.com/watch?v=JePtqPwfD6M",
-      "score": 2
-    },
-    {
-      "id": "tKoDPOrLMX0",
-      "title": "Building 3D video sets with GPT-6.2 Astra",
-      "summary": "GPT-6.2 Astra is our new flagship model, delivering a step up in capability with cleaner code, better frontends and 3D models, and more efficient tool use. Recreate a room from just two video frames with GPT-6.2 Astra in Codex. See how it builds the set in Blender, changes the decor and lighting, and turns the scene into an interactive space and a virtual webcam background.",
-      "published": "2026-11-17T18:41:32+00:00",
+      "id": "p8lvQQebvpg",
+      "title": "How to Search for Exoplanets",
+      "summary": "Two amateur astronomers, Kevin Bond and Ethan Byrd, independently found signals that could point to planets around distant stars. They knew you didn't need your own telescope for this kind of hunt. Kevin used Codex and Ethan used Astra to search public telescope data for tiny, recurring dips in starlight that an orbiting planet can cause. Both found signals worth a second look. https://openai.com/index/searching-for-distant-planets-with-astra/",
+      "published": "2026-11-24T20:00:45+00:00",
       "channel": "OpenAI",
       "mode": "keyword",
       "hits": [
-        "codex",
-        "tool use"
+        "codex"
       ],
-      "url": "https://www.youtube.com/watch?v=tKoDPOrLMX0",
-      "score": 2
+      "url": "https://www.youtube.com/watch?v=p8lvQQebvpg",
+      "score": 1
     },
     {
       "id": "OSHSopaYjTw",
@@ -519,19 +458,6 @@
         "agent"
       ],
       "url": "https://www.youtube.com/watch?v=JEgTn37Sk50",
-      "score": 1
-    },
-    {
-      "id": "3_fayTbZrW8",
-      "title": "Create and Share a Report in ChatGPT Space",
-      "summary": "Give your team a report they can read, discuss, and work on together. In this walkthrough, turn the fictional Acme sales analysis into a Page in Space, with the highlights, quarterly comparisons, and charts in one place. See how to choose who can access the report, copy a link for your meeting, edit a heading directly, ask ChatGPT questions about the report, and leave comments beside the findings you want to discuss. Create and edit Pages: https://learn.chatgpt.com/docs/space/pages Share a Page ",
-      "published": "2026-11-20T05:32:52+00:00",
-      "channel": "OpenAI",
-      "mode": "keyword",
-      "hits": [
-        "agent"
-      ],
-      "url": "https://www.youtube.com/watch?v=3_fayTbZrW8",
       "score": 1
     }
   ]
