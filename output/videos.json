@@ -1,7 +1,56 @@
 {
-  "generated_at": "2026-11-25T09:07:46.192351+00:00",
-  "count": 28,
+  "generated_at": "2026-11-26T08:52:45.812137+00:00",
+  "count": 26,
   "videos": [
+    {
+      "id": "AekKS44xBhI",
+      "title": "What Are Subagents? Explained in 4 Minutes",
+      "summary": "Jess Weng, Education Engineer at LangChain, explains subagents in Deep Agents, LangChain's open-source agent harness. A subagent takes one task from the main agent, does the messy work in its own fresh context window, and sends back only the result, so the main agent's context stays focused on the big picture. She also shows how subagents run in parallel or in the background, and how offloading and summarization keep each subagent's own context lean. Chapters: 0:00 Why long tasks overload an age",
+      "published": "2026-11-26T00:30:09+00:00",
+      "channel": "LangChain",
+      "mode": "all",
+      "hits": [
+        "agent",
+        "agents",
+        "subagent",
+        "langchain",
+        "harness"
+      ],
+      "url": "https://www.youtube.com/watch?v=AekKS44xBhI",
+      "score": 6
+    },
+    {
+      "id": "PY5d-_fycso",
+      "title": "Deep Agents Tutorial: Learn It by Playing an Escape Room",
+      "summary": "Jess Weng from LangChain Academy plays an escape room video game that teaches Deep Agents, LangChain's open-source agent harness, as you go. Polly, a deep agent, helps her find the password to a haunted manor where every room is a folder and every object is a file, and each clue turns on something the harness does, from grep keeping the context window clear to asking a human before opening a risky trunk. In the second half, Jess walks through each concept from the game and how it works in Deep A",
+      "published": "2026-11-25T19:30:32+00:00",
+      "channel": "LangChain",
+      "mode": "all",
+      "hits": [
+        "agent",
+        "agents",
+        "langchain",
+        "harness"
+      ],
+      "url": "https://www.youtube.com/watch?v=PY5d-_fycso",
+      "score": 6
+    },
+    {
+      "id": "9mNnoPdT0q0",
+      "title": "How We Tested Jev as an Agent Eval Judge with LangSmith + Deep Agents",
+      "summary": "Seán Roche, Education Engineer at LangChain, walks through how he and Daniel Shea tested TypeSafe AI's Jev as a judge for agent evals, in this talk from the LangChain SF Meetup with TypeSafe AI. They stored five frozen traces from a Deep Agents weather agent in LangSmith and scored them 100 times with Jev and three LLM judges (GPT-5.6 Luna, GPT-5.6 Terra, and Claude Sonnet 4.6). On a continuous 0 to 1 score, the LLM judges' mean variance was 92 to 913 times Jev's, and Jev was also the quickest a",
+      "published": "2026-11-25T14:26:25+00:00",
+      "channel": "LangChain",
+      "mode": "all",
+      "hits": [
+        "agent",
+        "agents",
+        "claude",
+        "langchain"
+      ],
+      "url": "https://www.youtube.com/watch?v=9mNnoPdT0q0",
+      "score": 6
+    },
     {
       "id": "T5ULj8VEJZo",
       "title": "Don't Call It a Decision Model: Allie Laabs on Jev and System One",
@@ -196,63 +245,19 @@
       "score": 6
     },
     {
-      "id": "a90pZ1DSyls",
-      "title": "This Skill Turns Claude Code Into an Expert Video Editor (I'm Giving It Away)",
-      "summary": "My AI second brain edited this entire video with a single skill, and I'm giving it to you free and open source! Here's how it turns a folder of raw footage into a polished video with Claude Code or any coding agent, how to customize it for your own content, and real examples of the small mistakes it catches and fixes. The link to the skill is below! ~~~~~~~~~~~~~~~~~~~~~~~~~~ OpenRouter, one API key for every model in my editing pipeline: https://openrouter.plug.dev/colemedin-youtube-drop-in Thi",
-      "published": "2026-11-19T01:00:01+00:00",
+      "id": "f1gAilgILeI",
+      "title": "The Best Defense Against This Wave of AI Attacks: Hack Yourself First (Try This Now)",
+      "summary": "Get started with Eney: https://bit.ly/Eney_ColeMedin Eney is available now for Mac at the website eney.ai and is free to try for your first 14 days with 10,000 AI credits. Eney is also available for iPhone on the App Store. ~~~~~~~~~~~~~~~~~~~~~~~~~~ Attackers are using AI to find and exploit bugs faster than ever, so I used the same approach on one of my own projects before anyone else could. In this video I cover the quick checks attacker agents run first, a free open-source security audit ski",
+      "published": "2026-11-26T01:00:06+00:00",
       "channel": "Cole Medin",
       "mode": "all",
       "hits": [
         "agent",
-        "claude code",
-        "claude",
-        "skill",
-        "coding agent"
-      ],
-      "url": "https://www.youtube.com/watch?v=a90pZ1DSyls",
-      "score": 6
-    },
-    {
-      "id": "Dg2Z6IRbDVI",
-      "title": "LangSmith for Coding Agents: Track Spend by Outcome",
-      "summary": "Coding is the largest category of enterprise AI application spend, reaching $34B in 2026, but most engineering leaders still can't give an exact answer to what it's buying. LangSmith for Coding Agents ties coding agent spend to the pull requests it produces. A new concept called outcomes links GitHub pull requests or GitLab merge requests to threads, so you can see what a merged PR cost and how much spend never led to one. LangSmith traces Claude Code, OpenAI Codex, Cursor, GitHub Copilot and De",
-      "published": "2026-11-18T16:57:41+00:00",
-      "channel": "LangChain",
-      "mode": "all",
-      "hits": [
-        "agent",
         "agents",
-        "claude code",
-        "claude",
-        "codex",
-        "langchain",
-        "cursor",
-        "coding agent"
+        "skill"
       ],
-      "url": "https://www.youtube.com/watch?v=Dg2Z6IRbDVI",
-      "score": 6
-    },
-    {
-      "id": "etrC9bplAbA",
-      "title": "I Built a Coding Agent That Builds Itself",
-      "summary": "Get typed decisions from text and images in milliseconds. Get $5 off your first top-up of $10 or more 👉 https://decisionnode.com/?ref=4rdnufd7 AI coding harnesses come in 4 levels, from one agent you babysit to agents that ship code without you. 🚀 My exclusive AI engineering courses, live Q&As, workshops & deep dives: https://skool.com/agentic-labs 🎁 Free RAMP course + all the resources from my videos: https://skool.com/leonvanzyl Most AI coding tools leave you chatting with one agent, or juggli",
-      "published": "2026-11-18T12:00:09+00:00",
-      "channel": "Leon van Zyl",
-      "mode": "all",
-      "hits": [
-        "agent",
-        "agents",
-        "agentic",
-        "claude code",
-        "claude",
-        "codex",
-        "cursor",
-        "opencode",
-        "harness",
-        "coding agent"
-      ],
-      "url": "https://www.youtube.com/watch?v=etrC9bplAbA",
-      "score": 6
+      "url": "https://www.youtube.com/watch?v=f1gAilgILeI",
+      "score": 5
     },
     {
       "id": "PuHDu3Kn8sQ",
@@ -282,21 +287,6 @@
         "langgraph"
       ],
       "url": "https://www.youtube.com/watch?v=k87Iqft91j8",
-      "score": 5
-    },
-    {
-      "id": "6UJPFP09lro",
-      "title": "Fireside Chat With Alex Atallah, OpenRouter",
-      "summary": "Alex Atallah, CEO and Co-Founder of OpenRouter, the model marketplace and AI gateway, explains how teams choose among models and providers: why companies tend to add model families over time, how he sorts work into low, medium, and high entropy tasks to decide when you need a frontier model, and why a different model family should check an agent's output. He also walks through OpenRouter's continuous provider benchmarking, the Fusion server tool, three kinds of routing, and whether routing belon",
-      "published": "2026-11-18T15:32:48+00:00",
-      "channel": "LangChain",
-      "mode": "all",
-      "hits": [
-        "agent",
-        "langchain",
-        "harness"
-      ],
-      "url": "https://www.youtube.com/watch?v=6UJPFP09lro",
       "score": 5
     },
     {
@@ -351,19 +341,32 @@
       "score": 4
     },
     {
-      "id": "oJIuz3AFfEQ",
-      "title": "Connect Your Team’s Data to ChatGPT",
-      "summary": "Connect the data tools your team already uses to ChatGPT. This walkthrough is for workspace admins: enable the Data plugin, choose how teammates can install it, and explore the setup for a Snowflake connection. You’ll also see how to add a custom plugin or MCP server and why connecting your team’s messages, email, and files gives ChatGPT more context for its answers. Workspace setup and access: https://help.openai.com/en/articles/20001518-using-the-data-plugin-in-chatgpt-work-and-codex Snowflake",
-      "published": "2026-11-20T06:02:57+00:00",
+      "id": "F7QcpCl0Lg4",
+      "title": "This NEW Claude Update Literally Changed Everything",
+      "summary": "🔥 Join Maker School & get customer #1 guaranteed: https://go.nicksaraev.com/claude-artifacts-now 💎 Get all course resources 100% free: https://go.nicksaraev.com/claude-artifacts-now-maker-zero ➡️ If this is your first video: I'm Nick Saraev. I run LeftClick, an AI growth agency. We've done work for large brands you're likely familiar with, like Mr. Beast, Anthropic, OpenAI, and a few others. In plain English: I help people build systems that generate leads, close deals, and scale businesses, mos",
+      "published": "2026-11-25T18:27:23+00:00",
+      "channel": "Nick Saraev",
+      "mode": "keyword",
+      "hits": [
+        "claude",
+        "workflow"
+      ],
+      "url": "https://www.youtube.com/watch?v=F7QcpCl0Lg4",
+      "score": 2
+    },
+    {
+      "id": "A4UNP-axGHU",
+      "title": "How your dot can keep work moving while you’re away",
+      "summary": "Even when you step away for the holidays, work doesn’t always stop. Your dot can help. Raymond walks through how his dot keeps an eye on ongoing projects, flags what needs his attention, and helps move work forward so he can review and approve next steps on the go. Steal Raymond’s workflow. Try these prompts with your dot and make them your own: \"I’m stepping away until [time + time zone]. Watch [insert slack channel] and [#on-call-[insert channel]]. Group related feedback in existing Linear tic",
+      "published": "2026-11-25T18:21:11+00:00",
       "channel": "OpenAI",
       "mode": "keyword",
       "hits": [
-        "agent",
         "codex",
-        "mcp"
+        "workflow"
       ],
-      "url": "https://www.youtube.com/watch?v=oJIuz3AFfEQ",
-      "score": 3
+      "url": "https://www.youtube.com/watch?v=A4UNP-axGHU",
+      "score": 2
     },
     {
       "id": "pdRDp3iULGk",
@@ -408,20 +411,6 @@
       "score": 2
     },
     {
-      "id": "-oA6oLxWpJg",
-      "title": "Insane AI Breakthroughs Nobody Is Talking About",
-      "summary": "12 AI breakthroughs you probably missed, from incredibly human AI voices to a walking robot powered by an old phone. These are some of the coolest AI tools, research projects, and tech demos I’ve come across recently that didn’t make it into my weekly AI news videos. We’re looking at AI characters that react to your movements, interactive world models, new ways to edit videos, and voice AI that invents an entire life for itself. I test several of these tools, explore what you can actually try to",
-      "published": "2026-11-18T22:08:16+00:00",
-      "channel": "Matt Wolfe",
-      "mode": "keyword",
-      "hits": [
-        "agent",
-        "agents"
-      ],
-      "url": "https://www.youtube.com/watch?v=-oA6oLxWpJg",
-      "score": 2
-    },
-    {
       "id": "p8lvQQebvpg",
       "title": "How to Search for Exoplanets",
       "summary": "Two amateur astronomers, Kevin Bond and Ethan Byrd, independently found signals that could point to planets around distant stars. They knew you didn't need your own telescope for this kind of hunt. Kevin used Codex and Ethan used Astra to search public telescope data for tiny, recurring dips in starlight that an orbiting planet can cause. Both found signals worth a second look. https://openai.com/index/searching-for-distant-planets-with-astra/",
@@ -432,32 +421,6 @@
         "codex"
       ],
       "url": "https://www.youtube.com/watch?v=p8lvQQebvpg",
-      "score": 1
-    },
-    {
-      "id": "OSHSopaYjTw",
-      "title": "Create and Share a Dashboard in ChatGPT",
-      "summary": "Turn your analysis into a dashboard your team can use. Building on the fictional Acme sales example, this walkthrough brings quarterly metrics and customer follow-ups into one view. See how to inspect the data behind a chart, edit its appearance, ask questions about the numbers, and refine the dashboard with annotations. The video also covers refreshes, matching your branding, and sharing through Sites with connected data. Sites data connections and viewer access: https://learn.chatgpt.com/docs/",
-      "published": "2026-11-20T06:07:50+00:00",
-      "channel": "OpenAI",
-      "mode": "keyword",
-      "hits": [
-        "agent"
-      ],
-      "url": "https://www.youtube.com/watch?v=OSHSopaYjTw",
-      "score": 1
-    },
-    {
-      "id": "JEgTn37Sk50",
-      "title": "Ask Questions About Your Data in ChatGPT",
-      "summary": "Prepare for a sales meeting by asking ChatGPT what changed in your data and which customers need attention. Using sample data from the fictional company Acme, this walkthrough compares quarterly sales, visualizes the segments behind the change, and explores customer orders alongside account notes. See how to ask follow-up questions, check which sources ChatGPT is using, and turn the findings into a concise three-slide presentation for your team. Explore the Data plugin: https://chatgpt.com/plugi",
-      "published": "2026-11-20T06:05:59+00:00",
-      "channel": "OpenAI",
-      "mode": "keyword",
-      "hits": [
-        "agent"
-      ],
-      "url": "https://www.youtube.com/watch?v=JEgTn37Sk50",
       "score": 1
     }
   ]
