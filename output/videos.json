@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-11-26T08:52:45.812137+00:00",
-  "count": 26,
+  "generated_at": "2026-11-27T09:03:38.802397+00:00",
+  "count": 23,
   "videos": [
     {
       "id": "AekKS44xBhI",
@@ -208,41 +208,19 @@
       "score": 6
     },
     {
-      "id": "achbbrgQnRA",
-      "title": "LangSmith Tool Gateway: Secure, Governed Tool Use for Agents",
-      "summary": "Introducing LangSmith Tool Gateway, a managed tool layer that handles credentials, identity, and access for every tool call an agent makes. Now in Public Beta on the LangSmith Agent Platform, where it sits alongside LLM Gateway, so you can govern both the model calls and the tool calls your agents make. Agents route tool requests through a single kit URL, a curated set of tools that scopes each agent to only what it needs. Each call runs either as the user, with credentials they connect once, or",
-      "published": "2026-11-19T17:16:07+00:00",
-      "channel": "LangChain",
+      "id": "vy_NCzx_hAE",
+      "title": "n8n Nod Tutorial: Set Up Your Own 24/7 AI Assistant",
+      "summary": "⚡ Run Nod 24/7 on Hostinger and get an extra 10% OFF with code LEON: https://hostinger.com/leonnod Nod AI assistant full setup guide: run your own free, open source AI assistant 24/7. 🚀 My exclusive AI engineering courses, live Q&As, workshops & deep dives: https://skool.com/agentic-labs 🎁 Free RAMP course + all the resources from my videos: https://skool.com/leonvanzyl Most AI chatbots tell you how to do something. Nod, the free and open source assistant from the n8n team, actually does it for ",
+      "published": "2026-11-26T12:01:28+00:00",
+      "channel": "Leon van Zyl",
       "mode": "all",
       "hits": [
         "agent",
-        "agents",
-        "mcp",
-        "tool use",
-        "langchain"
+        "agentic",
+        "workflow"
       ],
-      "url": "https://www.youtube.com/watch?v=achbbrgQnRA",
-      "score": 6
-    },
-    {
-      "id": "efBlbQahwng",
-      "title": "Inside Clay’s GTM agent rebuild",
-      "summary": "Jeff Barg is Head of AI at Clay, the go-to-market platform for list building, data enrichment and orchestration, with a dataset of 900 million contacts and 40 million companies. Clay recently launched a new global agent, built around a coding agent that runs on the same CLI external agents use. In this conversation, Jeff explains why Clay got more out of harness engineering than post-training, how the agent asks for approval on 100+ line Bash commands, and why he’d rather charge for tokens than ",
-      "published": "2026-11-19T15:00:05+00:00",
-      "channel": "LangChain",
-      "mode": "all",
-      "hits": [
-        "agent",
-        "agents",
-        "claude code",
-        "claude",
-        "codex",
-        "langchain",
-        "harness",
-        "coding agent"
-      ],
-      "url": "https://www.youtube.com/watch?v=efBlbQahwng",
-      "score": 6
+      "url": "https://www.youtube.com/watch?v=vy_NCzx_hAE",
+      "score": 5
     },
     {
       "id": "f1gAilgILeI",
@@ -292,7 +270,7 @@
     {
       "id": "ayPHxPGLjVc",
       "title": "6 Boring But In Demand AI Projects That Pay Really Well",
-      "summary": "Join my free live masterclass on freelancing: https://go.datalumina.com/bQD4OOa Build your freelance career with me: https://go.datalumina.com/wqcMeEY 🎙️ Get one free month of Glaido Pro: https://get.glaido.com/dave ⏱️ Timestamps 00:00 Intro 00:58 Integration first 01:28 Support agents 03:30 Data portals 06:19 Automation hubs 08:35 Free masterclass 09:33 Marketing and sales 12:30 Document intelligence 14:58 Replace the app 18:23 Where things are going 📌 Description Most AI projects that companie",
+      "summary": "Build your freelance career with me: https://go.datalumina.com/wqcMeEY 🎙️ Get one free month of Glaido Pro: https://get.glaido.com/dave ⏱️ Timestamps 00:00 Intro 00:58 Integration first 01:28 Support agents 03:30 Data portals 06:19 Automation hubs 08:35 Free masterclass 09:33 Marketing and sales 12:30 Document intelligence 14:58 Replace the app 18:23 Where things are going 📌 Description Most AI projects that companies pay for right now are not chatbots. They connect systems that don't talk to ea",
       "published": "2026-11-23T15:04:58+00:00",
       "channel": "Dave Ebbelaar",
       "mode": "all",
@@ -317,27 +295,6 @@
         "claude"
       ],
       "url": "https://www.youtube.com/watch?v=wqNIzUmNt9M",
-      "score": 4
-    },
-    {
-      "id": "H2tmNDX9FnQ",
-      "title": "Full Course: AI Coding Workflows From Cloud to Local",
-      "summary": "Coding agents like Claude Code are convenient, but they limit your control over which models you use, what you spend, and where your code goes. This course gives you that control back one layer at a time, rebuilding the same Python app in cloud, hybrid, and fully local setups. Take the quiz and earn your accomplishment here: https://bit.ly/3Uz1pmF You'll learn to: - Evaluate AI coding setups: the agent, the models, and where those models run - Split work across subagents and hand implementation ",
-      "published": "2026-11-19T18:02:34+00:00",
-      "channel": "DeepLearningAI",
-      "mode": "keyword",
-      "hits": [
-        "agent",
-        "agents",
-        "claude code",
-        "claude",
-        "codex",
-        "workflow",
-        "subagent",
-        "opencode",
-        "coding agent"
-      ],
-      "url": "https://www.youtube.com/watch?v=H2tmNDX9FnQ",
       "score": 4
     },
     {
@@ -394,20 +351,6 @@
         "cursor"
       ],
       "url": "https://www.youtube.com/watch?v=1u0hTd86_HU",
-      "score": 2
-    },
-    {
-      "id": "4TnNitqm8uM",
-      "title": "Claude is eating the world",
-      "summary": "🔥 Join Maker School & get customer #1 guaranteed: https://go.nicksaraev.com/anthropic-eating-world 💎 Get all course resources 100% free: https://go.nicksaraev.com/anthropic-eating-world-maker-zero ➡️ If this is your first video: I'm Nick Saraev. I run LeftClick, an AI growth agency. We've done work for large brands you're likely familiar with, like Mr. Beast, Anthropic, OpenAI, and a few others. In plain English: I help people build systems that generate leads, close deals, and scale businesses,",
-      "published": "2026-11-20T00:41:40+00:00",
-      "channel": "Nick Saraev",
-      "mode": "keyword",
-      "hits": [
-        "claude",
-        "workflow"
-      ],
-      "url": "https://www.youtube.com/watch?v=4TnNitqm8uM",
       "score": 2
     },
     {

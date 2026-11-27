@@ -5,7 +5,7 @@
     <link>https://raw.githubusercontent.com/liu-zhengdong/paper-digest/main/output/videos.xml</link>
     <description>Agent 用法向 YouTube 频道的每日去重列表，已去掉 Shorts</description>
     <language>zh-CN</language>
-    <lastBuildDate>Thu, 26 Nov 2026 08:52:45 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 27 Nov 2026 09:03:38 +0000</lastBuildDate>
     <item>
       <title>What Are Subagents? Explained in 4 Minutes</title>
       <link>https://www.youtube.com/watch?v=AekKS44xBhI</link>
@@ -91,18 +91,11 @@
       <description>&lt;p&gt;&lt;b&gt;Leon van Zyl&lt;/b&gt; · score 6 · hits agent, agentic, claude code, claude, mcp, coding agent&lt;/p&gt;&lt;p&gt;⚡ 1,000 free Context7 Search lookups a month with a free API key: https://context7.com Context7 Search gives any AI agent up-to-date docs, straight from official sources. 🚀 My exclusive AI engineering courses, live Q&amp;amp;As, workshops &amp;amp; deep dives: https://skool.com/agentic-labs 🎁 Free RAMP course + all the resources from my videos: https://skool.com/leonvanzyl Every AI model has a training cutoff, so your coding agent doesn&amp;#x27;t know what changed in the libraries it uses. Web search won&amp;#x27;t fix it, beca&lt;/p&gt;</description>
     </item>
     <item>
-      <title>LangSmith Tool Gateway: Secure, Governed Tool Use for Agents</title>
-      <link>https://www.youtube.com/watch?v=achbbrgQnRA</link>
-      <guid isPermaLink="true">https://www.youtube.com/watch?v=achbbrgQnRA</guid>
-      <pubDate>Thu, 19 Nov 2026 17:16:07 +0000</pubDate>
-      <description>&lt;p&gt;&lt;b&gt;LangChain&lt;/b&gt; · score 6 · hits agent, agents, mcp, tool use, langchain&lt;/p&gt;&lt;p&gt;Introducing LangSmith Tool Gateway, a managed tool layer that handles credentials, identity, and access for every tool call an agent makes. Now in Public Beta on the LangSmith Agent Platform, where it sits alongside LLM Gateway, so you can govern both the model calls and the tool calls your agents make. Agents route tool requests through a single kit URL, a curated set of tools that scopes each agent to only what it needs. Each call runs either as the user, with credentials they connect once, or&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Inside Clay’s GTM agent rebuild</title>
-      <link>https://www.youtube.com/watch?v=efBlbQahwng</link>
-      <guid isPermaLink="true">https://www.youtube.com/watch?v=efBlbQahwng</guid>
-      <pubDate>Thu, 19 Nov 2026 15:00:05 +0000</pubDate>
-      <description>&lt;p&gt;&lt;b&gt;LangChain&lt;/b&gt; · score 6 · hits agent, agents, claude code, claude, codex, langchain, harness, coding agent&lt;/p&gt;&lt;p&gt;Jeff Barg is Head of AI at Clay, the go-to-market platform for list building, data enrichment and orchestration, with a dataset of 900 million contacts and 40 million companies. Clay recently launched a new global agent, built around a coding agent that runs on the same CLI external agents use. In this conversation, Jeff explains why Clay got more out of harness engineering than post-training, how the agent asks for approval on 100+ line Bash commands, and why he’d rather charge for tokens than &lt;/p&gt;</description>
+      <title>n8n Nod Tutorial: Set Up Your Own 24/7 AI Assistant</title>
+      <link>https://www.youtube.com/watch?v=vy_NCzx_hAE</link>
+      <guid isPermaLink="true">https://www.youtube.com/watch?v=vy_NCzx_hAE</guid>
+      <pubDate>Thu, 26 Nov 2026 12:01:28 +0000</pubDate>
+      <description>&lt;p&gt;&lt;b&gt;Leon van Zyl&lt;/b&gt; · score 5 · hits agent, agentic, workflow&lt;/p&gt;&lt;p&gt;⚡ Run Nod 24/7 on Hostinger and get an extra 10% OFF with code LEON: https://hostinger.com/leonnod Nod AI assistant full setup guide: run your own free, open source AI assistant 24/7. 🚀 My exclusive AI engineering courses, live Q&amp;amp;As, workshops &amp;amp; deep dives: https://skool.com/agentic-labs 🎁 Free RAMP course + all the resources from my videos: https://skool.com/leonvanzyl Most AI chatbots tell you how to do something. Nod, the free and open source assistant from the n8n team, actually does it for &lt;/p&gt;</description>
     </item>
     <item>
       <title>The Best Defense Against This Wave of AI Attacks: Hack Yourself First (Try This Now)</title>
@@ -130,7 +123,7 @@
       <link>https://www.youtube.com/watch?v=ayPHxPGLjVc</link>
       <guid isPermaLink="true">https://www.youtube.com/watch?v=ayPHxPGLjVc</guid>
       <pubDate>Mon, 23 Nov 2026 15:04:58 +0000</pubDate>
-      <description>&lt;p&gt;&lt;b&gt;Dave Ebbelaar&lt;/b&gt; · score 4 · hits agent, agents&lt;/p&gt;&lt;p&gt;Join my free live masterclass on freelancing: https://go.datalumina.com/bQD4OOa Build your freelance career with me: https://go.datalumina.com/wqcMeEY 🎙️ Get one free month of Glaido Pro: https://get.glaido.com/dave ⏱️ Timestamps 00:00 Intro 00:58 Integration first 01:28 Support agents 03:30 Data portals 06:19 Automation hubs 08:35 Free masterclass 09:33 Marketing and sales 12:30 Document intelligence 14:58 Replace the app 18:23 Where things are going 📌 Description Most AI projects that companie&lt;/p&gt;</description>
+      <description>&lt;p&gt;&lt;b&gt;Dave Ebbelaar&lt;/b&gt; · score 4 · hits agent, agents&lt;/p&gt;&lt;p&gt;Build your freelance career with me: https://go.datalumina.com/wqcMeEY 🎙️ Get one free month of Glaido Pro: https://get.glaido.com/dave ⏱️ Timestamps 00:00 Intro 00:58 Integration first 01:28 Support agents 03:30 Data portals 06:19 Automation hubs 08:35 Free masterclass 09:33 Marketing and sales 12:30 Document intelligence 14:58 Replace the app 18:23 Where things are going 📌 Description Most AI projects that companies pay for right now are not chatbots. They connect systems that don&amp;#x27;t talk to ea&lt;/p&gt;</description>
     </item>
     <item>
       <title>AI News: This Is The Make or Break Week!!</title>
@@ -138,13 +131,6 @@
       <guid isPermaLink="true">https://www.youtube.com/watch?v=wqNIzUmNt9M</guid>
       <pubDate>Fri, 20 Nov 2026 19:00:16 +0000</pubDate>
       <description>&lt;p&gt;&lt;b&gt;Matt Wolfe&lt;/b&gt; · score 4 · hits agent, agents, claude code, claude&lt;/p&gt;&lt;p&gt;Hire your own team of agents with Hyperagent for free here: https://hyperagent.com/login?utm_source=youtube&amp;amp;utm_medium=influencer&amp;amp;utm_campaign=MATT Anthropic’s IPO puts the AI bubble to the test as OpenAI and Google launch powerful new models for less. This week, I test GPT-6.2 Astra, Sol, and Gemini 4 Neon, break down Microsoft’s latest AI releases, and try Gemini Notebook’s new website builder. Plus, ChatGPT Wallet, HeyGen Avatar 6, and more AI news. Watch my full GPT-6.2 breakdown: https://yo&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Full Course: AI Coding Workflows From Cloud to Local</title>
-      <link>https://www.youtube.com/watch?v=H2tmNDX9FnQ</link>
-      <guid isPermaLink="true">https://www.youtube.com/watch?v=H2tmNDX9FnQ</guid>
-      <pubDate>Thu, 19 Nov 2026 18:02:34 +0000</pubDate>
-      <description>&lt;p&gt;&lt;b&gt;DeepLearningAI&lt;/b&gt; · score 4 · hits agent, agents, claude code, claude, codex, workflow, subagent, opencode, coding agent&lt;/p&gt;&lt;p&gt;Coding agents like Claude Code are convenient, but they limit your control over which models you use, what you spend, and where your code goes. This course gives you that control back one layer at a time, rebuilding the same Python app in cloud, hybrid, and fully local setups. Take the quiz and earn your accomplishment here: https://bit.ly/3Uz1pmF You&amp;#x27;ll learn to: - Evaluate AI coding setups: the agent, the models, and where those models run - Split work across subagents and hand implementation &lt;/p&gt;</description>
     </item>
     <item>
       <title>This NEW Claude Update Literally Changed Everything</title>
@@ -173,13 +159,6 @@
       <guid isPermaLink="true">https://www.youtube.com/watch?v=1u0hTd86_HU</guid>
       <pubDate>Tue, 24 Nov 2026 21:32:42 +0000</pubDate>
       <description>&lt;p&gt;&lt;b&gt;OpenAI&lt;/b&gt; · score 2 · hits codex, cursor&lt;/p&gt;&lt;p&gt;Craig Dennis had never drawn an SVG by hand or used Blender. With the SVG &amp;amp; 3D Design plugin for Codex, he shows how to turn a reference image into an editable graphic or 3D model, then ask for changes in plain language. See how a small change in SVG code can make a character’s eyes follow your cursor, and how Codex uses Blender to check a model from another angle. Enable SVG &amp;amp; 3D Design in Codex and tell us what you build! Learn more: SVG &amp;amp; 3D Design Plugin: https://chatgpt.com/plugins/Plugin_1&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Claude is eating the world</title>
-      <link>https://www.youtube.com/watch?v=4TnNitqm8uM</link>
-      <guid isPermaLink="true">https://www.youtube.com/watch?v=4TnNitqm8uM</guid>
-      <pubDate>Fri, 20 Nov 2026 00:41:40 +0000</pubDate>
-      <description>&lt;p&gt;&lt;b&gt;Nick Saraev&lt;/b&gt; · score 2 · hits claude, workflow&lt;/p&gt;&lt;p&gt;🔥 Join Maker School &amp;amp; get customer #1 guaranteed: https://go.nicksaraev.com/anthropic-eating-world 💎 Get all course resources 100% free: https://go.nicksaraev.com/anthropic-eating-world-maker-zero ➡️ If this is your first video: I&amp;#x27;m Nick Saraev. I run LeftClick, an AI growth agency. We&amp;#x27;ve done work for large brands you&amp;#x27;re likely familiar with, like Mr. Beast, Anthropic, OpenAI, and a few others. In plain English: I help people build systems that generate leads, close deals, and scale businesses,&lt;/p&gt;</description>
     </item>
     <item>
       <title>How to Search for Exoplanets</title>

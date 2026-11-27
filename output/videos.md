@@ -1,6 +1,6 @@
 # 每日 Agent 视频
 
-生成时间：2026-11-26 08:52 UTC  ·  共 26 条（近 7 天，已去 Shorts、按视频 ID 去重）
+生成时间：2026-11-27 09:03 UTC  ·  共 23 条（近 7 天，已去 Shorts、按视频 ID 去重）
 
 专注频道全收，泛 AI 频道只留标题或简介命中关键词的。关键词在 `videos.config.json`。
 
@@ -88,98 +88,77 @@ A year ago most teams had one or two agents in production. Now many have dozens,
 
 ⚡ 1,000 free Context7 Search lookups a month with a free API key: https://context7.com Context7 Search gives any AI agent up-to-date docs, straight from official sources. 🚀 My exclusive AI engineering courses, live Q&As, workshops & deep dives: https://skool.com/agentic-labs 🎁…
 
-## 13. LangSmith Tool Gateway: Secure, Governed Tool Use for Agents
+## 13. n8n Nod Tutorial: Set Up Your Own 24/7 AI Assistant
 
-- 频道：LangChain  ·  分数：6  ·  命中：agent, agents, mcp, tool use, langchain
-- 链接：https://www.youtube.com/watch?v=achbbrgQnRA
+- 频道：Leon van Zyl  ·  分数：5  ·  命中：agent, agentic, workflow
+- 链接：https://www.youtube.com/watch?v=vy_NCzx_hAE
 
-Introducing LangSmith Tool Gateway, a managed tool layer that handles credentials, identity, and access for every tool call an agent makes. Now in Public Beta on the LangSmith Agent Platform, where it sits alongside LLM Gateway, so you can govern both the model calls and the…
+⚡ Run Nod 24/7 on Hostinger and get an extra 10% OFF with code LEON: https://hostinger.com/leonnod Nod AI assistant full setup guide: run your own free, open source AI assistant 24/7. 🚀 My exclusive AI engineering courses, live Q&As, workshops & deep dives:…
 
-## 14. Inside Clay’s GTM agent rebuild
-
-- 频道：LangChain  ·  分数：6  ·  命中：agent, agents, claude code, claude, codex, langchain, harness, coding agent
-- 链接：https://www.youtube.com/watch?v=efBlbQahwng
-
-Jeff Barg is Head of AI at Clay, the go-to-market platform for list building, data enrichment and orchestration, with a dataset of 900 million contacts and 40 million companies. Clay recently launched a new global agent, built around a coding agent that runs on the same CLI…
-
-## 15. The Best Defense Against This Wave of AI Attacks: Hack Yourself First (Try This Now)
+## 14. The Best Defense Against This Wave of AI Attacks: Hack Yourself First (Try This Now)
 
 - 频道：Cole Medin  ·  分数：5  ·  命中：agent, agents, skill
 - 链接：https://www.youtube.com/watch?v=f1gAilgILeI
 
 Get started with Eney: https://bit.ly/Eney_ColeMedin Eney is available now for Mac at the website eney.ai and is free to try for your first 14 days with 10,000 AI credits. Eney is also available for iPhone on the App Store. ~~~~~~~~~~~~~~~~~~~~~~~~~~ Attackers are using AI to…
 
-## 16. The Meta Software Factory: Advanced Agentic Engineering
+## 15. The Meta Software Factory: Advanced Agentic Engineering
 
 - 频道：IndyDevDan  ·  分数：5  ·  命中：agent, agents, agentic
 - 链接：https://www.youtube.com/watch?v=PuHDu3Kn8sQ
 
 If you are still the human IN the loop every time your system needs an update, YOU are the bottleneck. 🔥 In the age of agents, the winning software is liquid software that adapts at the speed of agents. With a meta factory, you stop building one-off solutions and build the…
 
-## 17. The Most Dangerous AI Agent Is an Overly Helpful One (It's Not Why You Think)
+## 16. The Most Dangerous AI Agent Is an Overly Helpful One (It's Not Why You Think)
 
 - 频道：Cole Medin  ·  分数：5  ·  命中：agent, agents, langgraph
 - 链接：https://www.youtube.com/watch?v=k87Iqft91j8
 
 The most dangerous AI agent is an overly helpful one. It'll take risky actions just to get the job done, even something like deleting a production database! In this video I go through the five things I need for every agent before it goes to production: tool permissions, human in…
 
-## 18. 6 Boring But In Demand AI Projects That Pay Really Well
+## 17. 6 Boring But In Demand AI Projects That Pay Really Well
 
 - 频道：Dave Ebbelaar  ·  分数：4  ·  命中：agent, agents
 - 链接：https://www.youtube.com/watch?v=ayPHxPGLjVc
 
-Join my free live masterclass on freelancing: https://go.datalumina.com/bQD4OOa Build your freelance career with me: https://go.datalumina.com/wqcMeEY 🎙️ Get one free month of Glaido Pro: https://get.glaido.com/dave ⏱️ Timestamps 00:00 Intro 00:58 Integration first 01:28 Support…
+Build your freelance career with me: https://go.datalumina.com/wqcMeEY 🎙️ Get one free month of Glaido Pro: https://get.glaido.com/dave ⏱️ Timestamps 00:00 Intro 00:58 Integration first 01:28 Support agents 03:30 Data portals 06:19 Automation hubs 08:35 Free masterclass 09:33…
 
-## 19. AI News: This Is The Make or Break Week!!
+## 18. AI News: This Is The Make or Break Week!!
 
 - 频道：Matt Wolfe  ·  分数：4  ·  命中：agent, agents, claude code, claude
 - 链接：https://www.youtube.com/watch?v=wqNIzUmNt9M
 
 Hire your own team of agents with Hyperagent for free here: https://hyperagent.com/login?utm_source=youtube&utm_medium=influencer&utm_campaign=MATT Anthropic’s IPO puts the AI bubble to the test as OpenAI and Google launch powerful new models for less. This week, I test GPT-6.2…
 
-## 20. Full Course: AI Coding Workflows From Cloud to Local
-
-- 频道：DeepLearningAI  ·  分数：4  ·  命中：agent, agents, claude code, claude, codex, workflow, subagent, opencode, coding agent
-- 链接：https://www.youtube.com/watch?v=H2tmNDX9FnQ
-
-Coding agents like Claude Code are convenient, but they limit your control over which models you use, what you spend, and where your code goes. This course gives you that control back one layer at a time, rebuilding the same Python app in cloud, hybrid, and fully local setups.…
-
-## 21. This NEW Claude Update Literally Changed Everything
+## 19. This NEW Claude Update Literally Changed Everything
 
 - 频道：Nick Saraev  ·  分数：2  ·  命中：claude, workflow
 - 链接：https://www.youtube.com/watch?v=F7QcpCl0Lg4
 
 🔥 Join Maker School & get customer #1 guaranteed: https://go.nicksaraev.com/claude-artifacts-now 💎 Get all course resources 100% free: https://go.nicksaraev.com/claude-artifacts-now-maker-zero ➡️ If this is your first video: I'm Nick Saraev. I run LeftClick, an AI growth agency.…
 
-## 22. How your dot can keep work moving while you’re away
+## 20. How your dot can keep work moving while you’re away
 
 - 频道：OpenAI  ·  分数：2  ·  命中：codex, workflow
 - 链接：https://www.youtube.com/watch?v=A4UNP-axGHU
 
 Even when you step away for the holidays, work doesn’t always stop. Your dot can help. Raymond walks through how his dot keeps an eye on ongoing projects, flags what needs his attention, and helps move work forward so he can review and approve next steps on the go. Steal…
 
-## 23. The CIA Hack Was a Test Run.. You're Next.
+## 21. The CIA Hack Was a Test Run.. You're Next.
 
 - 频道：Nick Saraev  ·  分数：2  ·  命中：claude, workflow
 - 链接：https://www.youtube.com/watch?v=pdRDp3iULGk
 
 🔥 Join Maker School & get customer #1 guaranteed: https://go.nicksaraev.com/cia-hacked 💎 Get all course resources 100% free: https://go.nicksaraev.com/cia-hacked-maker-zero ➡️ If this is your first video: I'm Nick Saraev. I run LeftClick, an AI growth agency. We've done work for…
 
-## 24. Experiment with SVG & 3D Design with the Codex Plugin
+## 22. Experiment with SVG & 3D Design with the Codex Plugin
 
 - 频道：OpenAI  ·  分数：2  ·  命中：codex, cursor
 - 链接：https://www.youtube.com/watch?v=1u0hTd86_HU
 
 Craig Dennis had never drawn an SVG by hand or used Blender. With the SVG & 3D Design plugin for Codex, he shows how to turn a reference image into an editable graphic or 3D model, then ask for changes in plain language. See how a small change in SVG code can make a character’s…
 
-## 25. Claude is eating the world
-
-- 频道：Nick Saraev  ·  分数：2  ·  命中：claude, workflow
-- 链接：https://www.youtube.com/watch?v=4TnNitqm8uM
-
-🔥 Join Maker School & get customer #1 guaranteed: https://go.nicksaraev.com/anthropic-eating-world 💎 Get all course resources 100% free: https://go.nicksaraev.com/anthropic-eating-world-maker-zero ➡️ If this is your first video: I'm Nick Saraev. I run LeftClick, an AI growth…
-
-## 26. How to Search for Exoplanets
+## 23. How to Search for Exoplanets
 
 - 频道：OpenAI  ·  分数：1  ·  命中：codex
 - 链接：https://www.youtube.com/watch?v=p8lvQQebvpg
