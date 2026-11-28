@@ -1,6 +1,6 @@
 # 每日 Agent 视频
 
-生成时间：2026-11-27 09:03 UTC  ·  共 23 条（近 7 天，已去 Shorts、按视频 ID 去重）
+生成时间：2026-11-28 08:25 UTC  ·  共 19 条（近 7 天，已去 Shorts、按视频 ID 去重）
 
 专注频道全收，泛 AI 频道只留标题或简介命中关键词的。关键词在 `videos.config.json`。
 
@@ -74,91 +74,63 @@ Attackers are using AI to find and exploit vulnerabilities faster than ever, and
 
 Sydney Runkle, product manager for open source at LangChain, talks with Sasha Sheng, co-founder of TypeSafe AI, whose team builds the training data behind Jev. Sasha explains why TypeSafe built a model that returns typed answers with a confidence score rather than generated…
 
-## 11. New in LangSmith: 4 Updates for Managing Agents in Production
-
-- 频道：LangChain  ·  分数：6  ·  命中：agent, agents, mcp, langchain, coding agent
-- 链接：https://www.youtube.com/watch?v=G-4VnMltDlc
-
-A year ago most teams had one or two agents in production. Now many have dozens, built by different teams on different frameworks, and Jess Weng, Education Engineer at LangChain, walks through four LangSmith updates for keeping track of them. LangSmith is now organized around…
-
-## 12. Context7 Search: The Best Free Way to Give AI Fresh Docs
-
-- 频道：Leon van Zyl  ·  分数：6  ·  命中：agent, agentic, claude code, claude, mcp, coding agent
-- 链接：https://www.youtube.com/watch?v=XNlfTH9XX5w
-
-⚡ 1,000 free Context7 Search lookups a month with a free API key: https://context7.com Context7 Search gives any AI agent up-to-date docs, straight from official sources. 🚀 My exclusive AI engineering courses, live Q&As, workshops & deep dives: https://skool.com/agentic-labs 🎁…
-
-## 13. n8n Nod Tutorial: Set Up Your Own 24/7 AI Assistant
+## 11. n8n Nod Tutorial: Set Up Your Own 24/7 AI Assistant
 
 - 频道：Leon van Zyl  ·  分数：5  ·  命中：agent, agentic, workflow
 - 链接：https://www.youtube.com/watch?v=vy_NCzx_hAE
 
 ⚡ Run Nod 24/7 on Hostinger and get an extra 10% OFF with code LEON: https://hostinger.com/leonnod Nod AI assistant full setup guide: run your own free, open source AI assistant 24/7. 🚀 My exclusive AI engineering courses, live Q&As, workshops & deep dives:…
 
-## 14. The Best Defense Against This Wave of AI Attacks: Hack Yourself First (Try This Now)
+## 12. The Best Defense Against This Wave of AI Attacks: Hack Yourself First (Try This Now)
 
 - 频道：Cole Medin  ·  分数：5  ·  命中：agent, agents, skill
 - 链接：https://www.youtube.com/watch?v=f1gAilgILeI
 
 Get started with Eney: https://bit.ly/Eney_ColeMedin Eney is available now for Mac at the website eney.ai and is free to try for your first 14 days with 10,000 AI credits. Eney is also available for iPhone on the App Store. ~~~~~~~~~~~~~~~~~~~~~~~~~~ Attackers are using AI to…
 
-## 15. The Meta Software Factory: Advanced Agentic Engineering
+## 13. The Meta Software Factory: Advanced Agentic Engineering
 
 - 频道：IndyDevDan  ·  分数：5  ·  命中：agent, agents, agentic
 - 链接：https://www.youtube.com/watch?v=PuHDu3Kn8sQ
 
 If you are still the human IN the loop every time your system needs an update, YOU are the bottleneck. 🔥 In the age of agents, the winning software is liquid software that adapts at the speed of agents. With a meta factory, you stop building one-off solutions and build the…
 
-## 16. The Most Dangerous AI Agent Is an Overly Helpful One (It's Not Why You Think)
-
-- 频道：Cole Medin  ·  分数：5  ·  命中：agent, agents, langgraph
-- 链接：https://www.youtube.com/watch?v=k87Iqft91j8
-
-The most dangerous AI agent is an overly helpful one. It'll take risky actions just to get the job done, even something like deleting a production database! In this video I go through the five things I need for every agent before it goes to production: tool permissions, human in…
-
-## 17. 6 Boring But In Demand AI Projects That Pay Really Well
+## 14. 6 Boring But In Demand AI Projects That Pay Really Well
 
 - 频道：Dave Ebbelaar  ·  分数：4  ·  命中：agent, agents
 - 链接：https://www.youtube.com/watch?v=ayPHxPGLjVc
 
 Build your freelance career with me: https://go.datalumina.com/wqcMeEY 🎙️ Get one free month of Glaido Pro: https://get.glaido.com/dave ⏱️ Timestamps 00:00 Intro 00:58 Integration first 01:28 Support agents 03:30 Data portals 06:19 Automation hubs 08:35 Free masterclass 09:33…
 
-## 18. AI News: This Is The Make or Break Week!!
-
-- 频道：Matt Wolfe  ·  分数：4  ·  命中：agent, agents, claude code, claude
-- 链接：https://www.youtube.com/watch?v=wqNIzUmNt9M
-
-Hire your own team of agents with Hyperagent for free here: https://hyperagent.com/login?utm_source=youtube&utm_medium=influencer&utm_campaign=MATT Anthropic’s IPO puts the AI bubble to the test as OpenAI and Google launch powerful new models for less. This week, I test GPT-6.2…
-
-## 19. This NEW Claude Update Literally Changed Everything
+## 15. This NEW Claude Update Literally Changed Everything
 
 - 频道：Nick Saraev  ·  分数：2  ·  命中：claude, workflow
 - 链接：https://www.youtube.com/watch?v=F7QcpCl0Lg4
 
 🔥 Join Maker School & get customer #1 guaranteed: https://go.nicksaraev.com/claude-artifacts-now 💎 Get all course resources 100% free: https://go.nicksaraev.com/claude-artifacts-now-maker-zero ➡️ If this is your first video: I'm Nick Saraev. I run LeftClick, an AI growth agency.…
 
-## 20. How your dot can keep work moving while you’re away
+## 16. How your dot can keep work moving while you’re away
 
 - 频道：OpenAI  ·  分数：2  ·  命中：codex, workflow
 - 链接：https://www.youtube.com/watch?v=A4UNP-axGHU
 
 Even when you step away for the holidays, work doesn’t always stop. Your dot can help. Raymond walks through how his dot keeps an eye on ongoing projects, flags what needs his attention, and helps move work forward so he can review and approve next steps on the go. Steal…
 
-## 21. The CIA Hack Was a Test Run.. You're Next.
+## 17. The CIA Hack Was a Test Run.. You're Next.
 
 - 频道：Nick Saraev  ·  分数：2  ·  命中：claude, workflow
 - 链接：https://www.youtube.com/watch?v=pdRDp3iULGk
 
 🔥 Join Maker School & get customer #1 guaranteed: https://go.nicksaraev.com/cia-hacked 💎 Get all course resources 100% free: https://go.nicksaraev.com/cia-hacked-maker-zero ➡️ If this is your first video: I'm Nick Saraev. I run LeftClick, an AI growth agency. We've done work for…
 
-## 22. Experiment with SVG & 3D Design with the Codex Plugin
+## 18. Experiment with SVG & 3D Design with the Codex Plugin
 
 - 频道：OpenAI  ·  分数：2  ·  命中：codex, cursor
 - 链接：https://www.youtube.com/watch?v=1u0hTd86_HU
 
 Craig Dennis had never drawn an SVG by hand or used Blender. With the SVG & 3D Design plugin for Codex, he shows how to turn a reference image into an editable graphic or 3D model, then ask for changes in plain language. See how a small change in SVG code can make a character’s…
 
-## 23. How to Search for Exoplanets
+## 19. How to Search for Exoplanets
 
 - 频道：OpenAI  ·  分数：1  ·  命中：codex
 - 链接：https://www.youtube.com/watch?v=p8lvQQebvpg

@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-11-27T09:03:38.802397+00:00",
-  "count": 23,
+  "generated_at": "2026-11-28T08:25:30.441097+00:00",
+  "count": 19,
   "videos": [
     {
       "id": "AekKS44xBhI",
@@ -173,41 +173,6 @@
       "score": 6
     },
     {
-      "id": "G-4VnMltDlc",
-      "title": "New in LangSmith: 4 Updates for Managing Agents in Production",
-      "summary": "A year ago most teams had one or two agents in production. Now many have dozens, built by different teams on different frameworks, and Jess Weng, Education Engineer at LangChain, walks through four LangSmith updates for keeping track of them. LangSmith is now organized around agents, so each agent is managed in one place across its full lifecycle. Agents also get views tailored to their type, and coding agents come first: LangSmith for coding agents ties spend to the pull requests your agents pr",
-      "published": "2026-11-20T18:51:55+00:00",
-      "channel": "LangChain",
-      "mode": "all",
-      "hits": [
-        "agent",
-        "agents",
-        "mcp",
-        "langchain",
-        "coding agent"
-      ],
-      "url": "https://www.youtube.com/watch?v=G-4VnMltDlc",
-      "score": 6
-    },
-    {
-      "id": "XNlfTH9XX5w",
-      "title": "Context7 Search: The Best Free Way to Give AI Fresh Docs",
-      "summary": "⚡ 1,000 free Context7 Search lookups a month with a free API key: https://context7.com Context7 Search gives any AI agent up-to-date docs, straight from official sources. 🚀 My exclusive AI engineering courses, live Q&As, workshops & deep dives: https://skool.com/agentic-labs 🎁 Free RAMP course + all the resources from my videos: https://skool.com/leonvanzyl Every AI model has a training cutoff, so your coding agent doesn't know what changed in the libraries it uses. Web search won't fix it, beca",
-      "published": "2026-11-20T12:00:35+00:00",
-      "channel": "Leon van Zyl",
-      "mode": "all",
-      "hits": [
-        "agent",
-        "agentic",
-        "claude code",
-        "claude",
-        "mcp",
-        "coding agent"
-      ],
-      "url": "https://www.youtube.com/watch?v=XNlfTH9XX5w",
-      "score": 6
-    },
-    {
       "id": "vy_NCzx_hAE",
       "title": "n8n Nod Tutorial: Set Up Your Own 24/7 AI Assistant",
       "summary": "⚡ Run Nod 24/7 on Hostinger and get an extra 10% OFF with code LEON: https://hostinger.com/leonnod Nod AI assistant full setup guide: run your own free, open source AI assistant 24/7. 🚀 My exclusive AI engineering courses, live Q&As, workshops & deep dives: https://skool.com/agentic-labs 🎁 Free RAMP course + all the resources from my videos: https://skool.com/leonvanzyl Most AI chatbots tell you how to do something. Nod, the free and open source assistant from the n8n team, actually does it for ",
@@ -253,21 +218,6 @@
       "score": 5
     },
     {
-      "id": "k87Iqft91j8",
-      "title": "The Most Dangerous AI Agent Is an Overly Helpful One (It's Not Why You Think)",
-      "summary": "The most dangerous AI agent is an overly helpful one. It'll take risky actions just to get the job done, even something like deleting a production database! In this video I go through the five things I need for every agent before it goes to production: tool permissions, human in the loop, network limits, memory, and observability. I show a real example of each with a LangGraph agent running in MongoDB's Atlas Agent Engine. ~~~~~~~~~~~~~~~~~~~~~~~~~~ Atlas Agent Engine, MongoDB's platform to buil",
-      "published": "2026-11-20T15:14:53+00:00",
-      "channel": "Cole Medin",
-      "mode": "all",
-      "hits": [
-        "agent",
-        "agents",
-        "langgraph"
-      ],
-      "url": "https://www.youtube.com/watch?v=k87Iqft91j8",
-      "score": 5
-    },
-    {
       "id": "ayPHxPGLjVc",
       "title": "6 Boring But In Demand AI Projects That Pay Really Well",
       "summary": "Build your freelance career with me: https://go.datalumina.com/wqcMeEY 🎙️ Get one free month of Glaido Pro: https://get.glaido.com/dave ⏱️ Timestamps 00:00 Intro 00:58 Integration first 01:28 Support agents 03:30 Data portals 06:19 Automation hubs 08:35 Free masterclass 09:33 Marketing and sales 12:30 Document intelligence 14:58 Replace the app 18:23 Where things are going 📌 Description Most AI projects that companies pay for right now are not chatbots. They connect systems that don't talk to ea",
@@ -279,22 +229,6 @@
         "agents"
       ],
       "url": "https://www.youtube.com/watch?v=ayPHxPGLjVc",
-      "score": 4
-    },
-    {
-      "id": "wqNIzUmNt9M",
-      "title": "AI News: This Is The Make or Break Week!!",
-      "summary": "Hire your own team of agents with Hyperagent for free here: https://hyperagent.com/login?utm_source=youtube&utm_medium=influencer&utm_campaign=MATT Anthropic’s IPO puts the AI bubble to the test as OpenAI and Google launch powerful new models for less. This week, I test GPT-6.2 Astra, Sol, and Gemini 4 Neon, break down Microsoft’s latest AI releases, and try Gemini Notebook’s new website builder. Plus, ChatGPT Wallet, HeyGen Avatar 6, and more AI news. Watch my full GPT-6.2 breakdown: https://yo",
-      "published": "2026-11-20T19:00:16+00:00",
-      "channel": "Matt Wolfe",
-      "mode": "keyword",
-      "hits": [
-        "agent",
-        "agents",
-        "claude code",
-        "claude"
-      ],
-      "url": "https://www.youtube.com/watch?v=wqNIzUmNt9M",
       "score": 4
     },
     {

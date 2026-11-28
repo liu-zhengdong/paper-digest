@@ -5,7 +5,7 @@
     <link>https://raw.githubusercontent.com/liu-zhengdong/paper-digest/main/output/videos.xml</link>
     <description>Agent 用法向 YouTube 频道的每日去重列表，已去掉 Shorts</description>
     <language>zh-CN</language>
-    <lastBuildDate>Fri, 27 Nov 2026 09:03:38 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 28 Nov 2026 08:25:30 +0000</lastBuildDate>
     <item>
       <title>What Are Subagents? Explained in 4 Minutes</title>
       <link>https://www.youtube.com/watch?v=AekKS44xBhI</link>
@@ -77,20 +77,6 @@
       <description>&lt;p&gt;&lt;b&gt;LangChain&lt;/b&gt; · score 6 · hits agent, agents, langchain, harness&lt;/p&gt;&lt;p&gt;Sydney Runkle, product manager for open source at LangChain, talks with Sasha Sheng, co-founder of TypeSafe AI, whose team builds the training data behind Jev. Sasha explains why TypeSafe built a model that returns typed answers with a confidence score rather than generated text, and how to break a fuzzy problem into small questions that Jev answers in parallel. They also get into where Jev fits inside a LangChain agent, such as choosing which model or tools a step needs, and why Jev as a judge &lt;/p&gt;</description>
     </item>
     <item>
-      <title>New in LangSmith: 4 Updates for Managing Agents in Production</title>
-      <link>https://www.youtube.com/watch?v=G-4VnMltDlc</link>
-      <guid isPermaLink="true">https://www.youtube.com/watch?v=G-4VnMltDlc</guid>
-      <pubDate>Fri, 20 Nov 2026 18:51:55 +0000</pubDate>
-      <description>&lt;p&gt;&lt;b&gt;LangChain&lt;/b&gt; · score 6 · hits agent, agents, mcp, langchain, coding agent&lt;/p&gt;&lt;p&gt;A year ago most teams had one or two agents in production. Now many have dozens, built by different teams on different frameworks, and Jess Weng, Education Engineer at LangChain, walks through four LangSmith updates for keeping track of them. LangSmith is now organized around agents, so each agent is managed in one place across its full lifecycle. Agents also get views tailored to their type, and coding agents come first: LangSmith for coding agents ties spend to the pull requests your agents pr&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Context7 Search: The Best Free Way to Give AI Fresh Docs</title>
-      <link>https://www.youtube.com/watch?v=XNlfTH9XX5w</link>
-      <guid isPermaLink="true">https://www.youtube.com/watch?v=XNlfTH9XX5w</guid>
-      <pubDate>Fri, 20 Nov 2026 12:00:35 +0000</pubDate>
-      <description>&lt;p&gt;&lt;b&gt;Leon van Zyl&lt;/b&gt; · score 6 · hits agent, agentic, claude code, claude, mcp, coding agent&lt;/p&gt;&lt;p&gt;⚡ 1,000 free Context7 Search lookups a month with a free API key: https://context7.com Context7 Search gives any AI agent up-to-date docs, straight from official sources. 🚀 My exclusive AI engineering courses, live Q&amp;amp;As, workshops &amp;amp; deep dives: https://skool.com/agentic-labs 🎁 Free RAMP course + all the resources from my videos: https://skool.com/leonvanzyl Every AI model has a training cutoff, so your coding agent doesn&amp;#x27;t know what changed in the libraries it uses. Web search won&amp;#x27;t fix it, beca&lt;/p&gt;</description>
-    </item>
-    <item>
       <title>n8n Nod Tutorial: Set Up Your Own 24/7 AI Assistant</title>
       <link>https://www.youtube.com/watch?v=vy_NCzx_hAE</link>
       <guid isPermaLink="true">https://www.youtube.com/watch?v=vy_NCzx_hAE</guid>
@@ -112,25 +98,11 @@
       <description>&lt;p&gt;&lt;b&gt;IndyDevDan&lt;/b&gt; · score 5 · hits agent, agents, agentic&lt;/p&gt;&lt;p&gt;If you are still the human IN the loop every time your system needs an update, YOU are the bottleneck. 🔥 In the age of agents, the winning software is liquid software that adapts at the speed of agents. With a meta factory, you stop building one-off solutions and build the system that builds your tiny software factories. 💡 Join To Get Your Tiny Software Factory: https://agenticengineer.com/infinite-agentic-engineering?y=PuHDu3Kn8sQ 🚀 In this Level 4 finale of Tiny Software Factories, IndyDevDan &lt;/p&gt;</description>
     </item>
     <item>
-      <title>The Most Dangerous AI Agent Is an Overly Helpful One (It&#x27;s Not Why You Think)</title>
-      <link>https://www.youtube.com/watch?v=k87Iqft91j8</link>
-      <guid isPermaLink="true">https://www.youtube.com/watch?v=k87Iqft91j8</guid>
-      <pubDate>Fri, 20 Nov 2026 15:14:53 +0000</pubDate>
-      <description>&lt;p&gt;&lt;b&gt;Cole Medin&lt;/b&gt; · score 5 · hits agent, agents, langgraph&lt;/p&gt;&lt;p&gt;The most dangerous AI agent is an overly helpful one. It&amp;#x27;ll take risky actions just to get the job done, even something like deleting a production database! In this video I go through the five things I need for every agent before it goes to production: tool permissions, human in the loop, network limits, memory, and observability. I show a real example of each with a LangGraph agent running in MongoDB&amp;#x27;s Atlas Agent Engine. ~~~~~~~~~~~~~~~~~~~~~~~~~~ Atlas Agent Engine, MongoDB&amp;#x27;s platform to buil&lt;/p&gt;</description>
-    </item>
-    <item>
       <title>6 Boring But In Demand AI Projects That Pay Really Well</title>
       <link>https://www.youtube.com/watch?v=ayPHxPGLjVc</link>
       <guid isPermaLink="true">https://www.youtube.com/watch?v=ayPHxPGLjVc</guid>
       <pubDate>Mon, 23 Nov 2026 15:04:58 +0000</pubDate>
       <description>&lt;p&gt;&lt;b&gt;Dave Ebbelaar&lt;/b&gt; · score 4 · hits agent, agents&lt;/p&gt;&lt;p&gt;Build your freelance career with me: https://go.datalumina.com/wqcMeEY 🎙️ Get one free month of Glaido Pro: https://get.glaido.com/dave ⏱️ Timestamps 00:00 Intro 00:58 Integration first 01:28 Support agents 03:30 Data portals 06:19 Automation hubs 08:35 Free masterclass 09:33 Marketing and sales 12:30 Document intelligence 14:58 Replace the app 18:23 Where things are going 📌 Description Most AI projects that companies pay for right now are not chatbots. They connect systems that don&amp;#x27;t talk to ea&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>AI News: This Is The Make or Break Week!!</title>
-      <link>https://www.youtube.com/watch?v=wqNIzUmNt9M</link>
-      <guid isPermaLink="true">https://www.youtube.com/watch?v=wqNIzUmNt9M</guid>
-      <pubDate>Fri, 20 Nov 2026 19:00:16 +0000</pubDate>
-      <description>&lt;p&gt;&lt;b&gt;Matt Wolfe&lt;/b&gt; · score 4 · hits agent, agents, claude code, claude&lt;/p&gt;&lt;p&gt;Hire your own team of agents with Hyperagent for free here: https://hyperagent.com/login?utm_source=youtube&amp;amp;utm_medium=influencer&amp;amp;utm_campaign=MATT Anthropic’s IPO puts the AI bubble to the test as OpenAI and Google launch powerful new models for less. This week, I test GPT-6.2 Astra, Sol, and Gemini 4 Neon, break down Microsoft’s latest AI releases, and try Gemini Notebook’s new website builder. Plus, ChatGPT Wallet, HeyGen Avatar 6, and more AI news. Watch my full GPT-6.2 breakdown: https://yo&lt;/p&gt;</description>
     </item>
     <item>
       <title>This NEW Claude Update Literally Changed Everything</title>
